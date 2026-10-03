@@ -159,14 +159,31 @@ function renderBuilder() {
   const bar = document.createElement("div");
   bar.className = "b-bar";
   bar.innerHTML =
+    '<button id="bdDiscard" class="ghost b-discard">Discard draft</button>' +
     '<span id="bdStatus" class="status-line">' + (BD.updatedAt ? "draft saved" : "") + "</span>" +
     '<button id="bdPreview" class="ghost">Preview</button>' +
     '<button id="bdSave" class="ghost primary">Save order</button>';
   wrap.appendChild(bar);
   view.appendChild(wrap);
 
+  document.getElementById("bdDiscard").addEventListener("click", () => {
+    armTwice(document.getElementById("bdDiscard"), "Tap again to discard", bdDiscard);
+  });
   document.getElementById("bdPreview").addEventListener("click", bdTogglePreview);
   document.getElementById("bdSave").addEventListener("click", bdSaveOrder);
+}
+
+async function bdDiscard() {
+  if (!BD) return;
+  const had = !!(BD.title || BD.sections.length || BD.updatedAt);
+  const draftId = BD.draftId;
+  BD.draftId = null;
+  clearTimeout(bdAutoTimer);
+  if (draftId) {
+    try { await fetch("/api/drafts/" + encodeURIComponent(draftId), { method: "DELETE" }); } catch {}
+  }
+  if (had) showToast("DRAFT DISCARDED");
+  location.hash = "#/";
 }
 
 function bdSectionCard(sec, i) {

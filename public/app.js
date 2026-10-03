@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 9;
+const ASSET_V = 10;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -128,15 +128,53 @@ async function showHome() {
   tools.appendChild(nb);
   try {
     const drafts = await fetch("/api/drafts").then((r) => r.json());
-    for (const d of drafts.slice(0, 3)) {
+    for (const d of drafts) {
+      const item = document.createElement("span");
+      item.className = "draft-item";
       const a = document.createElement("a");
       a.className = "draft-link";
       a.href = "#/new/" + d.draftId;
       a.textContent = "Draft: " + (d.title || "untitled") + " (" + d.items + " items)";
-      tools.appendChild(a);
+      const del = document.createElement("button");
+      del.className = "draft-del";
+      del.title = "Delete this draft";
+      del.textContent = "\u00d7";
+      del.addEventListener("click", () => {
+        armTwice(del, "sure?", async () => {
+          try {
+            await fetch("/api/drafts/" + encodeURIComponent(d.draftId), { method: "DELETE" });
+            item.remove();
+            showToast("DRAFT DELETED");
+          } catch {
+            showToast("DELETE FAILED");
+          }
+        });
+      });
+      item.appendChild(a);
+      item.appendChild(del);
+      tools.appendChild(item);
     }
   } catch {}
   view.appendChild(tools);
+}
+
+/* ---------- shared: two-tap arm (no native dialogs) ---------- */
+function armTwice(btn, armText, fire) {
+  if (btn.dataset.armed === "1") {
+    btn.dataset.armed = "";
+    if (btn.dataset.armTimer) clearTimeout(Number(btn.dataset.armTimer));
+    fire();
+    return;
+  }
+  btn.dataset.armed = "1";
+  btn.dataset.armOrig = btn.textContent;
+  btn.textContent = armText;
+  btn.classList.add("danger");
+  btn.dataset.armTimer = String(setTimeout(() => {
+    btn.dataset.armed = "";
+    if (btn.dataset.armOrig) btn.textContent = btn.dataset.armOrig;
+    btn.classList.remove("danger");
+  }, 3500));
 }
 
 /* ---------- order view ---------- */
