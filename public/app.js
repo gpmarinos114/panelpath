@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 4;
+const ASSET_V = 5;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -57,27 +57,58 @@ async function showHome() {
   } catch {
     showToast("COULD NOT LOAD ORDERS");
   }
+
+  if (!orders.length) {
+    view.innerHTML = '<div class="empty-note">No reading orders found. Add one in <b>data/orders/</b>.</div>';
+    return;
+  }
+
+  let query = "";
+  const search = document.createElement("div");
+  search.className = "lib-search";
+  const input = document.createElement("input");
+  input.type = "search";
+  input.placeholder = "Search reading orders\u2026";
+  input.setAttribute("aria-label", "Search reading orders");
+  search.appendChild(input);
+  view.appendChild(search);
+
   const wrap = document.createElement("div");
   wrap.className = "orders";
-  for (const o of orders) {
-    const card = document.createElement("a");
-    card.className = "order-card";
-    card.href = "#/o/" + o.id;
-    const pct = o.total ? Math.round((o.read / o.total) * 100) : 0;
-    const complete = o.total > 0 && o.read === o.total;
-    card.innerHTML =
-      `<div class="oc-top"><span class="oc-title">${esc(o.title)}</span>` +
-      (complete ? `<span class="complete">Complete</span>` : "") +
-      `</div>` +
-      `<div class="oc-sub">${esc(o.subtitle)}</div>` +
-      `<div class="oc-bar"><div style="width:${pct}%"></div></div>` +
-      `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>`;
-    wrap.appendChild(card);
-  }
-  if (!orders.length) {
-    wrap.innerHTML = '<div class="empty-note">No reading orders found. Add one in <b>data/orders/</b>.</div>';
-  }
   view.appendChild(wrap);
+
+  const renderCards = () => {
+    const q = query.trim().toLowerCase();
+    wrap.innerHTML = "";
+    const list = q
+      ? orders.filter((o) => (o.id + " " + o.title + " " + (o.subtitle || "")).toLowerCase().includes(q))
+      : orders;
+    if (!list.length) {
+      wrap.innerHTML = `<div class="empty-note">No reading orders match &ldquo;${esc(query.trim())}&rdquo;.</div>`;
+      return;
+    }
+    for (const o of list) {
+      const card = document.createElement("a");
+      card.className = "order-card";
+      card.href = "#/o/" + o.id;
+      const pct = o.total ? Math.round((o.read / o.total) * 100) : 0;
+      const complete = o.total > 0 && o.read === o.total;
+      card.innerHTML =
+        `<div class="oc-top"><span class="oc-title">${esc(o.title)}</span>` +
+        (complete ? `<span class="complete">Complete</span>` : "") +
+        `</div>` +
+        `<div class="oc-sub">${esc(o.subtitle)}</div>` +
+        `<div class="oc-bar"><div style="width:${pct}%"></div></div>` +
+        `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>`;
+      wrap.appendChild(card);
+    }
+  };
+
+  input.addEventListener("input", () => {
+    query = input.value;
+    renderCards();
+  });
+  renderCards();
 }
 
 /* ---------- order view ---------- */
@@ -251,6 +282,31 @@ function applyCardState(card, done) {
   const btn = card.querySelector(".check");
   btn.setAttribute("aria-pressed", String(done));
   btn.innerHTML = done ? "&#10003;" : "";
+  updateSectionHeader(card);
+}
+
+function updateSectionHeader(card) {
+  if (!CURRENT) return;
+  const era = card.closest(".era");
+  if (!era) return;
+  const sec = CURRENT.sections.find((s) => "era-" + s.id === era.id);
+  if (!sec) return;
+  const p = progressFor();
+  const readIn = sec.items.filter((i) => p[i.id]).length;
+  const band = era.querySelector(".era-band");
+  if (!band) return;
+  const cnt = band.querySelector(".era-count");
+  if (cnt) cnt.textContent = `${readIn} / ${sec.items.length}`;
+  const complete = sec.items.length > 0 && readIn === sec.items.length;
+  const badge = band.querySelector(".complete");
+  if (complete && !badge) {
+    const b = document.createElement("span");
+    b.className = "complete";
+    b.textContent = "Complete";
+    band.insertBefore(b, cnt || null);
+  } else if (!complete && badge) {
+    badge.remove();
+  }
 }
 
 /* ---------- reset (two-tap) ---------- */
