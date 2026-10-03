@@ -9,10 +9,10 @@
       "name": "Alpha",
       "years": "2026",
       "color": "#d32f2f",
-      "tagline": "Broken on purpose: duplicate item ids below.",
+      "tagline": "Fixed: unique ids + real ComicVine volume ids (87332, 102945).",
       "items": [
-        { "id": "rt-1", "label": "Test #1" },
-        { "id": "rt-1", "label": "Test #2" }
+        { "id": "rt-1", "label": "Test #1", "cv": { "v": 87332, "i": 511002 } },
+        { "id": "rt-2", "label": "Test #2", "cv": { "v": 102945, "i": 511007 } }
       ]
     }
   ]
