@@ -5,7 +5,7 @@ const { validateOrder } = require("./lib/validate.js");
 
 const app = express();
 const PORT = process.env.PORT || 5175;
-const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
+const DATA_DIR = path.resolve(process.env.DATA_DIR || path.join(__dirname, "data"));
 const BUNDLED_ORDERS_DIR = path.join(__dirname, "data", "orders");
 const USER_ORDERS_DIR = path.join(DATA_DIR, "orders");
 const COVERS_DIR = path.join(DATA_DIR, "covers");
