@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 15;
+const ASSET_V = 16;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -236,10 +236,34 @@ function renderChips() {
     const b = mk(s.name, s.color);
     b.addEventListener("click", () => {
       const el = document.getElementById("era-" + s.id);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (!el) return;
+      const hdr = document.querySelector("header#top");
+      const off = (hdr ? hdr.getBoundingClientRect().height : 0) + 10;
+      const y = Math.max(0, window.scrollY + el.getBoundingClientRect().top - off);
+      const before = window.scrollY;
+      window.scrollTo({ top: y, behavior: "smooth" });
+      setTimeout(() => {
+        // fallback for environments where smooth scrolling doesn't animate (it would stay put)
+        if (Math.abs(window.scrollY - before) < 2 && Math.abs(window.scrollY - y) > 4) {
+          window.scrollTo(0, y);
+        }
+      }, 150);
     });
     nav.appendChild(b);
   }
+}
+
+function collapsedSet() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("pp_col_" + (CURRENT && CURRENT.id)) || "[]"));
+  } catch (e) {
+    return new Set();
+  }
+}
+function saveCollapsed(set) {
+  try {
+    localStorage.setItem("pp_col_" + CURRENT.id, JSON.stringify([...set]));
+  } catch (e) {}
 }
 
 function renderOrder() {
@@ -248,6 +272,7 @@ function renderOrder() {
   main.innerHTML = "";
   const frag = document.createDocumentFragment();
   const p = progressFor();
+  const collapsed = collapsedSet();
 
   for (const s of CURRENT.sections) {
     const items = s.items;
@@ -267,6 +292,7 @@ function renderOrder() {
       (s.years ? `<span class="years">${esc(s.years)}</span>` : "") +
       (complete ? `<span class="complete">Complete</span>` : "") +
       `<span class="era-count">${readIn} / ${items.length}</span>` +
+      `<span class="era-x" aria-hidden="true">&#9662;</span>` +
       (s.tagline ? `<span class="tagline">${esc(s.tagline)}</span>` : "") +
       (s.buy && s.buy.length
         ? `<div class="era-buy"><span class="buy-label">Get it</span>` +
@@ -274,6 +300,28 @@ function renderOrder() {
           `</div>`
         : "");
     sec.appendChild(band);
+
+    if (collapsed.has(s.id)) sec.classList.add("collapsed");
+    band.setAttribute("role", "button");
+    band.setAttribute("tabindex", "0");
+    band.setAttribute("aria-expanded", String(!collapsed.has(s.id)));
+    const toggleCollapse = () => {
+      const set = collapsedSet();
+      if (set.has(s.id)) set.delete(s.id); else set.add(s.id);
+      saveCollapsed(set);
+      sec.classList.toggle("collapsed");
+      band.setAttribute("aria-expanded", String(!sec.classList.contains("collapsed")));
+    };
+    band.addEventListener("click", (e) => {
+      if (e.target.closest("a")) return; // buy links keep working
+      toggleCollapse();
+    });
+    band.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        toggleCollapse();
+      }
+    });
 
     if (unreadOnly && shown.length === 0) {
       const note = document.createElement("div");

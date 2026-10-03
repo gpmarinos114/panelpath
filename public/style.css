@@ -225,7 +225,16 @@ main { max-width: 860px; margin: 0 auto; padding: 6px 16px 30px; }
   border-top: 1px solid var(--line);
   padding: 15px 2px 0;
   margin-bottom: 12px;
+  cursor: pointer;
 }
+.era-x {
+  margin-left: 4px;
+  color: var(--quiet);
+  font-size: 11px;
+  transition: transform 0.15s ease;
+}
+.era.collapsed .era-x { transform: rotate(-90deg); }
+.era.collapsed .items, .era.collapsed .empty-note { display: none; }
 .era-band::before {
   content: "";
   position: absolute;
