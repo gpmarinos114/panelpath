@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c0d10">
+<title>PanelPath — Reading Orders</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23e0242c'/%3E%3Cpath d='M18 4 8 18h6l-2 10L22 13h-6z' fill='%23ffd23f'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+<header id="top">
+  <div class="hero">
+    <svg class="bolt" viewBox="0 0 40 64" aria-hidden="true"><path d="M24 0 4 36h13L11 64 36 24H22L24 0Z"/></svg>
+    <div class="titles">
+      <h1 id="appTitle">Reading Orders</h1>
+      <p class="sub" id="appSub">Comic runs, in the order to read them — check off as you go.</p>
+    </div>
+    <div class="hero-right">
+      <a id="backLink" class="back-chip" href="#/" hidden>&larr; All orders</a>
+      <button id="settingsBtn" class="ghost" title="Settings">Settings</button>
+    </div>
+  </div>
+  <div class="progress-wrap" id="progressWrap" hidden>
+    <div class="bar"><div id="barfill"></div></div>
+    <div class="counts"><span id="count">&mdash;</span><span id="pct"></span><span id="allBadge" class="morph-badge" hidden>ALL READ — RUN COMPLETE</span></div>
+  </div>
+  <nav id="chips" aria-label="filters and section jump" hidden></nav>
+</header>
+
+<main id="view"></main>
+
+<footer>
+  <div class="foot-line">PanelPath is an unofficial fan project &middot; reading orders are community-compiled, cover art is &copy; the respective publishers and fetched for personal use.</div>
+  <button id="resetBtn" class="ghost" hidden>Reset this order&rsquo;s progress</button>
+</footer>
+
+<div id="settingsModal" class="modal" hidden>
+  <div class="modal-card">
+    <h3>Settings</h3>
+    <div class="modal-sec">
+      <label for="cvKey">ComicVine API key</label>
+      <input id="cvKey" type="password" autocomplete="off" placeholder="paste key — stored on your server only">
+      <div class="modal-row">
+        <button id="saveKeyBtn" class="ghost">Save key</button>
+        <span id="keyState" class="status-line">checking&hellip;</span>
+      </div>
+      <div class="modal-note">Covers aren&rsquo;t bundled with the app. A free key from comicvine.gamespot.com/api lets the server fetch cover art into your local library.</div>
+    </div>
+    <div class="modal-sec">
+      <button id="fetchBtn" class="ghost" disabled>Fetch missing covers</button>
+      <div id="fetchStatus" class="status-line"></div>
+    </div>
+    <div class="modal-row modal-close-row">
+      <button id="closeModal" class="ghost">Close</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js?v=3"></script>
+</body>
+</html>

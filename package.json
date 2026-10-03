@@ -1,0 +1,12 @@
+{
+  "name": "pr-reading-order",
+  "version": "1.0.0",
+  "description": "Power Rangers comics reading order tracker — timeline view with cover art, check-offs, local persistence.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

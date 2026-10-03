@@ -1,0 +1,2493 @@
+{
+ "id": "power-rangers",
+ "title": "Power Rangers",
+ "subtitle": "BOOM! Studios \u2014 the complete 2016\u20132026 continuity",
+ "credit": "Compiled from community reading guides + BOOM! deluxe-edition sequencing. Unofficial fan project; corrections welcome.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "A New Beginning",
+   "years": "2016\u20132017",
+   "color": "#d32f2f",
+   "tagline": "Five teens. One Rita. No backup.",
+   "items": [
+    {
+     "id": "mmpr-000",
+     "label": "MMPR #0",
+     "title": "What Time Is It?; The Ongoing Adventures of Bulk & Skull;",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "0",
+     "cv": {
+      "v": 87332,
+      "i": 511002
+     }
+    },
+    {
+     "id": "mmpr-001",
+     "label": "MMPR #1",
+     "title": "Green Ranger: Year One; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "1",
+     "cv": {
+      "v": 87332,
+      "i": 517869
+     }
+    },
+    {
+     "id": "mmpr-002",
+     "label": "MMPR #2",
+     "title": "[Untitled]",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "2",
+     "cv": {
+      "v": 87332,
+      "i": 523307
+     }
+    },
+    {
+     "id": "mmpr-003",
+     "label": "MMPR #3",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "3",
+     "cv": {
+      "v": 87332,
+      "i": 529697
+     }
+    },
+    {
+     "id": "mmpr-004",
+     "label": "MMPR #4",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "4",
+     "cv": {
+      "v": 87332,
+      "i": 537278
+     }
+    },
+    {
+     "id": "mmpr-005",
+     "label": "MMPR #5",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "5",
+     "cv": {
+      "v": 87332,
+      "i": 540126
+     }
+    },
+    {
+     "id": "mmpr-006",
+     "label": "MMPR #6",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "6",
+     "cv": {
+      "v": 87332,
+      "i": 547321
+     }
+    },
+    {
+     "id": "mmpr-007",
+     "label": "MMPR #7",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "7",
+     "cv": {
+      "v": 87332,
+      "i": 550432
+     }
+    },
+    {
+     "id": "ann16",
+     "label": "MMPR Annual #2016 Annual",
+     "title": "",
+     "series": "MMPR Annual",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "2016 Annual",
+     "cv": null
+    },
+    {
+     "id": "mmpr-008",
+     "label": "MMPR #8",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "8",
+     "cv": {
+      "v": 87332,
+      "i": 555577
+     }
+    },
+    {
+     "id": "mmpr-009",
+     "label": "MMPR #9",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "9",
+     "cv": {
+      "v": 87332,
+      "i": 562666
+     }
+    },
+    {
+     "id": "mmpr-010",
+     "label": "MMPR #10",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "10",
+     "cv": {
+      "v": 87332,
+      "i": 571717
+     }
+    },
+    {
+     "id": "mmpr-011",
+     "label": "MMPR #11",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "11",
+     "cv": {
+      "v": 87332,
+      "i": 576679
+     }
+    },
+    {
+     "id": "mmpr-012",
+     "label": "MMPR #12",
+     "title": "[Untitled]; The Ongoing Adventures of Bulk & Skull",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "12",
+     "cv": {
+      "v": 87332,
+      "i": 581603
+     }
+    },
+    {
+     "id": "mmpr-013",
+     "label": "MMPR #13",
+     "title": "[Untitled]; The Ongoing Adventures of Squatt & Babboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "13",
+     "cv": {
+      "v": 87332,
+      "i": 587457
+     }
+    },
+    {
+     "id": "mmpr-014",
+     "label": "MMPR #14",
+     "title": "[Untitled]; The Ongoing Adventures of Squatt & Babboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "14",
+     "cv": {
+      "v": 87332,
+      "i": 592654
+     }
+    },
+    {
+     "id": "mmpr-015",
+     "label": "MMPR #15",
+     "title": "[Untitled]; The Ongoing Adventures of Squatt & Babboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "15",
+     "cv": {
+      "v": 87332,
+      "i": 595738
+     }
+    },
+    {
+     "id": "mmpr-016",
+     "label": "MMPR #16",
+     "title": "[Untitled]; The Ongoing Adventures of Squatt & Babboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "16",
+     "cv": {
+      "v": 87332,
+      "i": 603180
+     }
+    },
+    {
+     "id": "mmpr-017",
+     "label": "MMPR #17",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "17",
+     "cv": {
+      "v": 87332,
+      "i": 609377
+     }
+    },
+    {
+     "id": "ann17",
+     "label": "MMPR Annual #2017 Annual",
+     "title": "",
+     "series": "MMPR Annual",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "2017 Annual",
+     "cv": null
+    },
+    {
+     "id": "mmpr-018",
+     "label": "MMPR #18",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "18",
+     "cv": {
+      "v": 87332,
+      "i": 616213
+     }
+    },
+    {
+     "id": "mmpr-019",
+     "label": "MMPR #19",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "19",
+     "cv": {
+      "v": 87332,
+      "i": 625368
+     }
+    },
+    {
+     "id": "mmpr-020",
+     "label": "MMPR #20",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "20",
+     "cv": {
+      "v": 87332,
+      "i": 632572
+     }
+    },
+    {
+     "id": "ggpr-001",
+     "label": "GGPR #1",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "1",
+     "cv": {
+      "v": 102945,
+      "i": 609378
+     }
+    },
+    {
+     "id": "ggpr-002",
+     "label": "GGPR #2",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "2",
+     "cv": {
+      "v": 102945,
+      "i": 617862
+     }
+    },
+    {
+     "id": "ggpr-003",
+     "label": "GGPR #3",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "3",
+     "cv": {
+      "v": 102945,
+      "i": 622968
+     }
+    },
+    {
+     "id": "ggpr-004",
+     "label": "GGPR #4",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "4",
+     "cv": {
+      "v": 102945,
+      "i": 630613
+     }
+    },
+    {
+     "id": "mmpr-021",
+     "label": "MMPR #21",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "21",
+     "cv": {
+      "v": 87332,
+      "i": 641456
+     }
+    },
+    {
+     "id": "mmpr-022",
+     "label": "MMPR #22",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "22",
+     "cv": {
+      "v": 87332,
+      "i": 647995
+     }
+    },
+    {
+     "id": "mmpr-023",
+     "label": "MMPR #23",
+     "title": "[Untitled]; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "23",
+     "cv": {
+      "v": 87332,
+      "i": 654090
+     }
+    },
+    {
+     "id": "mmpr-024",
+     "label": "MMPR #24",
+     "title": "Shattered Grid Prelude; The Ongoing Misadventures of Squatt & Baboo",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "24",
+     "cv": {
+      "v": 87332,
+      "i": 660711
+     }
+    },
+    {
+     "id": "ggpr-005",
+     "label": "GGPR #5",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "5",
+     "cv": {
+      "v": 102945,
+      "i": 649777
+     }
+    },
+    {
+     "id": "ggpr-006",
+     "label": "GGPR #6",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "6",
+     "cv": {
+      "v": 102945,
+      "i": 655546
+     }
+    },
+    {
+     "id": "ggpr-007",
+     "label": "GGPR #7",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "7",
+     "cv": {
+      "v": 102945,
+      "i": 661195
+     }
+    },
+    {
+     "id": "ggpr-008",
+     "label": "GGPR #8",
+     "title": "Shattered Grid Prelude",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "8",
+     "cv": {
+      "v": 102945,
+      "i": 663627
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Shattered Grid",
+   "years": "2018",
+   "color": "#2e7d32",
+   "tagline": "Lord Drakkon breaks the timeline.",
+   "items": [
+    {
+     "id": "mmpr-025",
+     "label": "MMPR #25",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "25",
+     "cv": {
+      "v": 87332,
+      "i": 664347
+     }
+    },
+    {
+     "id": "mmpr-026",
+     "label": "MMPR #26",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "26",
+     "cv": {
+      "v": 87332,
+      "i": 666853
+     }
+    },
+    {
+     "id": "mmpr-027",
+     "label": "MMPR #27",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "27",
+     "cv": {
+      "v": 87332,
+      "i": 670154
+     }
+    },
+    {
+     "id": "mmpr-028",
+     "label": "MMPR #28",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "28",
+     "cv": {
+      "v": 87332,
+      "i": 674025
+     }
+    },
+    {
+     "id": "fcbd18",
+     "label": "MMPR FCBD #FCBD 2018",
+     "title": "Shattered Grid (FCBD 2018)",
+     "series": "MMPR FCBD",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "FCBD 2018",
+     "cv": {
+      "v": 110629,
+      "i": 669091
+     }
+    },
+    {
+     "id": "ggpr-009",
+     "label": "GGPR #9",
+     "title": "Shattered Grid",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "9",
+     "cv": {
+      "v": 102945,
+      "i": 668813
+     }
+    },
+    {
+     "id": "ggpr-010",
+     "label": "GGPR #10",
+     "title": "Shattered Grid",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "10",
+     "cv": {
+      "v": 102945,
+      "i": 672325
+     }
+    },
+    {
+     "id": "ggpr-011",
+     "label": "GGPR #11",
+     "title": "Shattered Grid",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "11",
+     "cv": {
+      "v": 102945,
+      "i": 675867
+     }
+    },
+    {
+     "id": "ggpr-012",
+     "label": "GGPR #12",
+     "title": "Shattered Grid",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "12",
+     "cv": {
+      "v": 102945,
+      "i": 678426
+     }
+    },
+    {
+     "id": "ann18",
+     "label": "MMPR Annual #2018 Annual",
+     "title": "",
+     "series": "MMPR Annual",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "2018 Annual",
+     "cv": null
+    },
+    {
+     "id": "mmpr-029",
+     "label": "MMPR #29",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "29",
+     "cv": {
+      "v": 87332,
+      "i": 677356
+     }
+    },
+    {
+     "id": "mmpr-030",
+     "label": "MMPR #30",
+     "title": "Shattered Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "30",
+     "cv": {
+      "v": 87332,
+      "i": 679870
+     }
+    },
+    {
+     "id": "sgf",
+     "label": "MMPR #SG Finale",
+     "title": "Shattered Grid Finale #1",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "SG Finale",
+     "cv": {
+      "v": 113084,
+      "i": 682536
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Beyond the Grid",
+   "years": "2018\u20132019",
+   "color": "#607d8b",
+   "tagline": "A new team, lost in space.",
+   "items": [
+    {
+     "id": "mmpr-031",
+     "label": "MMPR #31",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "31",
+     "cv": {
+      "v": 87332,
+      "i": 686264
+     }
+    },
+    {
+     "id": "mmpr-032",
+     "label": "MMPR #32",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "32",
+     "cv": {
+      "v": 87332,
+      "i": 689817
+     }
+    },
+    {
+     "id": "mmpr-033",
+     "label": "MMPR #33",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "33",
+     "cv": {
+      "v": 87332,
+      "i": 693389
+     }
+    },
+    {
+     "id": "mmpr-034",
+     "label": "MMPR #34",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "34",
+     "cv": {
+      "v": 87332,
+      "i": 695566
+     }
+    },
+    {
+     "id": "mmpr-035",
+     "label": "MMPR #35",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "35",
+     "cv": {
+      "v": 87332,
+      "i": 699299
+     }
+    },
+    {
+     "id": "mmpr-036",
+     "label": "MMPR #36",
+     "title": "Beyond the Grid; The New Adventures of Blue Senturion & Ninjor",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "36",
+     "cv": {
+      "v": 87332,
+      "i": 701894
+     }
+    },
+    {
+     "id": "mmpr-037",
+     "label": "MMPR #37",
+     "title": "Beyond the Grid",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "37",
+     "cv": {
+      "v": 87332,
+      "i": 704767
+     }
+    },
+    {
+     "id": "mmpr-038",
+     "label": "MMPR #38",
+     "title": "Beyond the Grid",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "38",
+     "cv": {
+      "v": 87332,
+      "i": 706907
+     }
+    },
+    {
+     "id": "mmpr-039",
+     "label": "MMPR #39",
+     "title": "Beyond the Grid",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "39",
+     "cv": {
+      "v": 87332,
+      "i": 710033
+     }
+    },
+    {
+     "id": "25th",
+     "label": "MMPR Special #25th Anniv",
+     "title": "25th Anniversary Special",
+     "series": "MMPR Special",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "25th Anniv",
+     "cv": {
+      "v": 111834,
+      "i": 675057
+     }
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Necessary Evil",
+   "years": "2019\u20132020",
+   "color": "#f9a825",
+   "tagline": "The Green Ranger's endgame.",
+   "items": [
+    {
+     "id": "ggpr-013",
+     "label": "GGPR #13",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "13",
+     "cv": {
+      "v": 102945,
+      "i": 688180
+     }
+    },
+    {
+     "id": "ggpr-014",
+     "label": "GGPR #14",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "14",
+     "cv": {
+      "v": 102945,
+      "i": 692016
+     }
+    },
+    {
+     "id": "ggpr-015",
+     "label": "GGPR #15",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "15",
+     "cv": {
+      "v": 102945,
+      "i": 694858
+     }
+    },
+    {
+     "id": "ggpr-016",
+     "label": "GGPR #16",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "16",
+     "cv": {
+      "v": 102945,
+      "i": 696834
+     }
+    },
+    {
+     "id": "ggpr-017",
+     "label": "GGPR #17",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "17",
+     "cv": {
+      "v": 102945,
+      "i": 700608
+     }
+    },
+    {
+     "id": "ggpr-018",
+     "label": "GGPR #18",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "18",
+     "cv": {
+      "v": 102945,
+      "i": 703008
+     }
+    },
+    {
+     "id": "ggpr-019",
+     "label": "GGPR #19",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "19",
+     "cv": {
+      "v": 102945,
+      "i": 705850
+     }
+    },
+    {
+     "id": "ggpr-020",
+     "label": "GGPR #20",
+     "title": "",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "20",
+     "cv": {
+      "v": 102945,
+      "i": 709150
+     }
+    },
+    {
+     "id": "mmpr-040",
+     "label": "MMPR #40",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "40",
+     "cv": {
+      "v": 87332,
+      "i": 712372
+     }
+    },
+    {
+     "id": "ggpr-021",
+     "label": "GGPR #21",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "21",
+     "cv": {
+      "v": 102945,
+      "i": 713454
+     }
+    },
+    {
+     "id": "mmpr-041",
+     "label": "MMPR #41",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "41",
+     "cv": {
+      "v": 87332,
+      "i": 714280
+     }
+    },
+    {
+     "id": "ggpr-022",
+     "label": "GGPR #22",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "22",
+     "cv": {
+      "v": 102945,
+      "i": 716254
+     }
+    },
+    {
+     "id": "mmpr-042",
+     "label": "MMPR #42",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "42",
+     "cv": {
+      "v": 87332,
+      "i": 717453
+     }
+    },
+    {
+     "id": "ggpr-023",
+     "label": "GGPR #23",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "23",
+     "cv": {
+      "v": 102945,
+      "i": 718693
+     }
+    },
+    {
+     "id": "mmpr-043",
+     "label": "MMPR #43",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "43",
+     "cv": {
+      "v": 87332,
+      "i": 720119
+     }
+    },
+    {
+     "id": "ggpr-024",
+     "label": "GGPR #24",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "24",
+     "cv": {
+      "v": 102945,
+      "i": 721730
+     }
+    },
+    {
+     "id": "mmpr-044",
+     "label": "MMPR #44",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "44",
+     "cv": {
+      "v": 87332,
+      "i": 725163
+     }
+    },
+    {
+     "id": "ggpr-025",
+     "label": "GGPR #25",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "25",
+     "cv": {
+      "v": 102945,
+      "i": 727093
+     }
+    },
+    {
+     "id": "mmpr-045",
+     "label": "MMPR #45",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "45",
+     "cv": {
+      "v": 87332,
+      "i": 728955
+     }
+    },
+    {
+     "id": "ggpr-026",
+     "label": "GGPR #26",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "26",
+     "cv": {
+      "v": 102945,
+      "i": 730300
+     }
+    },
+    {
+     "id": "mmpr-046",
+     "label": "MMPR #46",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "46",
+     "cv": {
+      "v": 87332,
+      "i": 731411
+     }
+    },
+    {
+     "id": "ggpr-027",
+     "label": "GGPR #27",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "27",
+     "cv": {
+      "v": 102945,
+      "i": 733775
+     }
+    },
+    {
+     "id": "mmpr-047",
+     "label": "MMPR #47",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "47",
+     "cv": {
+      "v": 87332,
+      "i": 734623
+     }
+    },
+    {
+     "id": "ggpr-028",
+     "label": "GGPR #28",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "28",
+     "cv": {
+      "v": 102945,
+      "i": 735308
+     }
+    },
+    {
+     "id": "mmpr-048",
+     "label": "MMPR #48",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "48",
+     "cv": {
+      "v": 87332,
+      "i": 738732
+     }
+    },
+    {
+     "id": "ggpr-029",
+     "label": "GGPR #29",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "29",
+     "cv": {
+      "v": 102945,
+      "i": 737103
+     }
+    },
+    {
+     "id": "mmpr-049",
+     "label": "MMPR #49",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "49",
+     "cv": {
+      "v": 87332,
+      "i": 743388
+     }
+    },
+    {
+     "id": "ggpr-030",
+     "label": "GGPR #30",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "30",
+     "cv": {
+      "v": 102945,
+      "i": 740713
+     }
+    },
+    {
+     "id": "mmpr-050",
+     "label": "MMPR #50",
+     "title": "Necessary Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "50",
+     "cv": {
+      "v": 87332,
+      "i": 770064
+     }
+    },
+    {
+     "id": "ggpr-031",
+     "label": "GGPR #31",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "31",
+     "cv": {
+      "v": 102945,
+      "i": 763635
+     }
+    },
+    {
+     "id": "mmpr-051",
+     "label": "MMPR #51",
+     "title": "Aftermath",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "51",
+     "cv": {
+      "v": 87332,
+      "i": 779573
+     }
+    },
+    {
+     "id": "ggpr-032",
+     "label": "GGPR #32",
+     "title": "Necessary Evil",
+     "series": "GGPR",
+     "seriesName": "Go Go Power Rangers",
+     "num": "32",
+     "cv": {
+      "v": 102945,
+      "i": 767801
+     }
+    },
+    {
+     "id": "mmpr-052",
+     "label": "MMPR #52",
+     "title": "Enemy of My Enemy",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "52",
+     "cv": {
+      "v": 87332,
+      "i": 784139
+     }
+    },
+    {
+     "id": "mmpr-053",
+     "label": "MMPR #53",
+     "title": "The Dark Rangers",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "53",
+     "cv": {
+      "v": 87332,
+      "i": 796260
+     }
+    },
+    {
+     "id": "mmpr-054",
+     "label": "MMPR #54",
+     "title": "A New Evil",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "54",
+     "cv": {
+      "v": 87332,
+      "i": 804871
+     }
+    },
+    {
+     "id": "mmpr-055",
+     "label": "MMPR #55",
+     "title": "Second Chance",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "55",
+     "cv": {
+      "v": 87332,
+      "i": 813154
+     }
+    },
+    {
+     "id": "rs",
+     "label": "Ranger Slayer #1",
+     "title": "Ranger Slayer",
+     "series": "Ranger Slayer",
+     "seriesName": "Power Rangers: Ranger Slayer",
+     "num": "1",
+     "cv": {
+      "v": 128932,
+      "i": 782134
+     }
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Unlimited Power",
+   "years": "2020\u20132022",
+   "color": "#1976d2",
+   "tagline": "Two teams. One Eltarian war.",
+   "items": [
+    {
+     "id": "mm-01",
+     "label": "MM #1",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "1",
+     "cv": {
+      "v": 131698,
+      "i": 815997
+     }
+    },
+    {
+     "id": "pr-01",
+     "label": "PR #1",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "1",
+     "cv": {
+      "v": 131836,
+      "i": 817497
+     }
+    },
+    {
+     "id": "mm-02",
+     "label": "MM #2",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "2",
+     "cv": {
+      "v": 131698,
+      "i": 820648
+     }
+    },
+    {
+     "id": "pr-02",
+     "label": "PR #2",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "2",
+     "cv": {
+      "v": 131836,
+      "i": 821356
+     }
+    },
+    {
+     "id": "mm-03",
+     "label": "MM #3",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "3",
+     "cv": {
+      "v": 131698,
+      "i": 824326
+     }
+    },
+    {
+     "id": "pr-03",
+     "label": "PR #3",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "3",
+     "cv": {
+      "v": 131836,
+      "i": 825423
+     }
+    },
+    {
+     "id": "mm-04",
+     "label": "MM #4",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "4",
+     "cv": {
+      "v": 131698,
+      "i": 828142
+     }
+    },
+    {
+     "id": "pr-04",
+     "label": "PR #4",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "4",
+     "cv": {
+      "v": 131836,
+      "i": 828810
+     }
+    },
+    {
+     "id": "mm-05",
+     "label": "MM #5",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "5",
+     "cv": {
+      "v": 131698,
+      "i": 836213
+     }
+    },
+    {
+     "id": "pr-05",
+     "label": "PR #5",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "5",
+     "cv": {
+      "v": 131836,
+      "i": 839608
+     }
+    },
+    {
+     "id": "mm-06",
+     "label": "MM #6",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "6",
+     "cv": {
+      "v": 131698,
+      "i": 843109
+     }
+    },
+    {
+     "id": "pr-06",
+     "label": "PR #6",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "6",
+     "cv": {
+      "v": 131836,
+      "i": 844913
+     }
+    },
+    {
+     "id": "mm-07",
+     "label": "MM #7",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "7",
+     "cv": {
+      "v": 131698,
+      "i": 848775
+     }
+    },
+    {
+     "id": "pr-07",
+     "label": "PR #7",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "7",
+     "cv": {
+      "v": 131836,
+      "i": 851276
+     }
+    },
+    {
+     "id": "mm-08",
+     "label": "MM #8",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "8",
+     "cv": {
+      "v": 131698,
+      "i": 858795
+     }
+    },
+    {
+     "id": "pr-08",
+     "label": "PR #8",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "8",
+     "cv": {
+      "v": 131836,
+      "i": 864414
+     }
+    },
+    {
+     "id": "pru-heir",
+     "label": "PR Unlimited #Heir",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Heir",
+     "cv": {
+      "v": 134921,
+      "i": 840749
+     }
+    },
+    {
+     "id": "pru-edge",
+     "label": "PR Unlimited #Edge",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Edge",
+     "cv": {
+      "v": 137194,
+      "i": 865881
+     }
+    },
+    {
+     "id": "mm-09",
+     "label": "MM #9",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "9",
+     "cv": {
+      "v": 131698,
+      "i": 871225
+     }
+    },
+    {
+     "id": "pr-09",
+     "label": "PR #9",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "9",
+     "cv": {
+      "v": 131836,
+      "i": 873012
+     }
+    },
+    {
+     "id": "mm-10",
+     "label": "MM #10",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "10",
+     "cv": {
+      "v": 131698,
+      "i": 879107
+     }
+    },
+    {
+     "id": "pr-10",
+     "label": "PR #10",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "10",
+     "cv": {
+      "v": 131836,
+      "i": 881336
+     }
+    },
+    {
+     "id": "mm-11",
+     "label": "MM #11",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "11",
+     "cv": {
+      "v": 131698,
+      "i": 884169
+     }
+    },
+    {
+     "id": "pr-11",
+     "label": "PR #11",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "11",
+     "cv": {
+      "v": 131836,
+      "i": 884989
+     }
+    },
+    {
+     "id": "mm-12",
+     "label": "MM #12",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "12",
+     "cv": {
+      "v": 131698,
+      "i": 888780
+     }
+    },
+    {
+     "id": "pr-12",
+     "label": "PR #12",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "12",
+     "cv": {
+      "v": 131836,
+      "i": 889628
+     }
+    },
+    {
+     "id": "mm-13",
+     "label": "MM #13",
+     "title": "The Eltarian War",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "13",
+     "cv": {
+      "v": 131698,
+      "i": 894392
+     }
+    },
+    {
+     "id": "pr-13",
+     "label": "PR #13",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "13",
+     "cv": {
+      "v": 131836,
+      "i": 894450
+     }
+    },
+    {
+     "id": "mm-14",
+     "label": "MM #14",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "14",
+     "cv": {
+      "v": 131698,
+      "i": 897871
+     }
+    },
+    {
+     "id": "pr-14",
+     "label": "PR #14",
+     "title": "The Eltarian War",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "14",
+     "cv": {
+      "v": 131836,
+      "i": 900366
+     }
+    },
+    {
+     "id": "mm-15",
+     "label": "MM #15",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "15",
+     "cv": {
+      "v": 131698,
+      "i": 902968
+     }
+    },
+    {
+     "id": "pr-15",
+     "label": "PR #15",
+     "title": "The Eltarian War, Part 6",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "15",
+     "cv": {
+      "v": 131836,
+      "i": 903948
+     }
+    },
+    {
+     "id": "mm-16",
+     "label": "MM #16",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "16",
+     "cv": {
+      "v": 131698,
+      "i": 906347
+     }
+    },
+    {
+     "id": "pr-16",
+     "label": "PR #16",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "16",
+     "cv": {
+      "v": 131836,
+      "i": 907457
+     }
+    },
+    {
+     "id": "pru-ruin",
+     "label": "PR Unlimited #Countdown",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Countdown",
+     "cv": {
+      "v": 143872,
+      "i": 933202
+     }
+    },
+    {
+     "id": "mm-17",
+     "label": "MM #17",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "17",
+     "cv": {
+      "v": 131698,
+      "i": 910629
+     }
+    },
+    {
+     "id": "pr-17",
+     "label": "PR #17",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "17",
+     "cv": {
+      "v": 131836,
+      "i": 911350
+     }
+    },
+    {
+     "id": "mm-18",
+     "label": "MM #18",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "18",
+     "cv": {
+      "v": 131698,
+      "i": 916600
+     }
+    },
+    {
+     "id": "pr-18",
+     "label": "PR #18",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "18",
+     "cv": {
+      "v": 131836,
+      "i": 918445
+     }
+    },
+    {
+     "id": "mm-19",
+     "label": "MM #19",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "19",
+     "cv": {
+      "v": 131698,
+      "i": 922410
+     }
+    },
+    {
+     "id": "pr-19",
+     "label": "PR #19",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "19",
+     "cv": {
+      "v": 131836,
+      "i": 925041
+     }
+    },
+    {
+     "id": "mm-20",
+     "label": "MM #20",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "20",
+     "cv": {
+      "v": 131698,
+      "i": 929694
+     }
+    },
+    {
+     "id": "pr-20",
+     "label": "PR #20",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "20",
+     "cv": {
+      "v": 131836,
+      "i": 930783
+     }
+    },
+    {
+     "id": "mm-21",
+     "label": "MM #21",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "21",
+     "cv": {
+      "v": 131698,
+      "i": 935000
+     }
+    },
+    {
+     "id": "pr-21",
+     "label": "PR #21",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "21",
+     "cv": {
+      "v": 131836,
+      "i": 935844
+     }
+    },
+    {
+     "id": "mm-22",
+     "label": "MM #22",
+     "title": "",
+     "series": "MM",
+     "seriesName": "Mighty Morphin (2020)",
+     "num": "22",
+     "cv": {
+      "v": 131698,
+      "i": 940164
+     }
+    },
+    {
+     "id": "pr-22",
+     "label": "PR #22",
+     "title": "",
+     "series": "PR",
+     "seriesName": "Power Rangers (2020)",
+     "num": "22",
+     "cv": {
+      "v": 131836,
+      "i": 941575
+     }
+    },
+    {
+     "id": "mmpr-100",
+     "label": "MMPR #100",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "100",
+     "cv": {
+      "v": 87332,
+      "i": 949165
+     }
+    },
+    {
+     "id": "pru-dr",
+     "label": "PR Unlimited #Death Ranger",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Death Ranger",
+     "cv": {
+      "v": 144890,
+      "i": 945155
+     }
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Recharged \u2192 Darkest Hour",
+   "years": "2022\u20132024",
+   "color": "#ef6c00",
+   "tagline": "The first era's final days.",
+   "items": [
+    {
+     "id": "mmpr-101",
+     "label": "MMPR #101",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "101",
+     "cv": {
+      "v": 87332,
+      "i": 952566
+     }
+    },
+    {
+     "id": "mmpr-102",
+     "label": "MMPR #102",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "102",
+     "cv": {
+      "v": 87332,
+      "i": 957278
+     }
+    },
+    {
+     "id": "mmpr-103",
+     "label": "MMPR #103",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "103",
+     "cv": {
+      "v": 87332,
+      "i": 961207
+     }
+    },
+    {
+     "id": "mmpr-104",
+     "label": "MMPR #104",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "104",
+     "cv": {
+      "v": 87332,
+      "i": 964840
+     }
+    },
+    {
+     "id": "mmpr-105",
+     "label": "MMPR #105",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "105",
+     "cv": {
+      "v": 87332,
+      "i": 972546
+     }
+    },
+    {
+     "id": "mmpr-106",
+     "label": "MMPR #106",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "106",
+     "cv": {
+      "v": 87332,
+      "i": 978763
+     }
+    },
+    {
+     "id": "mmpr-107",
+     "label": "MMPR #107",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "107",
+     "cv": {
+      "v": 87332,
+      "i": 984101
+     }
+    },
+    {
+     "id": "mmpr-108",
+     "label": "MMPR #108",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "108",
+     "cv": {
+      "v": 87332,
+      "i": 990318
+     }
+    },
+    {
+     "id": "mmpr-109",
+     "label": "MMPR #109",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "109",
+     "cv": {
+      "v": 87332,
+      "i": 996457
+     }
+    },
+    {
+     "id": "mmpr-110",
+     "label": "MMPR #110",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "110",
+     "cv": {
+      "v": 87332,
+      "i": 1005721
+     }
+    },
+    {
+     "id": "pru-coinless",
+     "label": "PR Unlimited #Coinless",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Coinless",
+     "cv": {
+      "v": 151855,
+      "i": 998475
+     }
+    },
+    {
+     "id": "pru-hf",
+     "label": "PR Unlimited #HyperForce",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "HyperForce",
+     "cv": {
+      "v": 152492,
+      "i": 1003427
+     }
+    },
+    {
+     "id": "30th",
+     "label": "MMPR Special #30th Anniv",
+     "title": "30th Anniversary Special",
+     "series": "MMPR Special",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "30th Anniv",
+     "cv": {
+      "v": 153338,
+      "i": 1011951
+     }
+    },
+    {
+     "id": "mmpr-111",
+     "label": "MMPR #111",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "111",
+     "cv": {
+      "v": 87332,
+      "i": 1010508
+     }
+    },
+    {
+     "id": "mmpr-112",
+     "label": "MMPR #112",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "112",
+     "cv": {
+      "v": 87332,
+      "i": 1023972
+     }
+    },
+    {
+     "id": "mmpr-113",
+     "label": "MMPR #113",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "113",
+     "cv": {
+      "v": 87332,
+      "i": 1028499
+     }
+    },
+    {
+     "id": "mmpr-114",
+     "label": "MMPR #114",
+     "title": "Darkest Hour",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "114",
+     "cv": {
+      "v": 87332,
+      "i": 1038342
+     }
+    },
+    {
+     "id": "mmpr-115",
+     "label": "MMPR #115",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "115",
+     "cv": {
+      "v": 87332,
+      "i": 1038468
+     }
+    },
+    {
+     "id": "mmpr-116",
+     "label": "MMPR #116",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "116",
+     "cv": {
+      "v": 87332,
+      "i": 1042313
+     }
+    },
+    {
+     "id": "pru-mm",
+     "label": "PR Unlimited #Morphin Masters",
+     "title": "",
+     "series": "PR Unlimited",
+     "seriesName": "Power Rangers Unlimited",
+     "num": "Morphin Masters",
+     "cv": {
+      "v": 156555,
+      "i": 1043371
+     }
+    },
+    {
+     "id": "mmpr-117",
+     "label": "MMPR #117",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "117",
+     "cv": {
+      "v": 87332,
+      "i": 1046539
+     }
+    },
+    {
+     "id": "mmpr-118",
+     "label": "MMPR #118",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "118",
+     "cv": {
+      "v": 87332,
+      "i": 1049495
+     }
+    },
+    {
+     "id": "mmpr-119",
+     "label": "MMPR #119",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "119",
+     "cv": {
+      "v": 87332,
+      "i": 1052974
+     }
+    },
+    {
+     "id": "mmpr-120",
+     "label": "MMPR #120",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "120",
+     "cv": {
+      "v": 87332,
+      "i": 1056387
+     }
+    },
+    {
+     "id": "mmpr-121",
+     "label": "MMPR #121",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "121",
+     "cv": {
+      "v": 87332,
+      "i": 1061032
+     }
+    },
+    {
+     "id": "mmpr-122",
+     "label": "MMPR #122",
+     "title": "",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "122",
+     "cv": {
+      "v": 87332,
+      "i": 1064331
+     }
+    },
+    {
+     "id": "dh1",
+     "label": "MMPR #Darkest Hour",
+     "title": "Darkest Hour #1",
+     "series": "MMPR",
+     "seriesName": "Mighty Morphin Power Rangers (2016)",
+     "num": "Darkest Hour",
+     "cv": {
+      "v": 159136,
+      "i": 1065532
+     }
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Power Rangers Prime",
+   "years": "2024\u20132026",
+   "color": "#d81b60",
+   "tagline": "A universe reborn.",
+   "items": [
+    {
+     "id": "prime-01",
+     "label": "PRIME #1",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "1",
+     "cv": {
+      "v": 161049,
+      "i": 1077787
+     }
+    },
+    {
+     "id": "prime-02",
+     "label": "PRIME #2",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "2",
+     "cv": {
+      "v": 161049,
+      "i": 1083786
+     }
+    },
+    {
+     "id": "prime-03",
+     "label": "PRIME #3",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "3",
+     "cv": {
+      "v": 161049,
+      "i": 1091270
+     }
+    },
+    {
+     "id": "prime-04",
+     "label": "PRIME #4",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "4",
+     "cv": {
+      "v": 161049,
+      "i": 1096407
+     }
+    },
+    {
+     "id": "prime-05",
+     "label": "PRIME #5",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "5",
+     "cv": {
+      "v": 161049,
+      "i": 1100404
+     }
+    },
+    {
+     "id": "prime-06",
+     "label": "PRIME #6",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "6",
+     "cv": {
+      "v": 161049,
+      "i": 1107374
+     }
+    },
+    {
+     "id": "prime-07",
+     "label": "PRIME #7",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "7",
+     "cv": {
+      "v": 161049,
+      "i": 1114067
+     }
+    },
+    {
+     "id": "prime-08",
+     "label": "PRIME #8",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "8",
+     "cv": {
+      "v": 161049,
+      "i": 1117543
+     }
+    },
+    {
+     "id": "prime-09",
+     "label": "PRIME #9",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "9",
+     "cv": {
+      "v": 161049,
+      "i": 1124662
+     }
+    },
+    {
+     "id": "prime-10",
+     "label": "PRIME #10",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "10",
+     "cv": {
+      "v": 161049,
+      "i": 1132006
+     }
+    },
+    {
+     "id": "prime-11",
+     "label": "PRIME #11",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "11",
+     "cv": {
+      "v": 161049,
+      "i": 1138321
+     }
+    },
+    {
+     "id": "prime-12",
+     "label": "PRIME #12",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "12",
+     "cv": {
+      "v": 161049,
+      "i": 1144256
+     }
+    },
+    {
+     "id": "prime-13",
+     "label": "PRIME #13",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "13",
+     "cv": {
+      "v": 161049,
+      "i": 1149856
+     }
+    },
+    {
+     "id": "prime-14",
+     "label": "PRIME #14",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "14",
+     "cv": {
+      "v": 161049,
+      "i": 1154112
+     }
+    },
+    {
+     "id": "prime-15",
+     "label": "PRIME #15",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "15",
+     "cv": {
+      "v": 161049,
+      "i": 1158316
+     }
+    },
+    {
+     "id": "prime-16",
+     "label": "PRIME #16",
+     "title": "",
+     "series": "PRIME",
+     "seriesName": "Power Rangers Prime",
+     "num": "16",
+     "cv": {
+      "v": 161049,
+      "i": 1162491
+     }
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "The New Era",
+   "years": "2026\u2013",
+   "color": "#c9a227",
+   "tagline": "Ten years later. Called back.",
+   "items": [
+    {
+     "id": "mmpr26-01",
+     "label": "MMPR (2026) #1",
+     "title": "",
+     "series": "MMPR (2026)",
+     "seriesName": "Mighty Morphin Power Rangers (2026)",
+     "num": "1",
+     "cv": {
+      "v": 172461,
+      "i": 1169613
+     }
+    },
+    {
+     "id": "mmpr26-02",
+     "label": "MMPR (2026) #2",
+     "title": "",
+     "series": "MMPR (2026)",
+     "seriesName": "Mighty Morphin Power Rangers (2026)",
+     "num": "2",
+     "cv": {
+      "v": 172461,
+      "i": 1179884
+     }
+    },
+    {
+     "id": "mmpr26-03",
+     "label": "MMPR (2026) #3",
+     "title": "",
+     "series": "MMPR (2026)",
+     "seriesName": "Mighty Morphin Power Rangers (2026)",
+     "num": "3",
+     "cv": {
+      "v": 172461,
+      "i": 1189541
+     }
+    },
+    {
+     "id": "mmpr26-04",
+     "label": "MMPR (2026) #4",
+     "title": "",
+     "series": "MMPR (2026)",
+     "seriesName": "Mighty Morphin Power Rangers (2026)",
+     "num": "4",
+     "cv": {
+      "v": 172461,
+      "i": 1195377
+     }
+    }
+   ]
+  },
+  {
+   "id": "X",
+   "name": "Extras",
+   "years": "anytime",
+   "color": "#795548",
+   "tagline": "Side stories & alternate corners.",
+   "items": [
+    {
+     "id": "pink-01",
+     "label": "Pink #1",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "1",
+     "cv": {
+      "v": 90882,
+      "i": 533075
+     }
+    },
+    {
+     "id": "pink-02",
+     "label": "Pink #2",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "2",
+     "cv": {
+      "v": 90882,
+      "i": 541253
+     }
+    },
+    {
+     "id": "pink-03",
+     "label": "Pink #3",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "3",
+     "cv": {
+      "v": 90882,
+      "i": 549561
+     }
+    },
+    {
+     "id": "pink-04",
+     "label": "Pink #4",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "4",
+     "cv": {
+      "v": 90882,
+      "i": 554004
+     }
+    },
+    {
+     "id": "pink-05",
+     "label": "Pink #5",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "5",
+     "cv": {
+      "v": 90882,
+      "i": 566758
+     }
+    },
+    {
+     "id": "pink-06",
+     "label": "Pink #6",
+     "title": "",
+     "series": "Pink",
+     "seriesName": "MMPR: Pink",
+     "num": "6",
+     "cv": {
+      "v": 90882,
+      "i": 578510
+     }
+    },
+    {
+     "id": "return-01",
+     "label": "The Return #1",
+     "title": "",
+     "series": "The Return",
+     "seriesName": "MMPR: The Return",
+     "num": "1",
+     "cv": {
+      "v": 156699,
+      "i": 1044091
+     }
+    },
+    {
+     "id": "return-02",
+     "label": "The Return #2",
+     "title": "Chapter Two: The Next Power Ranger",
+     "series": "The Return",
+     "seriesName": "MMPR: The Return",
+     "num": "2",
+     "cv": {
+      "v": 156699,
+      "i": 1048198
+     }
+    },
+    {
+     "id": "return-03",
+     "label": "The Return #3",
+     "title": "Chapter Three: Daughter",
+     "series": "The Return",
+     "seriesName": "MMPR: The Return",
+     "num": "3",
+     "cv": {
+      "v": 156699,
+      "i": 1051192
+     }
+    },
+    {
+     "id": "return-04",
+     "label": "The Return #4",
+     "title": "Chapter Four: Family Reunion",
+     "series": "The Return",
+     "seriesName": "MMPR: The Return",
+     "num": "4",
+     "cv": {
+      "v": 156699,
+      "i": 1057085
+     }
+    }
+   ],
+   "kind": "extras"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+node_modules
+data/progress.json
+data/progress.json.tmp
+data/settings.json
+.private
+docs
+.git
+.github
+FEATURES.md
+README.md
+CONTRIBUTING.md
+LICENSE
+*.log
+.DS_Store

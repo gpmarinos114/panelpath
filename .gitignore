@@ -1,0 +1,9 @@
+node_modules/
+data/progress.json
+data/progress.json.tmp
+data/settings.json
+data/covers/
+.private/
+*.log
+.DS_Store
+.env

@@ -1,0 +1,17 @@
+services:
+  panelpath:
+    image: ghcr.io/gpmarinos114/panelpath:latest
+    # …or build from source instead:
+    # build: .
+    ports:
+      - "5175:5175"
+    volumes:
+      - panelpath-data:/data
+    environment:
+      - DATA_DIR=/data
+      - PROGRESS_FILE=/data/progress.json
+      - TZ=America/New_York
+    restart: unless-stopped
+
+volumes:
+  panelpath-data:

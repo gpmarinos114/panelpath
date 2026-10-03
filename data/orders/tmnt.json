@@ -1,0 +1,2781 @@
+{
+ "id": "tmnt",
+ "title": "Teenage Mutant Ninja Turtles",
+ "subtitle": "IDW \u2014 the 2011\u20132024 run, 150 issues + the spin-offs",
+ "credit": "Main run split to match the Ongoing Compendium editions; spin-off mini-series gathered in Extras (read anytime). Unofficial fan project.",
+ "sections": [
+  {
+   "id": "C1",
+   "name": "Compendium One",
+   "years": "#1\u201350",
+   "color": "#43a047",
+   "tagline": "The beginning \u2014 Splinter's lessons, the Foot, and the first fall of Shredder.",
+   "items": [
+    {
+     "id": "tmnt-001",
+     "label": "TMNT #1",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "1",
+     "cv": {
+      "v": 42285,
+      "i": 288545
+     }
+    },
+    {
+     "id": "tmnt-002",
+     "label": "TMNT #2",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "2",
+     "cv": {
+      "v": 42285,
+      "i": 293322
+     }
+    },
+    {
+     "id": "tmnt-003",
+     "label": "TMNT #3",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "3",
+     "cv": {
+      "v": 42285,
+      "i": 299761
+     }
+    },
+    {
+     "id": "tmnt-004",
+     "label": "TMNT #4",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "4",
+     "cv": {
+      "v": 42285,
+      "i": 304467
+     }
+    },
+    {
+     "id": "tmnt-005",
+     "label": "TMNT #5",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "5",
+     "cv": {
+      "v": 42285,
+      "i": 307710
+     }
+    },
+    {
+     "id": "tmnt-006",
+     "label": "TMNT #6",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "6",
+     "cv": {
+      "v": 42285,
+      "i": 312718
+     }
+    },
+    {
+     "id": "tmnt-007",
+     "label": "TMNT #7",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "7",
+     "cv": {
+      "v": 42285,
+      "i": 316706
+     }
+    },
+    {
+     "id": "tmnt-008",
+     "label": "TMNT #8",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "8",
+     "cv": {
+      "v": 42285,
+      "i": 324695
+     }
+    },
+    {
+     "id": "tmnt-009",
+     "label": "TMNT #9",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "9",
+     "cv": {
+      "v": 42285,
+      "i": 333542
+     }
+    },
+    {
+     "id": "tmnt-010",
+     "label": "TMNT #10",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "10",
+     "cv": {
+      "v": 42285,
+      "i": 337739
+     }
+    },
+    {
+     "id": "tmnt-011",
+     "label": "TMNT #11",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "11",
+     "cv": {
+      "v": 42285,
+      "i": 342950
+     }
+    },
+    {
+     "id": "tmnt-012",
+     "label": "TMNT #12",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "12",
+     "cv": {
+      "v": 42285,
+      "i": 347306
+     }
+    },
+    {
+     "id": "tmnt-013",
+     "label": "TMNT #13",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "13",
+     "cv": {
+      "v": 42285,
+      "i": 352546
+     }
+    },
+    {
+     "id": "tmnt-014",
+     "label": "TMNT #14",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "14",
+     "cv": {
+      "v": 42285,
+      "i": 358859
+     }
+    },
+    {
+     "id": "tmnt-015",
+     "label": "TMNT #15",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "15",
+     "cv": {
+      "v": 42285,
+      "i": 364147
+     }
+    },
+    {
+     "id": "tmnt-016",
+     "label": "TMNT #16",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "16",
+     "cv": {
+      "v": 42285,
+      "i": 370361
+     }
+    },
+    {
+     "id": "tmnt-017",
+     "label": "TMNT #17",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "17",
+     "cv": {
+      "v": 42285,
+      "i": 372427
+     }
+    },
+    {
+     "id": "tmnt-018",
+     "label": "TMNT #18",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "18",
+     "cv": {
+      "v": 42285,
+      "i": 381594
+     }
+    },
+    {
+     "id": "tmnt-019",
+     "label": "TMNT #19",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "19",
+     "cv": {
+      "v": 42285,
+      "i": 387291
+     }
+    },
+    {
+     "id": "tmnt-020",
+     "label": "TMNT #20",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "20",
+     "cv": {
+      "v": 42285,
+      "i": 394737
+     }
+    },
+    {
+     "id": "tmnt-021",
+     "label": "TMNT #21",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "21",
+     "cv": {
+      "v": 42285,
+      "i": 399023
+     }
+    },
+    {
+     "id": "tmnt-022",
+     "label": "TMNT #22",
+     "title": "City Fall Part One",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "22",
+     "cv": {
+      "v": 42285,
+      "i": 407006
+     }
+    },
+    {
+     "id": "tmnt-023",
+     "label": "TMNT #23",
+     "title": "City Fall Part Two",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "23",
+     "cv": {
+      "v": 42285,
+      "i": 413630
+     }
+    },
+    {
+     "id": "tmnt-024",
+     "label": "TMNT #24",
+     "title": "City Fall Part Three",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "24",
+     "cv": {
+      "v": 42285,
+      "i": 418973
+     }
+    },
+    {
+     "id": "tmnt-025",
+     "label": "TMNT #25",
+     "title": "City Fall Part Four",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "25",
+     "cv": {
+      "v": 42285,
+      "i": 423707
+     }
+    },
+    {
+     "id": "tmnt-026",
+     "label": "TMNT #26",
+     "title": "City Fall Part Five",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "26",
+     "cv": {
+      "v": 42285,
+      "i": 426907
+     }
+    },
+    {
+     "id": "tmnt-027",
+     "label": "TMNT #27",
+     "title": "City Fall Part Six",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "27",
+     "cv": {
+      "v": 42285,
+      "i": 431466
+     }
+    },
+    {
+     "id": "tmnt-028",
+     "label": "TMNT #28",
+     "title": "City Fall Part Seven",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "28",
+     "cv": {
+      "v": 42285,
+      "i": 435093
+     }
+    },
+    {
+     "id": "tmnt-029",
+     "label": "TMNT #29",
+     "title": "Northampton Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "29",
+     "cv": {
+      "v": 42285,
+      "i": 437537
+     }
+    },
+    {
+     "id": "tmnt-030",
+     "label": "TMNT #30",
+     "title": "Northampton Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "30",
+     "cv": {
+      "v": 42285,
+      "i": 444009
+     }
+    },
+    {
+     "id": "tmnt-031",
+     "label": "TMNT #31",
+     "title": "Northampton Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "31",
+     "cv": {
+      "v": 42285,
+      "i": 446513
+     }
+    },
+    {
+     "id": "tmnt-032",
+     "label": "TMNT #32",
+     "title": "Northampton Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "32",
+     "cv": {
+      "v": 42285,
+      "i": 447537
+     }
+    },
+    {
+     "id": "tmnt-033",
+     "label": "TMNT #33",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "33",
+     "cv": {
+      "v": 42285,
+      "i": 451120
+     }
+    },
+    {
+     "id": "tmnt-034",
+     "label": "TMNT #34",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "34",
+     "cv": {
+      "v": 42285,
+      "i": 455510
+     }
+    },
+    {
+     "id": "tmnt-035",
+     "label": "TMNT #35",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "35",
+     "cv": {
+      "v": 42285,
+      "i": 456583
+     }
+    },
+    {
+     "id": "tmnt-036",
+     "label": "TMNT #36",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "36",
+     "cv": {
+      "v": 42285,
+      "i": 459708
+     }
+    },
+    {
+     "id": "tmnt-037",
+     "label": "TMNT #37",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "37",
+     "cv": {
+      "v": 42285,
+      "i": 462285
+     }
+    },
+    {
+     "id": "tmnt-038",
+     "label": "TMNT #38",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "38",
+     "cv": {
+      "v": 42285,
+      "i": 467067
+     }
+    },
+    {
+     "id": "tmnt-039",
+     "label": "TMNT #39",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "39",
+     "cv": {
+      "v": 42285,
+      "i": 468108
+     }
+    },
+    {
+     "id": "tmnt-040",
+     "label": "TMNT #40",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "40",
+     "cv": {
+      "v": 42285,
+      "i": 471346
+     }
+    },
+    {
+     "id": "tmnt-041",
+     "label": "TMNT #41",
+     "title": "Attack On Technodrome Part One",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "41",
+     "cv": {
+      "v": 42285,
+      "i": 472948
+     }
+    },
+    {
+     "id": "tmnt-042",
+     "label": "TMNT #42",
+     "title": "Attack On Technodrome Part Two",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "42",
+     "cv": {
+      "v": 42285,
+      "i": 476816
+     }
+    },
+    {
+     "id": "tmnt-043",
+     "label": "TMNT #43",
+     "title": "Attack On Technodrome Part Three",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "43",
+     "cv": {
+      "v": 42285,
+      "i": 480706
+     }
+    },
+    {
+     "id": "tmnt-044",
+     "label": "TMNT #44",
+     "title": "Attack On Technodrome Part Four",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "44",
+     "cv": {
+      "v": 42285,
+      "i": 482719
+     }
+    },
+    {
+     "id": "tmnt-045",
+     "label": "TMNT #45",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "45",
+     "cv": {
+      "v": 42285,
+      "i": 487234
+     }
+    },
+    {
+     "id": "tmnt-046",
+     "label": "TMNT #46",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "46",
+     "cv": {
+      "v": 42285,
+      "i": 489934
+     }
+    },
+    {
+     "id": "tmnt-047",
+     "label": "TMNT #47",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "47",
+     "cv": {
+      "v": 42285,
+      "i": 493822
+     }
+    },
+    {
+     "id": "tmnt-048",
+     "label": "TMNT #48",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "48",
+     "cv": {
+      "v": 42285,
+      "i": 496412
+     }
+    },
+    {
+     "id": "tmnt-049",
+     "label": "TMNT #49",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "49",
+     "cv": {
+      "v": 42285,
+      "i": 497983
+     }
+    },
+    {
+     "id": "tmnt-050",
+     "label": "TMNT #50",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "50",
+     "cv": {
+      "v": 42285,
+      "i": 502169
+     }
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "name": "Compendium Two",
+   "years": "#51\u2013100",
+   "color": "#7e57c2",
+   "tagline": "New alliances, the road to issue 100.",
+   "items": [
+    {
+     "id": "tmnt-051",
+     "label": "TMNT #51",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "51",
+     "cv": {
+      "v": 42285,
+      "i": 504361
+     }
+    },
+    {
+     "id": "tmnt-052",
+     "label": "TMNT #52",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "52",
+     "cv": {
+      "v": 42285,
+      "i": 506677
+     }
+    },
+    {
+     "id": "tmnt-053",
+     "label": "TMNT #53",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "53",
+     "cv": {
+      "v": 42285,
+      "i": 508912
+     }
+    },
+    {
+     "id": "tmnt-054",
+     "label": "TMNT #54",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "54",
+     "cv": {
+      "v": 42285,
+      "i": 512450
+     }
+    },
+    {
+     "id": "tmnt-055",
+     "label": "TMNT #55",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "55",
+     "cv": {
+      "v": 42285,
+      "i": 516841
+     }
+    },
+    {
+     "id": "tmnt-056",
+     "label": "TMNT #56",
+     "title": "Leatherhead Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "56",
+     "cv": {
+      "v": 42285,
+      "i": 521213
+     }
+    },
+    {
+     "id": "tmnt-057",
+     "label": "TMNT #57",
+     "title": "Leatherhead Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "57",
+     "cv": {
+      "v": 42285,
+      "i": 527031
+     }
+    },
+    {
+     "id": "tmnt-058",
+     "label": "TMNT #58",
+     "title": "Leatherhead Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "58",
+     "cv": {
+      "v": 42285,
+      "i": 529505
+     }
+    },
+    {
+     "id": "tmnt-059",
+     "label": "TMNT #59",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "59",
+     "cv": {
+      "v": 42285,
+      "i": 535268
+     }
+    },
+    {
+     "id": "tmnt-060",
+     "label": "TMNT #60",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "60",
+     "cv": {
+      "v": 42285,
+      "i": 540825
+     }
+    },
+    {
+     "id": "tmnt-061",
+     "label": "TMNT #61",
+     "title": "Chasing Phantoms Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "61",
+     "cv": {
+      "v": 42285,
+      "i": 545137
+     }
+    },
+    {
+     "id": "tmnt-062",
+     "label": "TMNT #62",
+     "title": "Chasing Phantoms Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "62",
+     "cv": {
+      "v": 42285,
+      "i": 550400
+     }
+    },
+    {
+     "id": "tmnt-063",
+     "label": "TMNT #63",
+     "title": "Chasing Phantoms Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "63",
+     "cv": {
+      "v": 42285,
+      "i": 552838
+     }
+    },
+    {
+     "id": "tmnt-064",
+     "label": "TMNT #64",
+     "title": "Chasing Phantoms Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "64",
+     "cv": {
+      "v": 42285,
+      "i": 558617
+     }
+    },
+    {
+     "id": "tmnt-065",
+     "label": "TMNT #65",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "65",
+     "cv": {
+      "v": 42285,
+      "i": 566588
+     }
+    },
+    {
+     "id": "tmnt-066",
+     "label": "TMNT #66",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "66",
+     "cv": {
+      "v": 42285,
+      "i": 576911
+     }
+    },
+    {
+     "id": "tmnt-067",
+     "label": "TMNT #67",
+     "title": "Desperate Measures Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "67",
+     "cv": {
+      "v": 42285,
+      "i": 581418
+     }
+    },
+    {
+     "id": "tmnt-068",
+     "label": "TMNT #68",
+     "title": "Desperate Measures Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "68",
+     "cv": {
+      "v": 42285,
+      "i": 588467
+     }
+    },
+    {
+     "id": "tmnt-069",
+     "label": "TMNT #69",
+     "title": "Desperate Measures Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "69",
+     "cv": {
+      "v": 42285,
+      "i": 594033
+     }
+    },
+    {
+     "id": "tmnt-070",
+     "label": "TMNT #70",
+     "title": "Desperate Measures Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "70",
+     "cv": {
+      "v": 42285,
+      "i": 601641
+     }
+    },
+    {
+     "id": "tmnt-071",
+     "label": "TMNT #71",
+     "title": "Pantheon Family Reunion Part 1 of 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "71",
+     "cv": {
+      "v": 42285,
+      "i": 604926
+     }
+    },
+    {
+     "id": "tmnt-072",
+     "label": "TMNT #72",
+     "title": "Pantheon Family Reunion Part 2 of 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "72",
+     "cv": {
+      "v": 42285,
+      "i": 610513
+     }
+    },
+    {
+     "id": "tmnt-073",
+     "label": "TMNT #73",
+     "title": "The Trial of Krang, Part One",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "73",
+     "cv": {
+      "v": 42285,
+      "i": 612026
+     }
+    },
+    {
+     "id": "tmnt-074",
+     "label": "TMNT #74",
+     "title": "The Trial of Krang, Part Two",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "74",
+     "cv": {
+      "v": 42285,
+      "i": 625000
+     }
+    },
+    {
+     "id": "tmnt-075",
+     "label": "TMNT #75",
+     "title": "The Trial of Krang, Part Three",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "75",
+     "cv": {
+      "v": 42285,
+      "i": 632544
+     }
+    },
+    {
+     "id": "tmnt-076",
+     "label": "TMNT #76",
+     "title": "Invasion of the Triceratons Part One",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "76",
+     "cv": {
+      "v": 42285,
+      "i": 637564
+     }
+    },
+    {
+     "id": "tmnt-077",
+     "label": "TMNT #77",
+     "title": "Invasion of the Triceratons Part Two",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "77",
+     "cv": {
+      "v": 42285,
+      "i": 643967
+     }
+    },
+    {
+     "id": "tmnt-078",
+     "label": "TMNT #78",
+     "title": "Invasion of the Triceratons Part Three",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "78",
+     "cv": {
+      "v": 42285,
+      "i": 652358
+     }
+    },
+    {
+     "id": "tmnt-079",
+     "label": "TMNT #79",
+     "title": "Invasion of the Triceratons Part Four",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "79",
+     "cv": {
+      "v": 42285,
+      "i": 661059
+     }
+    },
+    {
+     "id": "tmnt-080",
+     "label": "TMNT #80",
+     "title": "Invasion of the Triceratons Part Five",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "80",
+     "cv": {
+      "v": 42285,
+      "i": 664209
+     }
+    },
+    {
+     "id": "tmnt-081",
+     "label": "TMNT #81",
+     "title": "Kingdom of the Rats Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "81",
+     "cv": {
+      "v": 42285,
+      "i": 665692
+     }
+    },
+    {
+     "id": "tmnt-082",
+     "label": "TMNT #82",
+     "title": "Kingdom of the Rats Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "82",
+     "cv": {
+      "v": 42285,
+      "i": 669833
+     }
+    },
+    {
+     "id": "tmnt-083",
+     "label": "TMNT #83",
+     "title": "Kingdom of the Rats Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "83",
+     "cv": {
+      "v": 42285,
+      "i": 672195
+     }
+    },
+    {
+     "id": "tmnt-084",
+     "label": "TMNT #84",
+     "title": "Kingdom of the Rats Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "84",
+     "cv": {
+      "v": 42285,
+      "i": 677814
+     }
+    },
+    {
+     "id": "tmnt-085",
+     "label": "TMNT #85",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "85",
+     "cv": {
+      "v": 42285,
+      "i": 680342
+     }
+    },
+    {
+     "id": "tmnt-086",
+     "label": "TMNT #86",
+     "title": "Battle Lines, Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "86",
+     "cv": {
+      "v": 42285,
+      "i": 685534
+     }
+    },
+    {
+     "id": "tmnt-087",
+     "label": "TMNT #87",
+     "title": "Battle Lines, Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "87",
+     "cv": {
+      "v": 42285,
+      "i": 688931
+     }
+    },
+    {
+     "id": "tmnt-088",
+     "label": "TMNT #88",
+     "title": "Battle Lines, Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "88",
+     "cv": {
+      "v": 42285,
+      "i": 693315
+     }
+    },
+    {
+     "id": "tmnt-089",
+     "label": "TMNT #89",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "89",
+     "cv": {
+      "v": 42285,
+      "i": 695510
+     }
+    },
+    {
+     "id": "tmnt-090",
+     "label": "TMNT #90",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "90",
+     "cv": {
+      "v": 42285,
+      "i": 698455
+     }
+    },
+    {
+     "id": "tmnt-091",
+     "label": "TMNT #91",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "91",
+     "cv": {
+      "v": 42285,
+      "i": 700448
+     }
+    },
+    {
+     "id": "tmnt-092",
+     "label": "TMNT #92",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "92",
+     "cv": {
+      "v": 42285,
+      "i": 703583
+     }
+    },
+    {
+     "id": "tmnt-093",
+     "label": "TMNT #93",
+     "title": "City at War, Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "93",
+     "cv": {
+      "v": 42285,
+      "i": 706843
+     }
+    },
+    {
+     "id": "tmnt-094",
+     "label": "TMNT #94",
+     "title": "City at War, Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "94",
+     "cv": {
+      "v": 42285,
+      "i": 709985
+     }
+    },
+    {
+     "id": "tmnt-095",
+     "label": "TMNT #95",
+     "title": "City at War, Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "95",
+     "cv": {
+      "v": 42285,
+      "i": 712914
+     }
+    },
+    {
+     "id": "tmnt-096",
+     "label": "TMNT #96",
+     "title": "City at War, Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "96",
+     "cv": {
+      "v": 42285,
+      "i": 714571
+     }
+    },
+    {
+     "id": "tmnt-097",
+     "label": "TMNT #97",
+     "title": "City at War, Part 5",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "97",
+     "cv": {
+      "v": 42285,
+      "i": 717254
+     }
+    },
+    {
+     "id": "tmnt-098",
+     "label": "TMNT #98",
+     "title": "City at War, Part 6",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "98",
+     "cv": {
+      "v": 42285,
+      "i": 719972
+     }
+    },
+    {
+     "id": "tmnt-099",
+     "label": "TMNT #99",
+     "title": "City at War, Part 7",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "99",
+     "cv": {
+      "v": 42285,
+      "i": 724729
+     }
+    },
+    {
+     "id": "tmnt-100",
+     "label": "TMNT #100",
+     "title": "City at War, The End",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "100",
+     "cv": {
+      "v": 42285,
+      "i": 730173
+     }
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "name": "Compendium Three",
+   "years": "#101\u2013150",
+   "color": "#ef6c00",
+   "tagline": "The final era \u2014 through to #150.",
+   "items": [
+    {
+     "id": "tmnt-101",
+     "label": "TMNT #101",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "101",
+     "cv": {
+      "v": 42285,
+      "i": 732569
+     }
+    },
+    {
+     "id": "tmnt-102",
+     "label": "TMNT #102",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "102",
+     "cv": {
+      "v": 42285,
+      "i": 735236
+     }
+    },
+    {
+     "id": "tmnt-103",
+     "label": "TMNT #103",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "103",
+     "cv": {
+      "v": 42285,
+      "i": 737673
+     }
+    },
+    {
+     "id": "tmnt-104",
+     "label": "TMNT #104",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "104",
+     "cv": {
+      "v": 42285,
+      "i": 741397
+     }
+    },
+    {
+     "id": "tmnt-105",
+     "label": "TMNT #105",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "105",
+     "cv": {
+      "v": 42285,
+      "i": 770163
+     }
+    },
+    {
+     "id": "tmnt-106",
+     "label": "TMNT #106",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "106",
+     "cv": {
+      "v": 42285,
+      "i": 779796
+     }
+    },
+    {
+     "id": "tmnt-107",
+     "label": "TMNT #107",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "107",
+     "cv": {
+      "v": 42285,
+      "i": 784878
+     }
+    },
+    {
+     "id": "tmnt-108",
+     "label": "TMNT #108",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "108",
+     "cv": {
+      "v": 42285,
+      "i": 796412
+     }
+    },
+    {
+     "id": "tmnt-109",
+     "label": "TMNT #109",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "109",
+     "cv": {
+      "v": 42285,
+      "i": 797468
+     }
+    },
+    {
+     "id": "tmnt-110",
+     "label": "TMNT #110",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "110",
+     "cv": {
+      "v": 42285,
+      "i": 812549
+     }
+    },
+    {
+     "id": "tmnt-111",
+     "label": "TMNT #111",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "111",
+     "cv": {
+      "v": 42285,
+      "i": 817516
+     }
+    },
+    {
+     "id": "tmnt-112",
+     "label": "TMNT #112",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "112",
+     "cv": {
+      "v": 42285,
+      "i": 820724
+     }
+    },
+    {
+     "id": "tmnt-113",
+     "label": "TMNT #113",
+     "title": "Time After Time, Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "113",
+     "cv": {
+      "v": 42285,
+      "i": 825577
+     }
+    },
+    {
+     "id": "tmnt-114",
+     "label": "TMNT #114",
+     "title": "Time After Time, Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "114",
+     "cv": {
+      "v": 42285,
+      "i": 828265
+     }
+    },
+    {
+     "id": "tmnt-115",
+     "label": "TMNT #115",
+     "title": "Time After Time, Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "115",
+     "cv": {
+      "v": 42285,
+      "i": 838049
+     }
+    },
+    {
+     "id": "tmnt-116",
+     "label": "TMNT #116",
+     "title": "Time After Time, Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "116",
+     "cv": {
+      "v": 42285,
+      "i": 844925
+     }
+    },
+    {
+     "id": "tmnt-117",
+     "label": "TMNT #117",
+     "title": "Time After Time, Part 5",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "117",
+     "cv": {
+      "v": 42285,
+      "i": 858854
+     }
+    },
+    {
+     "id": "tmnt-118",
+     "label": "TMNT #118",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "118",
+     "cv": {
+      "v": 42285,
+      "i": 864440
+     }
+    },
+    {
+     "id": "tmnt-119",
+     "label": "TMNT #119",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "119",
+     "cv": {
+      "v": 42285,
+      "i": 869699
+     }
+    },
+    {
+     "id": "tmnt-120",
+     "label": "TMNT #120",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "120",
+     "cv": {
+      "v": 42285,
+      "i": 882575
+     }
+    },
+    {
+     "id": "tmnt-121",
+     "label": "TMNT #121",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "121",
+     "cv": {
+      "v": 42285,
+      "i": 887025
+     }
+    },
+    {
+     "id": "tmnt-122",
+     "label": "TMNT #122",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "122",
+     "cv": {
+      "v": 42285,
+      "i": 890884
+     }
+    },
+    {
+     "id": "tmnt-123",
+     "label": "TMNT #123",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "123",
+     "cv": {
+      "v": 42285,
+      "i": 896174
+     }
+    },
+    {
+     "id": "tmnt-124",
+     "label": "TMNT #124",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "124",
+     "cv": {
+      "v": 42285,
+      "i": 898510
+     }
+    },
+    {
+     "id": "tmnt-125",
+     "label": "TMNT #125",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "125",
+     "cv": {
+      "v": 42285,
+      "i": 903944
+     }
+    },
+    {
+     "id": "tmnt-126",
+     "label": "TMNT #126",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "126",
+     "cv": {
+      "v": 42285,
+      "i": 907669
+     }
+    },
+    {
+     "id": "tmnt-127",
+     "label": "TMNT #127",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "127",
+     "cv": {
+      "v": 42285,
+      "i": 913248
+     }
+    },
+    {
+     "id": "tmnt-128",
+     "label": "TMNT #128",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "128",
+     "cv": {
+      "v": 42285,
+      "i": 921072
+     }
+    },
+    {
+     "id": "tmnt-129",
+     "label": "TMNT #129",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "129",
+     "cv": {
+      "v": 42285,
+      "i": 926308
+     }
+    },
+    {
+     "id": "tmnt-130",
+     "label": "TMNT #130",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "130",
+     "cv": {
+      "v": 42285,
+      "i": 933158
+     }
+    },
+    {
+     "id": "tmnt-131",
+     "label": "TMNT #131",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "131",
+     "cv": {
+      "v": 42285,
+      "i": 939224
+     }
+    },
+    {
+     "id": "tmnt-132",
+     "label": "TMNT #132",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "132",
+     "cv": {
+      "v": 42285,
+      "i": 946218
+     }
+    },
+    {
+     "id": "tmnt-133",
+     "label": "TMNT #133",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "133",
+     "cv": {
+      "v": 42285,
+      "i": 950618
+     }
+    },
+    {
+     "id": "tmnt-134",
+     "label": "TMNT #134",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "134",
+     "cv": {
+      "v": 42285,
+      "i": 953971
+     }
+    },
+    {
+     "id": "tmnt-135",
+     "label": "TMNT #135",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "135",
+     "cv": {
+      "v": 42285,
+      "i": 959115
+     }
+    },
+    {
+     "id": "tmnt-136",
+     "label": "TMNT #136",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "136",
+     "cv": {
+      "v": 42285,
+      "i": 964833
+     }
+    },
+    {
+     "id": "tmnt-137",
+     "label": "TMNT #137",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "137",
+     "cv": {
+      "v": 42285,
+      "i": 972538
+     }
+    },
+    {
+     "id": "tmnt-138",
+     "label": "TMNT #138",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "138",
+     "cv": {
+      "v": 42285,
+      "i": 978748
+     }
+    },
+    {
+     "id": "tmnt-139",
+     "label": "TMNT #139",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "139",
+     "cv": {
+      "v": 42285,
+      "i": 985748
+     }
+    },
+    {
+     "id": "tmnt-140",
+     "label": "TMNT #140",
+     "title": "Damage Done, Part 1",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "140",
+     "cv": {
+      "v": 42285,
+      "i": 995498
+     }
+    },
+    {
+     "id": "tmnt-141",
+     "label": "TMNT #141",
+     "title": "Damage Done, Part 2",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "141",
+     "cv": {
+      "v": 42285,
+      "i": 1001345
+     }
+    },
+    {
+     "id": "tmnt-142",
+     "label": "TMNT #142",
+     "title": "Damage Done, Part 3",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "142",
+     "cv": {
+      "v": 42285,
+      "i": 1009580
+     }
+    },
+    {
+     "id": "tmnt-143",
+     "label": "TMNT #143",
+     "title": "Damage Done, Part 4",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "143",
+     "cv": {
+      "v": 42285,
+      "i": 1018591
+     }
+    },
+    {
+     "id": "tmnt-144",
+     "label": "TMNT #144",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "144",
+     "cv": {
+      "v": 42285,
+      "i": 1025700
+     }
+    },
+    {
+     "id": "tmnt-145",
+     "label": "TMNT #145",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "145",
+     "cv": {
+      "v": 42285,
+      "i": 1028934
+     }
+    },
+    {
+     "id": "tmnt-146",
+     "label": "TMNT #146",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "146",
+     "cv": {
+      "v": 42285,
+      "i": 1036504
+     }
+    },
+    {
+     "id": "tmnt-147",
+     "label": "TMNT #147",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "147",
+     "cv": {
+      "v": 42285,
+      "i": 1042325
+     }
+    },
+    {
+     "id": "tmnt-148",
+     "label": "TMNT #148",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "148",
+     "cv": {
+      "v": 42285,
+      "i": 1044949
+     }
+    },
+    {
+     "id": "tmnt-149",
+     "label": "TMNT #149",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "149",
+     "cv": {
+      "v": 42285,
+      "i": 1048205
+     }
+    },
+    {
+     "id": "tmnt-150",
+     "label": "TMNT #150",
+     "title": "",
+     "series": "TMNT",
+     "seriesName": "Teenage Mutant Ninja Turtles (IDW, 2011)",
+     "num": "150",
+     "cv": {
+      "v": 42285,
+      "i": 1052995
+     }
+    }
+   ]
+  },
+  {
+   "id": "X",
+   "name": "Extras",
+   "years": "anytime",
+   "color": "#546e7a",
+   "kind": "extras",
+   "tagline": "Complete mini-series from the same era \u2014 read anytime.",
+   "items": [
+    {
+     "id": "tmnt-micro-01",
+     "label": "Micro-Series #1",
+     "title": "Raphael",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "1",
+     "cv": {
+      "v": 44449,
+      "i": 306262
+     }
+    },
+    {
+     "id": "tmnt-micro-02",
+     "label": "Micro-Series #2",
+     "title": "Michelangelo",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "2",
+     "cv": {
+      "v": 44449,
+      "i": 309025
+     }
+    },
+    {
+     "id": "tmnt-micro-03",
+     "label": "Micro-Series #3",
+     "title": "Donatello",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "3",
+     "cv": {
+      "v": 44449,
+      "i": 317871
+     }
+    },
+    {
+     "id": "tmnt-micro-04",
+     "label": "Micro-Series #4",
+     "title": "Leonardo",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "4",
+     "cv": {
+      "v": 44449,
+      "i": 331972
+     }
+    },
+    {
+     "id": "tmnt-micro-05",
+     "label": "Micro-Series #5",
+     "title": "Splinter",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "5",
+     "cv": {
+      "v": 44449,
+      "i": 342292
+     }
+    },
+    {
+     "id": "tmnt-micro-06",
+     "label": "Micro-Series #6",
+     "title": "Casey Jones",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "6",
+     "cv": {
+      "v": 44449,
+      "i": 347304
+     }
+    },
+    {
+     "id": "tmnt-micro-07",
+     "label": "Micro-Series #7",
+     "title": "April",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "7",
+     "cv": {
+      "v": 44449,
+      "i": 354078
+     }
+    },
+    {
+     "id": "tmnt-micro-08",
+     "label": "Micro-Series #8",
+     "title": "Fugitoid",
+     "series": "Micro-Series",
+     "seriesName": "TMNT Micro-Series (2012)",
+     "num": "8",
+     "cv": {
+      "v": 44449,
+      "i": 355828
+     }
+    },
+    {
+     "id": "tmnt-villain-01",
+     "label": "Villains #1",
+     "title": "Krang",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "1",
+     "cv": {
+      "v": 60013,
+      "i": 397582
+     }
+    },
+    {
+     "id": "tmnt-villain-02",
+     "label": "Villains #2",
+     "title": "Baxter",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "2",
+     "cv": {
+      "v": 60013,
+      "i": 404742
+     }
+    },
+    {
+     "id": "tmnt-villain-03",
+     "label": "Villains #3",
+     "title": "Old Hob",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "3",
+     "cv": {
+      "v": 60013,
+      "i": 411856
+     }
+    },
+    {
+     "id": "tmnt-villain-04",
+     "label": "Villains #4",
+     "title": "Alopex",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "4",
+     "cv": {
+      "v": 60013,
+      "i": 417864
+     }
+    },
+    {
+     "id": "tmnt-villain-05",
+     "label": "Villains #5",
+     "title": "Karai",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "5",
+     "cv": {
+      "v": 60013,
+      "i": 422530
+     }
+    },
+    {
+     "id": "tmnt-villain-06",
+     "label": "Villains #6",
+     "title": "Hun",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "6",
+     "cv": {
+      "v": 60013,
+      "i": 425050
+     }
+    },
+    {
+     "id": "tmnt-villain-07",
+     "label": "Villains #7",
+     "title": "Bebop & Rocksteady",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "7",
+     "cv": {
+      "v": 60013,
+      "i": 431467
+     }
+    },
+    {
+     "id": "tmnt-villain-08",
+     "label": "Villains #8",
+     "title": "Shredder",
+     "series": "Villains",
+     "seriesName": "TMNT Villains Micro-Series (2013)",
+     "num": "8",
+     "cv": {
+      "v": 60013,
+      "i": 435614
+     }
+    },
+    {
+     "id": "tmnt-univ-01",
+     "label": "Universe #1",
+     "title": "[Untitled]; Inside Out Part 1",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "1",
+     "cv": {
+      "v": 93638,
+      "i": 547228
+     }
+    },
+    {
+     "id": "tmnt-univ-02",
+     "label": "Universe #2",
+     "title": "[Untitled]; Inside Out Part 2",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "2",
+     "cv": {
+      "v": 93638,
+      "i": 552095
+     }
+    },
+    {
+     "id": "tmnt-univ-03",
+     "label": "Universe #3",
+     "title": "[Untitled]; Inside Out Part 3",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "3",
+     "cv": {
+      "v": 93638,
+      "i": 555348
+     }
+    },
+    {
+     "id": "tmnt-univ-04",
+     "label": "Universe #4",
+     "title": "[Untitled]; Inside Out Part 4",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "4",
+     "cv": {
+      "v": 93638,
+      "i": 562397
+     }
+    },
+    {
+     "id": "tmnt-univ-05",
+     "label": "Universe #5",
+     "title": "[Untitled]; Inside Out Part 5",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "5",
+     "cv": {
+      "v": 93638,
+      "i": 569376
+     }
+    },
+    {
+     "id": "tmnt-univ-06",
+     "label": "Universe #6",
+     "title": "[Untitled]; What Is Ninja?",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "6",
+     "cv": {
+      "v": 93638,
+      "i": 576178
+     }
+    },
+    {
+     "id": "tmnt-univ-07",
+     "label": "Universe #7",
+     "title": "Metalhead 2.0 Pt. 1; What Is Ninja? Part 2",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "7",
+     "cv": {
+      "v": 93638,
+      "i": 582283
+     }
+    },
+    {
+     "id": "tmnt-univ-08",
+     "label": "Universe #8",
+     "title": "Metalhead 2.0 Pt. 2; What Is Ninja? Part 3",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "8",
+     "cv": {
+      "v": 93638,
+      "i": 584904
+     }
+    },
+    {
+     "id": "tmnt-univ-09",
+     "label": "Universe #9",
+     "title": "Toad Baron's Ball Part 1; What Is Ninja? Part 4",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "9",
+     "cv": {
+      "v": 93638,
+      "i": 593197
+     }
+    },
+    {
+     "id": "tmnt-univ-10",
+     "label": "Universe #10",
+     "title": "Toad Baron's Ball Part 2; What Is Ninja? Part 5",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "10",
+     "cv": {
+      "v": 93638,
+      "i": 596817
+     }
+    },
+    {
+     "id": "tmnt-univ-11",
+     "label": "Universe #11",
+     "title": "",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "11",
+     "cv": {
+      "v": 93638,
+      "i": 602949
+     }
+    },
+    {
+     "id": "tmnt-univ-12",
+     "label": "Universe #12",
+     "title": "Karai's Path Part 1 of 4; Prey Part 1",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "12",
+     "cv": {
+      "v": 93638,
+      "i": 609034
+     }
+    },
+    {
+     "id": "tmnt-univ-13",
+     "label": "Universe #13",
+     "title": "Karai's Path Part 2 of 4; Prey Part 2",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "13",
+     "cv": {
+      "v": 93638,
+      "i": 613618
+     }
+    },
+    {
+     "id": "tmnt-univ-14",
+     "label": "Universe #14",
+     "title": "Karai's Path Part 3 of 4; Prey Part 3",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "14",
+     "cv": {
+      "v": 93638,
+      "i": 621632
+     }
+    },
+    {
+     "id": "tmnt-univ-15",
+     "label": "Universe #15",
+     "title": "Karai's Path Part 4 of 4; Prey Part 4",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "15",
+     "cv": {
+      "v": 93638,
+      "i": 630578
+     }
+    },
+    {
+     "id": "tmnt-univ-16",
+     "label": "Universe #16",
+     "title": "From the Heart, For the Herd Part One; Triceratots!",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "16",
+     "cv": {
+      "v": 93638,
+      "i": 640429
+     }
+    },
+    {
+     "id": "tmnt-univ-17",
+     "label": "Universe #17",
+     "title": "From the Heart, For the Herd Part Two; Triceratots! Part Two",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "17",
+     "cv": {
+      "v": 93638,
+      "i": 647703
+     }
+    },
+    {
+     "id": "tmnt-univ-18",
+     "label": "Universe #18",
+     "title": "Monster Hunt; Mutagen Maitenance",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "18",
+     "cv": {
+      "v": 93638,
+      "i": 650604
+     }
+    },
+    {
+     "id": "tmnt-univ-19",
+     "label": "Universe #19",
+     "title": "Service Animals Part One; Kingdom of Rats Prelude",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "19",
+     "cv": {
+      "v": 93638,
+      "i": 658757
+     }
+    },
+    {
+     "id": "tmnt-univ-20",
+     "label": "Universe #20",
+     "title": "Service Animals Part One; Through Red Eyes",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "20",
+     "cv": {
+      "v": 93638,
+      "i": 663447
+     }
+    },
+    {
+     "id": "tmnt-univ-21",
+     "label": "Universe #21",
+     "title": "Lost Causes; How Woody Spent His Triceraton Invasion",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "21",
+     "cv": {
+      "v": 93638,
+      "i": 666679
+     }
+    },
+    {
+     "id": "tmnt-univ-22",
+     "label": "Universe #22",
+     "title": "Lost Causes Part Two; Dangerous Waters",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "22",
+     "cv": {
+      "v": 93638,
+      "i": 669834
+     }
+    },
+    {
+     "id": "tmnt-univ-23",
+     "label": "Universe #23",
+     "title": "...And Out Came the Reptiles Part One; Nobody Cares",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "23",
+     "cv": {
+      "v": 93638,
+      "i": 673836
+     }
+    },
+    {
+     "id": "tmnt-univ-24",
+     "label": "Universe #24",
+     "title": "...And Out Came the Reptiles Part Two; Life At Sea",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "24",
+     "cv": {
+      "v": 93638,
+      "i": 677322
+     }
+    },
+    {
+     "id": "tmnt-univ-25",
+     "label": "Universe #25",
+     "title": "Spirit Walk",
+     "series": "Universe",
+     "seriesName": "TMNT Universe (2016)",
+     "num": "25",
+     "cv": {
+      "v": 93638,
+      "i": 678378
+     }
+    },
+    {
+     "id": "tmnt-macro-01",
+     "label": "Macro-Series #1",
+     "title": "Donatello",
+     "series": "Macro-Series",
+     "seriesName": "TMNT Macro-Series (2018)",
+     "num": "1",
+     "cv": {
+      "v": 114040,
+      "i": 686850
+     }
+    },
+    {
+     "id": "tmnt-macro-02",
+     "label": "Macro-Series #2",
+     "title": "Michelangelo",
+     "series": "Macro-Series",
+     "seriesName": "TMNT Macro-Series (2018)",
+     "num": "2",
+     "cv": {
+      "v": 114040,
+      "i": 689628
+     }
+    },
+    {
+     "id": "tmnt-macro-03",
+     "label": "Macro-Series #3",
+     "title": "Leonardo",
+     "series": "Macro-Series",
+     "seriesName": "TMNT Macro-Series (2018)",
+     "num": "3",
+     "cv": {
+      "v": 114040,
+      "i": 693316
+     }
+    },
+    {
+     "id": "tmnt-macro-04",
+     "label": "Macro-Series #4",
+     "title": "Raphael",
+     "series": "Macro-Series",
+     "seriesName": "TMNT Macro-Series (2018)",
+     "num": "4",
+     "cv": {
+      "v": 114040,
+      "i": 694777
+     }
+    },
+    {
+     "id": "tmnt-shedder-01",
+     "label": "Shredder in Hell #1",
+     "title": "",
+     "series": "Shredder in Hell",
+     "seriesName": "TMNT: Shredder in Hell (2019)",
+     "num": "1",
+     "cv": {
+      "v": 116481,
+      "i": 697378
+     }
+    },
+    {
+     "id": "tmnt-shedder-02",
+     "label": "Shredder in Hell #2",
+     "title": "",
+     "series": "Shredder in Hell",
+     "seriesName": "TMNT: Shredder in Hell (2019)",
+     "num": "2",
+     "cv": {
+      "v": 116481,
+      "i": 702767
+     }
+    },
+    {
+     "id": "tmnt-shedder-03",
+     "label": "Shredder in Hell #3",
+     "title": "",
+     "series": "Shredder in Hell",
+     "seriesName": "TMNT: Shredder in Hell (2019)",
+     "num": "3",
+     "cv": {
+      "v": 116481,
+      "i": 708989
+     }
+    },
+    {
+     "id": "tmnt-shedder-04",
+     "label": "Shredder in Hell #4",
+     "title": "",
+     "series": "Shredder in Hell",
+     "seriesName": "TMNT: Shredder in Hell (2019)",
+     "num": "4",
+     "cv": {
+      "v": 116481,
+      "i": 717255
+     }
+    },
+    {
+     "id": "tmnt-shedder-05",
+     "label": "Shredder in Hell #5",
+     "title": "",
+     "series": "Shredder in Hell",
+     "seriesName": "TMNT: Shredder in Hell (2019)",
+     "num": "5",
+     "cv": {
+      "v": 116481,
+      "i": 729536
+     }
+    },
+    {
+     "id": "tmnt-dimx-01",
+     "label": "Dimension X #1",
+     "title": "",
+     "series": "Dimension X",
+     "seriesName": "TMNT: Dimension X (2017)",
+     "num": "1",
+     "cv": {
+      "v": 103272,
+      "i": 612027
+     }
+    },
+    {
+     "id": "tmnt-dimx-02",
+     "label": "Dimension X #2",
+     "title": "",
+     "series": "Dimension X",
+     "seriesName": "TMNT: Dimension X (2017)",
+     "num": "2",
+     "cv": {
+      "v": 103272,
+      "i": 613617
+     }
+    },
+    {
+     "id": "tmnt-dimx-03",
+     "label": "Dimension X #3",
+     "title": "",
+     "series": "Dimension X",
+     "seriesName": "TMNT: Dimension X (2017)",
+     "num": "3",
+     "cv": {
+      "v": 103272,
+      "i": 614800
+     }
+    },
+    {
+     "id": "tmnt-dimx-04",
+     "label": "Dimension X #4",
+     "title": "",
+     "series": "Dimension X",
+     "seriesName": "TMNT: Dimension X (2017)",
+     "num": "4",
+     "cv": {
+      "v": 103272,
+      "i": 615778
+     }
+    },
+    {
+     "id": "tmnt-dimx-05",
+     "label": "Dimension X #5",
+     "title": "",
+     "series": "Dimension X",
+     "seriesName": "TMNT: Dimension X (2017)",
+     "num": "5",
+     "cv": {
+      "v": 103272,
+      "i": 617497
+     }
+    },
+    {
+     "id": "tmnt-bebop-01",
+     "label": "Bebop & Rocksteady #1",
+     "title": "",
+     "series": "Bebop & Rocksteady",
+     "seriesName": "TMNT: Bebop & Rocksteady Destroy Everything (2016)",
+     "num": "1",
+     "cv": {
+      "v": 90857,
+      "i": 532991
+     }
+    },
+    {
+     "id": "tmnt-bebop-02",
+     "label": "Bebop & Rocksteady #2",
+     "title": "",
+     "series": "Bebop & Rocksteady",
+     "seriesName": "TMNT: Bebop & Rocksteady Destroy Everything (2016)",
+     "num": "2",
+     "cv": {
+      "v": 90857,
+      "i": 534083
+     }
+    },
+    {
+     "id": "tmnt-bebop-03",
+     "label": "Bebop & Rocksteady #3",
+     "title": "",
+     "series": "Bebop & Rocksteady",
+     "seriesName": "TMNT: Bebop & Rocksteady Destroy Everything (2016)",
+     "num": "3",
+     "cv": {
+      "v": 90857,
+      "i": 535269
+     }
+    },
+    {
+     "id": "tmnt-bebop-04",
+     "label": "Bebop & Rocksteady #4",
+     "title": "",
+     "series": "Bebop & Rocksteady",
+     "seriesName": "TMNT: Bebop & Rocksteady Destroy Everything (2016)",
+     "num": "4",
+     "cv": {
+      "v": 90857,
+      "i": 537161
+     }
+    },
+    {
+     "id": "tmnt-bebop-05",
+     "label": "Bebop & Rocksteady #5",
+     "title": "",
+     "series": "Bebop & Rocksteady",
+     "seriesName": "TMNT: Bebop & Rocksteady Destroy Everything (2016)",
+     "num": "5",
+     "cv": {
+      "v": 90857,
+      "i": 537866
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-01",
+     "label": "Batman/TMNT #1",
+     "title": "Knights in a Half Shell",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "1",
+     "cv": {
+      "v": 86521,
+      "i": 507737
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-02",
+     "label": "Batman/TMNT #2",
+     "title": "Last Turtle Standing",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "2",
+     "cv": {
+      "v": 86521,
+      "i": 510911
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-03",
+     "label": "Batman/TMNT #3",
+     "title": "Totally Awesome Team-Up",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "3",
+     "cv": {
+      "v": 86521,
+      "i": 514399
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-04",
+     "label": "Batman/TMNT #4",
+     "title": "New Friends, Old Ghosts",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "4",
+     "cv": {
+      "v": 86521,
+      "i": 518829
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-05",
+     "label": "Batman/TMNT #5",
+     "title": "Deadly Mutant Arkham Inmates",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "5",
+     "cv": {
+      "v": 86521,
+      "i": 524994
+     }
+    },
+    {
+     "id": "tmnt-batmnt1-06",
+     "label": "Batman/TMNT #6",
+     "title": "The Way Home",
+     "series": "Batman/TMNT",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles (2015)",
+     "num": "6",
+     "cv": {
+      "v": 86521,
+      "i": 529620
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-01",
+     "label": "Batman/TMNT II #1",
+     "title": "A Knight In New York Part 1",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "1",
+     "cv": {
+      "v": 106667,
+      "i": 644468
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-02",
+     "label": "Batman/TMNT II #2",
+     "title": "A Knight In New York Part 2",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "2",
+     "cv": {
+      "v": 106667,
+      "i": 647907
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-03",
+     "label": "Batman/TMNT II #3",
+     "title": "A Knight In New York Part 3",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "3",
+     "cv": {
+      "v": 106667,
+      "i": 654028
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-04",
+     "label": "Batman/TMNT II #4",
+     "title": "A Knight In New York Part 4",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "4",
+     "cv": {
+      "v": 106667,
+      "i": 660624
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-05",
+     "label": "Batman/TMNT II #5",
+     "title": "A Knight In New York Part 5",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "5",
+     "cv": {
+      "v": 106667,
+      "i": 663541
+     }
+    },
+    {
+     "id": "tmnt-batmnt2-06",
+     "label": "Batman/TMNT II #6",
+     "title": "A Knight In New York Part 6",
+     "series": "Batman/TMNT II",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles II (2017)",
+     "num": "6",
+     "cv": {
+      "v": 106667,
+      "i": 666771
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-01",
+     "label": "Batman/TMNT III #1",
+     "title": "Crisis In A Half Shell",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "1",
+     "cv": {
+      "v": 118647,
+      "i": 707484
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-02",
+     "label": "Batman/TMNT III #2",
+     "title": "Crisis In A Half Shell Part 2",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "2",
+     "cv": {
+      "v": 118647,
+      "i": 710582
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-03",
+     "label": "Batman/TMNT III #3",
+     "title": "Crisis In A Half Shell Part 3",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "3",
+     "cv": {
+      "v": 118647,
+      "i": 712944
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-04",
+     "label": "Batman/TMNT III #4",
+     "title": "Crisis In A Half Shell Part 4",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "4",
+     "cv": {
+      "v": 118647,
+      "i": 715212
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-05",
+     "label": "Batman/TMNT III #5",
+     "title": "Crisis In A Half Shell Part 5",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "5",
+     "cv": {
+      "v": 118647,
+      "i": 717910
+     }
+    },
+    {
+     "id": "tmnt-batmnt3-06",
+     "label": "Batman/TMNT III #6",
+     "title": "Crisis In A Half Shell Part 6",
+     "series": "Batman/TMNT III",
+     "seriesName": "Batman/Teenage Mutant Ninja Turtles III (2019)",
+     "num": "6",
+     "cv": {
+      "v": 118647,
+      "i": 721036
+     }
+    }
+   ]
+  }
+ ]
+}
