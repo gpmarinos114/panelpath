@@ -1,0 +1,1239 @@
+{
+ "id": "avengers-hickman",
+ "title": "Avengers: Hickman's Saga",
+ "subtitle": "Avengers & New Avengers \u2192 Secret Wars (2012\u20132015)",
+ "credit": "The complete Hickman-authored Avengers saga: both flagship series, Infinity, and the road to Secret Wars \u2014 interleaved the way the story was designed to be read.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "The Road to Infinity",
+   "years": "2012\u20132013",
+   "color": "#1976d2",
+   "tagline": "The Illuminati's secret war and Earth's Mightiest Heroes, alternating.",
+   "buy": [
+    {
+     "label": "Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=Avengers+Jonathan+Hickman+Omnibus+Volume+1"
+    },
+    {
+     "label": "Avengers Vol. 1",
+     "url": "https://www.amazon.com/s?k=Avengers+Hickman+Volume+1"
+    },
+    {
+     "label": "New Avengers Vol. 1",
+     "url": "https://www.amazon.com/s?k=New+Avengers+Hickman+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "na-1",
+     "label": "New Avengers #1",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "1",
+     "cv": {
+      "v": 55330,
+      "i": 376665
+     }
+    },
+    {
+     "id": "na-2",
+     "label": "New Avengers #2",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "2",
+     "cv": {
+      "v": 55330,
+      "i": 380355
+     }
+    },
+    {
+     "id": "na-3",
+     "label": "New Avengers #3",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "3",
+     "cv": {
+      "v": 55330,
+      "i": 384960
+     }
+    },
+    {
+     "id": "av-1",
+     "label": "Avengers #1",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "1",
+     "cv": {
+      "v": 54428,
+      "i": 371103
+     }
+    },
+    {
+     "id": "av-2",
+     "label": "Avengers #2",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "2",
+     "cv": {
+      "v": 54428,
+      "i": 373217
+     }
+    },
+    {
+     "id": "av-3",
+     "label": "Avengers #3",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "3",
+     "cv": {
+      "v": 54428,
+      "i": 381411
+     }
+    },
+    {
+     "id": "av-4",
+     "label": "Avengers #4",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "4",
+     "cv": {
+      "v": 54428,
+      "i": 382803
+     }
+    },
+    {
+     "id": "av-5",
+     "label": "Avengers #5",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "5",
+     "cv": {
+      "v": 54428,
+      "i": 384953
+     }
+    },
+    {
+     "id": "av-6",
+     "label": "Avengers #6",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "6",
+     "cv": {
+      "v": 54428,
+      "i": 387252
+     }
+    },
+    {
+     "id": "na-4",
+     "label": "New Avengers #4",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "4",
+     "cv": {
+      "v": 55330,
+      "i": 394709
+     }
+    },
+    {
+     "id": "na-5",
+     "label": "New Avengers #5",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "5",
+     "cv": {
+      "v": 55330,
+      "i": 398990
+     }
+    },
+    {
+     "id": "na-6",
+     "label": "New Avengers #6",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "6",
+     "cv": {
+      "v": 55330,
+      "i": 406978
+     }
+    },
+    {
+     "id": "av-7",
+     "label": "Avengers #7",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "7",
+     "cv": {
+      "v": 54428,
+      "i": 390444
+     }
+    },
+    {
+     "id": "av-8",
+     "label": "Avengers #8",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "8",
+     "cv": {
+      "v": 54428,
+      "i": 394701
+     }
+    },
+    {
+     "id": "av-9",
+     "label": "Avengers #9",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "9",
+     "cv": {
+      "v": 54428,
+      "i": 396422
+     }
+    },
+    {
+     "id": "av-10",
+     "label": "Avengers #10",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "10",
+     "cv": {
+      "v": 54428,
+      "i": 398979
+     }
+    },
+    {
+     "id": "av-11",
+     "label": "Avengers #11",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "11",
+     "cv": {
+      "v": 54428,
+      "i": 401202
+     }
+    },
+    {
+     "id": "av-12",
+     "label": "Avengers #12",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "12",
+     "cv": {
+      "v": 54428,
+      "i": 404693
+     }
+    },
+    {
+     "id": "av-13",
+     "label": "Avengers #13",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "13",
+     "cv": {
+      "v": 54428,
+      "i": 408990
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "Infinity",
+   "years": "2013",
+   "color": "#f9a825",
+   "tagline": "The build-up, the event, and the aftermath \u2014 chapter by chapter.",
+   "buy": [
+    {
+     "label": "Infinity",
+     "url": "https://www.amazon.com/s?k=Infinity+Jonathan+Hickman"
+    },
+    {
+     "label": "Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=Avengers+Jonathan+Hickman+Omnibus+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "na-7",
+     "label": "New Avengers #7",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "7",
+     "cv": {
+      "v": 55330,
+      "i": 411831
+     }
+    },
+    {
+     "id": "av-14",
+     "label": "Avengers #14",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "14",
+     "cv": {
+      "v": 54428,
+      "i": 411825
+     }
+    },
+    {
+     "id": "av-15",
+     "label": "Avengers #15",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "15",
+     "cv": {
+      "v": 54428,
+      "i": 415233
+     }
+    },
+    {
+     "id": "av-16",
+     "label": "Avengers #16",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "16",
+     "cv": {
+      "v": 54428,
+      "i": 417831
+     }
+    },
+    {
+     "id": "av-17",
+     "label": "Avengers #17",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "17",
+     "cv": {
+      "v": 54428,
+      "i": 420634
+     }
+    },
+    {
+     "id": "inf-1",
+     "label": "Infinity #1",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "1",
+     "cv": {
+      "v": 66319,
+      "i": 421691
+     }
+    },
+    {
+     "id": "na-8",
+     "label": "New Avengers #8",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "8",
+     "cv": {
+      "v": 55330,
+      "i": 418821
+     }
+    },
+    {
+     "id": "av-18",
+     "label": "Avengers #18",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "18",
+     "cv": {
+      "v": 54428,
+      "i": 422493
+     }
+    },
+    {
+     "id": "na-9",
+     "label": "New Avengers #9",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "9",
+     "cv": {
+      "v": 55330,
+      "i": 423677
+     }
+    },
+    {
+     "id": "inf-2",
+     "label": "Infinity #2",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "2",
+     "cv": {
+      "v": 66319,
+      "i": 424535
+     }
+    },
+    {
+     "id": "na-10",
+     "label": "New Avengers #10",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "10",
+     "cv": {
+      "v": 55330,
+      "i": 425935
+     }
+    },
+    {
+     "id": "av-19",
+     "label": "Avengers #19",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "19",
+     "cv": {
+      "v": 54428,
+      "i": 425022
+     }
+    },
+    {
+     "id": "inf-3",
+     "label": "Infinity #3",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "3",
+     "cv": {
+      "v": 66319,
+      "i": 425933
+     }
+    },
+    {
+     "id": "av-20",
+     "label": "Avengers #20",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "20",
+     "cv": {
+      "v": 54428,
+      "i": 426871
+     }
+    },
+    {
+     "id": "inf-4",
+     "label": "Infinity #4",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "4",
+     "cv": {
+      "v": 66319,
+      "i": 428297
+     }
+    },
+    {
+     "id": "av-21",
+     "label": "Avengers #21",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "21",
+     "cv": {
+      "v": 54428,
+      "i": 428855
+     }
+    },
+    {
+     "id": "na-11",
+     "label": "New Avengers #11",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "11",
+     "cv": {
+      "v": 55330,
+      "i": 428865
+     }
+    },
+    {
+     "id": "inf-5",
+     "label": "Infinity #5",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "5",
+     "cv": {
+      "v": 66319,
+      "i": 431441
+     }
+    },
+    {
+     "id": "av-22",
+     "label": "Avengers #22",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "22",
+     "cv": {
+      "v": 54428,
+      "i": 431435
+     }
+    },
+    {
+     "id": "av-23",
+     "label": "Avengers #23",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "23",
+     "cv": {
+      "v": 54428,
+      "i": 433840
+     }
+    },
+    {
+     "id": "inf-6",
+     "label": "Infinity #6",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Infinity (Marvel, 2013)",
+     "num": "6",
+     "cv": {
+      "v": 66319,
+      "i": 435055
+     }
+    },
+    {
+     "id": "na-12",
+     "label": "New Avengers #12",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "12",
+     "cv": {
+      "v": 55330,
+      "i": 435060
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Aftermath & The Fall",
+   "years": "2013\u20132014",
+   "color": "#546e7a",
+   "tagline": "The post-Infinity era: new Avengers, new threats, the Illuminati's spiral.",
+   "buy": [
+    {
+     "label": "Omnibus Vol. 2",
+     "url": "https://www.amazon.com/s?k=Avengers+Jonathan+Hickman+Omnibus+Volume+2"
+    },
+    {
+     "label": "Avengers Vol. 5",
+     "url": "https://www.amazon.com/s?k=Avengers+Hickman+Volume+5"
+    }
+   ],
+   "items": [
+    {
+     "id": "av-24",
+     "label": "Avengers #24",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "24",
+     "cv": {
+      "v": 54428,
+      "i": 438378
+     }
+    },
+    {
+     "id": "na-13",
+     "label": "New Avengers #13",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "13",
+     "cv": {
+      "v": 55330,
+      "i": 440250
+     }
+    },
+    {
+     "id": "na-14",
+     "label": "New Avengers #14",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "14",
+     "cv": {
+      "v": 55330,
+      "i": 444535
+     }
+    },
+    {
+     "id": "na-15",
+     "label": "New Avengers #15",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "15",
+     "cv": {
+      "v": 55330,
+      "i": 447999
+     }
+    },
+    {
+     "id": "na-annual-1",
+     "label": "New Avengers Annual",
+     "title": "",
+     "series": "NAA",
+     "seriesName": "New Avengers Annual (Marvel, 2014)",
+     "num": "1",
+     "cv": {
+      "v": 75140,
+      "i": 457645
+     }
+    },
+    {
+     "id": "av-25",
+     "label": "Avengers #25",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "25",
+     "cv": {
+      "v": 54428,
+      "i": 442913
+     }
+    },
+    {
+     "id": "av-26",
+     "label": "Avengers #26",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "26",
+     "cv": {
+      "v": 54428,
+      "i": 445176
+     }
+    },
+    {
+     "id": "av-27",
+     "label": "Avengers #27",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "27",
+     "cv": {
+      "v": 54428,
+      "i": 448962
+     }
+    },
+    {
+     "id": "av-28",
+     "label": "Avengers #28",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "28",
+     "cv": {
+      "v": 54428,
+      "i": 451765
+     }
+    },
+    {
+     "id": "av-29",
+     "label": "Avengers #29",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "29",
+     "cv": {
+      "v": 54428,
+      "i": 452846
+     }
+    },
+    {
+     "id": "av-30",
+     "label": "Avengers #30",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "30",
+     "cv": {
+      "v": 54428,
+      "i": 454094
+     }
+    },
+    {
+     "id": "av-31",
+     "label": "Avengers #31",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "31",
+     "cv": {
+      "v": 54428,
+      "i": 456544
+     }
+    },
+    {
+     "id": "av-32",
+     "label": "Avengers #32",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "32",
+     "cv": {
+      "v": 54428,
+      "i": 459164
+     }
+    },
+    {
+     "id": "av-33",
+     "label": "Avengers #33",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "33",
+     "cv": {
+      "v": 54428,
+      "i": 460962
+     }
+    },
+    {
+     "id": "av-34",
+     "label": "Avengers #34",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "34",
+     "cv": {
+      "v": 54428,
+      "i": 463478
+     }
+    },
+    {
+     "id": "av-34-2",
+     "label": "Avengers #34.2",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "34.2",
+     "cv": {
+      "v": 54428,
+      "i": 475931
+     }
+    },
+    {
+     "id": "na-16",
+     "label": "New Avengers #16",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "16",
+     "cv": {
+      "v": 55330,
+      "i": 448973
+     }
+    },
+    {
+     "id": "na-17",
+     "label": "New Avengers #17",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "17",
+     "cv": {
+      "v": 55330,
+      "i": 451770
+     }
+    },
+    {
+     "id": "na-18",
+     "label": "New Avengers #18",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "18",
+     "cv": {
+      "v": 55330,
+      "i": 452855
+     }
+    },
+    {
+     "id": "na-19",
+     "label": "New Avengers #19",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "19",
+     "cv": {
+      "v": 55330,
+      "i": 456026
+     }
+    },
+    {
+     "id": "na-20",
+     "label": "New Avengers #20",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "20",
+     "cv": {
+      "v": 55330,
+      "i": 457644
+     }
+    },
+    {
+     "id": "na-21",
+     "label": "New Avengers #21",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "21",
+     "cv": {
+      "v": 55330,
+      "i": 460969
+     }
+    },
+    {
+     "id": "na-22",
+     "label": "New Avengers #22",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "22",
+     "cv": {
+      "v": 55330,
+      "i": 461731
+     }
+    },
+    {
+     "id": "na-23",
+     "label": "New Avengers #23",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "23",
+     "cv": {
+      "v": 55330,
+      "i": 462896
+     }
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "name": "Time Runs Out",
+   "years": "2014\u20132015",
+   "color": "#d32f2f",
+   "tagline": "Eight months later: Avengers and New Avengers as one story, alternating to the end.",
+   "buy": [
+    {
+     "label": "Time Runs Out Vol. 1",
+     "url": "https://www.amazon.com/s?k=Avengers+Time+Runs+Out+Volume+1"
+    },
+    {
+     "label": "Time Runs Out Vol. 2",
+     "url": "https://www.amazon.com/s?k=Avengers+Time+Runs+Out+Volume+2"
+    },
+    {
+     "label": "Omnibus Vol. 2",
+     "url": "https://www.amazon.com/s?k=Avengers+Jonathan+Hickman+Omnibus+Volume+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "av-35",
+     "label": "Avengers #35",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "35",
+     "cv": {
+      "v": 54428,
+      "i": 465837
+     }
+    },
+    {
+     "id": "na-24",
+     "label": "New Avengers #24",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "24",
+     "cv": {
+      "v": 55330,
+      "i": 466332
+     }
+    },
+    {
+     "id": "av-36",
+     "label": "Avengers #36",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "36",
+     "cv": {
+      "v": 54428,
+      "i": 467647
+     }
+    },
+    {
+     "id": "na-25",
+     "label": "New Avengers #25",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "25",
+     "cv": {
+      "v": 55330,
+      "i": 468084
+     }
+    },
+    {
+     "id": "av-37",
+     "label": "Avengers #37",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "37",
+     "cv": {
+      "v": 54428,
+      "i": 468457
+     }
+    },
+    {
+     "id": "na-26",
+     "label": "New Avengers #26",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "26",
+     "cv": {
+      "v": 55330,
+      "i": 470433
+     }
+    },
+    {
+     "id": "av-38",
+     "label": "Avengers #38",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "38",
+     "cv": {
+      "v": 54428,
+      "i": 470417
+     }
+    },
+    {
+     "id": "na-27",
+     "label": "New Avengers #27",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "27",
+     "cv": {
+      "v": 55330,
+      "i": 471318
+     }
+    },
+    {
+     "id": "av-39",
+     "label": "Avengers #39",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "39",
+     "cv": {
+      "v": 54428,
+      "i": 472900
+     }
+    },
+    {
+     "id": "na-28",
+     "label": "New Avengers #28",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "28",
+     "cv": {
+      "v": 55330,
+      "i": 474632
+     }
+    },
+    {
+     "id": "av-40",
+     "label": "Avengers #40",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "40",
+     "cv": {
+      "v": 54428,
+      "i": 475932
+     }
+    },
+    {
+     "id": "na-29",
+     "label": "New Avengers #29",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "29",
+     "cv": {
+      "v": 55330,
+      "i": 477851
+     }
+    },
+    {
+     "id": "av-41",
+     "label": "Avengers #41",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "41",
+     "cv": {
+      "v": 54428,
+      "i": 478606
+     }
+    },
+    {
+     "id": "na-30",
+     "label": "New Avengers #30",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "30",
+     "cv": {
+      "v": 55330,
+      "i": 480676
+     }
+    },
+    {
+     "id": "av-42",
+     "label": "Avengers #42",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "42",
+     "cv": {
+      "v": 54428,
+      "i": 481605
+     }
+    },
+    {
+     "id": "na-31",
+     "label": "New Avengers #31",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "31",
+     "cv": {
+      "v": 55330,
+      "i": 482160
+     }
+    },
+    {
+     "id": "na-32",
+     "label": "New Avengers #32",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "32",
+     "cv": {
+      "v": 55330,
+      "i": 483355
+     }
+    },
+    {
+     "id": "av-43",
+     "label": "Avengers #43",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "43",
+     "cv": {
+      "v": 54428,
+      "i": 484889
+     }
+    },
+    {
+     "id": "na-33",
+     "label": "New Avengers #33",
+     "title": "",
+     "series": "NA",
+     "seriesName": "New Avengers (Marvel, 2013)",
+     "num": "33",
+     "cv": {
+      "v": 55330,
+      "i": 487208
+     }
+    },
+    {
+     "id": "av-44",
+     "label": "Avengers #44",
+     "title": "",
+     "series": "AV",
+     "seriesName": "Avengers (Marvel, 2013)",
+     "num": "44",
+     "cv": {
+      "v": 54428,
+      "i": 487201
+     }
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "name": "Secret Wars",
+   "years": "2015",
+   "color": "#7e57c2",
+   "tagline": "The end of everything \u2014 and Battleworld.",
+   "buy": [
+    {
+     "label": "Secret Wars",
+     "url": "https://www.amazon.com/s?k=Secret+Wars+2015+Jonathan+Hickman"
+    },
+    {
+     "label": "Secret Wars Box Set",
+     "url": "https://www.amazon.com/s?k=Secret+Wars+Box+Set+Hickman"
+    }
+   ],
+   "items": [
+    {
+     "id": "sw-1",
+     "label": "Secret Wars #1",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "1",
+     "cv": {
+      "v": 81833,
+      "i": 487843
+     }
+    },
+    {
+     "id": "sw-2",
+     "label": "Secret Wars #2",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "2",
+     "cv": {
+      "v": 81833,
+      "i": 488656
+     }
+    },
+    {
+     "id": "sw-3",
+     "label": "Secret Wars #3",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "3",
+     "cv": {
+      "v": 81833,
+      "i": 490887
+     }
+    },
+    {
+     "id": "sw-4",
+     "label": "Secret Wars #4",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "4",
+     "cv": {
+      "v": 81833,
+      "i": 493798
+     }
+    },
+    {
+     "id": "sw-5",
+     "label": "Secret Wars #5",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "5",
+     "cv": {
+      "v": 81833,
+      "i": 497397
+     }
+    },
+    {
+     "id": "sw-6",
+     "label": "Secret Wars #6",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "6",
+     "cv": {
+      "v": 81833,
+      "i": 502130
+     }
+    },
+    {
+     "id": "sw-7",
+     "label": "Secret Wars #7",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "7",
+     "cv": {
+      "v": 81833,
+      "i": 505522
+     }
+    },
+    {
+     "id": "sw-8",
+     "label": "Secret Wars #8",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "8",
+     "cv": {
+      "v": 81833,
+      "i": 507780
+     }
+    },
+    {
+     "id": "sw-9",
+     "label": "Secret Wars #9",
+     "title": "",
+     "series": "SW",
+     "seriesName": "Secret Wars (Marvel, 2015)",
+     "num": "9",
+     "cv": {
+      "v": 81833,
+      "i": 510951
+     }
+    }
+   ]
+  }
+ ]
+}

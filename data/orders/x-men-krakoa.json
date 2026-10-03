@@ -1,0 +1,1710 @@
+{
+ "id": "x-men-krakoa",
+ "title": "X-Men: The Krakoa Era",
+ "subtitle": "The essential line, phase by phase (2019\u20132024)",
+ "credit": "The core Krakoan line in reading order: Hickman's era, the line-wide events (X of Swords, Hellfire Gala, Inferno), and the Gillen/Ewing finale. The most-requested X-Men reading order of the modern era.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "House of X / Powers of X",
+   "years": "2019",
+   "color": "#7e57c2",
+   "tagline": "The twin miniseries that launched Krakoa \u2014 read in the official alternating order.",
+   "buy": [
+    {
+     "label": "House of X / Powers of X",
+     "url": "https://www.amazon.com/s?k=House+of+X+Powers+of+X"
+    },
+    {
+     "label": "Oversize Hardcover",
+     "url": "https://www.amazon.com/s?k=House+of+X+Powers+of+X+Oversize+Hardcover"
+    }
+   ],
+   "items": [
+    {
+     "id": "hox-1",
+     "label": "House of X #1",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "1",
+     "cv": {
+      "v": 120309,
+      "i": 714236
+     }
+    },
+    {
+     "id": "pox-1",
+     "label": "Powers of X #1",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "1",
+     "cv": {
+      "v": 120407,
+      "i": 714669
+     }
+    },
+    {
+     "id": "hox-2",
+     "label": "House of X #2",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "2",
+     "cv": {
+      "v": 120309,
+      "i": 715306
+     }
+    },
+    {
+     "id": "pox-2",
+     "label": "Powers of X #2",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "2",
+     "cv": {
+      "v": 120407,
+      "i": 716371
+     }
+    },
+    {
+     "id": "pox-3",
+     "label": "Powers of X #3",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "3",
+     "cv": {
+      "v": 120407,
+      "i": 716968
+     }
+    },
+    {
+     "id": "hox-3",
+     "label": "House of X #3",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "3",
+     "cv": {
+      "v": 120309,
+      "i": 717519
+     }
+    },
+    {
+     "id": "hox-4",
+     "label": "House of X #4",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "4",
+     "cv": {
+      "v": 120309,
+      "i": 718128
+     }
+    },
+    {
+     "id": "pox-4",
+     "label": "Powers of X #4",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "4",
+     "cv": {
+      "v": 120407,
+      "i": 718763
+     }
+    },
+    {
+     "id": "hox-5",
+     "label": "House of X #5",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "5",
+     "cv": {
+      "v": 120309,
+      "i": 719439
+     }
+    },
+    {
+     "id": "pox-5",
+     "label": "Powers of X #5",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "5",
+     "cv": {
+      "v": 120407,
+      "i": 720169
+     }
+    },
+    {
+     "id": "hox-6",
+     "label": "House of X #6",
+     "title": "",
+     "series": "HOX",
+     "seriesName": "House of X (Marvel, 2019)",
+     "num": "6",
+     "cv": {
+      "v": 120309,
+      "i": 721154
+     }
+    },
+    {
+     "id": "pox-6",
+     "label": "Powers of X #6",
+     "title": "",
+     "series": "POX",
+     "seriesName": "Powers of X (Marvel, 2019)",
+     "num": "6",
+     "cv": {
+      "v": 120407,
+      "i": 721789
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "Dawn of X \u2014 Hickman's X-Men",
+   "years": "2019\u20132020",
+   "color": "#26a69a",
+   "tagline": "The flagship run plus the Giant-Size one-shots at their chapter spots.",
+   "buy": [
+    {
+     "label": "Dawn of X Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=X-Men+Age+of+Krakoa+Dawn+of+X+Omnibus+Volume+1"
+    },
+    {
+     "label": "X-Men by Hickman Vol. 1",
+     "url": "https://www.amazon.com/s?k=X-Men+Jonathan+Hickman+Volume+1"
+    },
+    {
+     "label": "X-Men by Hickman Vol. 2",
+     "url": "https://www.amazon.com/s?k=X-Men+Jonathan+Hickman+Volume+2"
+    },
+    {
+     "label": "Giant-Size X-Men",
+     "url": "https://www.amazon.com/s?k=Giant-Size+X-Men+Jonathan+Hickman"
+    },
+    {
+     "label": "Hickman Omnibus",
+     "url": "https://www.amazon.com/s?k=X-Men+Jonathan+Hickman+Omnibus"
+    }
+   ],
+   "items": [
+    {
+     "id": "xm2019-1",
+     "label": "X-Men #1",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "1",
+     "cv": {
+      "v": 122077,
+      "i": 723121
+     }
+    },
+    {
+     "id": "xm2019-2",
+     "label": "X-Men #2",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "2",
+     "cv": {
+      "v": 122077,
+      "i": 727273
+     }
+    },
+    {
+     "id": "xm2019-3",
+     "label": "X-Men #3",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "3",
+     "cv": {
+      "v": 122077,
+      "i": 729692
+     }
+    },
+    {
+     "id": "xm2019-4",
+     "label": "X-Men #4",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "4",
+     "cv": {
+      "v": 122077,
+      "i": 731983
+     }
+    },
+    {
+     "id": "gsxm-jeanemma",
+     "label": "Giant-Size X-Men: Jean Grey & Emma Frost",
+     "title": "",
+     "series": "GSXM",
+     "seriesName": "Giant-Size X-Men: Jean Grey and Emma Frost (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 125302,
+      "i": 738612
+     }
+    },
+    {
+     "id": "xm2019-5",
+     "label": "X-Men #5",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "5",
+     "cv": {
+      "v": 122077,
+      "i": 735535
+     }
+    },
+    {
+     "id": "xm2019-6",
+     "label": "X-Men #6",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "6",
+     "cv": {
+      "v": 122077,
+      "i": 737173
+     }
+    },
+    {
+     "id": "gsxm-nightcrawler",
+     "label": "Giant-Size X-Men: Nightcrawler",
+     "title": "",
+     "series": "GSXM",
+     "seriesName": "Giant-Size X-Men: Nightcrawler (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 126014,
+      "i": 743439
+     }
+    },
+    {
+     "id": "xm2019-7",
+     "label": "X-Men #7",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "7",
+     "cv": {
+      "v": 122077,
+      "i": 738623
+     }
+    },
+    {
+     "id": "xm2019-8",
+     "label": "X-Men #8",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "8",
+     "cv": {
+      "v": 122077,
+      "i": 740832
+     }
+    },
+    {
+     "id": "gsxm-magneto",
+     "label": "Giant-Size X-Men: Magneto",
+     "title": "",
+     "series": "GSXM",
+     "seriesName": "Giant-Size X-Men: Magneto (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 128617,
+      "i": 779007
+     }
+    },
+    {
+     "id": "xm2019-9",
+     "label": "X-Men #9",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "9",
+     "cv": {
+      "v": 122077,
+      "i": 743453
+     }
+    },
+    {
+     "id": "gsxm-fantomex",
+     "label": "Giant-Size X-Men: Fantomex",
+     "title": "",
+     "series": "GSXM",
+     "seriesName": "Giant-Size X-Men: Fantomex (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 129245,
+      "i": 787352
+     }
+    },
+    {
+     "id": "xm2019-10",
+     "label": "X-Men #10",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "10",
+     "cv": {
+      "v": 122077,
+      "i": 784126
+     }
+    },
+    {
+     "id": "xm2019-11",
+     "label": "X-Men #11",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "11",
+     "cv": {
+      "v": 122077,
+      "i": 796303
+     }
+    },
+    {
+     "id": "gsxm-storm",
+     "label": "Giant-Size X-Men: Storm",
+     "title": "",
+     "series": "GSXM",
+     "seriesName": "Giant-Size X-Men: Storm (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 130395,
+      "i": 799948
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "X of Swords",
+   "years": "2020",
+   "color": "#ef6c00",
+   "tagline": "All 22 chapters of the tournament of swords, in order.",
+   "buy": [
+    {
+     "label": "X of Swords",
+     "url": "https://www.amazon.com/s?k=X+of+Swords"
+    },
+    {
+     "label": "X of Swords Hardcover",
+     "url": "https://www.amazon.com/s?k=X+of+Swords+Hardcover"
+    }
+   ],
+   "items": [
+    {
+     "id": "xm2019-12",
+     "label": "X-Men #12",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "12",
+     "cv": {
+      "v": 122077,
+      "i": 799956
+     }
+    },
+    {
+     "id": "xos-creation",
+     "label": "X of Swords: Creation",
+     "title": "",
+     "series": "XOS",
+     "seriesName": "X of Swords: Creation (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 130569,
+      "i": 803652
+     }
+    },
+    {
+     "id": "xfactor-4",
+     "label": "X-Factor #4",
+     "title": "",
+     "series": "XF",
+     "seriesName": "X-Factor (Marvel, 2020)",
+     "num": "4",
+     "cv": {
+      "v": 129097,
+      "i": 805100
+     }
+    },
+    {
+     "id": "wolverine-6",
+     "label": "Wolverine #6",
+     "title": "",
+     "series": "WOLV",
+     "seriesName": "Wolverine (Marvel, 2020)",
+     "num": "6",
+     "cv": {
+      "v": 125121,
+      "i": 807579
+     }
+    },
+    {
+     "id": "xforce-13",
+     "label": "X-Force #13",
+     "title": "",
+     "series": "XFORCE",
+     "seriesName": "X-Force (Marvel, 2020)",
+     "num": "13",
+     "cv": {
+      "v": 122668,
+      "i": 807580
+     }
+    },
+    {
+     "id": "marauders-13",
+     "label": "Marauders #13",
+     "title": "",
+     "series": "MAR",
+     "seriesName": "Marauders (Marvel, 2019)",
+     "num": "13",
+     "cv": {
+      "v": 122218,
+      "i": 807571
+     }
+    },
+    {
+     "id": "hellions-5",
+     "label": "Hellions #5",
+     "title": "",
+     "series": "HEL",
+     "seriesName": "Hellions (Marvel, 2020)",
+     "num": "5",
+     "cv": {
+      "v": 126015,
+      "i": 810727
+     }
+    },
+    {
+     "id": "newmutants-13",
+     "label": "New Mutants #13",
+     "title": "",
+     "series": "NM",
+     "seriesName": "New Mutants (Marvel, 2020)",
+     "num": "13",
+     "cv": {
+      "v": 122666,
+      "i": 810730
+     }
+    },
+    {
+     "id": "cable-5",
+     "label": "Cable #5",
+     "title": "",
+     "series": "CAB",
+     "seriesName": "Cable (Marvel, 2020)",
+     "num": "5",
+     "cv": {
+      "v": 125678,
+      "i": 810724
+     }
+    },
+    {
+     "id": "excalibur-13",
+     "label": "Excalibur #13",
+     "title": "",
+     "series": "EXC",
+     "seriesName": "Excalibur (Marvel, 2019)",
+     "num": "13",
+     "cv": {
+      "v": 122488,
+      "i": 813279
+     }
+    },
+    {
+     "id": "xm2019-13",
+     "label": "X-Men #13",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "13",
+     "cv": {
+      "v": 122077,
+      "i": 813291
+     }
+    },
+    {
+     "id": "xos-stasis",
+     "label": "X of Swords: Stasis",
+     "title": "",
+     "series": "XOS",
+     "seriesName": "X of Swords: Stasis (Marvel, 2020)",
+     "num": "",
+     "cv": {
+      "v": 131525,
+      "i": 814483
+     }
+    },
+    {
+     "id": "xm2019-14",
+     "label": "X-Men #14",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "14",
+     "cv": {
+      "v": 122077,
+      "i": 816456
+     }
+    },
+    {
+     "id": "marauders-14",
+     "label": "Marauders #14",
+     "title": "",
+     "series": "MAR",
+     "seriesName": "Marauders (Marvel, 2019)",
+     "num": "14",
+     "cv": {
+      "v": 122218,
+      "i": 816455
+     }
+    },
+    {
+     "id": "marauders-15",
+     "label": "Marauders #15",
+     "title": "",
+     "series": "MAR",
+     "seriesName": "Marauders (Marvel, 2019)",
+     "num": "15",
+     "cv": {
+      "v": 122218,
+      "i": 817705
+     }
+    },
+    {
+     "id": "excalibur-14",
+     "label": "Excalibur #14",
+     "title": "",
+     "series": "EXC",
+     "seriesName": "Excalibur (Marvel, 2019)",
+     "num": "14",
+     "cv": {
+      "v": 122488,
+      "i": 817704
+     }
+    },
+    {
+     "id": "wolverine-7",
+     "label": "Wolverine #7",
+     "title": "",
+     "series": "WOLV",
+     "seriesName": "Wolverine (Marvel, 2020)",
+     "num": "7",
+     "cv": {
+      "v": 125121,
+      "i": 817706
+     }
+    },
+    {
+     "id": "xforce-14",
+     "label": "X-Force #14",
+     "title": "",
+     "series": "XFORCE",
+     "seriesName": "X-Force (Marvel, 2020)",
+     "num": "14",
+     "cv": {
+      "v": 122668,
+      "i": 819097
+     }
+    },
+    {
+     "id": "hellions-6",
+     "label": "Hellions #6",
+     "title": "",
+     "series": "HEL",
+     "seriesName": "Hellions (Marvel, 2020)",
+     "num": "6",
+     "cv": {
+      "v": 126015,
+      "i": 819096
+     }
+    },
+    {
+     "id": "cable-6",
+     "label": "Cable #6",
+     "title": "",
+     "series": "CAB",
+     "seriesName": "Cable (Marvel, 2020)",
+     "num": "6",
+     "cv": {
+      "v": 125678,
+      "i": 819095
+     }
+    },
+    {
+     "id": "xm2019-15",
+     "label": "X-Men #15",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "15",
+     "cv": {
+      "v": 122077,
+      "i": 819479
+     }
+    },
+    {
+     "id": "excalibur-15",
+     "label": "Excalibur #15",
+     "title": "",
+     "series": "EXC",
+     "seriesName": "Excalibur (Marvel, 2019)",
+     "num": "15",
+     "cv": {
+      "v": 122488,
+      "i": 819478
+     }
+    },
+    {
+     "id": "xos-destruction",
+     "label": "X of Swords: Destruction",
+     "title": "",
+     "series": "XOS",
+     "seriesName": "X of Swords: Destruction (Marvel, 2021)",
+     "num": "",
+     "cv": {
+      "v": 132228,
+      "i": 819480
+     }
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "name": "Reign of X \u2014 Hickman's Endgame",
+   "years": "2021",
+   "color": "#5c6bc0",
+   "tagline": "The Hellfire Gala era and Hickman's farewell: Inferno.",
+   "buy": [
+    {
+     "label": "Hickman Omnibus",
+     "url": "https://www.amazon.com/s?k=X-Men+Jonathan+Hickman+Omnibus"
+    },
+    {
+     "label": "Hellfire Gala Red Carpet",
+     "url": "https://www.amazon.com/s?k=X-Men+Hellfire+Gala+Red+Carpet+Edition"
+    },
+    {
+     "label": "Inferno",
+     "url": "https://www.amazon.com/s?k=Inferno+Jonathan+Hickman"
+    }
+   ],
+   "items": [
+    {
+     "id": "xm2019-16",
+     "label": "X-Men #16",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "16",
+     "cv": {
+      "v": 122077,
+      "i": 823351
+     }
+    },
+    {
+     "id": "xm2019-17",
+     "label": "X-Men #17",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "17",
+     "cv": {
+      "v": 122077,
+      "i": 826566
+     }
+    },
+    {
+     "id": "xm2019-18",
+     "label": "X-Men #18",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "18",
+     "cv": {
+      "v": 122077,
+      "i": 830036
+     }
+    },
+    {
+     "id": "xm2019-19",
+     "label": "X-Men #19",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "19",
+     "cv": {
+      "v": 122077,
+      "i": 840961
+     }
+    },
+    {
+     "id": "xm2019-20",
+     "label": "X-Men #20",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "20",
+     "cv": {
+      "v": 122077,
+      "i": 855634
+     }
+    },
+    {
+     "id": "xm2019-21",
+     "label": "X-Men #21",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2019)",
+     "num": "21",
+     "cv": {
+      "v": 122077,
+      "i": 858873
+     }
+    },
+    {
+     "id": "planetsize",
+     "label": "Planet-Size X-Men",
+     "title": "",
+     "series": "PSXM",
+     "seriesName": "Planet-Size X-Men (Marvel, 2021)",
+     "num": "",
+     "cv": {
+      "v": 136937,
+      "i": 861642
+     }
+    },
+    {
+     "id": "inferno-1",
+     "label": "Inferno #1",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Inferno (Marvel, 2021)",
+     "num": "1",
+     "cv": {
+      "v": 139289,
+      "i": 886937
+     }
+    },
+    {
+     "id": "inferno-2",
+     "label": "Inferno #2",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Inferno (Marvel, 2021)",
+     "num": "2",
+     "cv": {
+      "v": 139289,
+      "i": 891562
+     }
+    },
+    {
+     "id": "inferno-3",
+     "label": "Inferno #3",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Inferno (Marvel, 2021)",
+     "num": "3",
+     "cv": {
+      "v": 139289,
+      "i": 897331
+     }
+    },
+    {
+     "id": "inferno-4",
+     "label": "Inferno #4",
+     "title": "",
+     "series": "INF",
+     "seriesName": "Inferno (Marvel, 2021)",
+     "num": "4",
+     "cv": {
+      "v": 139289,
+      "i": 901345
+     }
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "name": "Destiny of X \u2014 Gillen & Ewing",
+   "years": "2021\u20132023",
+   "color": "#d32f2f",
+   "tagline": "The Quiet Council and the Storm of Mars. (Read A.X.E.: Judgment Day and Sins of Sinister in between for the full line.)",
+   "buy": [
+    {
+     "label": "S.W.O.R.D.",
+     "url": "https://www.amazon.com/s?k=S.W.O.R.D.+Al+Ewing"
+    },
+    {
+     "label": "Immortal X-Men Vol. 1",
+     "url": "https://www.amazon.com/s?k=Immortal+X-Men+Volume+1"
+    },
+    {
+     "label": "X-Men Red Vol. 1",
+     "url": "https://www.amazon.com/s?k=X-Men+Red+Al+Ewing+Volume+1"
+    },
+    {
+     "label": "Ewing Omnibus",
+     "url": "https://www.amazon.com/s?k=X-Men+Al+Ewing+Omnibus"
+    }
+   ],
+   "items": [
+    {
+     "id": "sword-1",
+     "label": "S.W.O.R.D. #1",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "1",
+     "cv": {
+      "v": 132511,
+      "i": 820748
+     }
+    },
+    {
+     "id": "sword-2",
+     "label": "S.W.O.R.D. #2",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "2",
+     "cv": {
+      "v": 132511,
+      "i": 824453
+     }
+    },
+    {
+     "id": "sword-3",
+     "label": "S.W.O.R.D. #3",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "3",
+     "cv": {
+      "v": 132511,
+      "i": 828197
+     }
+    },
+    {
+     "id": "sword-4",
+     "label": "S.W.O.R.D. #4",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "4",
+     "cv": {
+      "v": 132511,
+      "i": 838885
+     }
+    },
+    {
+     "id": "sword-5",
+     "label": "S.W.O.R.D. #5",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "5",
+     "cv": {
+      "v": 132511,
+      "i": 844973
+     }
+    },
+    {
+     "id": "sword-6",
+     "label": "S.W.O.R.D. #6",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "6",
+     "cv": {
+      "v": 132511,
+      "i": 863852
+     }
+    },
+    {
+     "id": "sword-7",
+     "label": "S.W.O.R.D. #7",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "7",
+     "cv": {
+      "v": 132511,
+      "i": 874522
+     }
+    },
+    {
+     "id": "sword-8",
+     "label": "S.W.O.R.D. #8",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "8",
+     "cv": {
+      "v": 132511,
+      "i": 886939
+     }
+    },
+    {
+     "id": "sword-9",
+     "label": "S.W.O.R.D. #9",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "9",
+     "cv": {
+      "v": 132511,
+      "i": 891564
+     }
+    },
+    {
+     "id": "sword-10",
+     "label": "S.W.O.R.D. #10",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "10",
+     "cv": {
+      "v": 132511,
+      "i": 894139
+     }
+    },
+    {
+     "id": "sword-11",
+     "label": "S.W.O.R.D. #11",
+     "title": "",
+     "series": "SWORD",
+     "seriesName": "S.W.O.R.D. (Marvel, 2021)",
+     "num": "11",
+     "cv": {
+      "v": 132511,
+      "i": 899166
+     }
+    },
+    {
+     "id": "immortal-1",
+     "label": "Immortal X-Men #1",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "1",
+     "cv": {
+      "v": 142053,
+      "i": 913161
+     }
+    },
+    {
+     "id": "immortal-2",
+     "label": "Immortal X-Men #2",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "2",
+     "cv": {
+      "v": 142053,
+      "i": 924799
+     }
+    },
+    {
+     "id": "immortal-3",
+     "label": "Immortal X-Men #3",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "3",
+     "cv": {
+      "v": 142053,
+      "i": 931630
+     }
+    },
+    {
+     "id": "immortal-4",
+     "label": "Immortal X-Men #4",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "4",
+     "cv": {
+      "v": 142053,
+      "i": 935751
+     }
+    },
+    {
+     "id": "immortal-5",
+     "label": "Immortal X-Men #5",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "5",
+     "cv": {
+      "v": 142053,
+      "i": 940226
+     }
+    },
+    {
+     "id": "immortal-6",
+     "label": "Immortal X-Men #6",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "6",
+     "cv": {
+      "v": 142053,
+      "i": 946148
+     }
+    },
+    {
+     "id": "immortal-7",
+     "label": "Immortal X-Men #7",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "7",
+     "cv": {
+      "v": 142053,
+      "i": 950483
+     }
+    },
+    {
+     "id": "immortal-8",
+     "label": "Immortal X-Men #8",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "8",
+     "cv": {
+      "v": 142053,
+      "i": 955124
+     }
+    },
+    {
+     "id": "immortal-9",
+     "label": "Immortal X-Men #9",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "9",
+     "cv": {
+      "v": 142053,
+      "i": 958983
+     }
+    },
+    {
+     "id": "immortal-10",
+     "label": "Immortal X-Men #10",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "10",
+     "cv": {
+      "v": 142053,
+      "i": 964967
+     }
+    },
+    {
+     "id": "immortal-11",
+     "label": "Immortal X-Men #11",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "11",
+     "cv": {
+      "v": 142053,
+      "i": 987132
+     }
+    },
+    {
+     "id": "immortal-12",
+     "label": "Immortal X-Men #12",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "12",
+     "cv": {
+      "v": 142053,
+      "i": 993232
+     }
+    },
+    {
+     "id": "immortal-13",
+     "label": "Immortal X-Men #13",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "13",
+     "cv": {
+      "v": 142053,
+      "i": 1000231
+     }
+    },
+    {
+     "id": "immortal-14",
+     "label": "Immortal X-Men #14",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "14",
+     "cv": {
+      "v": 142053,
+      "i": 1006441
+     }
+    },
+    {
+     "id": "immortal-15",
+     "label": "Immortal X-Men #15",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "15",
+     "cv": {
+      "v": 142053,
+      "i": 1011780
+     }
+    },
+    {
+     "id": "immortal-16",
+     "label": "Immortal X-Men #16",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "16",
+     "cv": {
+      "v": 142053,
+      "i": 1020537
+     }
+    },
+    {
+     "id": "immortal-17",
+     "label": "Immortal X-Men #17",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "17",
+     "cv": {
+      "v": 142053,
+      "i": 1030784
+     }
+    },
+    {
+     "id": "immortal-18",
+     "label": "Immortal X-Men #18",
+     "title": "",
+     "series": "IMX",
+     "seriesName": "Immortal X-Men (Marvel, 2022)",
+     "num": "18",
+     "cv": {
+      "v": 142053,
+      "i": 1038387
+     }
+    },
+    {
+     "id": "xmenred-1",
+     "label": "X-Men Red #1",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "1",
+     "cv": {
+      "v": 142134,
+      "i": 914549
+     }
+    },
+    {
+     "id": "xmenred-2",
+     "label": "X-Men Red #2",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "2",
+     "cv": {
+      "v": 142134,
+      "i": 924793
+     }
+    },
+    {
+     "id": "xmenred-3",
+     "label": "X-Men Red #3",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "3",
+     "cv": {
+      "v": 142134,
+      "i": 930978
+     }
+    },
+    {
+     "id": "xmenred-4",
+     "label": "X-Men Red #4",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "4",
+     "cv": {
+      "v": 142134,
+      "i": 933084
+     }
+    },
+    {
+     "id": "xmenred-5",
+     "label": "X-Men Red #5",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "5",
+     "cv": {
+      "v": 142134,
+      "i": 940222
+     }
+    },
+    {
+     "id": "xmenred-6",
+     "label": "X-Men Red #6",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "6",
+     "cv": {
+      "v": 142134,
+      "i": 946725
+     }
+    },
+    {
+     "id": "xmenred-7",
+     "label": "X-Men Red #7",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "7",
+     "cv": {
+      "v": 142134,
+      "i": 949645
+     }
+    },
+    {
+     "id": "xmenred-8",
+     "label": "X-Men Red #8",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "8",
+     "cv": {
+      "v": 142134,
+      "i": 953033
+     }
+    },
+    {
+     "id": "xmenred-9",
+     "label": "X-Men Red #9",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "9",
+     "cv": {
+      "v": 142134,
+      "i": 958991
+     }
+    },
+    {
+     "id": "xmenred-10",
+     "label": "X-Men Red #10",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "10",
+     "cv": {
+      "v": 142134,
+      "i": 962849
+     }
+    },
+    {
+     "id": "xmenred-11",
+     "label": "X-Men Red #11",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "11",
+     "cv": {
+      "v": 142134,
+      "i": 988124
+     }
+    },
+    {
+     "id": "xmenred-12",
+     "label": "X-Men Red #12",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "12",
+     "cv": {
+      "v": 142134,
+      "i": 994356
+     }
+    },
+    {
+     "id": "xmenred-13",
+     "label": "X-Men Red #13",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "13",
+     "cv": {
+      "v": 142134,
+      "i": 1001998
+     }
+    },
+    {
+     "id": "xmenred-14",
+     "label": "X-Men Red #14",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "14",
+     "cv": {
+      "v": 142134,
+      "i": 1008944
+     }
+    },
+    {
+     "id": "xmenred-15",
+     "label": "X-Men Red #15",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "15",
+     "cv": {
+      "v": 142134,
+      "i": 1013504
+     }
+    },
+    {
+     "id": "xmenred-16",
+     "label": "X-Men Red #16",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "16",
+     "cv": {
+      "v": 142134,
+      "i": 1024061
+     }
+    },
+    {
+     "id": "xmenred-17",
+     "label": "X-Men Red #17",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "17",
+     "cv": {
+      "v": 142134,
+      "i": 1028639
+     }
+    },
+    {
+     "id": "xmenred-18",
+     "label": "X-Men Red #18",
+     "title": "",
+     "series": "XMR",
+     "seriesName": "X-Men: Red (Marvel, 2022)",
+     "num": "18",
+     "cv": {
+      "v": 142134,
+      "i": 1034349
+     }
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "name": "Fall of X \u2014 The Finale",
+   "years": "2023\u20132024",
+   "color": "#546e7a",
+   "tagline": "The fall of the nation and the twin finale miniseries, in reading order.",
+   "buy": [
+    {
+     "label": "FotHoX / RotPoX Omnibus",
+     "url": "https://www.amazon.com/s?k=Fall+of+the+House+of+X+Rise+of+the+Powers+of+X+Omnibus"
+    },
+    {
+     "label": "X-Men by Duggan Omnibus",
+     "url": "https://www.amazon.com/s?k=X-Men+Gerry+Duggan+Omnibus"
+    },
+    {
+     "label": "Resurrection of Magneto",
+     "url": "https://www.amazon.com/s?k=Resurrection+of+Magneto+Al+Ewing"
+    }
+   ],
+   "items": [
+    {
+     "id": "hfgala2023",
+     "label": "X-Men: Hellfire Gala 2023",
+     "title": "",
+     "series": "HFG23",
+     "seriesName": "X-Men: Hellfire Gala (Marvel, 2023)",
+     "num": "",
+     "cv": {
+      "v": 152567,
+      "i": 1003871
+     }
+    },
+    {
+     "id": "xm2021-30",
+     "label": "X-Men #30",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "30",
+     "cv": {
+      "v": 137402,
+      "i": 1040949
+     }
+    },
+    {
+     "id": "xm2021-31",
+     "label": "X-Men #31",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "31",
+     "cv": {
+      "v": 137402,
+      "i": 1043844
+     }
+    },
+    {
+     "id": "fothox-1",
+     "label": "Fall of the House of X #1",
+     "title": "",
+     "series": "FOTHOX",
+     "seriesName": "Fall of the House of X (Marvel, 2024)",
+     "num": "1",
+     "cv": {
+      "v": 155874,
+      "i": 1038990
+     }
+    },
+    {
+     "id": "fothox-2",
+     "label": "Fall of the House of X #2",
+     "title": "",
+     "series": "FOTHOX",
+     "seriesName": "Fall of the House of X (Marvel, 2024)",
+     "num": "2",
+     "cv": {
+      "v": 155874,
+      "i": 1044779
+     }
+    },
+    {
+     "id": "xm2021-32",
+     "label": "X-Men #32",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "32",
+     "cv": {
+      "v": 137402,
+      "i": 1047095
+     }
+    },
+    {
+     "id": "fothox-3",
+     "label": "Fall of the House of X #3",
+     "title": "",
+     "series": "FOTHOX",
+     "seriesName": "Fall of the House of X (Marvel, 2024)",
+     "num": "3",
+     "cv": {
+      "v": 155874,
+      "i": 1047947
+     }
+    },
+    {
+     "id": "xm2021-33",
+     "label": "X-Men #33",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "33",
+     "cv": {
+      "v": 137402,
+      "i": 1050579
+     }
+    },
+    {
+     "id": "rotpox-1",
+     "label": "Rise of the Powers of X #1",
+     "title": "",
+     "series": "ROTPOX",
+     "seriesName": "Rise of the Powers of X (Marvel, 2024)",
+     "num": "1",
+     "cv": {
+      "v": 155968,
+      "i": 1039582
+     }
+    },
+    {
+     "id": "rom-1",
+     "label": "Resurrection of Magneto #1",
+     "title": "",
+     "series": "ROM",
+     "seriesName": "Resurrection of Magneto (Marvel, 2024)",
+     "num": "1",
+     "cv": {
+      "v": 156369,
+      "i": 1042231
+     }
+    },
+    {
+     "id": "rom-2",
+     "label": "Resurrection of Magneto #2",
+     "title": "",
+     "series": "ROM",
+     "seriesName": "Resurrection of Magneto (Marvel, 2024)",
+     "num": "2",
+     "cv": {
+      "v": 156369,
+      "i": 1046272
+     }
+    },
+    {
+     "id": "rom-3",
+     "label": "Resurrection of Magneto #3",
+     "title": "",
+     "series": "ROM",
+     "seriesName": "Resurrection of Magneto (Marvel, 2024)",
+     "num": "3",
+     "cv": {
+      "v": 156369,
+      "i": 1048669
+     }
+    },
+    {
+     "id": "rom-4",
+     "label": "Resurrection of Magneto #4",
+     "title": "",
+     "series": "ROM",
+     "seriesName": "Resurrection of Magneto (Marvel, 2024)",
+     "num": "4",
+     "cv": {
+      "v": 156369,
+      "i": 1051126
+     }
+    },
+    {
+     "id": "rotpox-2",
+     "label": "Rise of the Powers of X #2",
+     "title": "",
+     "series": "ROTPOX",
+     "seriesName": "Rise of the Powers of X (Marvel, 2024)",
+     "num": "2",
+     "cv": {
+      "v": 155968,
+      "i": 1045770
+     }
+    },
+    {
+     "id": "rotpox-3",
+     "label": "Rise of the Powers of X #3",
+     "title": "",
+     "series": "ROTPOX",
+     "seriesName": "Rise of the Powers of X (Marvel, 2024)",
+     "num": "3",
+     "cv": {
+      "v": 155968,
+      "i": 1049278
+     }
+    },
+    {
+     "id": "rotpox-4",
+     "label": "Rise of the Powers of X #4",
+     "title": "",
+     "series": "ROTPOX",
+     "seriesName": "Rise of the Powers of X (Marvel, 2024)",
+     "num": "4",
+     "cv": {
+      "v": 155968,
+      "i": 1052938
+     }
+    },
+    {
+     "id": "fothox-4",
+     "label": "Fall of the House of X #4",
+     "title": "",
+     "series": "FOTHOX",
+     "seriesName": "Fall of the House of X (Marvel, 2024)",
+     "num": "4",
+     "cv": {
+      "v": 155874,
+      "i": 1051494
+     }
+    },
+    {
+     "id": "xm2021-34",
+     "label": "X-Men #34",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "34",
+     "cv": {
+      "v": 137402,
+      "i": 1053547
+     }
+    },
+    {
+     "id": "fothox-5",
+     "label": "Fall of the House of X #5",
+     "title": "",
+     "series": "FOTHOX",
+     "seriesName": "Fall of the House of X (Marvel, 2024)",
+     "num": "5",
+     "cv": {
+      "v": 155874,
+      "i": 1056203
+     }
+    },
+    {
+     "id": "rotpox-5",
+     "label": "Rise of the Powers of X #5",
+     "title": "",
+     "series": "ROTPOX",
+     "seriesName": "Rise of the Powers of X (Marvel, 2024)",
+     "num": "5",
+     "cv": {
+      "v": 155968,
+      "i": 1057008
+     }
+    },
+    {
+     "id": "xm2021-35",
+     "label": "X-Men #35",
+     "title": "",
+     "series": "XM",
+     "seriesName": "X-Men (Marvel, 2021)",
+     "num": "35",
+     "cv": {
+      "v": 137402,
+      "i": 1058720
+     }
+    }
+   ]
+  }
+ ]
+}

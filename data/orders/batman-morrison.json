@@ -1,0 +1,1083 @@
+{
+ "id": "batman-morrison",
+ "title": "Batman: Grant Morrison",
+ "subtitle": "The complete run (2006\u20132013)",
+ "credit": "Morrison's era-defining Batman run in its reading order \u2014 through Final Crisis, Batman & Robin with The Return of Bruce Wayne interleaved, and Batman Incorporated.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "Batman and Son \u2192 The Black Glove",
+   "years": "2006\u20132008",
+   "color": "#d32f2f",
+   "tagline": "Damian arrives and the Black Glove closes in.",
+   "buy": [
+    {
+     "label": "Batman and Son (new edition)",
+     "url": "https://www.amazon.com/s?k=Batman+and+Son+New+Edition+Morrison"
+    },
+    {
+     "label": "Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=Batman+Grant+Morrison+Omnibus+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "batman-655",
+     "label": "Batman #655",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "655",
+     "cv": {
+      "v": 796,
+      "i": 114075
+     }
+    },
+    {
+     "id": "batman-656",
+     "label": "Batman #656",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "656",
+     "cv": {
+      "v": 796,
+      "i": 114059
+     }
+    },
+    {
+     "id": "batman-657",
+     "label": "Batman #657",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "657",
+     "cv": {
+      "v": 796,
+      "i": 121734
+     }
+    },
+    {
+     "id": "batman-658",
+     "label": "Batman #658",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "658",
+     "cv": {
+      "v": 796,
+      "i": 108509
+     }
+    },
+    {
+     "id": "batman-663",
+     "label": "Batman #663",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "663",
+     "cv": {
+      "v": 796,
+      "i": 106607
+     }
+    },
+    {
+     "id": "batman-664",
+     "label": "Batman #664",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "664",
+     "cv": {
+      "v": 796,
+      "i": 107594
+     }
+    },
+    {
+     "id": "batman-665",
+     "label": "Batman #665",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "665",
+     "cv": {
+      "v": 796,
+      "i": 109609
+     }
+    },
+    {
+     "id": "batman-666",
+     "label": "Batman #666",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "666",
+     "cv": {
+      "v": 796,
+      "i": 111970
+     }
+    },
+    {
+     "id": "batman-667",
+     "label": "Batman #667",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "667",
+     "cv": {
+      "v": 796,
+      "i": 113066
+     }
+    },
+    {
+     "id": "batman-668",
+     "label": "Batman #668",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "668",
+     "cv": {
+      "v": 796,
+      "i": 113759
+     }
+    },
+    {
+     "id": "batman-669",
+     "label": "Batman #669",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "669",
+     "cv": {
+      "v": 796,
+      "i": 115088
+     }
+    },
+    {
+     "id": "batman-672",
+     "label": "Batman #672",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "672",
+     "cv": {
+      "v": 796,
+      "i": 120622
+     }
+    },
+    {
+     "id": "batman-673",
+     "label": "Batman #673",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "673",
+     "cv": {
+      "v": 796,
+      "i": 122114
+     }
+    },
+    {
+     "id": "batman-674",
+     "label": "Batman #674",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "674",
+     "cv": {
+      "v": 796,
+      "i": 124117
+     }
+    },
+    {
+     "id": "batman-675",
+     "label": "Batman #675",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "675",
+     "cv": {
+      "v": 796,
+      "i": 128267
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "R.I.P. & Last Rites",
+   "years": "2008\u20132009",
+   "color": "#546e7a",
+   "tagline": "The Black Glove's masterpiece \u2014 reading #701 as the pre-Crisis chapter.",
+   "buy": [
+    {
+     "label": "Batman R.I.P.",
+     "url": "https://www.amazon.com/s?k=Batman+R.I.P.+Grant+Morrison"
+    },
+    {
+     "label": "Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=Batman+Grant+Morrison+Omnibus+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "batman-676",
+     "label": "Batman #676",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "676",
+     "cv": {
+      "v": 796,
+      "i": 130247
+     }
+    },
+    {
+     "id": "batman-677",
+     "label": "Batman #677",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "677",
+     "cv": {
+      "v": 796,
+      "i": 131010
+     }
+    },
+    {
+     "id": "batman-678",
+     "label": "Batman #678",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "678",
+     "cv": {
+      "v": 796,
+      "i": 132216
+     }
+    },
+    {
+     "id": "batman-679",
+     "label": "Batman #679",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "679",
+     "cv": {
+      "v": 796,
+      "i": 135457
+     }
+    },
+    {
+     "id": "batman-680",
+     "label": "Batman #680",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "680",
+     "cv": {
+      "v": 796,
+      "i": 139676
+     }
+    },
+    {
+     "id": "batman-681",
+     "label": "Batman #681",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "681",
+     "cv": {
+      "v": 796,
+      "i": 143147
+     }
+    },
+    {
+     "id": "batman-682",
+     "label": "Batman #682",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "682",
+     "cv": {
+      "v": 796,
+      "i": 144296
+     }
+    },
+    {
+     "id": "batman-683",
+     "label": "Batman #683",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "683",
+     "cv": {
+      "v": 796,
+      "i": 148610
+     }
+    },
+    {
+     "id": "batman-701",
+     "label": "Batman #701",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "701",
+     "cv": {
+      "v": 796,
+      "i": 224555
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Final Crisis",
+   "years": "2008\u20132009",
+   "color": "#7e57c2",
+   "tagline": "The darkest chapter \u2014 with #702 as the after-match.",
+   "buy": [
+    {
+     "label": "Final Crisis",
+     "url": "https://www.amazon.com/s?k=Final+Crisis+Grant+Morrison"
+    },
+    {
+     "label": "Time and the Batman",
+     "url": "https://www.amazon.com/s?k=Batman+Time+and+the+Batman+Morrison"
+    }
+   ],
+   "items": [
+    {
+     "id": "fc-1",
+     "label": "Final Crisis #1",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "1",
+     "cv": {
+      "v": 21712,
+      "i": 130994
+     }
+    },
+    {
+     "id": "fc-2",
+     "label": "Final Crisis #2",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "2",
+     "cv": {
+      "v": 21712,
+      "i": 131869
+     }
+    },
+    {
+     "id": "fc-3",
+     "label": "Final Crisis #3",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "3",
+     "cv": {
+      "v": 21712,
+      "i": 135068
+     }
+    },
+    {
+     "id": "fc-4",
+     "label": "Final Crisis #4",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "4",
+     "cv": {
+      "v": 21712,
+      "i": 140850
+     }
+    },
+    {
+     "id": "fc-5",
+     "label": "Final Crisis #5",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "5",
+     "cv": {
+      "v": 21712,
+      "i": 145368
+     }
+    },
+    {
+     "id": "fc-6",
+     "label": "Final Crisis #6",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "6",
+     "cv": {
+      "v": 21712,
+      "i": 150022
+     }
+    },
+    {
+     "id": "fc-7",
+     "label": "Final Crisis #7",
+     "title": "",
+     "series": "FC",
+     "seriesName": "Final Crisis (DC Comics, 2008)",
+     "num": "7",
+     "cv": {
+      "v": 21712,
+      "i": 150660
+     }
+    },
+    {
+     "id": "batman-702",
+     "label": "Batman #702",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "702",
+     "cv": {
+      "v": 796,
+      "i": 231608
+     }
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "name": "Batman & Robin / The Return of Bruce Wayne",
+   "years": "2009\u20132011",
+   "color": "#1976d2",
+   "tagline": "Dick and Damian hold the city while Bruce fights through time \u2014 interleaved per the standard order.",
+   "buy": [
+    {
+     "label": "Batman & Robin Vol. 1",
+     "url": "https://www.amazon.com/s?k=Batman+Robin+Vol+1+Batman+Reborn"
+    },
+    {
+     "label": "Batman & Robin Vol. 2",
+     "url": "https://www.amazon.com/s?k=Batman+Robin+Vol+2+Batman+vs+Robin"
+    },
+    {
+     "label": "Batman & Robin Vol. 3",
+     "url": "https://www.amazon.com/s?k=Batman+Robin+Vol+3+Batman+Must+Die"
+    },
+    {
+     "label": "The Return of Bruce Wayne",
+     "url": "https://www.amazon.com/s?k=Return+of+Bruce+Wayne"
+    },
+    {
+     "label": "Omnibus Vol. 2",
+     "url": "https://www.amazon.com/s?k=Batman+Grant+Morrison+Omnibus+Volume+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "batman-700",
+     "label": "Batman #700",
+     "title": "",
+     "series": "BAT",
+     "seriesName": "Batman (DC Comics, 1940)",
+     "num": "700",
+     "cv": {
+      "v": 796,
+      "i": 218346
+     }
+    },
+    {
+     "id": "br-1",
+     "label": "Batman & Robin #1",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "1",
+     "cv": {
+      "v": 26584,
+      "i": 159130
+     }
+    },
+    {
+     "id": "br-2",
+     "label": "Batman & Robin #2",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "2",
+     "cv": {
+      "v": 26584,
+      "i": 162603
+     }
+    },
+    {
+     "id": "br-3",
+     "label": "Batman & Robin #3",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "3",
+     "cv": {
+      "v": 26584,
+      "i": 168407
+     }
+    },
+    {
+     "id": "br-4",
+     "label": "Batman & Robin #4",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "4",
+     "cv": {
+      "v": 26584,
+      "i": 171379
+     }
+    },
+    {
+     "id": "br-5",
+     "label": "Batman & Robin #5",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "5",
+     "cv": {
+      "v": 26584,
+      "i": 175094
+     }
+    },
+    {
+     "id": "br-6",
+     "label": "Batman & Robin #6",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "6",
+     "cv": {
+      "v": 26584,
+      "i": 182574
+     }
+    },
+    {
+     "id": "br-7",
+     "label": "Batman & Robin #7",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "7",
+     "cv": {
+      "v": 26584,
+      "i": 194484
+     }
+    },
+    {
+     "id": "br-8",
+     "label": "Batman & Robin #8",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "8",
+     "cv": {
+      "v": 26584,
+      "i": 196463
+     }
+    },
+    {
+     "id": "br-9",
+     "label": "Batman & Robin #9",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "9",
+     "cv": {
+      "v": 26584,
+      "i": 198265
+     }
+    },
+    {
+     "id": "robw-1",
+     "label": "The Return of Bruce Wayne #1",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "1",
+     "cv": {
+      "v": 33073,
+      "i": 213188
+     }
+    },
+    {
+     "id": "br-10",
+     "label": "Batman & Robin #10",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "10",
+     "cv": {
+      "v": 26584,
+      "i": 199095
+     }
+    },
+    {
+     "id": "robw-2",
+     "label": "The Return of Bruce Wayne #2",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "2",
+     "cv": {
+      "v": 33073,
+      "i": 215855
+     }
+    },
+    {
+     "id": "br-11",
+     "label": "Batman & Robin #11",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "11",
+     "cv": {
+      "v": 26584,
+      "i": 204462
+     }
+    },
+    {
+     "id": "robw-3",
+     "label": "The Return of Bruce Wayne #3",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "3",
+     "cv": {
+      "v": 33073,
+      "i": 220643
+     }
+    },
+    {
+     "id": "br-12",
+     "label": "Batman & Robin #12",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "12",
+     "cv": {
+      "v": 26584,
+      "i": 212152
+     }
+    },
+    {
+     "id": "robw-4",
+     "label": "The Return of Bruce Wayne #4",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "4",
+     "cv": {
+      "v": 33073,
+      "i": 226719
+     }
+    },
+    {
+     "id": "robw-5",
+     "label": "The Return of Bruce Wayne #5",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "5",
+     "cv": {
+      "v": 33073,
+      "i": 238131
+     }
+    },
+    {
+     "id": "robw-6",
+     "label": "The Return of Bruce Wayne #6",
+     "title": "",
+     "series": "ROBW",
+     "seriesName": "Batman: The Return of Bruce Wayne (DC Comics, 2010)",
+     "num": "6",
+     "cv": {
+      "v": 33073,
+      "i": 241775
+     }
+    },
+    {
+     "id": "br-13",
+     "label": "Batman & Robin #13",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "13",
+     "cv": {
+      "v": 26584,
+      "i": 223270
+     }
+    },
+    {
+     "id": "br-14",
+     "label": "Batman & Robin #14",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "14",
+     "cv": {
+      "v": 26584,
+      "i": 233801
+     }
+    },
+    {
+     "id": "br-15",
+     "label": "Batman & Robin #15",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "15",
+     "cv": {
+      "v": 26584,
+      "i": 238975
+     }
+    },
+    {
+     "id": "br-16",
+     "label": "Batman & Robin #16",
+     "title": "",
+     "series": "BR",
+     "seriesName": "Batman and Robin (DC Comics, 2009)",
+     "num": "16",
+     "cv": {
+      "v": 26584,
+      "i": 240633
+     }
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "name": "Batman Incorporated",
+   "years": "2010\u20132013",
+   "color": "#f9a825",
+   "tagline": "Batman goes global \u2014 through the New 52 and the final Leviathan war.",
+   "buy": [
+    {
+     "label": "Batman Incorporated",
+     "url": "https://www.amazon.com/s?k=Batman+Incorporated+Vol+1+Morrison"
+    },
+    {
+     "label": "Demon Star",
+     "url": "https://www.amazon.com/s?k=Batman+Incorporated+Demon+Star"
+    },
+    {
+     "label": "Gotham's Most Wanted",
+     "url": "https://www.amazon.com/s?k=Batman+Incorporated+Gothams+Most+Wanted"
+    },
+    {
+     "label": "Omnibus Vol. 3",
+     "url": "https://www.amazon.com/s?k=Batman+Grant+Morrison+Omnibus+Volume+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "thereturn",
+     "label": "Batman: The Return",
+     "title": "",
+     "series": "RET",
+     "seriesName": "Batman: The Return (DC Comics, 2011)",
+     "num": "",
+     "cv": {
+      "v": 36703,
+      "i": 244575
+     }
+    },
+    {
+     "id": "inc1-1",
+     "label": "Batman Incorporated #1",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "1",
+     "cv": {
+      "v": 36705,
+      "i": 244606
+     }
+    },
+    {
+     "id": "inc1-2",
+     "label": "Batman Incorporated #2",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "2",
+     "cv": {
+      "v": 36705,
+      "i": 250156
+     }
+    },
+    {
+     "id": "inc1-3",
+     "label": "Batman Incorporated #3",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "3",
+     "cv": {
+      "v": 36705,
+      "i": 265348
+     }
+    },
+    {
+     "id": "inc1-4",
+     "label": "Batman Incorporated #4",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "4",
+     "cv": {
+      "v": 36705,
+      "i": 266501
+     }
+    },
+    {
+     "id": "inc1-5",
+     "label": "Batman Incorporated #5",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "5",
+     "cv": {
+      "v": 36705,
+      "i": 268976
+     }
+    },
+    {
+     "id": "inc1-6",
+     "label": "Batman Incorporated #6",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "6",
+     "cv": {
+      "v": 36705,
+      "i": 269826
+     }
+    },
+    {
+     "id": "inc1-7",
+     "label": "Batman Incorporated #7",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "7",
+     "cv": {
+      "v": 36705,
+      "i": 276535
+     }
+    },
+    {
+     "id": "inc1-8",
+     "label": "Batman Incorporated #8",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman Incorporated (DC Comics, 2011)",
+     "num": "8",
+     "cv": {
+      "v": 36705,
+      "i": 288416
+     }
+    },
+    {
+     "id": "leviathan",
+     "label": "Batman Incorporated: Leviathan Strikes",
+     "title": "",
+     "series": "LEV",
+     "seriesName": "Batman, Incorporated: Leviathan Strikes (DC Comics, 2012)",
+     "num": "",
+     "cv": {
+      "v": 44575,
+      "i": 307442
+     }
+    },
+    {
+     "id": "inc2-0",
+     "label": "Batman Incorporated #0",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "0",
+     "cv": {
+      "v": 49112,
+      "i": 358818
+     }
+    },
+    {
+     "id": "inc2-1",
+     "label": "Batman Incorporated #1",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "1",
+     "cv": {
+      "v": 49112,
+      "i": 336572
+     }
+    },
+    {
+     "id": "inc2-2",
+     "label": "Batman Incorporated #2",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "2",
+     "cv": {
+      "v": 49112,
+      "i": 341642
+     }
+    },
+    {
+     "id": "inc2-3",
+     "label": "Batman Incorporated #3",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "3",
+     "cv": {
+      "v": 49112,
+      "i": 347164
+     }
+    },
+    {
+     "id": "inc2-4",
+     "label": "Batman Incorporated #4",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "4",
+     "cv": {
+      "v": 49112,
+      "i": 363054
+     }
+    },
+    {
+     "id": "inc2-5",
+     "label": "Batman Incorporated #5",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "5",
+     "cv": {
+      "v": 49112,
+      "i": 370270
+     }
+    },
+    {
+     "id": "inc2-6",
+     "label": "Batman Incorporated #6",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "6",
+     "cv": {
+      "v": 49112,
+      "i": 376596
+     }
+    },
+    {
+     "id": "inc2-7",
+     "label": "Batman Incorporated #7",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "7",
+     "cv": {
+      "v": 49112,
+      "i": 382762
+     }
+    },
+    {
+     "id": "inc2-8",
+     "label": "Batman Incorporated #8",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "8",
+     "cv": {
+      "v": 49112,
+      "i": 388521
+     }
+    },
+    {
+     "id": "inc2-9",
+     "label": "Batman Incorporated #9",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "9",
+     "cv": {
+      "v": 49112,
+      "i": 395237
+     }
+    },
+    {
+     "id": "inc2-10",
+     "label": "Batman Incorporated #10",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "10",
+     "cv": {
+      "v": 49112,
+      "i": 398945
+     }
+    },
+    {
+     "id": "inc2-11",
+     "label": "Batman Incorporated #11",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "11",
+     "cv": {
+      "v": 49112,
+      "i": 404655
+     }
+    },
+    {
+     "id": "inc2-12",
+     "label": "Batman Incorporated #12",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "12",
+     "cv": {
+      "v": 49112,
+      "i": 415202
+     }
+    },
+    {
+     "id": "inc2-13",
+     "label": "Batman Incorporated #13",
+     "title": "",
+     "series": "INC",
+     "seriesName": "Batman, Incorporated (DC Comics, 2012)",
+     "num": "13",
+     "cv": {
+      "v": 49112,
+      "i": 419954
+     }
+    },
+    {
+     "id": "incspecial",
+     "label": "Batman Incorporated Special",
+     "title": "",
+     "series": "INCS",
+     "seriesName": "Batman, Incorporated Special (DC Comics, 2013)",
+     "num": "",
+     "cv": {
+      "v": 66765,
+      "i": 423617
+     }
+    }
+   ]
+  }
+ ]
+}
