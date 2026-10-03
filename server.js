@@ -575,58 +575,71 @@ app.post("/api/submit", async (req, res) => {
     if (!fork.ok) return res.status(502).json({ error: "fork-failed" });
     const onBase = String((fork.body && fork.body.full_name) || "").toLowerCase() === GH_REPO.toLowerCase();
 
-    // fresh branch at upstream main
-    const mainRef = await ghApi(token, `/repos/${GH_REPO}/git/ref/heads/main`);
-    if (!mainRef.ok) return res.status(502).json({ error: ghErr(mainRef) });
-    const sha = mainRef.body.object.sha;
     const branch = "submit/" + o.id;
     const branchPath = branch.split("/").map(encodeURIComponent).join("/");
-    const br = await ghApi(token, `/repos/${login}/panelpath/git/ref/heads/${branchPath}`);
-    if (br.ok) {
-      const up = await ghApi(token, `/repos/${login}/panelpath/git/refs/heads/${branchPath}`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sha, force: true }),
-      });
-      if (!up.ok) return res.status(502).json({ error: ghErr(up) });
-    } else {
-      const cr = await ghApi(token, `/repos/${login}/panelpath/git/refs`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ref: "refs/heads/" + branch, sha }),
-      });
-      if (!cr.ok) return res.status(502).json({ error: ghErr(cr) });
-    }
-
-    // commit the order file
     const filePath = "data/orders/" + o.id + ".json";
-    const existing = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}?ref=${encodeURIComponent(branch)}`);
-    const clean = cleanOrder(o);
-    const content = Buffer.from(JSON.stringify(clean, null, 2) + "\n").toString("base64");
-    const isNew = !bundledIds().has(o.id);
-    const put = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        message: (isNew ? "Add order: " : "Update order: ") + clean.title,
-        content,
-        branch,
-        ...(existing.ok && existing.body && existing.body.sha ? { sha: existing.body.sha } : {}),
-      }),
-    });
-    if (!put.ok) return res.status(502).json({ error: ghErr(put) });
 
-    // open (or find) the PR — deterministic: scan open PRs and match head repo+branch ourselves (the ?head= filter is index-lagged and misses internal PRs)
+    // find an existing open PR for this submission — deterministic scan (the ?head= filter is index-lagged and misses internal PRs)
     const headQ = onBase ? branch : login + ":" + branch;
     const headRepo = onBase ? GH_REPO : login + "/panelpath";
     const openPrs = await ghApi(token, `/repos/${GH_REPO}/pulls?state=open&per_page=100`);
-    let pr = null;
-    let updated = false;
-    if (openPrs.ok && Array.isArray(openPrs.body)) {
-      pr = openPrs.body.find(
-        (p) => p.head && p.head.ref === branch && p.head.repo && String(p.head.repo.full_name).toLowerCase() === headRepo.toLowerCase()
-      ) || null;
+    let pr = openPrs.ok && Array.isArray(openPrs.body)
+      ? openPrs.body.find(
+          (p) => p.head && p.head.ref === branch && p.head.repo && String(p.head.repo.full_name).toLowerCase() === headRepo.toLowerCase()
+        ) || null
+      : null;
+
+    if (!pr) {
+      // NO open PR — safe to (re)point the branch at latest main.
+      // Never force-reset a branch under an open PR: GitHub auto-closes the PR when its head is reset to the base commit.
+      const mainRef = await ghApi(token, `/repos/${GH_REPO}/git/ref/heads/main`);
+      if (!mainRef.ok) return res.status(502).json({ error: ghErr(mainRef) });
+      const sha = mainRef.body.object.sha;
+      const br = await ghApi(token, `/repos/${login}/panelpath/git/ref/heads/${branchPath}`);
+      if (br.ok) {
+        const up = await ghApi(token, `/repos/${login}/panelpath/git/refs/heads/${branchPath}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sha, force: true }),
+        });
+        if (!up.ok) return res.status(502).json({ error: ghErr(up) });
+      } else {
+        const cr = await ghApi(token, `/repos/${login}/panelpath/git/refs`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ref: "refs/heads/" + branch, sha }),
+        });
+        if (!cr.ok) return res.status(502).json({ error: ghErr(cr) });
+      }
     }
+
+    // commit the order file (skip the commit when the branch already carries identical content)
+    const existing = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}?ref=${encodeURIComponent(branch)}`);
+    const clean = cleanOrder(o);
+    const jsonStr = JSON.stringify(clean, null, 2) + "\n";
+    const content = Buffer.from(jsonStr).toString("base64");
+    let existingText = null;
+    if (existing.ok && existing.body && existing.body.content) {
+      try {
+        existingText = Buffer.from(String(existing.body.content).replace(/\n/g, ""), "base64").toString("utf8");
+      } catch {}
+    }
+    const isNew = !bundledIds().has(o.id);
+    if (existingText === null || existingText.trim() !== jsonStr.trim()) {
+      const put = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: (isNew ? "Add order: " : "Update order: ") + clean.title,
+          content,
+          branch,
+          ...(existing.ok && existing.body && existing.body.sha ? { sha: existing.body.sha } : {}),
+        }),
+      });
+      if (!put.ok) return res.status(502).json({ error: ghErr(put) });
+    }
+
+    let updated = false;
     if (pr) {
       updated = true;
     } else {
