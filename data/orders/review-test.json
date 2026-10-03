@@ -1,0 +1,19 @@
+{
+  "id": "review-test",
+  "title": "Review Test Line",
+  "subtitle": "Automated Phase C review check — safe to ignore, closed right after",
+  "credit": "Test fixture.",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Alpha",
+      "years": "2026",
+      "color": "#d32f2f",
+      "tagline": "Broken on purpose: duplicate item ids below.",
+      "items": [
+        { "id": "rt-1", "label": "Test #1" },
+        { "id": "rt-1", "label": "Test #2" }
+      ]
+    }
+  ]
+}
