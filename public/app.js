@@ -1,10 +1,11 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 16;
+const ASSET_V = 17;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
 let CURRENT = null;  // full order object (+meta) being viewed
 let unreadOnly = false;
+let orderQuery = "";
 let statusTimer = null;
 
 async function boot() {
@@ -64,6 +65,12 @@ async function showHome() {
   $("#resetBtn").hidden = true;
   $("#editBtn").hidden = true;
   $("#submitBtn").hidden = true;
+  $("#orderTools").hidden = true;
+  $("#orderCredit").hidden = true;
+  $("#orderSearch").value = "";
+  orderQuery = "";
+  $("#searchCount").textContent = "";
+  $("#searchClear").hidden = true;
 
   const view = $("#view");
   view.innerHTML = "";
@@ -106,7 +113,8 @@ async function showHome() {
     for (const o of list) {
       const card = document.createElement("a");
       card.className = "order-card";
-      card.href = "#/o/" + o.id;
+      const inProg = o.read > 0 && o.read < o.total;
+      card.href = "#/o/" + o.id + (inProg ? "?go=next" : "");
       const pct = o.total ? Math.round((o.read / o.total) * 100) : 0;
       const complete = o.total > 0 && o.read === o.total;
       card.innerHTML =
@@ -115,7 +123,11 @@ async function showHome() {
         `</div>` +
         `<div class="oc-sub">${esc(o.subtitle)}</div>` +
         `<div class="oc-bar"><div style="width:${pct}%"></div></div>` +
-        `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>`;
+        `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>` +
+        (inProg && o.next
+          ? `<div class="oc-next"><span class="oc-next-l">Continue &rarr;</span><b>${esc(o.next.label)}</b>` +
+            (o.lastRead ? `<i>last read ${timeAgo(o.lastRead)}</i>` : "") + `</div>`
+          : "");
       wrap.appendChild(card);
     }
   };
@@ -205,8 +217,25 @@ async function showOrder(id) {
   $("#resetBtn").hidden = false;
   $("#editBtn").hidden = data.source !== "user";
   $("#submitBtn").hidden = data.source !== "user";
+  $("#orderTools").hidden = false;
+  $("#orderSearch").value = "";
+  orderQuery = "";
+  $("#searchCount").textContent = "";
+  $("#searchClear").hidden = true;
+  const crEl = $("#orderCredit");
+  if (data.credit) {
+    crEl.hidden = false;
+    crEl.innerHTML =
+      "About this order: " + esc(data.credit) +
+      (data.source === "bundled"
+        ? ` &middot; <a href="https://github.com/gpmarinos114/panelpath/edit/main/data/orders/${encodeURIComponent(data.id)}.json" target="_blank" rel="noopener">Suggest an edit</a>`
+        : "");
+  } else {
+    crEl.hidden = true;
+  }
   renderChips();
   renderOrder();
+  if (/[?&]go=next/.test(location.hash)) setTimeout(jumpToNextUnread, 80);
 }
 
 function progressFor() {
@@ -232,6 +261,9 @@ function renderChips() {
     renderOrder();
   });
   nav.appendChild(unread);
+  const nextChip = mk("Next unread", null);
+  nextChip.addEventListener("click", jumpToNextUnread);
+  nav.appendChild(nextChip);
   for (const s of CURRENT.sections) {
     const b = mk(s.name, s.color);
     b.addEventListener("click", () => {
@@ -273,10 +305,15 @@ function renderOrder() {
   const frag = document.createDocumentFragment();
   const p = progressFor();
   const collapsed = collapsedSet();
+  const q = orderQuery.trim().toLowerCase();
+  let matchTotal = 0;
 
   for (const s of CURRENT.sections) {
     const items = s.items;
-    const shown = unreadOnly ? items.filter((i) => !p[i.id]) : items;
+    let shown = q ? items.filter((i) => matchItem(i, q)) : items;
+    if (unreadOnly) shown = shown.filter((i) => !p[i.id]);
+    if (q && shown.length === 0) continue;
+    if (q) matchTotal += shown.length;
     const readIn = items.filter((i) => p[i.id]).length;
     const complete = readIn === items.length;
 
@@ -301,10 +338,43 @@ function renderOrder() {
         : "");
     sec.appendChild(band);
 
-    if (collapsed.has(s.id)) sec.classList.add("collapsed");
+    const markBtn = document.createElement("button");
+    markBtn.className = "band-action";
+    markBtn.textContent = complete ? "Clear" : "Mark read";
+    markBtn.addEventListener("click", (e) => e.stopPropagation());
+    markBtn.addEventListener("click", () => {
+      const ids = (complete ? items.filter((i) => p[i.id]) : items.filter((i) => !p[i.id])).map((i) => i.id);
+      if (!ids.length) return;
+      armTwice(markBtn, "sure?", async () => {
+        const pp = PROGRESS[CURRENT.id] || (PROGRESS[CURRENT.id] = {});
+        const prev = {};
+        for (const x of ids) prev[x] = pp[x];
+        const now = Date.now();
+        for (const x of ids) { if (complete) delete pp[x]; else pp[x] = now; }
+        renderOrder();
+        try {
+          const res = await fetch("/api/progress", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ order: CURRENT.id, ids, read: !complete }),
+          });
+          if (!res.ok) throw new Error("bad status");
+        } catch {
+          for (const x of ids) { if (prev[x]) pp[x] = prev[x]; else delete pp[x]; }
+          renderOrder();
+          showToast("NOT SAVED \u2014 CHECK CONNECTION");
+        }
+      });
+    });
+    const cntEl = band.querySelector(".era-count");
+    if (cntEl) cntEl.insertAdjacentElement("afterend", markBtn);
+    else band.appendChild(markBtn);
+
+    const secCollapsed = !q && collapsed.has(s.id);
+    if (secCollapsed) sec.classList.add("collapsed");
     band.setAttribute("role", "button");
     band.setAttribute("tabindex", "0");
-    band.setAttribute("aria-expanded", String(!collapsed.has(s.id)));
+    band.setAttribute("aria-expanded", String(!secCollapsed));
     const toggleCollapse = () => {
       const set = collapsedSet();
       if (set.has(s.id)) set.delete(s.id); else set.add(s.id);
@@ -313,10 +383,11 @@ function renderOrder() {
       band.setAttribute("aria-expanded", String(!sec.classList.contains("collapsed")));
     };
     band.addEventListener("click", (e) => {
-      if (e.target.closest("a")) return; // buy links keep working
+      if (e.target.closest("a, button")) return; // buy links + band actions keep working
       toggleCollapse();
     });
     band.addEventListener("keydown", (e) => {
+      if (e.target !== band) return;
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
         toggleCollapse();
@@ -356,6 +427,16 @@ function renderOrder() {
       list.appendChild(card);
     }
     sec.appendChild(list);
+    if (!q && complete) {
+      const nxt = nextSection(s);
+      if (nxt && nxt.buy && nxt.buy.length) {
+        const nb = document.createElement("div");
+        nb.className = "sec-next";
+        nb.innerHTML = `<span class="buy-label">Up next &middot; ${esc(nxt.name)}</span>` +
+          nxt.buy.map((b) => `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join("");
+        sec.appendChild(nb);
+      }
+    }
     frag.appendChild(sec);
   }
   if (CURRENT.buy && CURRENT.buy.length) {
@@ -365,7 +446,17 @@ function renderOrder() {
       CURRENT.buy.map((b) => `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join("");
     main.appendChild(ob);
   }
+  if (q && matchTotal === 0) {
+    const none = document.createElement("div");
+    none.className = "empty-note";
+    none.textContent = `No issues match "${orderQuery.trim()}".`;
+    frag.appendChild(none);
+  }
   main.appendChild(frag);
+  const scEl = $("#searchCount");
+  const clrEl = $("#searchClear");
+  if (q) { scEl.textContent = matchTotal + (matchTotal === 1 ? " match" : " matches"); clrEl.hidden = false; }
+  else { scEl.textContent = ""; clrEl.hidden = true; }
   updateProgressUI();
 }
 
@@ -379,6 +470,123 @@ function updateProgressUI() {
   $("#count").textContent = `${read} / ${total} read`;
   $("#pct").textContent = pct + "%";
   $("#allBadge").hidden = !(total > 0 && read === total);
+}
+
+/* ---------- reading flow: next unread, hints, search ---------- */
+
+function timeAgo(ts) {
+  const d = Date.now() - ts;
+  const m = Math.floor(d / 60000);
+  if (m < 1) return "just now";
+  if (m < 60) return m + "m ago";
+  const h = Math.floor(m / 60);
+  if (h < 24) return h + "h ago";
+  const days = Math.floor(h / 24);
+  if (days < 30) return days + "d ago";
+  return Math.floor(days / 30) + "mo ago";
+}
+
+function matchItem(it, q) {
+  const hay = ((it.label || "") + " " + (it.title || "") + " " + (it.seriesName || "") + " " + (it.num || "")).toLowerCase();
+  if (hay.includes(q)) return true;
+  const qn = q.replace(/^#/, "").replace(/\s+/g, "");
+  if (/^\d+[a-z.]?$/.test(qn) && String(it.num || "").toLowerCase() === qn) return true;
+  return false;
+}
+
+function sequence() {
+  const seq = [];
+  if (!CURRENT) return seq;
+  for (const s of CURRENT.sections) for (const it of s.items) seq.push({ section: s, item: it });
+  return seq;
+}
+
+function firstUnread() {
+  const p = progressFor();
+  for (const x of sequence()) if (!p[x.item.id]) return x;
+  return null;
+}
+
+function expandSection(sectionId) {
+  const secEl = document.getElementById("era-" + sectionId);
+  if (secEl && secEl.classList.contains("collapsed")) {
+    const set = collapsedSet();
+    set.delete(sectionId);
+    saveCollapsed(set);
+    secEl.classList.remove("collapsed");
+    const b = secEl.querySelector(".era-band");
+    if (b) b.setAttribute("aria-expanded", "true");
+  }
+}
+
+function itemEl(id) {
+  const esc2 = window.CSS && CSS.escape ? CSS.escape(id) : id;
+  return document.querySelector('.item[data-id="' + esc2 + '"]');
+}
+
+function scrollToItemEl(el, flash) {
+  const hdr = document.querySelector("header#top");
+  const off = (hdr ? hdr.getBoundingClientRect().height : 0) + 10;
+  const y = Math.max(0, window.scrollY + el.getBoundingClientRect().top - off);
+  const before = window.scrollY;
+  window.scrollTo({ top: y, behavior: "smooth" });
+  setTimeout(() => {
+    if (Math.abs(window.scrollY - before) < 2 && Math.abs(window.scrollY - y) > 4) window.scrollTo(0, y);
+  }, 150);
+  if (flash) {
+    el.classList.remove("flash");
+    void el.offsetWidth;
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 1500);
+  }
+}
+
+function jumpToNextUnread() {
+  const nu = firstUnread();
+  if (!nu) { showToast("ALL READ \u2014 ORDER COMPLETE"); return; }
+  expandSection(nu.section.id);
+  const el = itemEl(nu.item.id);
+  if (el) scrollToItemEl(el, true);
+}
+
+function clearNextHint() {
+  const h = document.querySelector(".next-hint");
+  if (h) h.remove();
+}
+
+function nextUnreadAfter(itemId) {
+  const p = progressFor();
+  const seq = sequence();
+  const idx = seq.findIndex((x) => x.item.id === itemId);
+  if (idx === -1) return null;
+  for (let i = idx + 1; i < seq.length; i++) if (!p[seq[i].item.id]) return seq[i];
+  return null;
+}
+
+function showNextHint(afterCard) {
+  clearNextHint();
+  const nu = nextUnreadAfter(afterCard.dataset.id);
+  if (!nu) return;
+  const hint = document.createElement("div");
+  hint.className = "next-hint";
+  hint.setAttribute("role", "button");
+  hint.tabIndex = 0;
+  hint.innerHTML = `<span class="nh-l">Next</span><b>${esc(nu.item.label)}</b><span class="nh-jump">jump &darr;</span>`;
+  const go = () => {
+    expandSection(nu.section.id);
+    const el = itemEl(nu.item.id);
+    if (el) scrollToItemEl(el, true);
+    hint.remove();
+  };
+  hint.addEventListener("click", go);
+  hint.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  afterCard.insertAdjacentElement("afterend", hint);
+}
+
+function nextSection(section) {
+  if (!CURRENT) return null;
+  const idx = CURRENT.sections.indexOf(section);
+  return idx >= 0 && idx + 1 < CURRENT.sections.length ? CURRENT.sections[idx + 1] : null;
 }
 
 /* ---------- toggling ---------- */
@@ -395,6 +603,7 @@ document.addEventListener("click", async (e) => {
   else delete p[id];
   applyCardState(card, next);
   updateProgressUI();
+  clearNextHint();
 
   try {
     const res = await fetch("/api/progress", {
@@ -403,6 +612,7 @@ document.addEventListener("click", async (e) => {
       body: JSON.stringify({ order: CURRENT.id, id, read: next }),
     });
     if (!res.ok) throw new Error("bad status");
+    if (next) showNextHint(card);
   } catch {
     if (next) delete p[id];
     else p[id] = Date.now();
@@ -567,6 +777,58 @@ function bindSettings() {
       pollFetchStatus(true);
     } catch {
       showToast("FETCH FAILED TO START");
+    }
+  });
+
+  let searchTimer = null;
+  $("#orderSearch").addEventListener("input", () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      orderQuery = $("#orderSearch").value || "";
+      renderOrder();
+    }, 140);
+  });
+  $("#orderSearch").addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      $("#orderSearch").value = "";
+      orderQuery = "";
+      renderOrder();
+    }
+  });
+  $("#searchClear").addEventListener("click", () => {
+    $("#orderSearch").value = "";
+    orderQuery = "";
+    renderOrder();
+    $("#orderSearch").focus();
+  });
+
+  $("#exportBtn").addEventListener("click", () => {
+    window.location.href = "/api/progress/export";
+  });
+  $("#importBtn").addEventListener("click", () => $("#importFile").click());
+  $("#importFile").addEventListener("change", async () => {
+    const f = $("#importFile").files && $("#importFile").files[0];
+    if (!f) return;
+    const st = $("#backupState");
+    st.textContent = "importing\u2026";
+    try {
+      const text = await f.text();
+      const parsed = JSON.parse(text);
+      const progress = parsed && typeof parsed.progress === "object" && !Array.isArray(parsed.progress) ? parsed.progress : parsed;
+      const res = await fetch("/api/progress/import", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ progress }),
+      });
+      if (!res.ok) throw new Error("bad");
+      const j = await res.json();
+      st.textContent = `merged \u2014 ${j.added} added, ${j.updated} updated`;
+      PROGRESS = await fetch("/api/progress").then((r) => r.json());
+      if (CURRENT) renderOrder();
+    } catch {
+      st.textContent = "import failed \u2014 is that a PanelPath progress file?";
+    } finally {
+      $("#importFile").value = "";
     }
   });
 }

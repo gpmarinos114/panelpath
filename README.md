@@ -31,11 +31,15 @@ More lines are data, not code — see *Adding a reading order* below, and [CONTR
 - **Order library** — every comic line as its own color-coded timeline; hash-routed so the phone back button works
 - **Tap to check off** — progress saved server-side per order (atomic writes, optimistic UI with rollback)
 - **Sections** with progress counts and complete stamps; *Unread* filter; section jump chips
+- **Continue where you left off** — in-progress orders show your next unread issue on the home card and jump straight to it; a *Next unread* control inside any order does the same
+- **Find an issue** — search any order by number or title
+- **Section tools** — mark a whole section read (or clear it) with a two-tap confirm; completed sections point you to the next collected edition
+- **Progress backup** — export or merge your check-offs as JSON from Settings
 - **Cover fetching built in** — paste a free [ComicVine](https://comicvine.gamespot.com/api/) API key in Settings and the server pulls cover art for you, cached locally. Nothing copyrighted ships with the app.
 - **Buy links** — each era links out to where it's collected in print (Amazon); optional per-instance affiliate tag, off by default.
 - **Order builder** — create your own reading orders right in the app: search ComicVine for a series, add issues (range-select or one by one), pick section colors, attach buy links, preview, save. Drafts autosave as you go — resume or delete them from the home page, or discard one entirely from the builder. Your saved orders stay editable: open one and hit Edit. No JSON needed.
 - **Submit to the project** — connect GitHub in Settings (device code or a personal access token) and send your saved orders back as pull requests; every submission gets an automated validation check.
-- Sticky progress bar, mobile-first layout, no accounts, no telemetry, no external calls at runtime
+- Sticky progress bar, mobile-first, installable to your phone's home screen, no accounts, no telemetry, no external calls at runtime
 
 ![PanelPath — order view](docs/screenshot-order.png)
 

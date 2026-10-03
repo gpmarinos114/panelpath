@@ -13,7 +13,7 @@ const DRAFTS_DIR = path.join(DATA_DIR, "drafts");
 const PROGRESS_FILE = process.env.PROGRESS_FILE || path.join(DATA_DIR, "progress.json");
 const SETTINGS_FILE = path.join(DATA_DIR, "settings.json");
 
-app.use(express.json());
+app.use(express.json({ limit: "2mb" }));
 
 /* ---------- helpers ---------- */
 
@@ -149,6 +149,15 @@ function orderMeta(order, progress) {
   const total = order.sections.reduce((n, s) => n + s.items.length, 0);
   const p = progress[order.id] || {};
   const read = order.sections.reduce((n, s) => n + s.items.filter((i) => p[i.id]).length, 0);
+  let next = null;
+  let lastRead = 0;
+  for (const s of order.sections) {
+    for (const it of s.items) {
+      const ts = p[it.id];
+      if (ts) { if (ts > lastRead) lastRead = ts; }
+      else if (!next) next = { id: it.id, label: it.label || "", section: s.name };
+    }
+  }
   return {
     id: order.id,
     title: order.title,
@@ -157,6 +166,8 @@ function orderMeta(order, progress) {
     buy: order.buy || null,
     total,
     read,
+    next,
+    lastRead: lastRead || null,
     sections: order.sections.map((s) => ({
       id: s.id, name: s.name, color: s.color, years: s.years, kind: s.kind || null,
       count: s.items.length,
@@ -290,11 +301,23 @@ app.get("/api/progress", (req, res) => {
 });
 
 app.post("/api/progress", (req, res) => {
-  const { order, id, read } = req.body || {};
-  if (typeof order !== "string" || typeof id !== "string" || !order || !id)
-    return res.status(400).json({ error: "order and id required" });
+  const { order, id, ids, read } = req.body || {};
+  if (typeof order !== "string" || !order) return res.status(400).json({ error: "order required" });
   const p = readProgress();
   if (!p[order]) p[order] = {};
+  if (Array.isArray(ids)) {
+    if (ids.length > 1000) return res.status(400).json({ error: "too many ids" });
+    let count = 0;
+    const now = Date.now();
+    for (const it of ids) {
+      if (typeof it !== "string" || !it) continue;
+      if (read) { p[order][it] = now; count++; }
+      else if (p[order][it]) { delete p[order][it]; count++; }
+    }
+    writeProgress(p);
+    return res.json({ ok: true, order, count });
+  }
+  if (typeof id !== "string" || !id) return res.status(400).json({ error: "order and id required" });
   if (read) p[order][id] = Date.now();
   else delete p[order][id];
   writeProgress(p);
@@ -311,6 +334,39 @@ app.post("/api/progress/reset", (req, res) => {
   }
   writeProgress(p);
   res.json({ ok: true, order });
+});
+
+/* ---------- progress export / import ---------- */
+
+app.get("/api/progress/export", (req, res) => {
+  res.set("Cache-Control", "no-store");
+  res.set("Content-Type", "application/json");
+  res.set("Content-Disposition", `attachment; filename="panelpath-progress-${new Date().toISOString().slice(0, 10)}.json"`);
+  res.send(JSON.stringify(readProgress(), null, 1));
+});
+
+app.post("/api/progress/import", (req, res) => {
+  const body = req.body || {};
+  const inc = body.progress && typeof body.progress === "object" && !Array.isArray(body.progress) ? body.progress : null;
+  if (!inc) return res.status(400).json({ error: "bad-progress" });
+  const entries = Object.entries(inc);
+  if (entries.length > 500) return res.status(400).json({ error: "too-large" });
+  const p = readProgress();
+  let added = 0, updated = 0;
+  for (const [order, items] of entries) {
+    if (!/^[a-z0-9-]+$/.test(order) || !items || typeof items !== "object" || Array.isArray(items)) continue;
+    const itemEntries = Object.entries(items);
+    if (itemEntries.length > 5000) continue;
+    if (!p[order]) p[order] = {};
+    for (const [iid, ts] of itemEntries) {
+      if (typeof ts !== "number" || !isFinite(ts)) continue;
+      const cur = p[order][iid];
+      if (!cur) { p[order][iid] = ts; added++; }
+      else if (ts > cur) { p[order][iid] = ts; updated++; }
+    }
+  }
+  writeProgress(p);
+  res.json({ ok: true, added, updated });
 });
 
 app.get("/api/settings", (req, res) => {
