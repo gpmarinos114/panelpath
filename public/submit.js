@@ -19,20 +19,23 @@ async function renderGitHubSection() {
   box.innerHTML = "";
 
   if (st.connected) {
-    const line = document.createElement("div");
-    line.className = "gh-steps";
-    line.innerHTML = "Connected as <b>@" + esc(st.login || "?") + "</b>";
+    const row = document.createElement("div");
+    row.className = "gh-conn";
+    const dot = document.createElement("span");
+    dot.className = "gh-dot";
+    const who = document.createElement("span");
+    who.className = "gh-who";
+    who.innerHTML = "Connected as <b>@" + esc(st.login || "?") + "</b>";
     const out = document.createElement("button");
-    out.className = "ghost";
+    out.className = "ghost gh-disconnect";
     out.textContent = "Disconnect";
     out.addEventListener("click", async () => {
       await fetch("/api/github/disconnect", { method: "POST" });
       showToast("GITHUB DISCONNECTED");
       renderGitHubSection();
     });
-    const row = document.createElement("div");
-    row.className = "modal-row";
-    row.appendChild(line);
+    row.appendChild(dot);
+    row.appendChild(who);
     row.appendChild(out);
     box.appendChild(row);
     return;
@@ -85,7 +88,7 @@ async function renderGitHubSection() {
 
   const note = document.createElement("div");
   note.className = "modal-note";
-  note.textContent = "Needs repo access (classic token: \"public_repo\" scope; fine-grained: access to public repositories). Stored server-side, never shown again.";
+  note.textContent = "Token needs access to public repositories (classic: \"public_repo\"). Stored on your server only.";
   box.appendChild(note);
 }
 

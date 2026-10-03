@@ -550,9 +550,16 @@ button.primary { border-color: color-mix(in srgb, var(--gold) 55%, var(--line));
 .gh-box { font-size: 13px; }
 .gh-code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 22px; letter-spacing: 0.22em; font-weight: 700;
-  color: var(--gold); margin: 2px 0 10px;
+  font-size: 18px; letter-spacing: 0.18em; font-weight: 600;
+  color: var(--text); background: var(--panel);
+  border: 1px solid var(--line); border-radius: 8px;
+  padding: 9px 12px; margin: 2px 0 10px; display: inline-block;
 }
+.gh-conn { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.gh-conn .gh-who { font-size: 12.5px; color: #82c98c; flex: 1; min-width: 0; }
+.gh-conn .gh-who b { font-weight: 700; }
+.gh-dot { width: 7px; height: 7px; border-radius: 50%; background: #82c98c; flex: none; }
+.gh-disconnect:hover { border-color: var(--red); color: #ff7a80; }
 .gh-steps { font-size: 12.5px; color: var(--dim); line-height: 1.7; }
 .gh-steps a { color: var(--gold); }
 .gh-token { margin-top: 12px; }
