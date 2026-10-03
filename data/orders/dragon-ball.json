@@ -1,0 +1,862 @@
+{
+ "id": "dragon-ball",
+ "title": "Dragon Ball",
+ "subtitle": "Akira Toriyama — the complete 42-volume run (1984–1995)",
+ "credit": "Tankōbon reading order — VIZ English editions (vols. 17–42 published as \"Dragon Ball Z\"). Arc divisions follow the original chapter mapping. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "The First Quest",
+   "years": "Vol. 1–2",
+   "color": "#43a047",
+   "tagline": "Son Goku meets Bulma — and the hunt for the seven Dragon Balls begins.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+1"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+1"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    },
+    {
+     "label": "Dragon Ball Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+1+manga"
+    },
+    {
+     "label": "Dragon Ball Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+2+manga"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-01",
+     "label": "Vol. 1",
+     "title": "The Monkey King",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "1",
+     "cv": {
+      "v": 31306,
+      "i": 194861
+     }
+    },
+    {
+     "id": "db-02",
+     "label": "Vol. 2",
+     "title": "Wish Upon A Dragon",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "2",
+     "cv": {
+      "v": 31306,
+      "i": 216206
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "The 21st Tenkaichi Budōkai",
+   "years": "Vol. 3–4",
+   "color": "#1976d2",
+   "tagline": "Kame House training, Krillin, and the first World Martial Arts Tournament.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+1"
+    },
+    {
+     "label": "Dragon Ball VizBig Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+1"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    },
+    {
+     "label": "Dragon Ball Vol. 3",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+3+manga"
+    },
+    {
+     "label": "Dragon Ball Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+4+manga"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-03",
+     "label": "Vol. 3",
+     "title": "The Training of Kame-Sen'nin",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "3",
+     "cv": {
+      "v": 31306,
+      "i": 216213
+     }
+    },
+    {
+     "id": "db-04",
+     "label": "Vol. 4",
+     "title": "Strongest Under The Heavens",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "4",
+     "cv": {
+      "v": 31306,
+      "i": 216219
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "The Red Ribbon Army",
+   "years": "Vol. 5–9",
+   "color": "#d32f2f",
+   "tagline": "Muscle Tower, General Blue, Tao Pai Pai — and a wish for a fallen friend.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball VizBig Vol. 3",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+3"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 3",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+3"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-05",
+     "label": "Vol. 5",
+     "title": "The Red Ribbon Army",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "5",
+     "cv": {
+      "v": 31306,
+      "i": 217591
+     }
+    },
+    {
+     "id": "db-06",
+     "label": "Vol. 6",
+     "title": "Bulma Returns!",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "6",
+     "cv": {
+      "v": 31306,
+      "i": 236296
+     }
+    },
+    {
+     "id": "db-07",
+     "label": "Vol. 7",
+     "title": "General Blue And The Pirate Treasure",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "7",
+     "cv": {
+      "v": 31306,
+      "i": 294798
+     }
+    },
+    {
+     "id": "db-08",
+     "label": "Vol. 8",
+     "title": "Taopaipai & Master Karin",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "8",
+     "cv": {
+      "v": 31306,
+      "i": 294799
+     }
+    },
+    {
+     "id": "db-09",
+     "label": "Vol. 9",
+     "title": "Test Of The All-Seeing Crone",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "9",
+     "cv": {
+      "v": 31306,
+      "i": 294800
+     }
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "The 22nd Tenkaichi Budōkai",
+   "years": "Vol. 10–11",
+   "color": "#f9a825",
+   "tagline": "Tenshinhan arrives — the last tournament of the youthful era.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    },
+    {
+     "label": "Dragon Ball Vol. 10",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+10+manga"
+    },
+    {
+     "label": "Dragon Ball Vol. 11",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+11+manga"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-10",
+     "label": "Vol. 10",
+     "title": "Return To The Tournament",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "10",
+     "cv": {
+      "v": 31306,
+      "i": 294801
+     }
+    },
+    {
+     "id": "db-11",
+     "label": "Vol. 11",
+     "title": "The Eyes of Tenshinhan",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "11",
+     "cv": {
+      "v": 31306,
+      "i": 294802
+     }
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "King Piccolo",
+   "years": "Vol. 12–13",
+   "color": "#7e57c2",
+   "tagline": "The demon king returns — the darkest turn of the original run.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball VizBig Vol. 5",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+5"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 5",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+5"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    },
+    {
+     "label": "Dragon Ball Vol. 12",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+12+manga"
+    },
+    {
+     "label": "Dragon Ball Vol. 13",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Vol.+13+manga"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-12",
+     "label": "Vol. 12",
+     "title": "The Demon King Piccolo",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "12",
+     "cv": {
+      "v": 31306,
+      "i": 294803
+     }
+    },
+    {
+     "id": "db-13",
+     "label": "Vol. 13",
+     "title": "Piccolo Conquers the World",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "13",
+     "cv": {
+      "v": 31306,
+      "i": 294804
+     }
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "The 23rd Tenkaichi Budōkai",
+   "years": "Vol. 14–16",
+   "color": "#607d8b",
+   "tagline": "Goku, now a man — the rematch with Piccolo Jr., and the end of the beginning.",
+   "buy": [
+    {
+     "label": "Dragon Ball VizBig Vol. 5",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+VizBig+Vol.+5"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 5",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+5"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 6",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+6"
+    },
+    {
+     "label": "Dragon Ball Complete Box Set (Vols. 1–16)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-14",
+     "label": "Vol. 14",
+     "title": "Heaven and Earth",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "14",
+     "cv": {
+      "v": 31306,
+      "i": 294805
+     }
+    },
+    {
+     "id": "db-15",
+     "label": "Vol. 15",
+     "title": "The Titanic Tournament",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "15",
+     "cv": {
+      "v": 31306,
+      "i": 294806
+     }
+    },
+    {
+     "id": "db-16",
+     "label": "Vol. 16",
+     "title": "Goku vs. Piccolo",
+     "series": "DB",
+     "seriesName": "Dragon Ball (Viz, 2003)",
+     "num": "16",
+     "cv": {
+      "v": 31306,
+      "i": 294807
+     }
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "The Saiyan Invasion",
+   "years": "Vol. 17–20",
+   "color": "#ef6c00",
+   "tagline": "Raditz reveals Goku's past — and Vegeta comes for the Dragon Balls.",
+   "buy": [
+    {
+     "label": "Dragon Ball Z VizBig Vol. 1",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+1"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 6",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+6"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 7",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+7"
+    },
+    {
+     "label": "Dragon Ball Z Complete Box Set (Vols. 1–26)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-17",
+     "label": "Vol. 17",
+     "title": "The World's Greatest Team",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "17",
+     "cv": {
+      "v": 26289,
+      "i": 155990
+     }
+    },
+    {
+     "id": "db-18",
+     "label": "Vol. 18",
+     "title": "The Lord of Worlds",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "18",
+     "cv": {
+      "v": 26289,
+      "i": 189732
+     }
+    },
+    {
+     "id": "db-19",
+     "label": "Vol. 19",
+     "title": "Earth vs. The Saiyans",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "19",
+     "cv": {
+      "v": 26289,
+      "i": 189733
+     }
+    },
+    {
+     "id": "db-20",
+     "label": "Vol. 20",
+     "title": "Goku Vs. Vegeta",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "20",
+     "cv": {
+      "v": 26289,
+      "i": 189734
+     }
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "Planet Namek — Frieza",
+   "years": "Vol. 21–27",
+   "color": "#c9a227",
+   "tagline": "The longest battle in the series — and the birth of the Super Saiyan.",
+   "buy": [
+    {
+     "label": "Dragon Ball Z VizBig Vol. 2",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+2"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 3",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+3"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 7",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+7"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 8",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+8"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 9",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+9"
+    },
+    {
+     "label": "Dragon Ball Z Complete Box Set (Vols. 1–26)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-21",
+     "label": "Vol. 21",
+     "title": "Dragon Ball In Space",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "21",
+     "cv": {
+      "v": 26289,
+      "i": 189735
+     }
+    },
+    {
+     "id": "db-22",
+     "label": "Vol. 22",
+     "title": "Battlefield Namek",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "22",
+     "cv": {
+      "v": 26289,
+      "i": 189736
+     }
+    },
+    {
+     "id": "db-23",
+     "label": "Vol. 23",
+     "title": "The Ginyu Force",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "23",
+     "cv": {
+      "v": 26289,
+      "i": 189737
+     }
+    },
+    {
+     "id": "db-24",
+     "label": "Vol. 24",
+     "title": "Goku Vs. Ginyu",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "24",
+     "cv": {
+      "v": 26289,
+      "i": 189738
+     }
+    },
+    {
+     "id": "db-25",
+     "label": "Vol. 25",
+     "title": "The Wrath Of Freeza",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "25",
+     "cv": {
+      "v": 26289,
+      "i": 189739
+     }
+    },
+    {
+     "id": "db-26",
+     "label": "Vol. 26",
+     "title": "Goku Vs. Freeza",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "26",
+     "cv": {
+      "v": 26289,
+      "i": 189740
+     }
+    },
+    {
+     "id": "db-27",
+     "label": "Vol. 27",
+     "title": "The Super Saiyan",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "27",
+     "cv": {
+      "v": 26289,
+      "i": 189741
+     }
+    }
+   ]
+  },
+  {
+   "id": "I",
+   "name": "The Androids & Cell",
+   "years": "Vol. 28–35",
+   "color": "#2e7d32",
+   "tagline": "A warrior from the future, the androids — and the Cell Games.",
+   "buy": [
+    {
+     "label": "Dragon Ball Z VizBig Vol. 4",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+4"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 5",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+5"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 6",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+6"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 7",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+7"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 10",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+10"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 11",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+11"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 12",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+12"
+    },
+    {
+     "label": "Dragon Ball Z Complete Box Set (Vols. 1–26)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-28",
+     "label": "Vol. 28",
+     "title": "Enter Trunks",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "28",
+     "cv": {
+      "v": 26289,
+      "i": 189742
+     }
+    },
+    {
+     "id": "db-29",
+     "label": "Vol. 29",
+     "title": "The Red Ribbon Androids",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "29",
+     "cv": {
+      "v": 26289,
+      "i": 189743
+     }
+    },
+    {
+     "id": "db-30",
+     "label": "Vol. 30",
+     "title": "Rise of the Machines",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "30",
+     "cv": {
+      "v": 26289,
+      "i": 189744
+     }
+    },
+    {
+     "id": "db-31",
+     "label": "Vol. 31",
+     "title": "The Terror of Cell",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "31",
+     "cv": {
+      "v": 26289,
+      "i": 189745
+     }
+    },
+    {
+     "id": "db-32",
+     "label": "Vol. 32",
+     "title": "The Room of Spirit and Time",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "32",
+     "cv": {
+      "v": 26289,
+      "i": 189746
+     }
+    },
+    {
+     "id": "db-33",
+     "label": "Vol. 33",
+     "title": "The Cell Game",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "33",
+     "cv": {
+      "v": 26289,
+      "i": 189747
+     }
+    },
+    {
+     "id": "db-34",
+     "label": "Vol. 34",
+     "title": "Gohan vs. Cell",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "34",
+     "cv": {
+      "v": 26289,
+      "i": 189748
+     }
+    },
+    {
+     "id": "db-35",
+     "label": "Vol. 35",
+     "title": "Death of a Warrior",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "35",
+     "cv": {
+      "v": 26289,
+      "i": 189749
+     }
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "Majin Buu",
+   "years": "Vol. 36–42",
+   "color": "#d81b60",
+   "tagline": "Seven years of peace end — the final saga, through to the goodbyes.",
+   "buy": [
+    {
+     "label": "Dragon Ball Z VizBig Vol. 7",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+7"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 8",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+8"
+    },
+    {
+     "label": "Dragon Ball Z VizBig Vol. 9",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+VizBig+Vol.+9"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 12",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+12"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 13",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+13"
+    },
+    {
+     "label": "Dragon Ball 3-in-1 Edition Vol. 14",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+3-in-1+Edition+Vol.+14"
+    },
+    {
+     "label": "Dragon Ball Z Complete Box Set (Vols. 1–26)",
+     "url": "https://www.amazon.com/s?k=Dragon+Ball+Z+Complete+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "db-36",
+     "label": "Vol. 36",
+     "title": "The New Generation",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "36",
+     "cv": {
+      "v": 26289,
+      "i": 189750
+     }
+    },
+    {
+     "id": "db-37",
+     "label": "Vol. 37",
+     "title": "Tournament of the Heavens",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "37",
+     "cv": {
+      "v": 26289,
+      "i": 189751
+     }
+    },
+    {
+     "id": "db-38",
+     "label": "Vol. 38",
+     "title": "Mark of the Warlock",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "38",
+     "cv": {
+      "v": 26289,
+      "i": 189752
+     }
+    },
+    {
+     "id": "db-39",
+     "label": "Vol. 39",
+     "title": "Boo Unleashed",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "39",
+     "cv": {
+      "v": 26289,
+      "i": 189753
+     }
+    },
+    {
+     "id": "db-40",
+     "label": "Vol. 40",
+     "title": "Hercule to the Rescue",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "40",
+     "cv": {
+      "v": 26289,
+      "i": 189754
+     }
+    },
+    {
+     "id": "db-41",
+     "label": "Vol. 41",
+     "title": "Last Hero Standing!",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "41",
+     "cv": {
+      "v": 26289,
+      "i": 189755
+     }
+    },
+    {
+     "id": "db-42",
+     "label": "Vol. 42",
+     "title": "Goodbye, Dragon World",
+     "series": "DBZ",
+     "seriesName": "Dragon Ball Z (Viz, 2003)",
+     "num": "42",
+     "cv": {
+      "v": 26289,
+      "i": 189756
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -11,8 +11,9 @@
 
 Comics are published out of order: crossovers interleave, spin-offs slot between issues, and the "right" way through a run is rarely issue #1 → #N. PanelPath turns that into a simple checklist. Each **reading order** is one file; the app gives it a timeline view with cover art, section progress, and tap-to-check-off persistence that syncs across every device that opens it.
 
-It ships with two community-compiled orders ready to go:
+It ships with three community-compiled orders ready to go:
 
+- **Dragon Ball** — Akira Toriyama, the complete 42-volume run (1984–1995; vols. 17–42 were published as *Dragon Ball Z*)
 - **Power Rangers** — BOOM! Studios, the complete 2016–2026 continuity (201 items, deluxe-edition sequencing)
 - **Teenage Mutant Ninja Turtles** — IDW, the 2011–2024 run (228 items: main series + spin-off mini-series)
 
