@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const { validateOrder } = require("./lib/validate.js");
 
 const app = express();
 const PORT = process.env.PORT || 5175;
@@ -315,7 +316,13 @@ app.post("/api/progress/reset", (req, res) => {
 app.get("/api/settings", (req, res) => {
   const s = readSettings();
   res.set("Cache-Control", "no-store");
-  res.json({ hasKey: !!s.comicvineKey, amazonTag: s.amazonTag || "" });
+  res.json({
+    hasKey: !!s.comicvineKey,
+    amazonTag: s.amazonTag || "",
+    githubConnected: !!s.githubToken,
+    githubLogin: s.githubToken ? (s.githubLogin || null) : null,
+    githubDevice: !!process.env.GITHUB_CLIENT_ID,
+  });
 });
 
 app.post("/api/settings", (req, res) => {
@@ -358,35 +365,6 @@ app.get("/api/covers/status", (req, res) => {
 });
 
 /* ---------- order builder: drafts, CV search, save ---------- */
-
-function validateOrder(o) {
-  if (!o || typeof o !== "object") return "bad-order";
-  if (!/^[a-z0-9-]{3,40}$/.test(o.id || "")) return "bad-id";
-  if (!String(o.title || "").trim()) return "no-title";
-  if (!Array.isArray(o.sections) || !o.sections.length || o.sections.length > 40) return "bad-sections";
-  const seen = new Set();
-  let total = 0;
-  for (const s of o.sections) {
-    if (!String(s.name || "").trim() || String(s.name).length > 120) return "section-name";
-    if (!/^#[0-9a-fA-F]{6}$/.test(s.color || "")) return "bad-color";
-    if (!Array.isArray(s.items) || !s.items.length || s.items.length > 400) return "bad-items";
-    total += s.items.length;
-    for (const it of s.items) {
-      if (!String(it.label || "").trim() || String(it.label).length > 160) return "item-label";
-      if (!/^[A-Za-z0-9_-]{1,80}$/.test(it.id || "")) return "bad-item-id";
-      if (seen.has(it.id)) return "dupe-item-id";
-      seen.add(it.id);
-    }
-    if (Array.isArray(s.buy)) {
-      for (const b of s.buy) {
-        if (!String(b.label || "").trim() || String(b.label).length > 80) return "buy-label";
-        if (!/^https?:\/\//.test(b.url || "") || String(b.url).length > 500) return "bad-buy-url";
-      }
-    }
-  }
-  if (total > 2000) return "too-big";
-  return null;
-}
 
 function cleanOrder(o) {
   return {
@@ -466,6 +444,212 @@ app.delete("/api/drafts/:id", (req, res) => {
   const fp = draftFile(req.params.id);
   if (fp && fs.existsSync(fp)) fs.unlinkSync(fp);
   res.json({ ok: true });
+});
+
+/* ---------- GitHub connect + submit (Phase B) ---------- */
+
+const GH_REPO = "gpmarinos114/panelpath";
+const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || "";
+
+async function ghApi(token, apiPath, opts = {}) {
+  const res = await fetch("https://api.github.com" + apiPath, {
+    ...opts,
+    headers: {
+      Authorization: "Bearer " + token,
+      Accept: "application/vnd.github+json",
+      "User-Agent": "PanelPath",
+      ...(opts.headers || {}),
+    },
+    signal: AbortSignal.timeout(25000),
+  });
+  let body = null;
+  try { body = await res.json(); } catch {}
+  return { status: res.status, ok: res.ok, body };
+}
+
+function ghErr(r) {
+  if (r.status === 401) return "token expired or invalid";
+  if (r.status === 403 || r.status === 429) return "GitHub rate limit \u2014 try again later";
+  return (r.body && r.body.message) || ("GitHub error " + r.status);
+}
+
+app.get("/api/github/status", (req, res) => {
+  const s = readSettings();
+  res.set("Cache-Control", "no-store");
+  res.json({ connected: !!s.githubToken, login: s.githubToken ? (s.githubLogin || null) : null, device: !!GITHUB_CLIENT_ID });
+});
+
+app.post("/api/github/device/start", async (req, res) => {
+  if (!GITHUB_CLIENT_ID) return res.status(400).json({ error: "no-client-id" });
+  try {
+    const r = await fetch("https://github.com/login/device/code", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: new URLSearchParams({ client_id: GITHUB_CLIENT_ID, scope: "public_repo" }),
+      signal: AbortSignal.timeout(15000),
+    });
+    const j = await r.json().catch(() => null);
+    if (!r.ok || !j || !j.device_code) return res.status(502).json({ error: "device-start-failed" });
+    res.json({ user_code: j.user_code, verification_uri: j.verification_uri, device_code: j.device_code, interval: j.interval || 5, expires_in: j.expires_in });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 120) });
+  }
+});
+
+app.post("/api/github/device/poll", async (req, res) => {
+  const { device_code } = req.body || {};
+  if (!GITHUB_CLIENT_ID || typeof device_code !== "string" || !device_code) return res.status(400).json({ error: "bad-request" });
+  try {
+    const r = await fetch("https://github.com/login/oauth/access_token", {
+      method: "POST",
+      headers: { Accept: "application/json" },
+      body: new URLSearchParams({ client_id: GITHUB_CLIENT_ID, device_code, grant_type: "urn:ietf:params:oauth:grant-type:device_code" }),
+      signal: AbortSignal.timeout(15000),
+    });
+    const j = await r.json().catch(() => null);
+    if (!j) return res.status(502).json({ error: "poll-failed" });
+    if (j.error === "authorization_pending" || j.error === "slow_down") return res.json({ status: "pending" });
+    if (j.error) return res.json({ status: "error", error: j.error });
+    if (!j.access_token) return res.status(502).json({ error: "no-token" });
+    const me = await ghApi(j.access_token, "/user");
+    if (!me.ok) return res.status(502).json({ error: "validate-failed" });
+    const s = readSettings();
+    s.githubToken = j.access_token;
+    s.githubLogin = me.body.login;
+    writeSettings(s);
+    res.json({ status: "connected", login: me.body.login });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 120) });
+  }
+});
+
+app.post("/api/github/token", async (req, res) => {
+  const { token } = req.body || {};
+  if (typeof token !== "string" || token.trim().length < 20) return res.status(400).json({ error: "bad-token" });
+  try {
+    const me = await ghApi(token.trim(), "/user");
+    if (!me.ok) return res.status(400).json({ error: "bad-token" });
+    const s = readSettings();
+    s.githubToken = token.trim();
+    s.githubLogin = me.body.login;
+    writeSettings(s);
+    res.json({ ok: true, login: me.body.login });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 120) });
+  }
+});
+
+app.post("/api/github/disconnect", (req, res) => {
+  const s = readSettings();
+  delete s.githubToken;
+  delete s.githubLogin;
+  writeSettings(s);
+  res.json({ ok: true });
+});
+
+app.post("/api/submit", async (req, res) => {
+  const { order } = req.body || {};
+  if (typeof order !== "string" || !/^[a-z0-9-]+$/.test(order)) return res.status(400).json({ error: "bad-order" });
+  const userFile = path.join(USER_ORDERS_DIR, order + ".json");
+  if (!fs.existsSync(userFile)) return res.status(400).json({ error: "only-your-own" });
+  const o = readJson(userFile, null);
+  if (!o) return res.status(400).json({ error: "bad-order" });
+  const s = readSettings();
+  const token = s.githubToken;
+  if (!token) return res.status(400).json({ error: "not-connected" });
+  try {
+    const me = await ghApi(token, "/user");
+    if (!me.ok) return res.status(400).json({ error: ghErr(me) });
+    const login = me.body.login;
+
+    // fork (or the repo itself, when the submitter owns it)
+    let fork = await ghApi(token, `/repos/${login}/panelpath`);
+    if (fork.status === 404) {
+      await ghApi(token, `/repos/${GH_REPO}/forks`, { method: "POST" });
+      for (let i = 0; i < 10; i++) {
+        await new Promise((r2) => setTimeout(r2, 2000));
+        fork = await ghApi(token, `/repos/${login}/panelpath`);
+        if (fork.ok) break;
+      }
+    }
+    if (!fork.ok) return res.status(502).json({ error: "fork-failed" });
+    const onBase = String((fork.body && fork.body.full_name) || "").toLowerCase() === GH_REPO.toLowerCase();
+
+    // fresh branch at upstream main
+    const mainRef = await ghApi(token, `/repos/${GH_REPO}/git/ref/heads/main`);
+    if (!mainRef.ok) return res.status(502).json({ error: ghErr(mainRef) });
+    const sha = mainRef.body.object.sha;
+    const branch = "submit/" + o.id;
+    const branchPath = branch.split("/").map(encodeURIComponent).join("/");
+    const br = await ghApi(token, `/repos/${login}/panelpath/git/ref/heads/${branchPath}`);
+    if (br.ok) {
+      const up = await ghApi(token, `/repos/${login}/panelpath/git/refs/heads/${branchPath}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sha, force: true }),
+      });
+      if (!up.ok) return res.status(502).json({ error: ghErr(up) });
+    } else {
+      const cr = await ghApi(token, `/repos/${login}/panelpath/git/refs`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: "refs/heads/" + branch, sha }),
+      });
+      if (!cr.ok) return res.status(502).json({ error: ghErr(cr) });
+    }
+
+    // commit the order file
+    const filePath = "data/orders/" + o.id + ".json";
+    const existing = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}?ref=${encodeURIComponent(branch)}`);
+    const clean = cleanOrder(o);
+    const content = Buffer.from(JSON.stringify(clean, null, 2) + "\n").toString("base64");
+    const isNew = !bundledIds().has(o.id);
+    const put = await ghApi(token, `/repos/${login}/panelpath/contents/${filePath}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        message: (isNew ? "Add order: " : "Update order: ") + clean.title,
+        content,
+        branch,
+        ...(existing.ok && existing.body && existing.body.sha ? { sha: existing.body.sha } : {}),
+      }),
+    });
+    if (!put.ok) return res.status(502).json({ error: ghErr(put) });
+
+    // open (or find) the PR — deterministic: scan open PRs and match head repo+branch ourselves (the ?head= filter is index-lagged and misses internal PRs)
+    const headQ = onBase ? branch : login + ":" + branch;
+    const headRepo = onBase ? GH_REPO : login + "/panelpath";
+    const openPrs = await ghApi(token, `/repos/${GH_REPO}/pulls?state=open&per_page=100`);
+    let pr = null;
+    let updated = false;
+    if (openPrs.ok && Array.isArray(openPrs.body)) {
+      pr = openPrs.body.find(
+        (p) => p.head && p.head.ref === branch && p.head.repo && String(p.head.repo.full_name).toLowerCase() === headRepo.toLowerCase()
+      ) || null;
+    }
+    if (pr) {
+      updated = true;
+    } else {
+      const itemCount = clean.sections.reduce((n, sec) => n + sec.items.length, 0);
+      const body =
+        "## " + (isNew ? "New reading order" : "Update to an existing reading order") + ": **" + clean.title + "**\n\n" +
+        (clean.subtitle ? clean.subtitle + "\n\n" : "") +
+        "- " + clean.sections.length + " sections, " + itemCount + " issues\n" +
+        "- Submitted from the PanelPath app (@" + login + ")\n\n" +
+        (clean.credit ? "> " + clean.credit + "\n\n" : "") +
+        "---\n*A maintainer will review this. Thanks for contributing!*";
+      const prR = await ghApi(token, `/repos/${GH_REPO}/pulls`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title: (isNew ? "Order: " : "Update order: ") + clean.title, head: headQ, base: "main", body }),
+      });
+      if (!prR.ok) return res.status(502).json({ error: ghErr(prR) });
+      pr = prR.body;
+    }
+    res.json({ ok: true, login, updated, pr: { number: pr.number, url: pr.html_url } });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 160) });
+  }
 });
 
 app.get("/api/cv/volumes", async (req, res) => {

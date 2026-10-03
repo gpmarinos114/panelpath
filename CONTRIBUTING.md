@@ -8,6 +8,8 @@ Reading orders are plain JSON files in `data/orders/`. One file per comic line. 
 
 **Shortcut:** you can build the order in the app first (**+ New order** on the home page). The builder writes a valid order file into your data directory under `orders/` — paste that file into your PR. ComicVine search inside the builder fills in the ids and labels for you as you add issues.
 
+**Submitting from the app:** if you built the order in PanelPath, open it and use **Submit to PanelPath** — the app forks the repo, commits just the order file, and opens the pull request for you. A GitHub Action validates every order PR automatically (structure, ids, colors, size).
+
 ### The format
 
 ```json

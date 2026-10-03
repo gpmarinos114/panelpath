@@ -137,6 +137,7 @@ async function showBuilder(draftId, editId) {
   $("#chips").innerHTML = "";
   $("#resetBtn").hidden = true;
   $("#editBtn").hidden = true;
+  $("#submitBtn").hidden = true;
   CURRENT = null;
 
   if (editId) {

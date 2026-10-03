@@ -11,6 +11,8 @@ services:
       - DATA_DIR=/data
       - PROGRESS_FILE=/data/progress.json
       - TZ=America/New_York
+      # Optional: enables the in-app "Connect with GitHub" device flow for submitting orders.
+      # - GITHUB_CLIENT_ID=your_oauth_app_client_id
     restart: unless-stopped
 
 volumes:

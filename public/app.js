@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 11;
+const ASSET_V = 12;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -63,6 +63,7 @@ async function showHome() {
   $("#chips").innerHTML = "";
   $("#resetBtn").hidden = true;
   $("#editBtn").hidden = true;
+  $("#submitBtn").hidden = true;
 
   const view = $("#view");
   view.innerHTML = "";
@@ -203,6 +204,7 @@ async function showOrder(id) {
   $("#chips").hidden = false;
   $("#resetBtn").hidden = false;
   $("#editBtn").hidden = data.source !== "user";
+  $("#submitBtn").hidden = data.source !== "user";
   renderChips();
   renderOrder();
 }
@@ -444,6 +446,7 @@ function openModal() {
     })
     .catch(() => {});
   pollFetchStatus(true);
+  if (window.renderGitHubSection) renderGitHubSection();
 }
 
 function closeModal() {
@@ -458,6 +461,9 @@ function bindSettings() {
   $("#settingsBtn").addEventListener("click", openModal);
   $("#editBtn").addEventListener("click", () => {
     if (CURRENT) location.hash = "#/edit/" + CURRENT.id;
+  });
+  $("#submitBtn").addEventListener("click", () => {
+    if (window.openSubmitModal) openSubmitModal();
   });
   $("#closeModal").addEventListener("click", closeModal);
   $("#settingsModal").addEventListener("click", (e) => {
