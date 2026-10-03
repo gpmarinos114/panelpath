@@ -1856,6 +1856,72 @@
    "color": "#546e7a",
    "kind": "extras",
    "tagline": "Complete mini-series from the same era \u2014 read anytime.",
+   "buy": [
+    {
+     "label": "Micro-Series Vol. 1",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Micro-Series+Vol.+1"
+    },
+    {
+     "label": "Micro-Series Vol. 2",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Micro-Series+Vol.+2"
+    },
+    {
+     "label": "Villains Vol. 1",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Villain+Micro-Series+Vol.+1"
+    },
+    {
+     "label": "Villains Vol. 2",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Villain+Micro-Series+Vol.+2"
+    },
+    {
+     "label": "Universe Vol. 1",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Universe+Vol.+1"
+    },
+    {
+     "label": "Universe Vol. 2",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Universe+Vol.+2"
+    },
+    {
+     "label": "Universe Vol. 3",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Universe+Vol.+3"
+    },
+    {
+     "label": "Universe Vol. 4",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Universe+Vol.+4"
+    },
+    {
+     "label": "Universe Vol. 5",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Universe+Vol.+5"
+    },
+    {
+     "label": "Macro-Series",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Macro+Series"
+    },
+    {
+     "label": "Shredder in Hell",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Shredder+in+Hell"
+    },
+    {
+     "label": "Dimension X",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Dimension+X"
+    },
+    {
+     "label": "Bebop & Rocksteady",
+     "url": "https://www.amazon.com/s?k=Teenage+Mutant+Ninja+Turtles+Bebop+and+Rocksteady+Destroy+Everything"
+    },
+    {
+     "label": "Batman/TMNT Vol. 1",
+     "url": "https://www.amazon.com/s?k=Batman+Teenage+Mutant+Ninja+Turtles+Vol.+1"
+    },
+    {
+     "label": "Batman/TMNT Vol. 2",
+     "url": "https://www.amazon.com/s?k=Batman+Teenage+Mutant+Ninja+Turtles+II"
+    },
+    {
+     "label": "Batman/TMNT Vol. 3",
+     "url": "https://www.amazon.com/s?k=Batman+Teenage+Mutant+Ninja+Turtles+III"
+    }
+   ],
    "items": [
     {
      "id": "tmnt-micro-01",

@@ -12,12 +12,16 @@
    "tagline": "Five teens. One Rita. No backup.",
    "buy": [
     {
-     "label": "MMPR Vol. 1",
-     "url": "https://www.amazon.com/dp/1608868931"
+     "label": "Year One Deluxe",
+     "url": "https://www.amazon.com/s?k=Mighty+Morphin+Power+Rangers+Year+One+Deluxe+Edition"
     },
     {
-     "label": "Go Go Vol. 1",
-     "url": "https://www.amazon.com/dp/1684151937"
+     "label": "Year Two Deluxe",
+     "url": "https://www.amazon.com/s?k=9781684152674"
+    },
+    {
+     "label": "Go Go Book One",
+     "url": "https://www.amazon.com/s?k=9781684158713"
     },
     {
      "label": "Go Go Omnibus (pre-order)",
@@ -758,6 +762,14 @@
     {
      "label": "Necessary Evil II Deluxe",
      "url": "https://www.amazon.com/dp/1684158192"
+    },
+    {
+     "label": "Go Go Book One",
+     "url": "https://www.amazon.com/s?k=9781684158713"
+    },
+    {
+     "label": "Go Go Book Two",
+     "url": "https://www.amazon.com/s?k=Go+Go+Power+Rangers+Book+Two+Deluxe+Edition"
     }
    ],
    "items": [
@@ -1221,6 +1233,10 @@
     {
      "label": "Deluxe Book Two",
      "url": "https://www.amazon.com/s?k=9781608862160"
+    },
+    {
+     "label": "Deluxe Book Three",
+     "url": "https://www.amazon.com/s?k=Mighty+Morphin+Power+Rangers+Book+Three+Deluxe+Edition"
     }
    ],
    "items": [
@@ -1822,8 +1838,12 @@
    "tagline": "The first era's final days.",
    "buy": [
     {
-     "label": "Recharged Vol. 1",
-     "url": "https://www.amazon.com/s?k=9781684158959"
+     "label": "Recharged Deluxe",
+     "url": "https://www.amazon.com/s?k=9798892151993"
+    },
+    {
+     "label": "Darkest Hour Deluxe",
+     "url": "https://www.amazon.com/s?k=Mighty+Morphin+Power+Rangers+Darkest+Hour+Deluxe+Edition"
     }
    ],
    "items": [
@@ -2163,6 +2183,18 @@
     {
      "label": "Prime Vol. 1",
      "url": "https://www.amazon.com/s?k=9798892153607"
+    },
+    {
+     "label": "Prime Vol. 2",
+     "url": "https://www.amazon.com/s?k=Power+Rangers+Prime+Vol.+2"
+    },
+    {
+     "label": "Prime Vol. 3",
+     "url": "https://www.amazon.com/s?k=Power+Rangers+Prime+Vol.+3"
+    },
+    {
+     "label": "Prime Vol. 4",
+     "url": "https://www.amazon.com/s?k=Power+Rangers+Prime+Vol.+4"
     }
    ],
    "items": [
@@ -2423,6 +2455,16 @@
    "years": "anytime",
    "color": "#795548",
    "tagline": "Side stories & alternate corners.",
+   "buy": [
+    {
+     "label": "Pink",
+     "url": "https://www.amazon.com/s?k=Mighty+Morphin+Power+Rangers+Pink"
+    },
+    {
+     "label": "The Return",
+     "url": "https://www.amazon.com/s?k=Mighty+Morphin+Power+Rangers+The+Return"
+    }
+   ],
    "items": [
     {
      "id": "pink-01",
