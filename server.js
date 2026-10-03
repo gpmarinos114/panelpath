@@ -94,6 +94,42 @@ function readVersion() {
   }
 }
 
+/* ---------- affiliate tags ---------- */
+
+function affiliateTag() {
+  const s = readSettings();
+  const t = (s.amazonTag || process.env.AMAZON_TAG || "").trim();
+  return t;
+}
+
+function applyTag(url, tag) {
+  if (!tag || typeof url !== "string") return url;
+  try {
+    const u = new URL(url);
+    if (!/(^|\.)amazon\.com$/i.test(u.hostname)) return url;
+    u.searchParams.set("tag", tag);
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
+function tagBuys(buy, tag) {
+  if (!Array.isArray(buy)) return buy;
+  return buy.map((b) =>
+    b && typeof b.url === "string" ? { ...b, url: applyTag(b.url, tag) } : b
+  );
+}
+
+function orderWithTags(order) {
+  const tag = affiliateTag();
+  if (!order || !tag) return order;
+  const out = { ...order };
+  if (out.buy) out.buy = tagBuys(out.buy, tag);
+  out.sections = order.sections.map((s) => (s.buy ? { ...s, buy: tagBuys(s.buy, tag) } : s));
+  return out;
+}
+
 function coverPath(orderId, itemId) {
   if (!/^[a-z0-9-]+$/.test(orderId) || !/^[A-Za-z0-9_.-]+$/.test(itemId)) return null;
   return path.join(COVERS_DIR, orderId, itemId + ".jpg");
@@ -108,12 +144,14 @@ function orderMeta(order, progress) {
     title: order.title,
     subtitle: order.subtitle || "",
     credit: order.credit || "",
+    buy: order.buy || null,
     total,
     read,
     sections: order.sections.map((s) => ({
       id: s.id, name: s.name, color: s.color, years: s.years, kind: s.kind || null,
       count: s.items.length,
       read: s.items.filter((i) => p[i.id]).length,
+      buy: s.buy || null,
     })),
   };
 }
@@ -213,12 +251,12 @@ async function runCoverFetch(orderId) {
 app.get("/api/orders", (req, res) => {
   res.set("Cache-Control", "no-store");
   const progress = readProgress();
-  res.json(listOrders().map((o) => orderMeta(o, progress)));
+  res.json(listOrders().map((o) => orderMeta(orderWithTags(o), progress)));
 });
 
 app.get("/api/orders/:id", (req, res) => {
   res.set("Cache-Control", "no-store");
-  const order = loadOrder(req.params.id);
+  const order = orderWithTags(loadOrder(req.params.id));
   if (!order) return res.status(404).json({ error: "order not found" });
   const out = { ...order };
   out.sections = order.sections.map((s) => ({
@@ -264,16 +302,27 @@ app.post("/api/progress/reset", (req, res) => {
 app.get("/api/settings", (req, res) => {
   const s = readSettings();
   res.set("Cache-Control", "no-store");
-  res.json({ hasKey: !!s.comicvineKey });
+  res.json({ hasKey: !!s.comicvineKey, amazonTag: s.amazonTag || "" });
 });
 
 app.post("/api/settings", (req, res) => {
-  const { key } = req.body || {};
-  if (typeof key !== "string" || key.length < 10) return res.status(400).json({ error: "bad key" });
+  const { key, amazonTag } = req.body || {};
   const s = readSettings();
-  s.comicvineKey = key.trim();
+  let changed = false;
+  if (typeof amazonTag === "string") {
+    const t = amazonTag.trim();
+    if (t && !/^[A-Za-z0-9._-]{3,40}$/.test(t)) return res.status(400).json({ error: "bad tag" });
+    s.amazonTag = t;
+    changed = true;
+  }
+  if (typeof key === "string") {
+    if (key.length < 10) return res.status(400).json({ error: "bad key" });
+    s.comicvineKey = key.trim();
+    changed = true;
+  }
+  if (!changed) return res.status(400).json({ error: "nothing to save" });
   writeSettings(s);
-  res.json({ ok: true, hasKey: true });
+  res.json({ ok: true, hasKey: !!s.comicvineKey, amazonTag: s.amazonTag || "" });
 });
 
 app.post("/api/covers/fetch", (req, res) => {

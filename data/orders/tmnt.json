@@ -10,6 +10,12 @@
    "years": "#1\u201350",
    "color": "#43a047",
    "tagline": "The beginning \u2014 Splinter's lessons, the Foot, and the first fall of Shredder.",
+   "buy": [
+    {
+     "label": "Ongoing Compendium Vol. 1",
+     "url": "https://www.amazon.com/s?k=9798887244457"
+    }
+   ],
    "items": [
     {
      "id": "tmnt-001",
@@ -619,6 +625,12 @@
    "years": "#51\u2013100",
    "color": "#7e57c2",
    "tagline": "New alliances, the road to issue 100.",
+   "buy": [
+    {
+     "label": "Ongoing Compendium Vol. 2",
+     "url": "https://www.amazon.com/s?k=9798887244587"
+    }
+   ],
    "items": [
     {
      "id": "tmnt-051",
@@ -1228,6 +1240,12 @@
    "years": "#101\u2013150",
    "color": "#ef6c00",
    "tagline": "The final era \u2014 through to #150.",
+   "buy": [
+    {
+     "label": "Ongoing Compendium Vol. 3",
+     "url": "https://www.amazon.com/s?k=9798887245119"
+    }
+   ],
    "items": [
     {
      "id": "tmnt-101",

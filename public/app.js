@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 6;
+const ASSET_V = 7;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -17,6 +17,10 @@ async function boot() {
   window.addEventListener("hashchange", route);
   bindSettings();
   scheduleVersionCheck();
+  fetch("/api/settings")
+    .then((r) => r.json())
+    .then((s) => updateAssocNote(s.amazonTag))
+    .catch(() => {});
 }
 
 /* ---------- routing ---------- */
@@ -192,7 +196,12 @@ function renderOrder() {
       (s.years ? `<span class="years">${esc(s.years)}</span>` : "") +
       (complete ? `<span class="complete">Complete</span>` : "") +
       `<span class="era-count">${readIn} / ${items.length}</span>` +
-      (s.tagline ? `<span class="tagline">${esc(s.tagline)}</span>` : "");
+      (s.tagline ? `<span class="tagline">${esc(s.tagline)}</span>` : "") +
+      (s.buy && s.buy.length
+        ? `<div class="era-buy"><span class="buy-label">Get it</span>` +
+          s.buy.map((b) => `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join("") +
+          `</div>`
+        : "");
     sec.appendChild(band);
 
     if (unreadOnly && shown.length === 0) {
@@ -229,6 +238,13 @@ function renderOrder() {
     }
     sec.appendChild(list);
     frag.appendChild(sec);
+  }
+  if (CURRENT.buy && CURRENT.buy.length) {
+    const ob = document.createElement("div");
+    ob.className = "order-buy";
+    ob.innerHTML = '<span class="buy-label">This run in print</span>' +
+      CURRENT.buy.map((b) => `<a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.label)}</a>`).join("");
+    main.appendChild(ob);
   }
   main.appendChild(frag);
   updateProgressUI();
@@ -354,6 +370,8 @@ function openModal() {
     .then((r) => r.json())
     .then((s) => {
       $("#keyState").textContent = s.hasKey ? "key saved \u2713" : "no key yet";
+      $("#amazonTag").value = s.amazonTag || "";
+      $("#tagState").textContent = s.amazonTag ? "active" : "not set";
     })
     .catch(() => {});
   pollFetchStatus(true);
@@ -387,6 +405,24 @@ function bindSettings() {
       $("#cvKey").value = "";
       $("#keyState").textContent = "key saved \u2713";
       showToast("KEY SAVED");
+    } catch {
+      showToast("SAVE FAILED");
+    }
+  });
+
+  $("#saveTagBtn").addEventListener("click", async () => {
+    const amazonTag = $("#amazonTag").value.trim();
+    try {
+      const r = await fetch("/api/settings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ amazonTag }),
+      });
+      if (!r.ok) throw new Error();
+      const s = await r.json();
+      $("#tagState").textContent = s.amazonTag ? "active" : "not set";
+      updateAssocNote(s.amazonTag);
+      showToast(s.amazonTag ? "TAG SAVED" : "TAG CLEARED");
     } catch {
       showToast("SAVE FAILED");
     }
@@ -446,6 +482,11 @@ function pollFetchStatus(immediate) {
 }
 
 /* ---------- misc ---------- */
+
+function updateAssocNote(tag) {
+  const n = $("#assocNote");
+  if (n) n.hidden = !tag;
+}
 
 function showToast(msg) {
   const t = $("#toast");

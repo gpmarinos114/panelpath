@@ -10,6 +10,20 @@
    "years": "2016\u20132017",
    "color": "#d32f2f",
    "tagline": "Five teens. One Rita. No backup.",
+   "buy": [
+    {
+     "label": "MMPR Vol. 1",
+     "url": "https://www.amazon.com/dp/1608868931"
+    },
+    {
+     "label": "Go Go Vol. 1",
+     "url": "https://www.amazon.com/dp/1684151937"
+    },
+    {
+     "label": "Go Go Omnibus (pre-order)",
+     "url": "https://www.amazon.com/dp/B0GNYZRXXW"
+    }
+   ],
    "items": [
     {
      "id": "mmpr-000",
@@ -433,6 +447,12 @@
    "years": "2018",
    "color": "#2e7d32",
    "tagline": "Lord Drakkon breaks the timeline.",
+   "buy": [
+    {
+     "label": "Shattered Grid Deluxe",
+     "url": "https://www.amazon.com/dp/1684153433"
+    }
+   ],
    "items": [
     {
      "id": "mmpr-025",
@@ -595,6 +615,12 @@
    "years": "2018\u20132019",
    "color": "#607d8b",
    "tagline": "A new team, lost in space.",
+   "buy": [
+    {
+     "label": "Beyond the Grid",
+     "url": "https://www.amazon.com/dp/1684155541"
+    }
+   ],
    "items": [
     {
      "id": "mmpr-031",
@@ -724,6 +750,16 @@
    "years": "2019\u20132020",
    "color": "#f9a825",
    "tagline": "The Green Ranger's endgame.",
+   "buy": [
+    {
+     "label": "Necessary Evil I Deluxe",
+     "url": "https://www.amazon.com/s?k=9781684157693"
+    },
+    {
+     "label": "Necessary Evil II Deluxe",
+     "url": "https://www.amazon.com/dp/1684158192"
+    }
+   ],
    "items": [
     {
      "id": "ggpr-013",
@@ -1177,6 +1213,16 @@
    "years": "2020\u20132022",
    "color": "#1976d2",
    "tagline": "Two teams. One Eltarian war.",
+   "buy": [
+    {
+     "label": "Deluxe Book One",
+     "url": "https://www.amazon.com/s?k=9781608861316"
+    },
+    {
+     "label": "Deluxe Book Two",
+     "url": "https://www.amazon.com/s?k=9781608862160"
+    }
+   ],
    "items": [
     {
      "id": "mm-01",
@@ -1774,6 +1820,12 @@
    "years": "2022\u20132024",
    "color": "#ef6c00",
    "tagline": "The first era's final days.",
+   "buy": [
+    {
+     "label": "Recharged Vol. 1",
+     "url": "https://www.amazon.com/s?k=9781684158959"
+    }
+   ],
    "items": [
     {
      "id": "mmpr-101",
@@ -2107,6 +2159,12 @@
    "years": "2024\u20132026",
    "color": "#d81b60",
    "tagline": "A universe reborn.",
+   "buy": [
+    {
+     "label": "Prime Vol. 1",
+     "url": "https://www.amazon.com/s?k=9798892153607"
+    }
+   ],
    "items": [
     {
      "id": "prime-01",
