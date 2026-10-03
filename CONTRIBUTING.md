@@ -6,6 +6,8 @@ Two great ways to help: **fix/extend a reading order**, or **improve the app**. 
 
 Reading orders are plain JSON files in `data/orders/`. One file per comic line. The app picks up every `*.json` in that folder at startup — no code changes needed.
 
+**Shortcut:** you can build the order in the app first (**+ New order** on the home page). The builder writes a valid order file into your data directory under `orders/` — paste that file into your PR. ComicVine search inside the builder fills in the ids and labels for you as you add issues.
+
 ### The format
 
 ```json

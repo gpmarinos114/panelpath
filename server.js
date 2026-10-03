@@ -8,6 +8,7 @@ const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "data");
 const BUNDLED_ORDERS_DIR = path.join(__dirname, "data", "orders");
 const USER_ORDERS_DIR = path.join(DATA_DIR, "orders");
 const COVERS_DIR = path.join(DATA_DIR, "covers");
+const DRAFTS_DIR = path.join(DATA_DIR, "drafts");
 const PROGRESS_FILE = process.env.PROGRESS_FILE || path.join(DATA_DIR, "progress.json");
 const SETTINGS_FILE = path.join(DATA_DIR, "settings.json");
 
@@ -28,6 +29,14 @@ function writeJsonAtomic(file, obj) {
   const tmp = file + ".tmp";
   fs.writeFileSync(tmp, JSON.stringify(obj, null, 1));
   fs.renameSync(tmp, file);
+}
+
+function bundledIds() {
+  const s = new Set();
+  try {
+    for (const f of fs.readdirSync(BUNDLED_ORDERS_DIR)) if (f.endsWith(".json")) s.add(f.replace(/\.json$/, ""));
+  } catch {}
+  return s;
 }
 
 function orderFile(id) {
@@ -342,6 +351,180 @@ app.post("/api/covers/fetch", (req, res) => {
 app.get("/api/covers/status", (req, res) => {
   res.set("Cache-Control", "no-store");
   res.json(fetchJob);
+});
+
+/* ---------- order builder: drafts, CV search, save ---------- */
+
+function validateOrder(o) {
+  if (!o || typeof o !== "object") return "bad-order";
+  if (!/^[a-z0-9-]{3,40}$/.test(o.id || "")) return "bad-id";
+  if (!String(o.title || "").trim()) return "no-title";
+  if (!Array.isArray(o.sections) || !o.sections.length || o.sections.length > 40) return "bad-sections";
+  const seen = new Set();
+  let total = 0;
+  for (const s of o.sections) {
+    if (!String(s.name || "").trim() || String(s.name).length > 120) return "section-name";
+    if (!/^#[0-9a-fA-F]{6}$/.test(s.color || "")) return "bad-color";
+    if (!Array.isArray(s.items) || !s.items.length || s.items.length > 400) return "bad-items";
+    total += s.items.length;
+    for (const it of s.items) {
+      if (!String(it.label || "").trim() || String(it.label).length > 160) return "item-label";
+      if (!/^[A-Za-z0-9_-]{1,80}$/.test(it.id || "")) return "bad-item-id";
+      if (seen.has(it.id)) return "dupe-item-id";
+      seen.add(it.id);
+    }
+    if (Array.isArray(s.buy)) {
+      for (const b of s.buy) {
+        if (!String(b.label || "").trim() || String(b.label).length > 80) return "buy-label";
+        if (!/^https?:\/\//.test(b.url || "") || String(b.url).length > 500) return "bad-buy-url";
+      }
+    }
+  }
+  if (total > 2000) return "too-big";
+  return null;
+}
+
+function cleanOrder(o) {
+  return {
+    id: o.id,
+    title: String(o.title).trim(),
+    subtitle: String(o.subtitle || "").trim(),
+    credit: String(o.credit || "").trim(),
+    sections: o.sections.map((s) => ({
+      id: String(s.id),
+      name: String(s.name).trim(),
+      years: String(s.years || "").trim(),
+      color: s.color,
+      ...(s.tagline ? { tagline: String(s.tagline).trim() } : {}),
+      ...(Array.isArray(s.buy) && s.buy.length
+        ? { buy: s.buy.map((b) => ({ label: String(b.label).trim(), url: String(b.url).trim() })) }
+        : {}),
+      items: s.items.map((it) => ({
+        id: it.id,
+        label: String(it.label).trim(),
+        ...(it.title ? { title: String(it.title).trim() } : {}),
+        ...(it.series ? { series: String(it.series).trim() } : {}),
+        ...(it.seriesName ? { seriesName: String(it.seriesName).trim() } : {}),
+        ...(it.num ? { num: String(it.num) } : {}),
+        ...(it.cv && it.cv.v && it.cv.i ? { cv: { v: Number(it.cv.v), i: Number(it.cv.i) } } : {}),
+      })),
+    })),
+  };
+}
+
+function draftFile(id) {
+  if (!/^[A-Za-z0-9_-]{1,64}$/.test(id)) return null;
+  return path.join(DRAFTS_DIR, id + ".json");
+}
+
+app.get("/api/drafts", (req, res) => {
+  res.set("Cache-Control", "no-store");
+  const out = [];
+  try {
+    for (const f of fs.readdirSync(DRAFTS_DIR)) {
+      if (!f.endsWith(".json")) continue;
+      const d = readJson(path.join(DRAFTS_DIR, f), null);
+      if (d && d.draftId) {
+        out.push({
+          draftId: d.draftId,
+          title: d.title || "",
+          orderId: d.id || "",
+          updatedAt: d.updatedAt || 0,
+          sections: (d.sections || []).length,
+          items: (d.sections || []).reduce((n, s) => n + ((s.items || []).length), 0),
+        });
+      }
+    }
+  } catch {}
+  out.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  res.json(out);
+});
+
+app.get("/api/drafts/:id", (req, res) => {
+  const fp = draftFile(req.params.id);
+  const d = fp && readJson(fp, null);
+  if (!d) return res.status(404).json({ error: "draft not found" });
+  res.set("Cache-Control", "no-store");
+  res.json(d);
+});
+
+app.post("/api/drafts", (req, res) => {
+  const d = req.body;
+  const fp = d && draftFile(d.draftId || "");
+  if (!fp) return res.status(400).json({ error: "bad draft id" });
+  if (JSON.stringify(d).length > 3000000) return res.status(413).json({ error: "draft too large" });
+  d.updatedAt = Date.now();
+  writeJsonAtomic(fp, d);
+  res.json({ ok: true, draftId: d.draftId, updatedAt: d.updatedAt });
+});
+
+app.delete("/api/drafts/:id", (req, res) => {
+  const fp = draftFile(req.params.id);
+  if (fp && fs.existsSync(fp)) fs.unlinkSync(fp);
+  res.json({ ok: true });
+});
+
+app.get("/api/cv/volumes", async (req, res) => {
+  const key = readSettings().comicvineKey;
+  if (!key) return res.status(400).json({ error: "no-key" });
+  const q = String(req.query.q || "").trim();
+  if (q.length < 2) return res.json({ results: [] });
+  try {
+    const j = await getJson(
+      `https://comicvine.gamespot.com/api/search/?api_key=${encodeURIComponent(key)}&format=json` +
+      `&resources=volume&field_list=id,name,start_year,count_of_issues,publisher,image&limit=12&query=${encodeURIComponent(q)}`
+    );
+    res.set("Cache-Control", "no-store");
+    res.json({
+      results: (j.results || []).map((r) => ({
+        id: r.id,
+        name: r.name,
+        year: r.start_year || "",
+        issues: r.count_of_issues || 0,
+        publisher: (r.publisher && r.publisher.name) || "",
+        image: pickImage(r.image),
+      })),
+    });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 120) });
+  }
+});
+
+app.get("/api/cv/issues", async (req, res) => {
+  const key = readSettings().comicvineKey;
+  if (!key) return res.status(400).json({ error: "no-key" });
+  const vol = String(req.query.vol || "");
+  if (!/^\d+$/.test(vol)) return res.status(400).json({ error: "bad vol" });
+  try {
+    const out = [];
+    let offset = 0;
+    for (let page = 0; page < 4; page++) {
+      const j = await getJson(
+        `https://comicvine.gamespot.com/api/issues/?api_key=${encodeURIComponent(key)}&format=json` +
+        `&filter=volume:${vol}&field_list=id,issue_number,name,cover_date&limit=100&offset=${offset}`
+      );
+      const rs = j.results || [];
+      for (const r of rs) out.push({ i: r.id, num: String(r.issue_number), name: r.name || "", date: r.cover_date || "" });
+      if (rs.length < 100) break;
+      offset += 100;
+      await new Promise((r) => setTimeout(r, 300));
+    }
+    out.sort((a, b) => (parseFloat(a.num) || 0) - (parseFloat(b.num) || 0));
+    res.set("Cache-Control", "no-store");
+    res.json({ results: out });
+  } catch (e) {
+    res.status(502).json({ error: String(e.message || e).slice(0, 120) });
+  }
+});
+
+app.post("/api/orders/save", (req, res) => {
+  const o = req.body;
+  const err = validateOrder(o);
+  if (err) return res.status(400).json({ error: err });
+  if (bundledIds().has(o.id)) return res.status(400).json({ error: "id-taken" });
+  if (!fs.existsSync(USER_ORDERS_DIR)) fs.mkdirSync(USER_ORDERS_DIR, { recursive: true });
+  writeJsonAtomic(path.join(USER_ORDERS_DIR, o.id + ".json"), cleanOrder(o));
+  res.json({ ok: true, id: o.id });
 });
 
 app.get("/api/version", (req, res) => {

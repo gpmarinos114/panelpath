@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 7;
+const ASSET_V = 8;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -26,9 +26,14 @@ async function boot() {
 /* ---------- routing ---------- */
 
 function route() {
-  const m = (location.hash || "").match(/^#\/o\/([\w-]+)/);
+  const mb = (location.hash || "").match(/^#\/new(?:\/([\w-]+))?/);
   unreadOnly = false;
   closeModal();
+  if (mb) {
+    if (window.showBuilder) showBuilder(mb[1] || null);
+    return;
+  }
+  const m = (location.hash || "").match(/^#\/o\/([\w-]+)/);
   if (m) showOrder(m[1]);
   else showHome();
 }
@@ -113,6 +118,25 @@ async function showHome() {
     renderCards();
   });
   renderCards();
+
+  const tools = document.createElement("div");
+  tools.className = "lib-tools";
+  const nb = document.createElement("a");
+  nb.className = "ghost b-new";
+  nb.href = "#/new";
+  nb.textContent = "+ New order";
+  tools.appendChild(nb);
+  try {
+    const drafts = await fetch("/api/drafts").then((r) => r.json());
+    for (const d of drafts.slice(0, 3)) {
+      const a = document.createElement("a");
+      a.className = "draft-link";
+      a.href = "#/new/" + d.draftId;
+      a.textContent = "Draft: " + (d.title || "untitled") + " (" + d.items + " items)";
+      tools.appendChild(a);
+    }
+  } catch {}
+  view.appendChild(tools);
 }
 
 /* ---------- order view ---------- */
@@ -514,4 +538,3 @@ function scheduleVersionCheck() {
   });
 }
 
-boot();

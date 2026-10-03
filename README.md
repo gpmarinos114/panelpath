@@ -25,6 +25,7 @@ More lines are data, not code — see *Adding a reading order* below, and [CONTR
 - **Sections** with progress counts and complete stamps; *Unread* filter; section jump chips
 - **Cover fetching built in** — paste a free [ComicVine](https://comicvine.gamespot.com/api/) API key in Settings and the server pulls cover art for you, cached locally. Nothing copyrighted ships with the app.
 - **Buy links** — each era links out to where it's collected in print (Amazon); optional per-instance affiliate tag, off by default.
+- **Order builder** — create your own reading orders right in the app: search ComicVine for a series, add issues (range-select or one by one), pick section colors, attach buy links, preview, save. Drafts autosave; no JSON needed.
 - Sticky progress bar, mobile-first layout, no accounts, no telemetry, no external calls at runtime
 
 ![PanelPath — order view](docs/screenshot-order.png)
@@ -65,7 +66,9 @@ Your progress, settings and fetched covers live in the `panelpath-data` volume �
 
 ## Adding a reading order
 
-Reading orders live in `data/orders/<id>.json` — a list of sections, each with items:
+**The easy way:** click **+ New order** on the home page. The in-app builder has ComicVine search, manual entry, per-section buy links and a live preview — and it writes a perfectly-formed order file into your `DATA_DIR/orders/` when you hit **Save order**. Great for private orders, and a shortcut for contributions (build it in-app, paste the resulting file into your PR).
+
+**The file way:** reading orders live in `data/orders/<id>.json` — a list of sections, each with items:
 
 ```json
 {
