@@ -1,0 +1,1701 @@
+{
+ "id": "one-piece",
+ "title": "One Piece",
+ "subtitle": "Eiichiro Oda — VIZ volumes 1–112 (ongoing)",
+ "credit": "English volume order; arcs marked at volume boundaries. New volumes slot in at the end. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "East Blue",
+   "years": "Vol. 1–12",
+   "color": "#1976d2",
+   "tagline": "Romance Dawn through Loguetown — where the Straw Hats begin.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 1",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+1"
+    },
+    {
+     "label": "3-in-1 Vol. 2",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+2"
+    },
+    {
+     "label": "3-in-1 Vol. 3",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+3"
+    },
+    {
+     "label": "3-in-1 Vol. 4",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+4"
+    },
+    {
+     "label": "Box Set 1 (Vols. 1–23)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-001",
+     "label": "Vol. 1",
+     "title": "Romance Dawn",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "1",
+     "cv": {
+      "v": 31022,
+      "i": 192239
+     }
+    },
+    {
+     "id": "op-002",
+     "label": "Vol. 2",
+     "title": "Buggy the Clown",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "2",
+     "cv": {
+      "v": 31022,
+      "i": 192240
+     }
+    },
+    {
+     "id": "op-003",
+     "label": "Vol. 3",
+     "title": "Don't Get Fooled Again",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "3",
+     "cv": {
+      "v": 31022,
+      "i": 192241
+     }
+    },
+    {
+     "id": "op-004",
+     "label": "Vol. 4",
+     "title": "The Black Cat Pirates",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "4",
+     "cv": {
+      "v": 31022,
+      "i": 192242
+     }
+    },
+    {
+     "id": "op-005",
+     "label": "Vol. 5",
+     "title": "For Whom the Bell Tolls",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "5",
+     "cv": {
+      "v": 31022,
+      "i": 192243
+     }
+    },
+    {
+     "id": "op-006",
+     "label": "Vol. 6",
+     "title": "The Oath",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "6",
+     "cv": {
+      "v": 31022,
+      "i": 192244
+     }
+    },
+    {
+     "id": "op-007",
+     "label": "Vol. 7",
+     "title": "The Crap-Geezer",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "7",
+     "cv": {
+      "v": 31022,
+      "i": 192245
+     }
+    },
+    {
+     "id": "op-008",
+     "label": "Vol. 8",
+     "title": "I Won't Die",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "8",
+     "cv": {
+      "v": 31022,
+      "i": 192246
+     }
+    },
+    {
+     "id": "op-009",
+     "label": "Vol. 9",
+     "title": "Tears",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "9",
+     "cv": {
+      "v": 31022,
+      "i": 192247
+     }
+    },
+    {
+     "id": "op-010",
+     "label": "Vol. 10",
+     "title": "OK, Let's STAND UP!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "10",
+     "cv": {
+      "v": 31022,
+      "i": 192248
+     }
+    },
+    {
+     "id": "op-011",
+     "label": "Vol. 11",
+     "title": "The Meanest Man in the East",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "11",
+     "cv": {
+      "v": 31022,
+      "i": 192249
+     }
+    },
+    {
+     "id": "op-012",
+     "label": "Vol. 12",
+     "title": "The Legend Begins",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "12",
+     "cv": {
+      "v": 31022,
+      "i": 192250
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Arabasta",
+   "years": "Vol. 13–23",
+   "color": "#f9a825",
+   "tagline": "Whiskey Peak to the fall of Crocodile — the first great saga.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 5",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+5"
+    },
+    {
+     "label": "3-in-1 Vol. 6",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+6"
+    },
+    {
+     "label": "3-in-1 Vol. 7",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+7"
+    },
+    {
+     "label": "3-in-1 Vol. 8",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+8"
+    },
+    {
+     "label": "Box Set 1 (Vols. 1–23)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-013",
+     "label": "Vol. 13",
+     "title": "It's All Right!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "13",
+     "cv": {
+      "v": 31022,
+      "i": 192251
+     }
+    },
+    {
+     "id": "op-014",
+     "label": "Vol. 14",
+     "title": "Instinct",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "14",
+     "cv": {
+      "v": 31022,
+      "i": 192252
+     }
+    },
+    {
+     "id": "op-015",
+     "label": "Vol. 15",
+     "title": "Straight Ahead!!!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "15",
+     "cv": {
+      "v": 31022,
+      "i": 192253
+     }
+    },
+    {
+     "id": "op-016",
+     "label": "Vol. 16",
+     "title": "Carrying on His Will",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "16",
+     "cv": {
+      "v": 31022,
+      "i": 192254
+     }
+    },
+    {
+     "id": "op-017",
+     "label": "Vol. 17",
+     "title": "Hiruluk's Cherry Blossoms",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "17",
+     "cv": {
+      "v": 31022,
+      "i": 192255
+     }
+    },
+    {
+     "id": "op-018",
+     "label": "Vol. 18",
+     "title": "Ace Arrives",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "18",
+     "cv": {
+      "v": 31022,
+      "i": 192256
+     }
+    },
+    {
+     "id": "op-019",
+     "label": "Vol. 19",
+     "title": "Rebellion",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "19",
+     "cv": {
+      "v": 31022,
+      "i": 192258
+     }
+    },
+    {
+     "id": "op-020",
+     "label": "Vol. 20",
+     "title": "Showdown at Alubarna",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "20",
+     "cv": {
+      "v": 31022,
+      "i": 192259
+     }
+    },
+    {
+     "id": "op-021",
+     "label": "Vol. 21",
+     "title": "Utopia",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "21",
+     "cv": {
+      "v": 31022,
+      "i": 192260
+     }
+    },
+    {
+     "id": "op-022",
+     "label": "Vol. 22",
+     "title": "Hope!!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "22",
+     "cv": {
+      "v": 31022,
+      "i": 192261
+     }
+    },
+    {
+     "id": "op-023",
+     "label": "Vol. 23",
+     "title": "Vivi's Adventure",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "23",
+     "cv": {
+      "v": 31022,
+      "i": 192262
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Sky Island",
+   "years": "Vol. 24–32",
+   "color": "#43a047",
+   "tagline": "Up the Knock Up Stream — Jaya, Skypiea, and the bell of Shandora.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 8",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+8"
+    },
+    {
+     "label": "3-in-1 Vol. 9",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+9"
+    },
+    {
+     "label": "3-in-1 Vol. 10",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+10"
+    },
+    {
+     "label": "3-in-1 Vol. 11",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+11"
+    },
+    {
+     "label": "Box Set 2 (Vols. 24–46)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-024",
+     "label": "Vol. 24",
+     "title": "People's Dreams",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "24",
+     "cv": {
+      "v": 31022,
+      "i": 192263
+     }
+    },
+    {
+     "id": "op-025",
+     "label": "Vol. 25",
+     "title": "The 100 Million Berry Man",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "25",
+     "cv": {
+      "v": 31022,
+      "i": 192264
+     }
+    },
+    {
+     "id": "op-026",
+     "label": "Vol. 26",
+     "title": "Adventure on Kami's Island",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "26",
+     "cv": {
+      "v": 31022,
+      "i": 192265
+     }
+    },
+    {
+     "id": "op-027",
+     "label": "Vol. 27",
+     "title": "Overture",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "27",
+     "cv": {
+      "v": 31022,
+      "i": 192266
+     }
+    },
+    {
+     "id": "op-028",
+     "label": "Vol. 28",
+     "title": "Wyper the Berserker",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "28",
+     "cv": {
+      "v": 31022,
+      "i": 192267
+     }
+    },
+    {
+     "id": "op-029",
+     "label": "Vol. 29",
+     "title": "Oratorio",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "29",
+     "cv": {
+      "v": 31022,
+      "i": 196252
+     }
+    },
+    {
+     "id": "op-030",
+     "label": "Vol. 30",
+     "title": "Capriccio",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "30",
+     "cv": {
+      "v": 31022,
+      "i": 196253
+     }
+    },
+    {
+     "id": "op-031",
+     "label": "Vol. 31",
+     "title": "We'll Be Here",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "31",
+     "cv": {
+      "v": 31022,
+      "i": 196255
+     }
+    },
+    {
+     "id": "op-032",
+     "label": "Vol. 32",
+     "title": "Love Song",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "32",
+     "cv": {
+      "v": 31022,
+      "i": 196256
+     }
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Water Seven & Enies Lobby",
+   "years": "Vol. 33–45",
+   "color": "#00897b",
+   "tagline": "The sea train, CP9 — and Robin's rescue.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 11",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+11"
+    },
+    {
+     "label": "3-in-1 Vol. 12",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+12"
+    },
+    {
+     "label": "3-in-1 Vol. 13",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+13"
+    },
+    {
+     "label": "3-in-1 Vol. 14",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+14"
+    },
+    {
+     "label": "3-in-1 Vol. 15",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+15"
+    },
+    {
+     "label": "Box Set 2 (Vols. 24–46)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-033",
+     "label": "Vol. 33",
+     "title": "Davy Back Fight",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "33",
+     "cv": {
+      "v": 31022,
+      "i": 196257
+     }
+    },
+    {
+     "id": "op-034",
+     "label": "Vol. 34",
+     "title": "The City of Water, Water Seven",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "34",
+     "cv": {
+      "v": 31022,
+      "i": 229069
+     }
+    },
+    {
+     "id": "op-035",
+     "label": "Vol. 35",
+     "title": "Captain",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "35",
+     "cv": {
+      "v": 31022,
+      "i": 292564
+     }
+    },
+    {
+     "id": "op-036",
+     "label": "Vol. 36",
+     "title": "The Ninth Justice",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "36",
+     "cv": {
+      "v": 31022,
+      "i": 293062
+     }
+    },
+    {
+     "id": "op-037",
+     "label": "Vol. 37",
+     "title": "Tom",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "37",
+     "cv": {
+      "v": 31022,
+      "i": 293063
+     }
+    },
+    {
+     "id": "op-038",
+     "label": "Vol. 38",
+     "title": "Rocketman!!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "38",
+     "cv": {
+      "v": 31022,
+      "i": 293064
+     }
+    },
+    {
+     "id": "op-039",
+     "label": "Vol. 39",
+     "title": "Scramble",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "39",
+     "cv": {
+      "v": 31022,
+      "i": 293065
+     }
+    },
+    {
+     "id": "op-040",
+     "label": "Vol. 40",
+     "title": "Gear",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "40",
+     "cv": {
+      "v": 31022,
+      "i": 293067
+     }
+    },
+    {
+     "id": "op-041",
+     "label": "Vol. 41",
+     "title": "Declaration of War",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "41",
+     "cv": {
+      "v": 31022,
+      "i": 293068
+     }
+    },
+    {
+     "id": "op-042",
+     "label": "Vol. 42",
+     "title": "Pirates vs. CP9",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "42",
+     "cv": {
+      "v": 31022,
+      "i": 293069
+     }
+    },
+    {
+     "id": "op-043",
+     "label": "Vol. 43",
+     "title": "Legend of a Hero",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "43",
+     "cv": {
+      "v": 31022,
+      "i": 293070
+     }
+    },
+    {
+     "id": "op-044",
+     "label": "Vol. 44",
+     "title": "Let's Go Back",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "44",
+     "cv": {
+      "v": 31022,
+      "i": 293071
+     }
+    },
+    {
+     "id": "op-045",
+     "label": "Vol. 45",
+     "title": "You Have My Sympathies",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "45",
+     "cv": {
+      "v": 31022,
+      "i": 293072
+     }
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Thriller Bark",
+   "years": "Vol. 46–49",
+   "color": "#7e57c2",
+   "tagline": "A ghost island, Moria — and a new crewmate.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 16",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+16"
+    },
+    {
+     "label": "3-in-1 Vol. 17",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+17"
+    },
+    {
+     "label": "Box Set 2 (Vols. 24–46)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+2"
+    },
+    {
+     "label": "Box Set 3 (Vols. 47–70)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-046",
+     "label": "Vol. 46",
+     "title": "Adventure on Ghost Island",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "46",
+     "cv": {
+      "v": 31022,
+      "i": 293073
+     }
+    },
+    {
+     "id": "op-047",
+     "label": "Vol. 47",
+     "title": "Cloudy, Partly Bony",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "47",
+     "cv": {
+      "v": 31022,
+      "i": 293074
+     }
+    },
+    {
+     "id": "op-048",
+     "label": "Vol. 48",
+     "title": "Adventures of Oars",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "48",
+     "cv": {
+      "v": 31022,
+      "i": 293075
+     }
+    },
+    {
+     "id": "op-049",
+     "label": "Vol. 49",
+     "title": "Nightmare Luffy",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "49",
+     "cv": {
+      "v": 31022,
+      "i": 293076
+     }
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Summit War",
+   "years": "Vol. 50–61",
+   "color": "#d32f2f",
+   "tagline": "Sabaody to Marineford — the longest shadow across the Grand Line.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 17",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+17"
+    },
+    {
+     "label": "3-in-1 Vol. 18",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+18"
+    },
+    {
+     "label": "3-in-1 Vol. 19",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+19"
+    },
+    {
+     "label": "3-in-1 Vol. 20",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+20"
+    },
+    {
+     "label": "3-in-1 Vol. 21",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+21"
+    },
+    {
+     "label": "Box Set 3 (Vols. 47–70)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-050",
+     "label": "Vol. 50",
+     "title": "Arriving Again",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "50",
+     "cv": {
+      "v": 31022,
+      "i": 293077
+     }
+    },
+    {
+     "id": "op-051",
+     "label": "Vol. 51",
+     "title": "The Eleven Supernovas",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "51",
+     "cv": {
+      "v": 31022,
+      "i": 293078
+     }
+    },
+    {
+     "id": "op-052",
+     "label": "Vol. 52",
+     "title": "Roger and Rayleigh",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "52",
+     "cv": {
+      "v": 31022,
+      "i": 293079
+     }
+    },
+    {
+     "id": "op-053",
+     "label": "Vol. 53",
+     "title": "Natural Born King",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "53",
+     "cv": {
+      "v": 31022,
+      "i": 293080
+     }
+    },
+    {
+     "id": "op-054",
+     "label": "Vol. 54",
+     "title": "Unstoppable",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "54",
+     "cv": {
+      "v": 31022,
+      "i": 293081
+     }
+    },
+    {
+     "id": "op-055",
+     "label": "Vol. 55",
+     "title": "A Ray of Hope",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "55",
+     "cv": {
+      "v": 31022,
+      "i": 293082
+     }
+    },
+    {
+     "id": "op-056",
+     "label": "Vol. 56",
+     "title": "Thank You",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "56",
+     "cv": {
+      "v": 31022,
+      "i": 293083
+     }
+    },
+    {
+     "id": "op-057",
+     "label": "Vol. 57",
+     "title": "Paramount War",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "57",
+     "cv": {
+      "v": 31022,
+      "i": 273238
+     }
+    },
+    {
+     "id": "op-058",
+     "label": "Vol. 58",
+     "title": "The Name of This Era Is \"Whitebeard\"",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "58",
+     "cv": {
+      "v": 31022,
+      "i": 293084
+     }
+    },
+    {
+     "id": "op-059",
+     "label": "Vol. 59",
+     "title": "The Death of Portgas D. Ace",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "59",
+     "cv": {
+      "v": 31022,
+      "i": 305655
+     }
+    },
+    {
+     "id": "op-060",
+     "label": "Vol. 60",
+     "title": "My Little Brother",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "60",
+     "cv": {
+      "v": 31022,
+      "i": 317593
+     }
+    },
+    {
+     "id": "op-061",
+     "label": "Vol. 61",
+     "title": "Romance Dawn for the New World",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "61",
+     "cv": {
+      "v": 31022,
+      "i": 319077
+     }
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Fish-Man Island",
+   "years": "Vol. 62–66",
+   "color": "#607d8b",
+   "tagline": "Two years later — the island under the sea.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 21",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+21"
+    },
+    {
+     "label": "3-in-1 Vol. 22",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+22"
+    },
+    {
+     "label": "Box Set 3 (Vols. 47–70)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-062",
+     "label": "Vol. 62",
+     "title": "Adventure on Fish-Man Island",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "62",
+     "cv": {
+      "v": 31022,
+      "i": 334252
+     }
+    },
+    {
+     "id": "op-063",
+     "label": "Vol. 63",
+     "title": "Otohime and Tiger",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "63",
+     "cv": {
+      "v": 31022,
+      "i": 344225
+     }
+    },
+    {
+     "id": "op-064",
+     "label": "Vol. 64",
+     "title": "100,000 vs. 10",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "64",
+     "cv": {
+      "v": 31022,
+      "i": 355897
+     }
+    },
+    {
+     "id": "op-065",
+     "label": "Vol. 65",
+     "title": "To Nothing",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "65",
+     "cv": {
+      "v": 31022,
+      "i": 365895
+     }
+    },
+    {
+     "id": "op-066",
+     "label": "Vol. 66",
+     "title": "The Road Toward the Sun",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "66",
+     "cv": {
+      "v": 31022,
+      "i": 390584
+     }
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "Punk Hazard → Dressrosa",
+   "years": "Vol. 67–80",
+   "color": "#ef6c00",
+   "tagline": "A burning island, a toy kingdom — and Doflamingo.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 23",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+23"
+    },
+    {
+     "label": "3-in-1 Vol. 24",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+24"
+    },
+    {
+     "label": "3-in-1 Vol. 25",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+25"
+    },
+    {
+     "label": "3-in-1 Vol. 26",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+26"
+    },
+    {
+     "label": "3-in-1 Vol. 27",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+27"
+    },
+    {
+     "label": "Box Set 3 (Vols. 47–70)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+3"
+    },
+    {
+     "label": "Box Set 4 (Vols. 71–90)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+4"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-067",
+     "label": "Vol. 67",
+     "title": "Cool Fight",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "67",
+     "cv": {
+      "v": 31022,
+      "i": 409144
+     }
+    },
+    {
+     "id": "op-068",
+     "label": "Vol. 68",
+     "title": "Pirate Alliance",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "68",
+     "cv": {
+      "v": 31022,
+      "i": 424602
+     }
+    },
+    {
+     "id": "op-069",
+     "label": "Vol. 69",
+     "title": "S.A.D.",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "69",
+     "cv": {
+      "v": 31022,
+      "i": 435658
+     }
+    },
+    {
+     "id": "op-070",
+     "label": "Vol. 70",
+     "title": "Enter Doflamingo",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "70",
+     "cv": {
+      "v": 31022,
+      "i": 447053
+     }
+    },
+    {
+     "id": "op-071",
+     "label": "Vol. 71",
+     "title": "Coliseum of Scoundrels",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "71",
+     "cv": {
+      "v": 31022,
+      "i": 455556
+     }
+    },
+    {
+     "id": "op-072",
+     "label": "Vol. 72",
+     "title": "Dressrosa's Forgotten",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "72",
+     "cv": {
+      "v": 31022,
+      "i": 464065
+     }
+    },
+    {
+     "id": "op-073",
+     "label": "Vol. 73",
+     "title": "Operation Dressrosa S.O.P.",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "73",
+     "cv": {
+      "v": 31022,
+      "i": 475402
+     }
+    },
+    {
+     "id": "op-074",
+     "label": "Vol. 74",
+     "title": "Ever at Your Side",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "74",
+     "cv": {
+      "v": 31022,
+      "i": 484731
+     }
+    },
+    {
+     "id": "op-075",
+     "label": "Vol. 75",
+     "title": "Repaying the Debt",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "75",
+     "cv": {
+      "v": 31022,
+      "i": 496801
+     }
+    },
+    {
+     "id": "op-076",
+     "label": "Vol. 76",
+     "title": "Just Keep Going",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "76",
+     "cv": {
+      "v": 31022,
+      "i": 504187
+     }
+    },
+    {
+     "id": "op-077",
+     "label": "Vol. 77",
+     "title": "Smile",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "77",
+     "cv": {
+      "v": 31022,
+      "i": 513437
+     }
+    },
+    {
+     "id": "op-078",
+     "label": "Vol. 78",
+     "title": "Champion of Evil",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "78",
+     "cv": {
+      "v": 31022,
+      "i": 527000
+     }
+    },
+    {
+     "id": "op-079",
+     "label": "Vol. 79",
+     "title": "Lucy!!",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "79",
+     "cv": {
+      "v": 31022,
+      "i": 542488
+     }
+    },
+    {
+     "id": "op-080",
+     "label": "Vol. 80",
+     "title": "Opening Speech",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "80",
+     "cv": {
+      "v": 31022,
+      "i": 556395
+     }
+    }
+   ]
+  },
+  {
+   "id": "I",
+   "name": "Zou → Whole Cake → Reverie",
+   "years": "Vol. 81–90",
+   "color": "#d81b60",
+   "tagline": "The elephant, the wedding heist — and the world's summit.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 27",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+27"
+    },
+    {
+     "label": "3-in-1 Vol. 28",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+28"
+    },
+    {
+     "label": "3-in-1 Vol. 29",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+29"
+    },
+    {
+     "label": "3-in-1 Vol. 30",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+30"
+    },
+    {
+     "label": "Box Set 4 (Vols. 71–90)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+4"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-081",
+     "label": "Vol. 81",
+     "title": "Let's Go See the Cat Viper",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "81",
+     "cv": {
+      "v": 31022,
+      "i": 580675
+     }
+    },
+    {
+     "id": "op-082",
+     "label": "Vol. 82",
+     "title": "The World Is Restless",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "82",
+     "cv": {
+      "v": 31022,
+      "i": 594018
+     }
+    },
+    {
+     "id": "op-083",
+     "label": "Vol. 83",
+     "title": "Emperor of the Sea, Charlotte Linlin",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "83",
+     "cv": {
+      "v": 31022,
+      "i": 612138
+     }
+    },
+    {
+     "id": "op-084",
+     "label": "Vol. 84",
+     "title": "Luffy vs. Sanji",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "84",
+     "cv": {
+      "v": 31022,
+      "i": 636571
+     }
+    },
+    {
+     "id": "op-085",
+     "label": "Vol. 85",
+     "title": "Liar",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "85",
+     "cv": {
+      "v": 31022,
+      "i": 658842
+     }
+    },
+    {
+     "id": "op-086",
+     "label": "Vol. 86",
+     "title": "Emperor Assassination Plan",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "86",
+     "cv": {
+      "v": 31022,
+      "i": 668614
+     }
+    },
+    {
+     "id": "op-087",
+     "label": "Vol. 87",
+     "title": "Bittersweet",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "87",
+     "cv": {
+      "v": 31022,
+      "i": 677787
+     }
+    },
+    {
+     "id": "op-088",
+     "label": "Vol. 88",
+     "title": "Lion",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "88",
+     "cv": {
+      "v": 31022,
+      "i": 691242
+     }
+    },
+    {
+     "id": "op-089",
+     "label": "Vol. 89",
+     "title": "Bad End Musical",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "89",
+     "cv": {
+      "v": 31022,
+      "i": 700059
+     }
+    },
+    {
+     "id": "op-090",
+     "label": "Vol. 90",
+     "title": "Sacred Marijoa",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "90",
+     "cv": {
+      "v": 31022,
+      "i": 707991
+     }
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "Wano",
+   "years": "Vol. 91–104",
+   "color": "#c9a227",
+   "tagline": "The land of samurai — the raid on Onigashima.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 31",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+31"
+    },
+    {
+     "label": "3-in-1 Vol. 32",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+32"
+    },
+    {
+     "label": "3-in-1 Vol. 33",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+33"
+    },
+    {
+     "label": "3-in-1 Vol. 34",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+34"
+    },
+    {
+     "label": "3-in-1 Vol. 35",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+35"
+    },
+    {
+     "label": "Box Set 5 (Vols. 91–111)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+5"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-091",
+     "label": "Vol. 91",
+     "title": "Adventure in the Land of Samurai",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "91",
+     "cv": {
+      "v": 31022,
+      "i": 715095
+     }
+    },
+    {
+     "id": "op-092",
+     "label": "Vol. 92",
+     "title": "Introducing Komurasaki the Oiran",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "92",
+     "cv": {
+      "v": 31022,
+      "i": 726447
+     }
+    },
+    {
+     "id": "op-093",
+     "label": "Vol. 93",
+     "title": "The Star of Ebisu",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "93",
+     "cv": {
+      "v": 31022,
+      "i": 745582
+     }
+    },
+    {
+     "id": "op-094",
+     "label": "Vol. 94",
+     "title": "A Soldier's Dream",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "94",
+     "cv": {
+      "v": 31022,
+      "i": 786553
+     }
+    },
+    {
+     "id": "op-095",
+     "label": "Vol. 95",
+     "title": "Oden's Adventure",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "95",
+     "cv": {
+      "v": 31022,
+      "i": 819972
+     }
+    },
+    {
+     "id": "op-096",
+     "label": "Vol. 96",
+     "title": "I Am Oden, and I Was Born to Boil",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "96",
+     "cv": {
+      "v": 31022,
+      "i": 841832
+     }
+    },
+    {
+     "id": "op-097",
+     "label": "Vol. 97",
+     "title": "My Bible",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "97",
+     "cv": {
+      "v": 31022,
+      "i": 881429
+     }
+    },
+    {
+     "id": "op-098",
+     "label": "Vol. 98",
+     "title": "Vassals of Glory",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "98",
+     "cv": {
+      "v": 31022,
+      "i": 897776
+     }
+    },
+    {
+     "id": "op-099",
+     "label": "Vol. 99",
+     "title": "Straw Hat Luffy",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "99",
+     "cv": {
+      "v": 31022,
+      "i": 921528
+     }
+    },
+    {
+     "id": "op-100",
+     "label": "Vol. 100",
+     "title": "Color of the Supreme King",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "100",
+     "cv": {
+      "v": 31022,
+      "i": 940662
+     }
+    },
+    {
+     "id": "op-101",
+     "label": "Vol. 101",
+     "title": "The Stars Take the Stage",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "101",
+     "cv": {
+      "v": 31022,
+      "i": 952546
+     }
+    },
+    {
+     "id": "op-102",
+     "label": "Vol. 102",
+     "title": "The Pivotal Clash",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "102",
+     "cv": {
+      "v": 31022,
+      "i": 981429
+     }
+    },
+    {
+     "id": "op-103",
+     "label": "Vol. 103",
+     "title": "Warrior of Liberation",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "103",
+     "cv": {
+      "v": 31022,
+      "i": 999115
+     }
+    },
+    {
+     "id": "op-104",
+     "label": "Vol. 104",
+     "title": "Shogun of Wano, Kozuki Momonosuke",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "104",
+     "cv": {
+      "v": 31022,
+      "i": 1028580
+     }
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "name": "Final Saga: Egghead → Elbaph",
+   "years": "Vol. 105–112",
+   "color": "#2e7d32",
+   "tagline": "The genius's island — and the land of giants. Ongoing.",
+   "buy": [
+    {
+     "label": "3-in-1 Vol. 35",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+35"
+    },
+    {
+     "label": "3-in-1 Vol. 36",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+36"
+    },
+    {
+     "label": "3-in-1 Vol. 37",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+37"
+    },
+    {
+     "label": "3-in-1 Vol. 38",
+     "url": "https://www.amazon.com/s?k=One+Piece+3-in-1+Edition+Vol+38"
+    },
+    {
+     "label": "Box Set 5 (Vols. 91–111)",
+     "url": "https://www.amazon.com/s?k=One+Piece+Box+Set+Set+5"
+    }
+   ],
+   "items": [
+    {
+     "id": "op-105",
+     "label": "Vol. 105",
+     "title": "Luffy's Dream",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "105",
+     "cv": {
+      "v": 31022,
+      "i": 1048004
+     }
+    },
+    {
+     "id": "op-106",
+     "label": "Vol. 106",
+     "title": "A Genius's Dream",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "106",
+     "cv": {
+      "v": 31022,
+      "i": 1062445
+     }
+    },
+    {
+     "id": "op-107",
+     "label": "Vol. 107",
+     "title": "The Hero of Legend",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "107",
+     "cv": {
+      "v": 31022,
+      "i": 1077872
+     }
+    },
+    {
+     "id": "op-108",
+     "label": "Vol. 108",
+     "title": "Better Off Dead In This World",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "108",
+     "cv": {
+      "v": 31022,
+      "i": 1098234
+     }
+    },
+    {
+     "id": "op-109",
+     "label": "Vol. 109",
+     "title": "On Your Side",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "109",
+     "cv": {
+      "v": 31022,
+      "i": 1117928
+     }
+    },
+    {
+     "id": "op-110",
+     "label": "Vol. 110",
+     "title": "The Upheaval of the Era",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "110",
+     "cv": {
+      "v": 31022,
+      "i": 1143901
+     }
+    },
+    {
+     "id": "op-111",
+     "label": "Vol. 111",
+     "title": "Adventure in Elbaph",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "111",
+     "cv": {
+      "v": 31022,
+      "i": 1159458
+     }
+    },
+    {
+     "id": "op-112",
+     "label": "Vol. 112",
+     "title": "The Harley",
+     "series": "OP",
+     "seriesName": "One Piece (Viz, 2003)",
+     "num": "112",
+     "cv": {
+      "v": 31022,
+      "i": 1179991
+     }
+    }
+   ]
+  }
+ ]
+}

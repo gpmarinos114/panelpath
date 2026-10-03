@@ -1,0 +1,2460 @@
+{
+ "id": "walking-dead",
+ "title": "The Walking Dead",
+ "subtitle": "Robert Kirkman — the complete 193-issue run (2003–2019)",
+ "credit": "Four compendiums; the Negan specials placed where they read best. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "C1",
+   "name": "Compendium One",
+   "years": "#1–48",
+   "color": "#d32f2f",
+   "tagline": "The outbreak, the camp, the farm, the prison — where it all begins.",
+   "buy": [
+    {
+     "label": "Compendium One",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Compendium+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "twd-001",
+     "label": "Walking Dead #1",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "1",
+     "cv": {
+      "v": 18166,
+      "i": 106379
+     }
+    },
+    {
+     "id": "twd-002",
+     "label": "Walking Dead #2",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "2",
+     "cv": {
+      "v": 18166,
+      "i": 106774
+     }
+    },
+    {
+     "id": "twd-003",
+     "label": "Walking Dead #3",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "3",
+     "cv": {
+      "v": 18166,
+      "i": 106775
+     }
+    },
+    {
+     "id": "twd-004",
+     "label": "Walking Dead #4",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "4",
+     "cv": {
+      "v": 18166,
+      "i": 106776
+     }
+    },
+    {
+     "id": "twd-005",
+     "label": "Walking Dead #5",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "5",
+     "cv": {
+      "v": 18166,
+      "i": 106777
+     }
+    },
+    {
+     "id": "twd-006",
+     "label": "Walking Dead #6",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "6",
+     "cv": {
+      "v": 18166,
+      "i": 106778
+     }
+    },
+    {
+     "id": "twd-007",
+     "label": "Walking Dead #7",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "7",
+     "cv": {
+      "v": 18166,
+      "i": 106779
+     }
+    },
+    {
+     "id": "twd-008",
+     "label": "Walking Dead #8",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "8",
+     "cv": {
+      "v": 18166,
+      "i": 106780
+     }
+    },
+    {
+     "id": "twd-009",
+     "label": "Walking Dead #9",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "9",
+     "cv": {
+      "v": 18166,
+      "i": 106781
+     }
+    },
+    {
+     "id": "twd-010",
+     "label": "Walking Dead #10",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "10",
+     "cv": {
+      "v": 18166,
+      "i": 106782
+     }
+    },
+    {
+     "id": "twd-011",
+     "label": "Walking Dead #11",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "11",
+     "cv": {
+      "v": 18166,
+      "i": 106783
+     }
+    },
+    {
+     "id": "twd-012",
+     "label": "Walking Dead #12",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "12",
+     "cv": {
+      "v": 18166,
+      "i": 106784
+     }
+    },
+    {
+     "id": "twd-013",
+     "label": "Walking Dead #13",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "13",
+     "cv": {
+      "v": 18166,
+      "i": 106785
+     }
+    },
+    {
+     "id": "twd-014",
+     "label": "Walking Dead #14",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "14",
+     "cv": {
+      "v": 18166,
+      "i": 106786
+     }
+    },
+    {
+     "id": "twd-015",
+     "label": "Walking Dead #15",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "15",
+     "cv": {
+      "v": 18166,
+      "i": 106787
+     }
+    },
+    {
+     "id": "twd-016",
+     "label": "Walking Dead #16",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "16",
+     "cv": {
+      "v": 18166,
+      "i": 106798
+     }
+    },
+    {
+     "id": "twd-017",
+     "label": "Walking Dead #17",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "17",
+     "cv": {
+      "v": 18166,
+      "i": 106799
+     }
+    },
+    {
+     "id": "twd-018",
+     "label": "Walking Dead #18",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "18",
+     "cv": {
+      "v": 18166,
+      "i": 106800
+     }
+    },
+    {
+     "id": "twd-019",
+     "label": "Walking Dead #19",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "19",
+     "cv": {
+      "v": 18166,
+      "i": 106801
+     }
+    },
+    {
+     "id": "twd-020",
+     "label": "Walking Dead #20",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "20",
+     "cv": {
+      "v": 18166,
+      "i": 106802
+     }
+    },
+    {
+     "id": "twd-021",
+     "label": "Walking Dead #21",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "21",
+     "cv": {
+      "v": 18166,
+      "i": 106811
+     }
+    },
+    {
+     "id": "twd-022",
+     "label": "Walking Dead #22",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "22",
+     "cv": {
+      "v": 18166,
+      "i": 106812
+     }
+    },
+    {
+     "id": "twd-023",
+     "label": "Walking Dead #23",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "23",
+     "cv": {
+      "v": 18166,
+      "i": 106813
+     }
+    },
+    {
+     "id": "twd-024",
+     "label": "Walking Dead #24",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "24",
+     "cv": {
+      "v": 18166,
+      "i": 106814
+     }
+    },
+    {
+     "id": "twd-025",
+     "label": "Walking Dead #25",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "25",
+     "cv": {
+      "v": 18166,
+      "i": 106815
+     }
+    },
+    {
+     "id": "twd-026",
+     "label": "Walking Dead #26",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "26",
+     "cv": {
+      "v": 18166,
+      "i": 106816
+     }
+    },
+    {
+     "id": "twd-027",
+     "label": "Walking Dead #27",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "27",
+     "cv": {
+      "v": 18166,
+      "i": 106817
+     }
+    },
+    {
+     "id": "twd-028",
+     "label": "Walking Dead #28",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "28",
+     "cv": {
+      "v": 18166,
+      "i": 106829
+     }
+    },
+    {
+     "id": "twd-029",
+     "label": "Walking Dead #29",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "29",
+     "cv": {
+      "v": 18166,
+      "i": 106830
+     }
+    },
+    {
+     "id": "twd-030",
+     "label": "Walking Dead #30",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "30",
+     "cv": {
+      "v": 18166,
+      "i": 106831
+     }
+    },
+    {
+     "id": "twd-031",
+     "label": "Walking Dead #31",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "31",
+     "cv": {
+      "v": 18166,
+      "i": 106832
+     }
+    },
+    {
+     "id": "twd-032",
+     "label": "Walking Dead #32",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "32",
+     "cv": {
+      "v": 18166,
+      "i": 106833
+     }
+    },
+    {
+     "id": "twd-033",
+     "label": "Walking Dead #33",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "33",
+     "cv": {
+      "v": 18166,
+      "i": 106834
+     }
+    },
+    {
+     "id": "twd-034",
+     "label": "Walking Dead #34",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "34",
+     "cv": {
+      "v": 18166,
+      "i": 106835
+     }
+    },
+    {
+     "id": "twd-035",
+     "label": "Walking Dead #35",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "35",
+     "cv": {
+      "v": 18166,
+      "i": 106836
+     }
+    },
+    {
+     "id": "twd-036",
+     "label": "Walking Dead #36",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "36",
+     "cv": {
+      "v": 18166,
+      "i": 106934
+     }
+    },
+    {
+     "id": "twd-037",
+     "label": "Walking Dead #37",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "37",
+     "cv": {
+      "v": 18166,
+      "i": 108782
+     }
+    },
+    {
+     "id": "twd-038",
+     "label": "Walking Dead #38",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "38",
+     "cv": {
+      "v": 18166,
+      "i": 108783
+     }
+    },
+    {
+     "id": "twd-039",
+     "label": "Walking Dead #39",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "39",
+     "cv": {
+      "v": 18166,
+      "i": 111154
+     }
+    },
+    {
+     "id": "twd-040",
+     "label": "Walking Dead #40",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "40",
+     "cv": {
+      "v": 18166,
+      "i": 113756
+     }
+    },
+    {
+     "id": "twd-041",
+     "label": "Walking Dead #41",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "41",
+     "cv": {
+      "v": 18166,
+      "i": 113967
+     }
+    },
+    {
+     "id": "twd-042",
+     "label": "Walking Dead #42",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "42",
+     "cv": {
+      "v": 18166,
+      "i": 113961
+     }
+    },
+    {
+     "id": "twd-043",
+     "label": "Walking Dead #43",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "43",
+     "cv": {
+      "v": 18166,
+      "i": 115816
+     }
+    },
+    {
+     "id": "twd-044",
+     "label": "Walking Dead #44",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "44",
+     "cv": {
+      "v": 18166,
+      "i": 118124
+     }
+    },
+    {
+     "id": "twd-045",
+     "label": "Walking Dead #45",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "45",
+     "cv": {
+      "v": 18166,
+      "i": 119902
+     }
+    },
+    {
+     "id": "twd-046",
+     "label": "Walking Dead #46",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "46",
+     "cv": {
+      "v": 18166,
+      "i": 126426
+     }
+    },
+    {
+     "id": "twd-047",
+     "label": "Walking Dead #47",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "47",
+     "cv": {
+      "v": 18166,
+      "i": 126429
+     }
+    },
+    {
+     "id": "twd-048",
+     "label": "Walking Dead #48",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "48",
+     "cv": {
+      "v": 18166,
+      "i": 126442
+     }
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "name": "Compendium Two",
+   "years": "#49–96",
+   "color": "#7e57c2",
+   "tagline": "The road, the Governor, and the war for the prison.",
+   "buy": [
+    {
+     "label": "Compendium Two",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Compendium+Volume+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "twd-049",
+     "label": "Walking Dead #49",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "49",
+     "cv": {
+      "v": 18166,
+      "i": 130324
+     }
+    },
+    {
+     "id": "twd-050",
+     "label": "Walking Dead #50",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "50",
+     "cv": {
+      "v": 18166,
+      "i": 132431
+     }
+    },
+    {
+     "id": "twd-051",
+     "label": "Walking Dead #51",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "51",
+     "cv": {
+      "v": 18166,
+      "i": 135749
+     }
+    },
+    {
+     "id": "twd-052",
+     "label": "Walking Dead #52",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "52",
+     "cv": {
+      "v": 18166,
+      "i": 138989
+     }
+    },
+    {
+     "id": "twd-053",
+     "label": "Walking Dead #53",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "53",
+     "cv": {
+      "v": 18166,
+      "i": 140100
+     }
+    },
+    {
+     "id": "twd-054",
+     "label": "Walking Dead #54",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "54",
+     "cv": {
+      "v": 18166,
+      "i": 141981
+     }
+    },
+    {
+     "id": "twd-055",
+     "label": "Walking Dead #55",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "55",
+     "cv": {
+      "v": 18166,
+      "i": 143663
+     }
+    },
+    {
+     "id": "twd-056",
+     "label": "Walking Dead #56",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "56",
+     "cv": {
+      "v": 18166,
+      "i": 146781
+     }
+    },
+    {
+     "id": "twd-057",
+     "label": "Walking Dead #57",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "57",
+     "cv": {
+      "v": 18166,
+      "i": 149798
+     }
+    },
+    {
+     "id": "twd-058",
+     "label": "Walking Dead #58",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "58",
+     "cv": {
+      "v": 18166,
+      "i": 151859
+     }
+    },
+    {
+     "id": "twd-059",
+     "label": "Walking Dead #59",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "59",
+     "cv": {
+      "v": 18166,
+      "i": 153472
+     }
+    },
+    {
+     "id": "twd-060",
+     "label": "Walking Dead #60",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "60",
+     "cv": {
+      "v": 18166,
+      "i": 155446
+     }
+    },
+    {
+     "id": "twd-061",
+     "label": "Walking Dead #61",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "61",
+     "cv": {
+      "v": 18166,
+      "i": 157198
+     }
+    },
+    {
+     "id": "twd-062",
+     "label": "Walking Dead #62",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "62",
+     "cv": {
+      "v": 18166,
+      "i": 159866
+     }
+    },
+    {
+     "id": "twd-063",
+     "label": "Walking Dead #63",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "63",
+     "cv": {
+      "v": 18166,
+      "i": 164059
+     }
+    },
+    {
+     "id": "twd-064",
+     "label": "Walking Dead #64",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "64",
+     "cv": {
+      "v": 18166,
+      "i": 167017
+     }
+    },
+    {
+     "id": "twd-065",
+     "label": "Walking Dead #65",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "65",
+     "cv": {
+      "v": 18166,
+      "i": 171554
+     }
+    },
+    {
+     "id": "twd-066",
+     "label": "Walking Dead #66",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "66",
+     "cv": {
+      "v": 18166,
+      "i": 176044
+     }
+    },
+    {
+     "id": "twd-067",
+     "label": "Walking Dead #67",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "67",
+     "cv": {
+      "v": 18166,
+      "i": 182948
+     }
+    },
+    {
+     "id": "twd-068",
+     "label": "Walking Dead #68",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "68",
+     "cv": {
+      "v": 18166,
+      "i": 186906
+     }
+    },
+    {
+     "id": "twd-069",
+     "label": "Walking Dead #69",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "69",
+     "cv": {
+      "v": 18166,
+      "i": 194805
+     }
+    },
+    {
+     "id": "twd-070",
+     "label": "Walking Dead #70",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "70",
+     "cv": {
+      "v": 18166,
+      "i": 198500
+     }
+    },
+    {
+     "id": "twd-071",
+     "label": "Walking Dead #71",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "71",
+     "cv": {
+      "v": 18166,
+      "i": 209788
+     }
+    },
+    {
+     "id": "twd-072",
+     "label": "Walking Dead #72",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "72",
+     "cv": {
+      "v": 18166,
+      "i": 209789
+     }
+    },
+    {
+     "id": "twd-073",
+     "label": "Walking Dead #73",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "73",
+     "cv": {
+      "v": 18166,
+      "i": 219744
+     }
+    },
+    {
+     "id": "twd-074",
+     "label": "Walking Dead #74",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "74",
+     "cv": {
+      "v": 18166,
+      "i": 223273
+     }
+    },
+    {
+     "id": "twd-075",
+     "label": "Walking Dead #75",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "75",
+     "cv": {
+      "v": 18166,
+      "i": 225678
+     }
+    },
+    {
+     "id": "twd-076",
+     "label": "Walking Dead #76",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "76",
+     "cv": {
+      "v": 18166,
+      "i": 228978
+     }
+    },
+    {
+     "id": "twd-077",
+     "label": "Walking Dead #77",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "77",
+     "cv": {
+      "v": 18166,
+      "i": 235524
+     }
+    },
+    {
+     "id": "twd-078",
+     "label": "Walking Dead #78",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "78",
+     "cv": {
+      "v": 18166,
+      "i": 239007
+     }
+    },
+    {
+     "id": "twd-079",
+     "label": "Walking Dead #79",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "79",
+     "cv": {
+      "v": 18166,
+      "i": 246423
+     }
+    },
+    {
+     "id": "twd-080",
+     "label": "Walking Dead #80",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "80",
+     "cv": {
+      "v": 18166,
+      "i": 254591
+     }
+    },
+    {
+     "id": "twd-081",
+     "label": "Walking Dead #81",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "81",
+     "cv": {
+      "v": 18166,
+      "i": 261265
+     }
+    },
+    {
+     "id": "twd-082",
+     "label": "Walking Dead #82",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "82",
+     "cv": {
+      "v": 18166,
+      "i": 265484
+     }
+    },
+    {
+     "id": "twd-083",
+     "label": "Walking Dead #83",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "83",
+     "cv": {
+      "v": 18166,
+      "i": 267117
+     }
+    },
+    {
+     "id": "twd-084",
+     "label": "Walking Dead #84",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "84",
+     "cv": {
+      "v": 18166,
+      "i": 268967
+     }
+    },
+    {
+     "id": "twd-085",
+     "label": "Walking Dead #85",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "85",
+     "cv": {
+      "v": 18166,
+      "i": 271551
+     }
+    },
+    {
+     "id": "twd-086",
+     "label": "Walking Dead #86",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "86",
+     "cv": {
+      "v": 18166,
+      "i": 276633
+     }
+    },
+    {
+     "id": "twd-087",
+     "label": "Walking Dead #87",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "87",
+     "cv": {
+      "v": 18166,
+      "i": 280252
+     }
+    },
+    {
+     "id": "twd-088",
+     "label": "Walking Dead #88",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "88",
+     "cv": {
+      "v": 18166,
+      "i": 286884
+     }
+    },
+    {
+     "id": "twd-089",
+     "label": "Walking Dead #89",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "89",
+     "cv": {
+      "v": 18166,
+      "i": 294078
+     }
+    },
+    {
+     "id": "twd-090",
+     "label": "Walking Dead #90",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "90",
+     "cv": {
+      "v": 18166,
+      "i": 299511
+     }
+    },
+    {
+     "id": "twd-091",
+     "label": "Walking Dead #91",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "91",
+     "cv": {
+      "v": 18166,
+      "i": 302519
+     }
+    },
+    {
+     "id": "twd-092",
+     "label": "Walking Dead #92",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "92",
+     "cv": {
+      "v": 18166,
+      "i": 306473
+     }
+    },
+    {
+     "id": "twd-093",
+     "label": "Walking Dead #93",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "93",
+     "cv": {
+      "v": 18166,
+      "i": 312559
+     }
+    },
+    {
+     "id": "twd-094",
+     "label": "Walking Dead #94",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "94",
+     "cv": {
+      "v": 18166,
+      "i": 317616
+     }
+    },
+    {
+     "id": "twd-095",
+     "label": "Walking Dead #95",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "95",
+     "cv": {
+      "v": 18166,
+      "i": 324678
+     }
+    },
+    {
+     "id": "twd-096",
+     "label": "Walking Dead #96",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "96",
+     "cv": {
+      "v": 18166,
+      "i": 331852
+     }
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "name": "Compendium Three",
+   "years": "#97–144",
+   "color": "#ef6c00",
+   "tagline": "Alexandria, the herd, and Negan.",
+   "buy": [
+    {
+     "label": "Compendium Three",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Compendium+Volume+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "twd-097",
+     "label": "Walking Dead #97",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "97",
+     "cv": {
+      "v": 18166,
+      "i": 335026
+     }
+    },
+    {
+     "id": "twd-098",
+     "label": "Walking Dead #98",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "98",
+     "cv": {
+      "v": 18166,
+      "i": 337620
+     }
+    },
+    {
+     "id": "twd-099",
+     "label": "Walking Dead #99",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "99",
+     "cv": {
+      "v": 18166,
+      "i": 341654
+     }
+    },
+    {
+     "id": "twd-100",
+     "label": "Walking Dead #100",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "100",
+     "cv": {
+      "v": 18166,
+      "i": 345392
+     }
+    },
+    {
+     "id": "twd-101",
+     "label": "Walking Dead #101",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "101",
+     "cv": {
+      "v": 18166,
+      "i": 351055
+     }
+    },
+    {
+     "id": "twd-102",
+     "label": "Walking Dead #102",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "102",
+     "cv": {
+      "v": 18166,
+      "i": 357733
+     }
+    },
+    {
+     "id": "twd-103",
+     "label": "Walking Dead #103",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "103",
+     "cv": {
+      "v": 18166,
+      "i": 362181
+     }
+    },
+    {
+     "id": "twd-104",
+     "label": "Walking Dead #104",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "104",
+     "cv": {
+      "v": 18166,
+      "i": 367712
+     }
+    },
+    {
+     "id": "twd-105",
+     "label": "Walking Dead #105",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "105",
+     "cv": {
+      "v": 18166,
+      "i": 372441
+     }
+    },
+    {
+     "id": "twd-106",
+     "label": "Walking Dead #106",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "106",
+     "cv": {
+      "v": 18166,
+      "i": 378867
+     }
+    },
+    {
+     "id": "twd-107",
+     "label": "Walking Dead #107",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "107",
+     "cv": {
+      "v": 18166,
+      "i": 386148
+     }
+    },
+    {
+     "id": "twd-108",
+     "label": "Walking Dead #108",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "108",
+     "cv": {
+      "v": 18166,
+      "i": 392428
+     }
+    },
+    {
+     "id": "twd-109",
+     "label": "Walking Dead #109",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "109",
+     "cv": {
+      "v": 18166,
+      "i": 396441
+     }
+    },
+    {
+     "id": "twd-110",
+     "label": "Walking Dead #110",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "110",
+     "cv": {
+      "v": 18166,
+      "i": 401223
+     }
+    },
+    {
+     "id": "twd-111",
+     "label": "Walking Dead #111",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "111",
+     "cv": {
+      "v": 18166,
+      "i": 410301
+     }
+    },
+    {
+     "id": "twd-112",
+     "label": "Walking Dead #112",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "112",
+     "cv": {
+      "v": 18166,
+      "i": 416955
+     }
+    },
+    {
+     "id": "twd-113",
+     "label": "Walking Dead #113",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "113",
+     "cv": {
+      "v": 18166,
+      "i": 421710
+     }
+    },
+    {
+     "id": "twd-114",
+     "label": "Walking Dead #114",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "114",
+     "cv": {
+      "v": 18166,
+      "i": 425126
+     }
+    },
+    {
+     "id": "twd-115",
+     "label": "Walking Dead #115",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "115",
+     "cv": {
+      "v": 18166,
+      "i": 428330
+     }
+    },
+    {
+     "id": "twd-116",
+     "label": "Walking Dead #116",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "116",
+     "cv": {
+      "v": 18166,
+      "i": 433222
+     }
+    },
+    {
+     "id": "twd-117",
+     "label": "Walking Dead #117",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "117",
+     "cv": {
+      "v": 18166,
+      "i": 435244
+     }
+    },
+    {
+     "id": "twd-118",
+     "label": "Walking Dead #118",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "118",
+     "cv": {
+      "v": 18166,
+      "i": 436169
+     }
+    },
+    {
+     "id": "twd-119",
+     "label": "Walking Dead #119",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "119",
+     "cv": {
+      "v": 18166,
+      "i": 441449
+     }
+    },
+    {
+     "id": "twd-120",
+     "label": "Walking Dead #120",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "120",
+     "cv": {
+      "v": 18166,
+      "i": 442953
+     }
+    },
+    {
+     "id": "twd-121",
+     "label": "Walking Dead #121",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "121",
+     "cv": {
+      "v": 18166,
+      "i": 445223
+     }
+    },
+    {
+     "id": "twd-122",
+     "label": "Walking Dead #122",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "122",
+     "cv": {
+      "v": 18166,
+      "i": 446534
+     }
+    },
+    {
+     "id": "twd-123",
+     "label": "Walking Dead #123",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "123",
+     "cv": {
+      "v": 18166,
+      "i": 447549
+     }
+    },
+    {
+     "id": "twd-124",
+     "label": "Walking Dead #124",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "124",
+     "cv": {
+      "v": 18166,
+      "i": 449018
+     }
+    },
+    {
+     "id": "twd-125",
+     "label": "Walking Dead #125",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "125",
+     "cv": {
+      "v": 18166,
+      "i": 450110
+     }
+    },
+    {
+     "id": "twd-126",
+     "label": "Walking Dead #126",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "126",
+     "cv": {
+      "v": 18166,
+      "i": 451139
+     }
+    },
+    {
+     "id": "twd-127",
+     "label": "Walking Dead #127",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "127",
+     "cv": {
+      "v": 18166,
+      "i": 452892
+     }
+    },
+    {
+     "id": "twd-128",
+     "label": "Walking Dead #128",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "128",
+     "cv": {
+      "v": 18166,
+      "i": 456066
+     }
+    },
+    {
+     "id": "twd-129",
+     "label": "Walking Dead #129",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "129",
+     "cv": {
+      "v": 18166,
+      "i": 459209
+     }
+    },
+    {
+     "id": "twd-130",
+     "label": "Walking Dead #130",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "130",
+     "cv": {
+      "v": 18166,
+      "i": 462301
+     }
+    },
+    {
+     "id": "twd-131",
+     "label": "Walking Dead #131",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "131",
+     "cv": {
+      "v": 18166,
+      "i": 465029
+     }
+    },
+    {
+     "id": "twd-132",
+     "label": "Walking Dead #132",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "132",
+     "cv": {
+      "v": 18166,
+      "i": 466998
+     }
+    },
+    {
+     "id": "twd-133",
+     "label": "Walking Dead #133",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "133",
+     "cv": {
+      "v": 18166,
+      "i": 468503
+     }
+    },
+    {
+     "id": "twd-134",
+     "label": "Walking Dead #134",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "134",
+     "cv": {
+      "v": 18166,
+      "i": 469898
+     }
+    },
+    {
+     "id": "twd-135",
+     "label": "Walking Dead #135",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "135",
+     "cv": {
+      "v": 18166,
+      "i": 472966
+     }
+    },
+    {
+     "id": "twd-136",
+     "label": "Walking Dead #136",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "136",
+     "cv": {
+      "v": 18166,
+      "i": 475974
+     }
+    },
+    {
+     "id": "twd-137",
+     "label": "Walking Dead #137",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "137",
+     "cv": {
+      "v": 18166,
+      "i": 479297
+     }
+    },
+    {
+     "id": "twd-138",
+     "label": "Walking Dead #138",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "138",
+     "cv": {
+      "v": 18166,
+      "i": 482198
+     }
+    },
+    {
+     "id": "twd-139",
+     "label": "Walking Dead #139",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "139",
+     "cv": {
+      "v": 18166,
+      "i": 483415
+     }
+    },
+    {
+     "id": "twd-140",
+     "label": "Walking Dead #140",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "140",
+     "cv": {
+      "v": 18166,
+      "i": 485564
+     }
+    },
+    {
+     "id": "twd-141",
+     "label": "Walking Dead #141",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "141",
+     "cv": {
+      "v": 18166,
+      "i": 488703
+     }
+    },
+    {
+     "id": "twd-142",
+     "label": "Walking Dead #142",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "142",
+     "cv": {
+      "v": 18166,
+      "i": 491564
+     }
+    },
+    {
+     "id": "twd-143",
+     "label": "Walking Dead #143",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "143",
+     "cv": {
+      "v": 18166,
+      "i": 492983
+     }
+    },
+    {
+     "id": "twd-144",
+     "label": "Walking Dead #144",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "144",
+     "cv": {
+      "v": 18166,
+      "i": 494363
+     }
+    }
+   ]
+  },
+  {
+   "id": "C4",
+   "name": "Compendium Four",
+   "years": "#145–193",
+   "color": "#43a047",
+   "tagline": "The Whisperers, the Commonwealth — through to the end.",
+   "buy": [
+    {
+     "label": "Compendium Four",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Compendium+Volume+4"
+    },
+    {
+     "label": "Here's Negan",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Here's+Negan"
+    },
+    {
+     "label": "Negan Lives!",
+     "url": "https://www.amazon.com/s?k=Negan+Lives+Walking+Dead"
+    }
+   ],
+   "items": [
+    {
+     "id": "twd-145",
+     "label": "Walking Dead #145",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "145",
+     "cv": {
+      "v": 18166,
+      "i": 497443
+     }
+    },
+    {
+     "id": "twd-146",
+     "label": "Walking Dead #146",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "146",
+     "cv": {
+      "v": 18166,
+      "i": 499805
+     }
+    },
+    {
+     "id": "twd-147",
+     "label": "Walking Dead #147",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "147",
+     "cv": {
+      "v": 18166,
+      "i": 502911
+     }
+    },
+    {
+     "id": "twd-148",
+     "label": "Walking Dead #148",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "148",
+     "cv": {
+      "v": 18166,
+      "i": 505573
+     }
+    },
+    {
+     "id": "twd-149",
+     "label": "Walking Dead #149",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "149",
+     "cv": {
+      "v": 18166,
+      "i": 507818
+     }
+    },
+    {
+     "id": "twd-150",
+     "label": "Walking Dead #150",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "150",
+     "cv": {
+      "v": 18166,
+      "i": 510996
+     }
+    },
+    {
+     "id": "heres-negan-1",
+     "label": "Here's Negan",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead: Here's Negan (2017)",
+     "num": "1",
+     "cv": {
+      "v": 104831,
+      "i": 626331
+     }
+    },
+    {
+     "id": "twd-151",
+     "label": "Walking Dead #151",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "151",
+     "cv": {
+      "v": 18166,
+      "i": 513696
+     }
+    },
+    {
+     "id": "twd-152",
+     "label": "Walking Dead #152",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "152",
+     "cv": {
+      "v": 18166,
+      "i": 517860
+     }
+    },
+    {
+     "id": "twd-153",
+     "label": "Walking Dead #153",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "153",
+     "cv": {
+      "v": 18166,
+      "i": 523290
+     }
+    },
+    {
+     "id": "twd-154",
+     "label": "Walking Dead #154",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "154",
+     "cv": {
+      "v": 18166,
+      "i": 528553
+     }
+    },
+    {
+     "id": "twd-155",
+     "label": "Walking Dead #155",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "155",
+     "cv": {
+      "v": 18166,
+      "i": 533068
+     }
+    },
+    {
+     "id": "twd-156",
+     "label": "Walking Dead #156",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "156",
+     "cv": {
+      "v": 18166,
+      "i": 538558
+     }
+    },
+    {
+     "id": "twd-157",
+     "label": "Walking Dead #157",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "157",
+     "cv": {
+      "v": 18166,
+      "i": 542659
+     }
+    },
+    {
+     "id": "twd-158",
+     "label": "Walking Dead #158",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "158",
+     "cv": {
+      "v": 18166,
+      "i": 548615
+     }
+    },
+    {
+     "id": "twd-159",
+     "label": "Walking Dead #159",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "159",
+     "cv": {
+      "v": 18166,
+      "i": 552206
+     }
+    },
+    {
+     "id": "twd-160",
+     "label": "Walking Dead #160",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "160",
+     "cv": {
+      "v": 18166,
+      "i": 556508
+     }
+    },
+    {
+     "id": "twd-161",
+     "label": "Walking Dead #161",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "161",
+     "cv": {
+      "v": 18166,
+      "i": 563758
+     }
+    },
+    {
+     "id": "twd-162",
+     "label": "Walking Dead #162",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "162",
+     "cv": {
+      "v": 18166,
+      "i": 574908
+     }
+    },
+    {
+     "id": "twd-163",
+     "label": "Walking Dead #163",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "163",
+     "cv": {
+      "v": 18166,
+      "i": 579339
+     }
+    },
+    {
+     "id": "twd-164",
+     "label": "Walking Dead #164",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "164",
+     "cv": {
+      "v": 18166,
+      "i": 581595
+     }
+    },
+    {
+     "id": "twd-165",
+     "label": "Walking Dead #165",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "165",
+     "cv": {
+      "v": 18166,
+      "i": 583750
+     }
+    },
+    {
+     "id": "twd-166",
+     "label": "Walking Dead #166",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "166",
+     "cv": {
+      "v": 18166,
+      "i": 590831
+     }
+    },
+    {
+     "id": "twd-167",
+     "label": "Walking Dead #167",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "167",
+     "cv": {
+      "v": 18166,
+      "i": 594152
+     }
+    },
+    {
+     "id": "twd-168",
+     "label": "Walking Dead #168",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "168",
+     "cv": {
+      "v": 18166,
+      "i": 599906
+     }
+    },
+    {
+     "id": "twd-169",
+     "label": "Walking Dead #169",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "169",
+     "cv": {
+      "v": 18166,
+      "i": 606612
+     }
+    },
+    {
+     "id": "twd-170",
+     "label": "Walking Dead #170",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "170",
+     "cv": {
+      "v": 18166,
+      "i": 612013
+     }
+    },
+    {
+     "id": "twd-171",
+     "label": "Walking Dead #171",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "171",
+     "cv": {
+      "v": 18166,
+      "i": 619612
+     }
+    },
+    {
+     "id": "twd-172",
+     "label": "Walking Dead #172",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "172",
+     "cv": {
+      "v": 18166,
+      "i": 626330
+     }
+    },
+    {
+     "id": "twd-173",
+     "label": "Walking Dead #173",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "173",
+     "cv": {
+      "v": 18166,
+      "i": 634562
+     }
+    },
+    {
+     "id": "twd-174",
+     "label": "Walking Dead #174",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "174",
+     "cv": {
+      "v": 18166,
+      "i": 644545
+     }
+    },
+    {
+     "id": "negan-lives-1",
+     "label": "Negan Lives!",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "Negan Lives! (2020)",
+     "num": "1",
+     "cv": {
+      "v": 128314,
+      "i": 772425
+     }
+    },
+    {
+     "id": "twd-175",
+     "label": "Walking Dead #175",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "175",
+     "cv": {
+      "v": 18166,
+      "i": 650606
+     }
+    },
+    {
+     "id": "twd-176",
+     "label": "Walking Dead #176",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "176",
+     "cv": {
+      "v": 18166,
+      "i": 658781
+     }
+    },
+    {
+     "id": "twd-177",
+     "label": "Walking Dead #177",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "177",
+     "cv": {
+      "v": 18166,
+      "i": 662127
+     }
+    },
+    {
+     "id": "twd-178",
+     "label": "Walking Dead #178",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "178",
+     "cv": {
+      "v": 18166,
+      "i": 664958
+     }
+    },
+    {
+     "id": "twd-179",
+     "label": "Walking Dead #179",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "179",
+     "cv": {
+      "v": 18166,
+      "i": 668808
+     }
+    },
+    {
+     "id": "twd-180",
+     "label": "Walking Dead #180",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "180",
+     "cv": {
+      "v": 18166,
+      "i": 672318
+     }
+    },
+    {
+     "id": "twd-181",
+     "label": "Walking Dead #181",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "181",
+     "cv": {
+      "v": 18166,
+      "i": 675939
+     }
+    },
+    {
+     "id": "twd-182",
+     "label": "Walking Dead #182",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "182",
+     "cv": {
+      "v": 18166,
+      "i": 678410
+     }
+    },
+    {
+     "id": "twd-183",
+     "label": "Walking Dead #183",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "183",
+     "cv": {
+      "v": 18166,
+      "i": 683738
+     }
+    },
+    {
+     "id": "twd-184",
+     "label": "Walking Dead #184",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "184",
+     "cv": {
+      "v": 18166,
+      "i": 686925
+     }
+    },
+    {
+     "id": "twd-185",
+     "label": "Walking Dead #185",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "185",
+     "cv": {
+      "v": 18166,
+      "i": 691310
+     }
+    },
+    {
+     "id": "twd-186",
+     "label": "Walking Dead #186",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "186",
+     "cv": {
+      "v": 18166,
+      "i": 694043
+     }
+    },
+    {
+     "id": "twd-187",
+     "label": "Walking Dead #187",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "187",
+     "cv": {
+      "v": 18166,
+      "i": 696264
+     }
+    },
+    {
+     "id": "twd-188",
+     "label": "Walking Dead #188",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "188",
+     "cv": {
+      "v": 18166,
+      "i": 700088
+     }
+    },
+    {
+     "id": "twd-189",
+     "label": "Walking Dead #189",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "189",
+     "cv": {
+      "v": 18166,
+      "i": 702383
+     }
+    },
+    {
+     "id": "twd-190",
+     "label": "Walking Dead #190",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "190",
+     "cv": {
+      "v": 18166,
+      "i": 705434
+     }
+    },
+    {
+     "id": "twd-191",
+     "label": "Walking Dead #191",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "191",
+     "cv": {
+      "v": 18166,
+      "i": 707427
+     }
+    },
+    {
+     "id": "twd-192",
+     "label": "Walking Dead #192",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "192",
+     "cv": {
+      "v": 18166,
+      "i": 710610
+     }
+    },
+    {
+     "id": "twd-193",
+     "label": "Walking Dead #193",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead (Image, 2003)",
+     "num": "193",
+     "cv": {
+      "v": 18166,
+      "i": 712971
+     }
+    }
+   ]
+  },
+  {
+   "id": "X",
+   "name": "Specials",
+   "years": "anytime",
+   "color": "#546e7a",
+   "kind": "extras",
+   "tagline": "Origin one-shots and side-stories — read anytime.",
+   "buy": [
+    {
+     "label": "The Walking Dead Special",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+Special+Michonne+Governor+Tyreese"
+    },
+    {
+     "label": "The Alien",
+     "url": "https://www.amazon.com/s?k=Walking+Dead+The+Alien"
+    }
+   ],
+   "items": [
+    {
+     "id": "twd-special-1",
+     "label": "The Walking Dead Special",
+     "title": "Michonne · The Governor · Tyreese · Morgan",
+     "series": "TWD",
+     "seriesName": "Origin specials collection (2018)",
+     "num": "1",
+     "cv": {
+      "v": 114390,
+      "i": 688974
+     }
+    },
+    {
+     "id": "twd-alien-1",
+     "label": "The Alien",
+     "title": "",
+     "series": "TWD",
+     "seriesName": "The Walking Dead: The Alien (2020)",
+     "num": "1",
+     "cv": {
+      "v": 129109,
+      "i": 784473
+     }
+    }
+   ]
+  }
+ ]
+}

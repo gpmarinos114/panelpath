@@ -1,0 +1,342 @@
+{
+ "id": "hellboy",
+ "title": "Hellboy",
+ "subtitle": "Mike Mignola — the core story + B.P.R.D., in reading order",
+ "credit": "The community-standard new-reader order across the omnibus editions; the wider Mignolaverse branches off from here. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "H1",
+   "name": "Hellboy — the main story",
+   "years": "Read in this order",
+   "color": "#d32f2f",
+   "tagline": "Mignola's core story in the community-standard order — short stories slotted between the big arcs.",
+   "buy": [
+    {
+     "label": "Omnibus Boxed Set",
+     "url": "https://www.amazon.com/s?k=Hellboy+Omnibus+Boxed+Set"
+    },
+    {
+     "label": "Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=Hellboy+Omnibus+Volume+1+Seed+of+Destruction"
+    },
+    {
+     "label": "Omnibus Vol. 2",
+     "url": "https://www.amazon.com/s?k=Hellboy+Omnibus+Volume+2+Strange+Places"
+    },
+    {
+     "label": "Omnibus Vol. 3",
+     "url": "https://www.amazon.com/s?k=Hellboy+Omnibus+Volume+3+The+Wild+Hunt"
+    },
+    {
+     "label": "Omnibus Vol. 4",
+     "url": "https://www.amazon.com/s?k=Hellboy+Omnibus+Volume+4+Hellboy+in+Hell"
+    },
+    {
+     "label": "Short Stories Vol. 1",
+     "url": "https://www.amazon.com/s?k=Hellboy+The+Complete+Short+Stories+Volume+1"
+    },
+    {
+     "label": "Short Stories Vol. 2",
+     "url": "https://www.amazon.com/s?k=Hellboy+The+Complete+Short+Stories+Volume+2"
+    }
+   ],
+   "items": [
+    {
+     "id": "hb-omni-1",
+     "label": "Omnibus 1 · Seed of Destruction",
+     "title": "Wake the Devil + early shorts",
+     "series": "HB",
+     "seriesName": "Hellboy Omnibus Vol. 1 (2018)",
+     "num": "1",
+     "cv": {
+      "v": 110745,
+      "i": 669417
+     }
+    },
+    {
+     "id": "hb-ss-1",
+     "label": "Short Stories 1",
+     "title": "",
+     "series": "HB",
+     "seriesName": "The Complete Short Stories Vol. 1 (2018)",
+     "num": "1",
+     "cv": {
+      "v": 111532,
+      "i": 672835
+     }
+    },
+    {
+     "id": "hb-ss-2",
+     "label": "Short Stories 2",
+     "title": "",
+     "series": "HB",
+     "seriesName": "The Complete Short Stories Vol. 2 (2018)",
+     "num": "2",
+     "cv": {
+      "v": 111532,
+      "i": 679847
+     }
+    },
+    {
+     "id": "hb-omni-2",
+     "label": "Omnibus 2 · Strange Places",
+     "title": "Conqueror Worm + the lost tales",
+     "series": "HB",
+     "seriesName": "Hellboy Omnibus Vol. 2 (2018)",
+     "num": "2",
+     "cv": {
+      "v": 110745,
+      "i": 674035
+     }
+    },
+    {
+     "id": "hb-omni-3",
+     "label": "Omnibus 3 · The Wild Hunt",
+     "title": "Darkness Calls · The Storm and the Fury",
+     "series": "HB",
+     "seriesName": "Hellboy Omnibus Vol. 3 (2018)",
+     "num": "3",
+     "cv": {
+      "v": 110745,
+      "i": 677239
+     }
+    },
+    {
+     "id": "hb-omni-4",
+     "label": "Omnibus 4 · Hellboy in Hell",
+     "title": "The Descent · The Death Card",
+     "series": "HB",
+     "seriesName": "Hellboy Omnibus Vol. 4 (2018)",
+     "num": "4",
+     "cv": {
+      "v": 110745,
+      "i": 683744
+     }
+    }
+   ]
+  },
+  {
+   "id": "H2",
+   "name": "B.P.R.D. — read alongside",
+   "years": "Vol. 1–10",
+   "color": "#1976d2",
+   "tagline": "The frog war runs parallel — start once Hellboy reaches Conqueror Worm (Omnibus 2).",
+   "buy": [
+    {
+     "label": "B.P.R.D. Omnibus Vol. 1",
+     "url": "https://www.amazon.com/s?k=BPRD+Omnibus+Volume+1"
+    },
+    {
+     "label": "B.P.R.D. Omnibus Vol. 2",
+     "url": "https://www.amazon.com/s?k=BPRD+Omnibus+Volume+2"
+    },
+    {
+     "label": "B.P.R.D. Omnibus Vol. 3",
+     "url": "https://www.amazon.com/s?k=BPRD+Omnibus+Volume+3"
+    },
+    {
+     "label": "All B.P.R.D. Omnibuses",
+     "url": "https://www.amazon.com/s?k=BPRD+Omnibus"
+    }
+   ],
+   "items": [
+    {
+     "id": "bprd-01",
+     "label": "B.P.R.D. Omnibus 1",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 1 (2022)",
+     "num": "1",
+     "cv": {
+      "v": 145580,
+      "i": 951322
+     }
+    },
+    {
+     "id": "bprd-02",
+     "label": "B.P.R.D. Omnibus 2",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 2 (2022)",
+     "num": "2",
+     "cv": {
+      "v": 145580,
+      "i": 959259
+     }
+    },
+    {
+     "id": "bprd-03",
+     "label": "B.P.R.D. Omnibus 3",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 3 (2022)",
+     "num": "3",
+     "cv": {
+      "v": 145580,
+      "i": 965766
+     }
+    },
+    {
+     "id": "bprd-04",
+     "label": "B.P.R.D. Omnibus 4",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 4 (2022)",
+     "num": "4",
+     "cv": {
+      "v": 145580,
+      "i": 992561
+     }
+    },
+    {
+     "id": "bprd-05",
+     "label": "B.P.R.D. Omnibus 5",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 5 (2022)",
+     "num": "5",
+     "cv": {
+      "v": 145580,
+      "i": 984086
+     }
+    },
+    {
+     "id": "bprd-06",
+     "label": "B.P.R.D. Omnibus 6",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 6 (2022)",
+     "num": "6",
+     "cv": {
+      "v": 145580,
+      "i": 1011956
+     }
+    },
+    {
+     "id": "bprd-07",
+     "label": "B.P.R.D. Omnibus 7",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 7 (2022)",
+     "num": "7",
+     "cv": {
+      "v": 145580,
+      "i": 1022202
+     }
+    },
+    {
+     "id": "bprd-08",
+     "label": "B.P.R.D. Omnibus 8",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 8 (2022)",
+     "num": "8",
+     "cv": {
+      "v": 145580,
+      "i": 1040859
+     }
+    },
+    {
+     "id": "bprd-09",
+     "label": "B.P.R.D. Omnibus 9",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 9 (2022)",
+     "num": "9",
+     "cv": {
+      "v": 145580,
+      "i": 1048631
+     }
+    },
+    {
+     "id": "bprd-10",
+     "label": "B.P.R.D. Omnibus 10",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D. Omnibus Vol. 10 (2022)",
+     "num": "10",
+     "cv": {
+      "v": 145580,
+      "i": 1056808
+     }
+    }
+   ]
+  },
+  {
+   "id": "H3",
+   "name": "The wider universe",
+   "years": "anytime",
+   "color": "#546e7a",
+   "kind": "extras",
+   "tagline": "Prequels and side-stories — best after the main line (some spoil it if read first).",
+   "buy": [
+    {
+     "label": "B.P.R.D. 1946–1948",
+     "url": "https://www.amazon.com/s?k=BPRD+1946+1947+1948"
+    },
+    {
+     "label": "Hellboy & the B.P.R.D.: 1952–1954",
+     "url": "https://www.amazon.com/s?k=Hellboy+and+the+BPRD+1952+1953+1954"
+    },
+    {
+     "label": "Abe Sapien: The Drowning",
+     "url": "https://www.amazon.com/s?k=Abe+Sapien+The+Drowning+and+Other+Stories"
+    },
+    {
+     "label": "Abe Sapien: Dark and Terrible",
+     "url": "https://www.amazon.com/s?k=Abe+Sapien+Dark+and+Terrible+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "bprd-4648",
+     "label": "B.P.R.D. 1946–1948",
+     "title": "",
+     "series": "BPRD",
+     "seriesName": "B.P.R.D.: 1946–1948 (2015)",
+     "num": "1",
+     "cv": {
+      "v": 82481,
+      "i": 491484
+     }
+    },
+    {
+     "id": "hb-bprd-1952",
+     "label": "Hellboy & the B.P.R.D.: 1952–1954",
+     "title": "",
+     "series": "HB",
+     "seriesName": "Hellboy and the B.P.R.D. (2014)",
+     "num": "1",
+     "cv": {
+      "v": 78537,
+      "i": 471935
+     }
+    },
+    {
+     "id": "abe-drown",
+     "label": "Abe Sapien: The Drowning and Other Stories",
+     "title": "",
+     "series": "HB",
+     "seriesName": "Abe Sapien (2008)",
+     "num": "1",
+     "cv": {
+      "v": 20473,
+      "i": 122572
+     }
+    },
+    {
+     "id": "abe-dt",
+     "label": "Abe Sapien: Dark and Terrible",
+     "title": "",
+     "series": "HB",
+     "seriesName": "Abe Sapien (2013)",
+     "num": "1",
+     "cv": {
+      "v": 59507,
+      "i": 395690
+     }
+    }
+   ]
+  }
+ ]
+}

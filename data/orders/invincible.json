@@ -1,0 +1,2157 @@
+{
+ "id": "invincible",
+ "title": "Invincible",
+ "subtitle": "Robert Kirkman — the complete 144-issue run (2003–2018)",
+ "credit": "Issue-level order with the recommended spin-off placements (Atom Eve, Guarding the Globe, Invincible Universe). Compendium mapping. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "C1",
+   "name": "Compendium One",
+   "years": "#1–47",
+   "color": "#1976d2",
+   "tagline": "Mark Grayson's first years — high school, the Guardians, and the truth about Omni-Man.",
+   "buy": [
+    {
+     "label": "Compendium Vol. 1",
+     "url": "https://www.amazon.com/s?k=Invincible+Compendium+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "inv-001",
+     "label": "Invincible #1",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "1",
+     "cv": {
+      "v": 17993,
+      "i": 105347
+     }
+    },
+    {
+     "id": "inv-002",
+     "label": "Invincible #2",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "2",
+     "cv": {
+      "v": 17993,
+      "i": 105532
+     }
+    },
+    {
+     "id": "inv-003",
+     "label": "Invincible #3",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "3",
+     "cv": {
+      "v": 17993,
+      "i": 105533
+     }
+    },
+    {
+     "id": "inv-004",
+     "label": "Invincible #4",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "4",
+     "cv": {
+      "v": 17993,
+      "i": 105534
+     }
+    },
+    {
+     "id": "inv-005",
+     "label": "Invincible #5",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "5",
+     "cv": {
+      "v": 17993,
+      "i": 105535
+     }
+    },
+    {
+     "id": "inv-006",
+     "label": "Invincible #6",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "6",
+     "cv": {
+      "v": 17993,
+      "i": 105536
+     }
+    },
+    {
+     "id": "inv-007",
+     "label": "Invincible #7",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "7",
+     "cv": {
+      "v": 17993,
+      "i": 105537
+     }
+    },
+    {
+     "id": "inv-008",
+     "label": "Invincible #8",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "8",
+     "cv": {
+      "v": 17993,
+      "i": 105538
+     }
+    },
+    {
+     "id": "inv-009",
+     "label": "Invincible #9",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "9",
+     "cv": {
+      "v": 17993,
+      "i": 105539
+     }
+    },
+    {
+     "id": "inv-010",
+     "label": "Invincible #10",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "10",
+     "cv": {
+      "v": 17993,
+      "i": 105540
+     }
+    },
+    {
+     "id": "inv-011",
+     "label": "Invincible #11",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "11",
+     "cv": {
+      "v": 17993,
+      "i": 125143
+     }
+    },
+    {
+     "id": "inv-012",
+     "label": "Invincible #12",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "12",
+     "cv": {
+      "v": 17993,
+      "i": 125148
+     }
+    },
+    {
+     "id": "inv-013",
+     "label": "Invincible #13",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "13",
+     "cv": {
+      "v": 17993,
+      "i": 125183
+     }
+    },
+    {
+     "id": "inv-014",
+     "label": "Invincible #14",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "14",
+     "cv": {
+      "v": 17993,
+      "i": 125184
+     }
+    },
+    {
+     "id": "inv-015",
+     "label": "Invincible #15",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "15",
+     "cv": {
+      "v": 17993,
+      "i": 125187
+     }
+    },
+    {
+     "id": "inv-016",
+     "label": "Invincible #16",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "16",
+     "cv": {
+      "v": 17993,
+      "i": 125240
+     }
+    },
+    {
+     "id": "inv-017",
+     "label": "Invincible #17",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "17",
+     "cv": {
+      "v": 17993,
+      "i": 125241
+     }
+    },
+    {
+     "id": "inv-018",
+     "label": "Invincible #18",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "18",
+     "cv": {
+      "v": 17993,
+      "i": 128555
+     }
+    },
+    {
+     "id": "inv-019",
+     "label": "Invincible #19",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "19",
+     "cv": {
+      "v": 17993,
+      "i": 125951
+     }
+    },
+    {
+     "id": "inv-020",
+     "label": "Invincible #20",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "20",
+     "cv": {
+      "v": 17993,
+      "i": 128610
+     }
+    },
+    {
+     "id": "inv-021",
+     "label": "Invincible #21",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "21",
+     "cv": {
+      "v": 17993,
+      "i": 128945
+     }
+    },
+    {
+     "id": "inv-022",
+     "label": "Invincible #22",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "22",
+     "cv": {
+      "v": 17993,
+      "i": 129012
+     }
+    },
+    {
+     "id": "inv-000",
+     "label": "Invincible #0",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "0",
+     "cv": {
+      "v": 17993,
+      "i": 125132
+     }
+    },
+    {
+     "id": "inv-023",
+     "label": "Invincible #23",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "23",
+     "cv": {
+      "v": 17993,
+      "i": 129013
+     }
+    },
+    {
+     "id": "inv-024",
+     "label": "Invincible #24",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "24",
+     "cv": {
+      "v": 17993,
+      "i": 129014
+     }
+    },
+    {
+     "id": "inv-025",
+     "label": "Invincible #25",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "25",
+     "cv": {
+      "v": 17993,
+      "i": 129080
+     }
+    },
+    {
+     "id": "inv-026",
+     "label": "Invincible #26",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "26",
+     "cv": {
+      "v": 17993,
+      "i": 129228
+     }
+    },
+    {
+     "id": "inv-027",
+     "label": "Invincible #27",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "27",
+     "cv": {
+      "v": 17993,
+      "i": 130599
+     }
+    },
+    {
+     "id": "inv-028",
+     "label": "Invincible #28",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "28",
+     "cv": {
+      "v": 17993,
+      "i": 130600
+     }
+    },
+    {
+     "id": "inv-029",
+     "label": "Invincible #29",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "29",
+     "cv": {
+      "v": 17993,
+      "i": 130601
+     }
+    },
+    {
+     "id": "inv-030",
+     "label": "Invincible #30",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "30",
+     "cv": {
+      "v": 17993,
+      "i": 130602
+     }
+    },
+    {
+     "id": "inv-031",
+     "label": "Invincible #31",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "31",
+     "cv": {
+      "v": 17993,
+      "i": 130605
+     }
+    },
+    {
+     "id": "inv-032",
+     "label": "Invincible #32",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "32",
+     "cv": {
+      "v": 17993,
+      "i": 130606
+     }
+    },
+    {
+     "id": "inv-033",
+     "label": "Invincible #33",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "33",
+     "cv": {
+      "v": 17993,
+      "i": 130607
+     }
+    },
+    {
+     "id": "inv-034",
+     "label": "Invincible #34",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "34",
+     "cv": {
+      "v": 17993,
+      "i": 130609
+     }
+    },
+    {
+     "id": "inv-035",
+     "label": "Invincible #35",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "35",
+     "cv": {
+      "v": 17993,
+      "i": 125141
+     }
+    },
+    {
+     "id": "inv-036",
+     "label": "Invincible #36",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "36",
+     "cv": {
+      "v": 17993,
+      "i": 126528
+     }
+    },
+    {
+     "id": "inv-037",
+     "label": "Invincible #37",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "37",
+     "cv": {
+      "v": 17993,
+      "i": 128611
+     }
+    },
+    {
+     "id": "inv-038",
+     "label": "Invincible #38",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "38",
+     "cv": {
+      "v": 17993,
+      "i": 106421
+     }
+    },
+    {
+     "id": "inv-039",
+     "label": "Invincible #39",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "39",
+     "cv": {
+      "v": 17993,
+      "i": 106647
+     }
+    },
+    {
+     "id": "inv-040",
+     "label": "Invincible #40",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "40",
+     "cv": {
+      "v": 17993,
+      "i": 109270
+     }
+    },
+    {
+     "id": "inv-041",
+     "label": "Invincible #41",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "41",
+     "cv": {
+      "v": 17993,
+      "i": 109271
+     }
+    },
+    {
+     "id": "inv-042",
+     "label": "Invincible #42",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "42",
+     "cv": {
+      "v": 17993,
+      "i": 126823
+     }
+    },
+    {
+     "id": "inv-043",
+     "label": "Invincible #43",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "43",
+     "cv": {
+      "v": 17993,
+      "i": 130610
+     }
+    },
+    {
+     "id": "inv-044",
+     "label": "Invincible #44",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "44",
+     "cv": {
+      "v": 17993,
+      "i": 112028
+     }
+    },
+    {
+     "id": "inv-045",
+     "label": "Invincible #45",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "45",
+     "cv": {
+      "v": 17993,
+      "i": 126819
+     }
+    },
+    {
+     "id": "inv-046",
+     "label": "Invincible #46",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "46",
+     "cv": {
+      "v": 17993,
+      "i": 118125
+     }
+    },
+    {
+     "id": "inv-047",
+     "label": "Invincible #47",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "47",
+     "cv": {
+      "v": 17993,
+      "i": 120920
+     }
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "name": "Compendium Two",
+   "years": "#48–96",
+   "color": "#f9a825",
+   "tagline": "The Invincible War and the Viltrumite War — with the Atom Eve and Guarding the Globe spin-offs slotted in.",
+   "buy": [
+    {
+     "label": "Compendium Vol. 2",
+     "url": "https://www.amazon.com/s?k=Invincible+Compendium+Volume+2"
+    },
+    {
+     "label": "Invincible Universe Compendium",
+     "url": "https://www.amazon.com/s?k=Invincible+Universe+Compendium+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "inv-048",
+     "label": "Invincible #48",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "48",
+     "cv": {
+      "v": 17993,
+      "i": 125073
+     }
+    },
+    {
+     "id": "inv-049",
+     "label": "Invincible #49",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "49",
+     "cv": {
+      "v": 17993,
+      "i": 126001
+     }
+    },
+    {
+     "id": "inv-050",
+     "label": "Invincible #50",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "50",
+     "cv": {
+      "v": 17993,
+      "i": 131455
+     }
+    },
+    {
+     "id": "atom-eve-1",
+     "label": "Atom Eve #1",
+     "title": "",
+     "series": "Atom Eve",
+     "seriesName": "Invincible Presents: Atom Eve (2007)",
+     "num": "1",
+     "cv": {
+      "v": 20351,
+      "i": 121639
+     }
+    },
+    {
+     "id": "atom-eve-2",
+     "label": "Atom Eve #2",
+     "title": "",
+     "series": "Atom Eve",
+     "seriesName": "Invincible Presents: Atom Eve (2007)",
+     "num": "2",
+     "cv": {
+      "v": 20351,
+      "i": 124693
+     }
+    },
+    {
+     "id": "inv-051",
+     "label": "Invincible #51",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "51",
+     "cv": {
+      "v": 17993,
+      "i": 134119
+     }
+    },
+    {
+     "id": "inv-052",
+     "label": "Invincible #52",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "52",
+     "cv": {
+      "v": 17993,
+      "i": 138424
+     }
+    },
+    {
+     "id": "inv-053",
+     "label": "Invincible #53",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "53",
+     "cv": {
+      "v": 17993,
+      "i": 139696
+     }
+    },
+    {
+     "id": "inv-054",
+     "label": "Invincible #54",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "54",
+     "cv": {
+      "v": 17993,
+      "i": 140811
+     }
+    },
+    {
+     "id": "inv-055",
+     "label": "Invincible #55",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "55",
+     "cv": {
+      "v": 17993,
+      "i": 142745
+     }
+    },
+    {
+     "id": "inv-056",
+     "label": "Invincible #56",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "56",
+     "cv": {
+      "v": 17993,
+      "i": 145547
+     }
+    },
+    {
+     "id": "inv-057",
+     "label": "Invincible #57",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "57",
+     "cv": {
+      "v": 17993,
+      "i": 148141
+     }
+    },
+    {
+     "id": "inv-058",
+     "label": "Invincible #58",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "58",
+     "cv": {
+      "v": 17993,
+      "i": 150046
+     }
+    },
+    {
+     "id": "inv-059",
+     "label": "Invincible #59",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "59",
+     "cv": {
+      "v": 17993,
+      "i": 152425
+     }
+    },
+    {
+     "id": "inv-060",
+     "label": "Invincible #60",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "60",
+     "cv": {
+      "v": 17993,
+      "i": 153703
+     }
+    },
+    {
+     "id": "inv-061",
+     "label": "Invincible #61",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "61",
+     "cv": {
+      "v": 17993,
+      "i": 155799
+     }
+    },
+    {
+     "id": "inv-062",
+     "label": "Invincible #62",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "62",
+     "cv": {
+      "v": 17993,
+      "i": 157824
+     }
+    },
+    {
+     "id": "inv-063",
+     "label": "Invincible #63",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "63",
+     "cv": {
+      "v": 17993,
+      "i": 160437
+     }
+    },
+    {
+     "id": "inv-064",
+     "label": "Invincible #64",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "64",
+     "cv": {
+      "v": 17993,
+      "i": 164880
+     }
+    },
+    {
+     "id": "inv-065",
+     "label": "Invincible #65",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "65",
+     "cv": {
+      "v": 17993,
+      "i": 167415
+     }
+    },
+    {
+     "id": "inv-066",
+     "label": "Invincible #66",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "66",
+     "cv": {
+      "v": 17993,
+      "i": 172353
+     }
+    },
+    {
+     "id": "inv-067",
+     "label": "Invincible #67",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "67",
+     "cv": {
+      "v": 17993,
+      "i": 177659
+     }
+    },
+    {
+     "id": "atom-eve-rex-splode-1",
+     "label": "Atom Eve & Rex Splode #1",
+     "title": "",
+     "series": "Atom Eve & Rex Splode",
+     "seriesName": "Invincible Presents: Atom Eve & Rex Splode (2009)",
+     "num": "1",
+     "cv": {
+      "v": 29119,
+      "i": 179134
+     }
+    },
+    {
+     "id": "atom-eve-rex-splode-2",
+     "label": "Atom Eve & Rex Splode #2",
+     "title": "",
+     "series": "Atom Eve & Rex Splode",
+     "seriesName": "Invincible Presents: Atom Eve & Rex Splode (2009)",
+     "num": "2",
+     "cv": {
+      "v": 29119,
+      "i": 183371
+     }
+    },
+    {
+     "id": "atom-eve-rex-splode-3",
+     "label": "Atom Eve & Rex Splode #3",
+     "title": "",
+     "series": "Atom Eve & Rex Splode",
+     "seriesName": "Invincible Presents: Atom Eve & Rex Splode (2009)",
+     "num": "3",
+     "cv": {
+      "v": 29119,
+      "i": 196591
+     }
+    },
+    {
+     "id": "inv-068",
+     "label": "Invincible #68",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "68",
+     "cv": {
+      "v": 17993,
+      "i": 183787
+     }
+    },
+    {
+     "id": "inv-069",
+     "label": "Invincible #69",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "69",
+     "cv": {
+      "v": 17993,
+      "i": 189593
+     }
+    },
+    {
+     "id": "inv-070",
+     "label": "Invincible #70",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "70",
+     "cv": {
+      "v": 17993,
+      "i": 198005
+     }
+    },
+    {
+     "id": "invincible-returns-1",
+     "label": "Invincible Returns",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible Returns (2010)",
+     "num": "1",
+     "cv": {
+      "v": 32481,
+      "i": 204909
+     }
+    },
+    {
+     "id": "inv-071",
+     "label": "Invincible #71",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "71",
+     "cv": {
+      "v": 17993,
+      "i": 211115
+     }
+    },
+    {
+     "id": "inv-072",
+     "label": "Invincible #72",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "72",
+     "cv": {
+      "v": 17993,
+      "i": 217479
+     }
+    },
+    {
+     "id": "inv-073",
+     "label": "Invincible #73",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "73",
+     "cv": {
+      "v": 17993,
+      "i": 222076
+     }
+    },
+    {
+     "id": "guarding-the-globe-1",
+     "label": "Guarding the Globe #1",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "1",
+     "cv": {
+      "v": 35107,
+      "i": 231663
+     }
+    },
+    {
+     "id": "guarding-the-globe-2",
+     "label": "Guarding the Globe #2",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "2",
+     "cv": {
+      "v": 35107,
+      "i": 239040
+     }
+    },
+    {
+     "id": "guarding-the-globe-3",
+     "label": "Guarding the Globe #3",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "3",
+     "cv": {
+      "v": 35107,
+      "i": 259391
+     }
+    },
+    {
+     "id": "guarding-the-globe-4",
+     "label": "Guarding the Globe #4",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "4",
+     "cv": {
+      "v": 35107,
+      "i": 265592
+     }
+    },
+    {
+     "id": "guarding-the-globe-5",
+     "label": "Guarding the Globe #5",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "5",
+     "cv": {
+      "v": 35107,
+      "i": 279063
+     }
+    },
+    {
+     "id": "guarding-the-globe-6",
+     "label": "Guarding the Globe #6",
+     "title": "",
+     "series": "Guarding the Globe",
+     "seriesName": "Guarding the Globe Vol. 1 (2010)",
+     "num": "6",
+     "cv": {
+      "v": 35107,
+      "i": 300472
+     }
+    },
+    {
+     "id": "inv-074",
+     "label": "Invincible #74",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "74",
+     "cv": {
+      "v": 17993,
+      "i": 231788
+     }
+    },
+    {
+     "id": "inv-075",
+     "label": "Invincible #75",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "75",
+     "cv": {
+      "v": 17993,
+      "i": 241001
+     }
+    },
+    {
+     "id": "inv-076",
+     "label": "Invincible #76",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "76",
+     "cv": {
+      "v": 17993,
+      "i": 250786
+     }
+    },
+    {
+     "id": "inv-077",
+     "label": "Invincible #77",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "77",
+     "cv": {
+      "v": 17993,
+      "i": 260308
+     }
+    },
+    {
+     "id": "inv-078",
+     "label": "Invincible #78",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "78",
+     "cv": {
+      "v": 17993,
+      "i": 266629
+     }
+    },
+    {
+     "id": "inv-079",
+     "label": "Invincible #79",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "79",
+     "cv": {
+      "v": 17993,
+      "i": 268788
+     }
+    },
+    {
+     "id": "inv-080",
+     "label": "Invincible #80",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "80",
+     "cv": {
+      "v": 17993,
+      "i": 273273
+     }
+    },
+    {
+     "id": "inv-081",
+     "label": "Invincible #81",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "81",
+     "cv": {
+      "v": 17993,
+      "i": 281928
+     }
+    },
+    {
+     "id": "inv-082",
+     "label": "Invincible #82",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "82",
+     "cv": {
+      "v": 17993,
+      "i": 290678
+     }
+    },
+    {
+     "id": "inv-083",
+     "label": "Invincible #83",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "83",
+     "cv": {
+      "v": 17993,
+      "i": 294297
+     }
+    },
+    {
+     "id": "inv-084",
+     "label": "Invincible #84",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "84",
+     "cv": {
+      "v": 17993,
+      "i": 301056
+     }
+    },
+    {
+     "id": "inv-085",
+     "label": "Invincible #85",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "85",
+     "cv": {
+      "v": 17993,
+      "i": 303553
+     }
+    },
+    {
+     "id": "inv-086",
+     "label": "Invincible #86",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "86",
+     "cv": {
+      "v": 17993,
+      "i": 307878
+     }
+    },
+    {
+     "id": "inv-087",
+     "label": "Invincible #87",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "87",
+     "cv": {
+      "v": 17993,
+      "i": 310923
+     }
+    },
+    {
+     "id": "inv-088",
+     "label": "Invincible #88",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "88",
+     "cv": {
+      "v": 17993,
+      "i": 313909
+     }
+    },
+    {
+     "id": "inv-089",
+     "label": "Invincible #89",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "89",
+     "cv": {
+      "v": 17993,
+      "i": 317973
+     }
+    },
+    {
+     "id": "inv-090",
+     "label": "Invincible #90",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "90",
+     "cv": {
+      "v": 17993,
+      "i": 326929
+     }
+    },
+    {
+     "id": "inv-091",
+     "label": "Invincible #91",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "91",
+     "cv": {
+      "v": 17993,
+      "i": 335054
+     }
+    },
+    {
+     "id": "inv-092",
+     "label": "Invincible #92",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "92",
+     "cv": {
+      "v": 17993,
+      "i": 340275
+     }
+    },
+    {
+     "id": "inv-093",
+     "label": "Invincible #93",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "93",
+     "cv": {
+      "v": 17993,
+      "i": 344118
+     }
+    },
+    {
+     "id": "inv-094",
+     "label": "Invincible #94",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "94",
+     "cv": {
+      "v": 17993,
+      "i": 352728
+     }
+    },
+    {
+     "id": "inv-095",
+     "label": "Invincible #95",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "95",
+     "cv": {
+      "v": 17993,
+      "i": 358865
+     }
+    },
+    {
+     "id": "inv-096",
+     "label": "Invincible #96",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "96",
+     "cv": {
+      "v": 17993,
+      "i": 363095
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-1",
+     "label": "Guarding the Globe II #1",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "1",
+     "cv": {
+      "v": 51877,
+      "i": 355922
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-2",
+     "label": "Guarding the Globe II #2",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "2",
+     "cv": {
+      "v": 51877,
+      "i": 360034
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-3",
+     "label": "Guarding the Globe II #3",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "3",
+     "cv": {
+      "v": 51877,
+      "i": 365776
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-4",
+     "label": "Guarding the Globe II #4",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "4",
+     "cv": {
+      "v": 51877,
+      "i": 371229
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-5",
+     "label": "Guarding the Globe II #5",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "5",
+     "cv": {
+      "v": 51877,
+      "i": 378859
+     }
+    },
+    {
+     "id": "guarding-the-globe-ii-6",
+     "label": "Guarding the Globe II #6",
+     "title": "",
+     "series": "Guarding the Globe II",
+     "seriesName": "Guarding the Globe Vol. 2 (2012)",
+     "num": "6",
+     "cv": {
+      "v": 51877,
+      "i": 384924
+     }
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "name": "Compendium Three",
+   "years": "#97–144",
+   "color": "#d32f2f",
+   "tagline": "The final era — the reboot, the last war, and the ending.",
+   "buy": [
+    {
+     "label": "Compendium Vol. 3",
+     "url": "https://www.amazon.com/s?k=Invincible+Compendium+Volume+3"
+    }
+   ],
+   "items": [
+    {
+     "id": "inv-097",
+     "label": "Invincible #97",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "97",
+     "cv": {
+      "v": 17993,
+      "i": 367681
+     }
+    },
+    {
+     "id": "inv-098",
+     "label": "Invincible #98",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "98",
+     "cv": {
+      "v": 17993,
+      "i": 371155
+     }
+    },
+    {
+     "id": "inv-099",
+     "label": "Invincible #99",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "99",
+     "cv": {
+      "v": 17993,
+      "i": 376607
+     }
+    },
+    {
+     "id": "inv-100",
+     "label": "Invincible #100",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "100",
+     "cv": {
+      "v": 17993,
+      "i": 382769
+     }
+    },
+    {
+     "id": "inv-101",
+     "label": "Invincible #101",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "101",
+     "cv": {
+      "v": 17993,
+      "i": 394819
+     }
+    },
+    {
+     "id": "inv-102",
+     "label": "Invincible #102",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "102",
+     "cv": {
+      "v": 17993,
+      "i": 398960
+     }
+    },
+    {
+     "id": "invincible-universe-1",
+     "label": "Invincible Universe #1",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "1",
+     "cv": {
+      "v": 59705,
+      "i": 396391
+     }
+    },
+    {
+     "id": "invincible-universe-2",
+     "label": "Invincible Universe #2",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "2",
+     "cv": {
+      "v": 59705,
+      "i": 400122
+     }
+    },
+    {
+     "id": "invincible-universe-3",
+     "label": "Invincible Universe #3",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "3",
+     "cv": {
+      "v": 59705,
+      "i": 408958
+     }
+    },
+    {
+     "id": "invincible-universe-4",
+     "label": "Invincible Universe #4",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "4",
+     "cv": {
+      "v": 59705,
+      "i": 415250
+     }
+    },
+    {
+     "id": "invincible-universe-5",
+     "label": "Invincible Universe #5",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "5",
+     "cv": {
+      "v": 59705,
+      "i": 420616
+     }
+    },
+    {
+     "id": "invincible-universe-6",
+     "label": "Invincible Universe #6",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "6",
+     "cv": {
+      "v": 59705,
+      "i": 424511
+     }
+    },
+    {
+     "id": "invincible-universe-7",
+     "label": "Invincible Universe #7",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "7",
+     "cv": {
+      "v": 59705,
+      "i": 427801
+     }
+    },
+    {
+     "id": "invincible-universe-8",
+     "label": "Invincible Universe #8",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "8",
+     "cv": {
+      "v": 59705,
+      "i": 435552
+     }
+    },
+    {
+     "id": "invincible-universe-9",
+     "label": "Invincible Universe #9",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "9",
+     "cv": {
+      "v": 59705,
+      "i": 441380
+     }
+    },
+    {
+     "id": "invincible-universe-10",
+     "label": "Invincible Universe #10",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "10",
+     "cv": {
+      "v": 59705,
+      "i": 444484
+     }
+    },
+    {
+     "id": "invincible-universe-11",
+     "label": "Invincible Universe #11",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "11",
+     "cv": {
+      "v": 59705,
+      "i": 446956
+     }
+    },
+    {
+     "id": "invincible-universe-12",
+     "label": "Invincible Universe #12",
+     "title": "",
+     "series": "Invincible Universe",
+     "seriesName": "Invincible Universe (2013)",
+     "num": "12",
+     "cv": {
+      "v": 59705,
+      "i": 449624
+     }
+    },
+    {
+     "id": "inv-103",
+     "label": "Invincible #103",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "103",
+     "cv": {
+      "v": 17993,
+      "i": 411794
+     }
+    },
+    {
+     "id": "inv-104",
+     "label": "Invincible #104",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "104",
+     "cv": {
+      "v": 17993,
+      "i": 417942
+     }
+    },
+    {
+     "id": "inv-105",
+     "label": "Invincible #105",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "105",
+     "cv": {
+      "v": 17993,
+      "i": 424510
+     }
+    },
+    {
+     "id": "inv-106",
+     "label": "Invincible #106",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "106",
+     "cv": {
+      "v": 17993,
+      "i": 428972
+     }
+    },
+    {
+     "id": "inv-107",
+     "label": "Invincible #107",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "107",
+     "cv": {
+      "v": 17993,
+      "i": 436166
+     }
+    },
+    {
+     "id": "inv-108",
+     "label": "Invincible #108",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "108",
+     "cv": {
+      "v": 17993,
+      "i": 443962
+     }
+    },
+    {
+     "id": "inv-109",
+     "label": "Invincible #109",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "109",
+     "cv": {
+      "v": 17993,
+      "i": 447623
+     }
+    },
+    {
+     "id": "inv-110",
+     "label": "Invincible #110",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "110",
+     "cv": {
+      "v": 17993,
+      "i": 450044
+     }
+    },
+    {
+     "id": "inv-111",
+     "label": "Invincible #111",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "111",
+     "cv": {
+      "v": 17993,
+      "i": 452468
+     }
+    },
+    {
+     "id": "inv-112",
+     "label": "Invincible #112",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "112",
+     "cv": {
+      "v": 17993,
+      "i": 457591
+     }
+    },
+    {
+     "id": "inv-113",
+     "label": "Invincible #113",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "113",
+     "cv": {
+      "v": 17993,
+      "i": 461698
+     }
+    },
+    {
+     "id": "inv-114",
+     "label": "Invincible #114",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "114",
+     "cv": {
+      "v": 17993,
+      "i": 464948
+     }
+    },
+    {
+     "id": "inv-115",
+     "label": "Invincible #115",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "115",
+     "cv": {
+      "v": 17993,
+      "i": 470383
+     }
+    },
+    {
+     "id": "inv-116",
+     "label": "Invincible #116",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "116",
+     "cv": {
+      "v": 17993,
+      "i": 476752
+     }
+    },
+    {
+     "id": "inv-117",
+     "label": "Invincible #117",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "117",
+     "cv": {
+      "v": 17993,
+      "i": 479943
+     }
+    },
+    {
+     "id": "inv-118",
+     "label": "Invincible #118",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "118",
+     "cv": {
+      "v": 17993,
+      "i": 483318
+     }
+    },
+    {
+     "id": "inv-119",
+     "label": "Invincible #119",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "119",
+     "cv": {
+      "v": 17993,
+      "i": 487177
+     }
+    },
+    {
+     "id": "inv-120",
+     "label": "Invincible #120",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "120",
+     "cv": {
+      "v": 17993,
+      "i": 489869
+     }
+    },
+    {
+     "id": "inv-121",
+     "label": "Invincible #121",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "121",
+     "cv": {
+      "v": 17993,
+      "i": 495303
+     }
+    },
+    {
+     "id": "inv-122",
+     "label": "Invincible #122",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "122",
+     "cv": {
+      "v": 17993,
+      "i": 497990
+     }
+    },
+    {
+     "id": "inv-123",
+     "label": "Invincible #123",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "123",
+     "cv": {
+      "v": 17993,
+      "i": 500332
+     }
+    },
+    {
+     "id": "inv-124",
+     "label": "Invincible #124",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "124",
+     "cv": {
+      "v": 17993,
+      "i": 503588
+     }
+    },
+    {
+     "id": "inv-125",
+     "label": "Invincible #125",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "125",
+     "cv": {
+      "v": 17993,
+      "i": 506222
+     }
+    },
+    {
+     "id": "inv-126",
+     "label": "Invincible #126",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "126",
+     "cv": {
+      "v": 17993,
+      "i": 508474
+     }
+    },
+    {
+     "id": "inv-127",
+     "label": "Invincible #127",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "127",
+     "cv": {
+      "v": 17993,
+      "i": 526091
+     }
+    },
+    {
+     "id": "inv-128",
+     "label": "Invincible #128",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "128",
+     "cv": {
+      "v": 17993,
+      "i": 530757
+     }
+    },
+    {
+     "id": "inv-129",
+     "label": "Invincible #129",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "129",
+     "cv": {
+      "v": 17993,
+      "i": 535385
+     }
+    },
+    {
+     "id": "inv-130",
+     "label": "Invincible #130",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "130",
+     "cv": {
+      "v": 17993,
+      "i": 546076
+     }
+    },
+    {
+     "id": "inv-131",
+     "label": "Invincible #131",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "131",
+     "cv": {
+      "v": 17993,
+      "i": 558445
+     }
+    },
+    {
+     "id": "inv-132",
+     "label": "Invincible #132",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "132",
+     "cv": {
+      "v": 17993,
+      "i": 579335
+     }
+    },
+    {
+     "id": "inv-133",
+     "label": "Invincible #133",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "133",
+     "cv": {
+      "v": 17993,
+      "i": 581583
+     }
+    },
+    {
+     "id": "inv-134",
+     "label": "Invincible #134",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "134",
+     "cv": {
+      "v": 17993,
+      "i": 587441
+     }
+    },
+    {
+     "id": "inv-135",
+     "label": "Invincible #135",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "135",
+     "cv": {
+      "v": 17993,
+      "i": 592635
+     }
+    },
+    {
+     "id": "inv-136",
+     "label": "Invincible #136",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "136",
+     "cv": {
+      "v": 17993,
+      "i": 595722
+     }
+    },
+    {
+     "id": "inv-137",
+     "label": "Invincible #137",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "137",
+     "cv": {
+      "v": 17993,
+      "i": 603166
+     }
+    },
+    {
+     "id": "inv-138",
+     "label": "Invincible #138",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "138",
+     "cv": {
+      "v": 17993,
+      "i": 609324
+     }
+    },
+    {
+     "id": "inv-139",
+     "label": "Invincible #139",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "139",
+     "cv": {
+      "v": 17993,
+      "i": 615004
+     }
+    },
+    {
+     "id": "inv-140",
+     "label": "Invincible #140",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "140",
+     "cv": {
+      "v": 17993,
+      "i": 622919
+     }
+    },
+    {
+     "id": "inv-141",
+     "label": "Invincible #141",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "141",
+     "cv": {
+      "v": 17993,
+      "i": 630592
+     }
+    },
+    {
+     "id": "inv-142",
+     "label": "Invincible #142",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "142",
+     "cv": {
+      "v": 17993,
+      "i": 638638
+     }
+    },
+    {
+     "id": "inv-143",
+     "label": "Invincible #143",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "143",
+     "cv": {
+      "v": 17993,
+      "i": 647984
+     }
+    },
+    {
+     "id": "inv-144",
+     "label": "Invincible #144",
+     "title": "",
+     "series": "INV",
+     "seriesName": "Invincible (Image, 2003)",
+     "num": "144",
+     "cv": {
+      "v": 17993,
+      "i": 660042
+     }
+    }
+   ]
+  }
+ ]
+}
