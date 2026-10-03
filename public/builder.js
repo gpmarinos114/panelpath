@@ -43,7 +43,8 @@ function bdNextItemId() {
     const m = String(it.id || "").match(/-(\d+)$/);
     if (m) max = Math.max(max, Number(m[1]));
   }
-  return (BD.id || "order") + "-" + String(max + 1).padStart(3, "0");
+  const slug = bdSlug(BD.title || "");
+  return (slug.length >= 3 ? slug : "order") + "-" + String(max + 1).padStart(3, "0");
 }
 
 function bdNextSectionId() {
@@ -63,6 +64,7 @@ function bdTouch() {
 }
 
 async function bdAutoSave() {
+  if (!BD || !BD.draftId) return;
   BD.updatedAt = Date.now();
   const st = document.getElementById("bdStatus");
   try {
@@ -112,7 +114,6 @@ async function showBuilder(draftId) {
     } catch {}
   }
   if (!BD) BD = bdNewDraft();
-  BD._idTouched = !!BD.id;
   renderBuilder();
 }
 
@@ -126,26 +127,7 @@ function renderBuilder() {
   const meta = document.createElement("div");
   meta.className = "b-card";
   meta.innerHTML = "<h3>Order</h3>";
-  const two = document.createElement("div");
-  two.className = "b-two";
-  two.appendChild(bdField("Title", BD.title, (v) => {
-    BD.title = v;
-    if (!BD._idTouched) {
-      const slug = bdSlug(v);
-      if (slug.length >= 3) BD.id = slug;
-      const idInp = document.querySelector(".b-idinput");
-      if (idInp && document.activeElement !== idInp) idInp.value = BD.id;
-    }
-    bdTouch();
-  }, { placeholder: "e.g. Invincible" }));
-  const idWrap = bdField("Order id (url)", BD.id, (v) => {
-    BD._idTouched = true;
-    BD.id = bdSlug(v);
-    bdTouch();
-  }, { placeholder: "lowercase-dashes" });
-  idWrap.querySelector("input").classList.add("b-idinput");
-  two.appendChild(idWrap);
-  meta.appendChild(two);
+  meta.appendChild(bdField("Title", BD.title, (v) => { BD.title = v; bdTouch(); }, { placeholder: "e.g. Invincible" }));
   meta.appendChild(bdField("Subtitle", BD.subtitle, (v) => { BD.subtitle = v; bdTouch(); }, { placeholder: "One line about the run" }));
   meta.appendChild(bdField("Credit", BD.credit, (v) => { BD.credit = v; bdTouch(); }));
   wrap.appendChild(meta);
@@ -610,7 +592,6 @@ function bdTogglePreview() {
 
 function bdValidate() {
   if (!BD.title.trim()) return "GIVE THE ORDER A TITLE";
-  if (!/^[a-z0-9-]{3,40}$/.test(BD.id)) return "ORDER ID: 3\u201340 CHARS, a-z/0-9/DASHES";
   if (!BD.sections.length) return "ADD AT LEAST ONE SECTION";
   const seen = new Set();
   for (const s of BD.sections) {
@@ -627,8 +608,10 @@ function bdValidate() {
 async function bdSaveOrder() {
   const err = bdValidate();
   if (err) return showToast(err);
-  const payload = {
-    id: BD.id,
+  let base = bdSlug(BD.title);
+  if (base.length < 3) base = "order-" + String(BD.draftId || "x").replace(/^d/, "").slice(0, 4);
+  const payload = (id) => ({
+    id,
     title: BD.title,
     subtitle: BD.subtitle,
     credit: BD.credit,
@@ -638,29 +621,36 @@ async function bdSaveOrder() {
       ...(s.buy && s.buy.length ? { buy: s.buy } : {}),
       items: s.items.map((it) => ({ ...it })),
     })),
-  };
+  });
   try {
-    const r = await fetch("/api/orders/save", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
-    const j = await r.json();
-    if (!r.ok) {
-      const msg = {
-        "id-taken": "That id is used by a bundled order \u2014 pick another.",
-        "bad-id": "Order id needs to be 3\u201340 chars: a-z, 0-9, dashes.",
-        "no-title": "Give the order a title.",
-        "bad-items": "Every section needs 1\u2013400 items.",
-        "dupe-item-id": "Duplicate item id \u2014 remove the item and re-add it.",
-      }[j.error] || ("SAVE FAILED: " + (j.error || "?"));
-      return showToast(msg);
+    let usedId = null;
+    for (let i = 0; i <= 6; i++) {
+      const trial = i === 0 ? base : base + "-" + (i + 1);
+      const r = await fetch("/api/orders/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload(trial)),
+      });
+      const j = await r.json();
+      if (r.ok) { usedId = trial; break; }
+      if (j.error !== "id-taken") {
+        const msg = {
+          "no-title": "Give the order a title.",
+          "bad-items": "Every section needs 1\u2013400 items.",
+          "dupe-item-id": "Duplicate item id \u2014 remove the item and re-add it.",
+        }[j.error] || ("SAVE FAILED: " + (j.error || "?"));
+        return showToast(msg);
+      }
     }
-    if (BD.draftId) {
-      try { await fetch("/api/drafts/" + encodeURIComponent(BD.draftId), { method: "DELETE" }); } catch {}
+    if (!usedId) return showToast("SAVE FAILED \u2014 TRY A DIFFERENT TITLE");
+    const draftId = BD.draftId;
+    BD.draftId = null;
+    clearTimeout(bdAutoTimer);
+    if (draftId) {
+      try { await fetch("/api/drafts/" + encodeURIComponent(draftId), { method: "DELETE" }); } catch {}
     }
-    showToast("ORDER SAVED");
-    location.hash = "#/o/" + j.id;
+    showToast(usedId === base ? "ORDER SAVED" : "ORDER SAVED AS " + usedId);
+    location.hash = "#/o/" + usedId;
   } catch {
     showToast("SAVE FAILED \u2014 CHECK CONNECTION");
   }

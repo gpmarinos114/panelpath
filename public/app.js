@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 8;
+const ASSET_V = 9;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }

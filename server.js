@@ -521,7 +521,9 @@ app.post("/api/orders/save", (req, res) => {
   const o = req.body;
   const err = validateOrder(o);
   if (err) return res.status(400).json({ error: err });
-  if (bundledIds().has(o.id)) return res.status(400).json({ error: "id-taken" });
+  if (bundledIds().has(o.id) || fs.existsSync(path.join(USER_ORDERS_DIR, o.id + ".json"))) {
+    return res.status(400).json({ error: "id-taken" });
+  }
   if (!fs.existsSync(USER_ORDERS_DIR)) fs.mkdirSync(USER_ORDERS_DIR, { recursive: true });
   writeJsonAtomic(path.join(USER_ORDERS_DIR, o.id + ".json"), cleanOrder(o));
   res.json({ ok: true, id: o.id });
