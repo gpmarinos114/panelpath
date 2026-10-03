@@ -1,0 +1,1245 @@
+{
+ "id": "sandman",
+ "title": "The Sandman",
+ "subtitle": "Neil Gaiman — the complete 75-issue run",
+ "credit": "Single-issue order — trade divisions per the standard collected editions. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "Preludes & Nocturnes",
+   "years": "1989",
+   "color": "#546e7a",
+   "tagline": "A century in a glass prison ends, and the Lord of Dreams begins to rebuild.",
+   "items": [
+    {
+     "id": "sm-001",
+     "label": "The Sandman #1",
+     "title": "Sleep of the Just",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "1",
+     "cv": {
+      "v": 4207,
+      "i": 30745
+     }
+    },
+    {
+     "id": "sm-002",
+     "label": "The Sandman #2",
+     "title": "Imperfect Hosts",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "2",
+     "cv": {
+      "v": 4207,
+      "i": 30864
+     }
+    },
+    {
+     "id": "sm-003",
+     "label": "The Sandman #3",
+     "title": "Dream a Little Dream of Me",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "3",
+     "cv": {
+      "v": 4207,
+      "i": 30973
+     }
+    },
+    {
+     "id": "sm-004",
+     "label": "The Sandman #4",
+     "title": "A Hope in Hell",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "4",
+     "cv": {
+      "v": 4207,
+      "i": 31071
+     }
+    },
+    {
+     "id": "sm-005",
+     "label": "The Sandman #5",
+     "title": "Passengers",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "5",
+     "cv": {
+      "v": 4207,
+      "i": 31185
+     }
+    },
+    {
+     "id": "sm-006",
+     "label": "The Sandman #6",
+     "title": "24 Hours",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "6",
+     "cv": {
+      "v": 4207,
+      "i": 31296
+     }
+    },
+    {
+     "id": "sm-007",
+     "label": "The Sandman #7",
+     "title": "Sound and Fury",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "7",
+     "cv": {
+      "v": 4207,
+      "i": 31406
+     }
+    },
+    {
+     "id": "sm-008",
+     "label": "The Sandman #8",
+     "title": "The Sound of Her Wings",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "8",
+     "cv": {
+      "v": 4207,
+      "i": 31513
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Preludes & Nocturnes (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Preludes+and+Nocturnes+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book One",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+One"
+    },
+    {
+     "label": "Absolute Sandman Vol. 1",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+1"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "The Doll's House",
+   "years": "1989–1990",
+   "color": "#8d6e63",
+   "tagline": "Rogue dreams walk the waking world while a vortex grows in a Florida suburb.",
+   "items": [
+    {
+     "id": "sm-009",
+     "label": "The Sandman #9",
+     "title": "Tales in the Sand",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "9",
+     "cv": {
+      "v": 4207,
+      "i": 31621
+     }
+    },
+    {
+     "id": "sm-010",
+     "label": "The Sandman #10",
+     "title": "The Doll's House",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "10",
+     "cv": {
+      "v": 4207,
+      "i": 109860
+     }
+    },
+    {
+     "id": "sm-011",
+     "label": "The Sandman #11",
+     "title": "Moving In",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "11",
+     "cv": {
+      "v": 4207,
+      "i": 109877
+     }
+    },
+    {
+     "id": "sm-012",
+     "label": "The Sandman #12",
+     "title": "Playing House",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "12",
+     "cv": {
+      "v": 4207,
+      "i": 109914
+     }
+    },
+    {
+     "id": "sm-013",
+     "label": "The Sandman #13",
+     "title": "Men of Good Fortune",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "13",
+     "cv": {
+      "v": 4207,
+      "i": 109915
+     }
+    },
+    {
+     "id": "sm-014",
+     "label": "The Sandman #14",
+     "title": "Collectors",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "14",
+     "cv": {
+      "v": 4207,
+      "i": 109916
+     }
+    },
+    {
+     "id": "sm-015",
+     "label": "The Sandman #15",
+     "title": "Into the Night",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "15",
+     "cv": {
+      "v": 4207,
+      "i": 109917
+     }
+    },
+    {
+     "id": "sm-016",
+     "label": "The Sandman #16",
+     "title": "Lost Hearts",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "16",
+     "cv": {
+      "v": 4207,
+      "i": 109885
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "The Doll's House (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+The+Dolls+House+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book One",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+One"
+    },
+    {
+     "label": "Absolute Sandman Vol. 1",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+1"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Dream Country",
+   "years": "1990",
+   "color": "#7e6f9e",
+   "tagline": "Four standalone stories: a captive muse, a parliament of cats, a midsummer play.",
+   "items": [
+    {
+     "id": "sm-017",
+     "label": "The Sandman #17",
+     "title": "Calliope",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "17",
+     "cv": {
+      "v": 4207,
+      "i": 32934
+     }
+    },
+    {
+     "id": "sm-018",
+     "label": "The Sandman #18",
+     "title": "A Dream of a Thousand Cats",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "18",
+     "cv": {
+      "v": 4207,
+      "i": 33047
+     }
+    },
+    {
+     "id": "sm-019",
+     "label": "The Sandman #19",
+     "title": "A Midsummer Night's Dream",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "19",
+     "cv": {
+      "v": 4207,
+      "i": 109861
+     }
+    },
+    {
+     "id": "sm-020",
+     "label": "The Sandman #20",
+     "title": "Façade",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "20",
+     "cv": {
+      "v": 4207,
+      "i": 33284
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Dream Country (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Dream+Country+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book One",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+One"
+    },
+    {
+     "label": "Absolute Sandman Vol. 1",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+1"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Season of Mists",
+   "years": "1990–1991",
+   "color": "#4f7d7a",
+   "tagline": "Lucifer abdicates, and every power in creation bids for the key to Hell.",
+   "items": [
+    {
+     "id": "sm-021",
+     "label": "The Sandman #21",
+     "title": "Season of Mists: Prologue",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "21",
+     "cv": {
+      "v": 4207,
+      "i": 33499
+     }
+    },
+    {
+     "id": "sm-022",
+     "label": "The Sandman #22",
+     "title": "Season of Mists: Chapter 1",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "22",
+     "cv": {
+      "v": 4207,
+      "i": 33744
+     }
+    },
+    {
+     "id": "sm-023",
+     "label": "The Sandman #23",
+     "title": "Season of Mists: Chapter 2",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "23",
+     "cv": {
+      "v": 4207,
+      "i": 33846
+     }
+    },
+    {
+     "id": "sm-024",
+     "label": "The Sandman #24",
+     "title": "Season of Mists: Chapter 3",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "24",
+     "cv": {
+      "v": 4207,
+      "i": 33957
+     }
+    },
+    {
+     "id": "sm-025",
+     "label": "The Sandman #25",
+     "title": "Season of Mists: Chapter 4",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "25",
+     "cv": {
+      "v": 4207,
+      "i": 34066
+     }
+    },
+    {
+     "id": "sm-026",
+     "label": "The Sandman #26",
+     "title": "Season of Mists: Chapter 5",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "26",
+     "cv": {
+      "v": 4207,
+      "i": 34173
+     }
+    },
+    {
+     "id": "sm-027",
+     "label": "The Sandman #27",
+     "title": "Season of Mists: Chapter 6",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "27",
+     "cv": {
+      "v": 4207,
+      "i": 34272
+     }
+    },
+    {
+     "id": "sm-028",
+     "label": "The Sandman #28",
+     "title": "Season of Mists: Epilogue",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "28",
+     "cv": {
+      "v": 4207,
+      "i": 34383
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Season of Mists (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Season+of+Mists+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Two",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Two"
+    },
+    {
+     "label": "Absolute Sandman Vol. 2",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+2"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "A Game of You",
+   "years": "1991–1992",
+   "color": "#a1718f",
+   "tagline": "Barbie's childhood dreamland is real, and something in it is hunting her.",
+   "items": [
+    {
+     "id": "sm-029",
+     "label": "The Sandman #32",
+     "title": "Slaughter on Fifth Avenue",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "32",
+     "cv": {
+      "v": 4207,
+      "i": 109862
+     }
+    },
+    {
+     "id": "sm-030",
+     "label": "The Sandman #33",
+     "title": "Lullabies of Broadway",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "33",
+     "cv": {
+      "v": 4207,
+      "i": 34973
+     }
+    },
+    {
+     "id": "sm-031",
+     "label": "The Sandman #34",
+     "title": "Bad Moon Rising",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "34",
+     "cv": {
+      "v": 4207,
+      "i": 35234
+     }
+    },
+    {
+     "id": "sm-032",
+     "label": "The Sandman #35",
+     "title": "Beginning to See the Light",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "35",
+     "cv": {
+      "v": 4207,
+      "i": 35341
+     }
+    },
+    {
+     "id": "sm-033",
+     "label": "The Sandman #36",
+     "title": "Over the Sea to Sky",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "36",
+     "cv": {
+      "v": 4207,
+      "i": 35551
+     }
+    },
+    {
+     "id": "sm-034",
+     "label": "The Sandman #37",
+     "title": "I Woke Up and One of Us Was Crying",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "37",
+     "cv": {
+      "v": 4207,
+      "i": 35656
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "A Game of You (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+A+Game+of+You+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Two",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Two"
+    },
+    {
+     "label": "Absolute Sandman Vol. 2",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+2"
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Fables & Reflections",
+   "years": "1991–1993",
+   "color": "#a98d5c",
+   "tagline": "Interludes from Dream's long history, gathered with the tale of Orpheus.",
+   "items": [
+    {
+     "id": "sm-035",
+     "label": "The Sandman #29",
+     "title": "Thermidor",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "29",
+     "cv": {
+      "v": 4207,
+      "i": 34500
+     }
+    },
+    {
+     "id": "sm-036",
+     "label": "The Sandman #30",
+     "title": "August",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "30",
+     "cv": {
+      "v": 4207,
+      "i": 34614
+     }
+    },
+    {
+     "id": "sm-037",
+     "label": "The Sandman #31",
+     "title": "Three Septembers and a January",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "31",
+     "cv": {
+      "v": 4207,
+      "i": 34737
+     }
+    },
+    {
+     "id": "sm-038",
+     "label": "The Sandman Special #1",
+     "title": "The Song of Orpheus",
+     "series": "Sandman Special",
+     "seriesName": "The Sandman Special (DC Comics, 1991)",
+     "num": "1",
+     "cv": {
+      "v": 24155,
+      "i": 143483
+     }
+    },
+    {
+     "id": "sm-039",
+     "label": "The Sandman #38",
+     "title": "The Hunt",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "38",
+     "cv": {
+      "v": 4207,
+      "i": 35759
+     }
+    },
+    {
+     "id": "sm-040",
+     "label": "The Sandman #39",
+     "title": "Soft Places",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "39",
+     "cv": {
+      "v": 4207,
+      "i": 35884
+     }
+    },
+    {
+     "id": "sm-041",
+     "label": "The Sandman #40",
+     "title": "The Parliament of Rooks",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "40",
+     "cv": {
+      "v": 4207,
+      "i": 36002
+     }
+    },
+    {
+     "id": "sm-042",
+     "label": "The Sandman #50",
+     "title": "Ramadan",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "50",
+     "cv": {
+      "v": 4207,
+      "i": 37322
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Fables & Reflections (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Fables+and+Reflections+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Two",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Two"
+    },
+    {
+     "label": "The Sandman Book Three",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Three"
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Brief Lives",
+   "years": "1992–1993",
+   "color": "#b0704f",
+   "tagline": "Dream and Delirium go looking for their lost brother, and the past catches up.",
+   "items": [
+    {
+     "id": "sm-043",
+     "label": "The Sandman #41",
+     "title": "Brief Lives, Part 1",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "41",
+     "cv": {
+      "v": 4207,
+      "i": 36126
+     }
+    },
+    {
+     "id": "sm-044",
+     "label": "The Sandman #42",
+     "title": "Brief Lives, Part 2",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "42",
+     "cv": {
+      "v": 4207,
+      "i": 36249
+     }
+    },
+    {
+     "id": "sm-045",
+     "label": "The Sandman #43",
+     "title": "Brief Lives, Part 3",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "43",
+     "cv": {
+      "v": 4207,
+      "i": 36371
+     }
+    },
+    {
+     "id": "sm-046",
+     "label": "The Sandman #44",
+     "title": "Brief Lives, Part 4",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "44",
+     "cv": {
+      "v": 4207,
+      "i": 36490
+     }
+    },
+    {
+     "id": "sm-047",
+     "label": "The Sandman #45",
+     "title": "Brief Lives, Part 5",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "45",
+     "cv": {
+      "v": 4207,
+      "i": 36726
+     }
+    },
+    {
+     "id": "sm-048",
+     "label": "The Sandman #46",
+     "title": "Brief Lives, Part 6",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "46",
+     "cv": {
+      "v": 4207,
+      "i": 36833
+     }
+    },
+    {
+     "id": "sm-049",
+     "label": "The Sandman #47",
+     "title": "Brief Lives, Part 7",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "47",
+     "cv": {
+      "v": 4207,
+      "i": 36937
+     }
+    },
+    {
+     "id": "sm-050",
+     "label": "The Sandman #48",
+     "title": "Brief Lives, Part 8",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "48",
+     "cv": {
+      "v": 4207,
+      "i": 37057
+     }
+    },
+    {
+     "id": "sm-051",
+     "label": "The Sandman #49",
+     "title": "Brief Lives, Part 9",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "49",
+     "cv": {
+      "v": 4207,
+      "i": 37191
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Brief Lives (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Brief+Lives+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Three",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Three"
+    },
+    {
+     "label": "Absolute Sandman Vol. 3",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+3"
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "Worlds' End",
+   "years": "1993",
+   "color": "#5b7a99",
+   "tagline": "Travelers shelter in a strange inn while a reality storm rages outside.",
+   "items": [
+    {
+     "id": "sm-052",
+     "label": "The Sandman #51",
+     "title": "A Tale of Two Cities",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "51",
+     "cv": {
+      "v": 4207,
+      "i": 37475
+     }
+    },
+    {
+     "id": "sm-053",
+     "label": "The Sandman #52",
+     "title": "Cluracan's Tale",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "52",
+     "cv": {
+      "v": 4207,
+      "i": 37618
+     }
+    },
+    {
+     "id": "sm-054",
+     "label": "The Sandman #53",
+     "title": "Hob's Leviathan",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "53",
+     "cv": {
+      "v": 4207,
+      "i": 37757
+     }
+    },
+    {
+     "id": "sm-055",
+     "label": "The Sandman #54",
+     "title": "The Golden Boy",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "54",
+     "cv": {
+      "v": 4207,
+      "i": 37902
+     }
+    },
+    {
+     "id": "sm-056",
+     "label": "The Sandman #55",
+     "title": "Cerements",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "55",
+     "cv": {
+      "v": 4207,
+      "i": 38054
+     }
+    },
+    {
+     "id": "sm-057",
+     "label": "The Sandman #56",
+     "title": "Worlds' End, Part 6",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "56",
+     "cv": {
+      "v": 4207,
+      "i": 38210
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Worlds' End (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+Worlds+End+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Three",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Three"
+    },
+    {
+     "label": "Absolute Sandman Vol. 3",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+3"
+    }
+   ]
+  },
+  {
+   "id": "I",
+   "name": "The Kindly Ones",
+   "years": "1994–1995",
+   "color": "#9e5353",
+   "tagline": "Blood has been spilled, and the Kindly Ones take up the scent.",
+   "items": [
+    {
+     "id": "sm-058",
+     "label": "The Sandman #57",
+     "title": "The Kindly Ones, Part 1",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "57",
+     "cv": {
+      "v": 4207,
+      "i": 38608
+     }
+    },
+    {
+     "id": "sm-059",
+     "label": "The Sandman #58",
+     "title": "The Kindly Ones, Part 2",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "58",
+     "cv": {
+      "v": 4207,
+      "i": 38750
+     }
+    },
+    {
+     "id": "sm-060",
+     "label": "The Sandman #59",
+     "title": "The Kindly Ones, Part 3",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "59",
+     "cv": {
+      "v": 4207,
+      "i": 38901
+     }
+    },
+    {
+     "id": "sm-061",
+     "label": "The Sandman #60",
+     "title": "The Kindly Ones, Part 4",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "60",
+     "cv": {
+      "v": 4207,
+      "i": 39184
+     }
+    },
+    {
+     "id": "sm-062",
+     "label": "The Sandman #61",
+     "title": "The Kindly Ones, Part 5",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "61",
+     "cv": {
+      "v": 4207,
+      "i": 39334
+     }
+    },
+    {
+     "id": "sm-063",
+     "label": "The Sandman #62",
+     "title": "The Kindly Ones, Part 6",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "62",
+     "cv": {
+      "v": 4207,
+      "i": 39473
+     }
+    },
+    {
+     "id": "sm-064",
+     "label": "The Sandman #63",
+     "title": "The Kindly Ones, Part 7",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "63",
+     "cv": {
+      "v": 4207,
+      "i": 39613
+     }
+    },
+    {
+     "id": "sm-065",
+     "label": "The Sandman #64",
+     "title": "The Kindly Ones, Part 8",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "64",
+     "cv": {
+      "v": 4207,
+      "i": 39904
+     }
+    },
+    {
+     "id": "sm-066",
+     "label": "The Sandman #65",
+     "title": "The Kindly Ones, Part 9",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "65",
+     "cv": {
+      "v": 4207,
+      "i": 40038
+     }
+    },
+    {
+     "id": "sm-067",
+     "label": "The Sandman #66",
+     "title": "The Kindly Ones, Part 10",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "66",
+     "cv": {
+      "v": 4207,
+      "i": 40279
+     }
+    },
+    {
+     "id": "sm-068",
+     "label": "The Sandman #67",
+     "title": "The Kindly Ones, Part 11",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "67",
+     "cv": {
+      "v": 4207,
+      "i": 40425
+     }
+    },
+    {
+     "id": "sm-069",
+     "label": "The Sandman #68",
+     "title": "The Kindly Ones, Part 12",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "68",
+     "cv": {
+      "v": 4207,
+      "i": 40822
+     }
+    },
+    {
+     "id": "sm-070",
+     "label": "The Sandman #69",
+     "title": "The Kindly Ones, Part 13",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "69",
+     "cv": {
+      "v": 4207,
+      "i": 41083
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "The Kindly Ones (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+The+Kindly+Ones+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Four",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Four"
+    },
+    {
+     "label": "Absolute Sandman Vol. 4",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+4"
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "The Wake",
+   "years": "1995–1996",
+   "color": "#75808c",
+   "tagline": "A farewell, a funeral, and a last story from the Dreaming.",
+   "items": [
+    {
+     "id": "sm-071",
+     "label": "The Sandman #70",
+     "title": "Which Occurs in the Wake of What Has Gone Before",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "70",
+     "cv": {
+      "v": 4207,
+      "i": 41225
+     }
+    },
+    {
+     "id": "sm-072",
+     "label": "The Sandman #71",
+     "title": "In Which a Wake Is Held",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "71",
+     "cv": {
+      "v": 4207,
+      "i": 41359
+     }
+    },
+    {
+     "id": "sm-073",
+     "label": "The Sandman #72",
+     "title": "In Which We Wake",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "72",
+     "cv": {
+      "v": 4207,
+      "i": 41616
+     }
+    },
+    {
+     "id": "sm-074",
+     "label": "The Sandman #73",
+     "title": "Sunday Mourning",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "73",
+     "cv": {
+      "v": 4207,
+      "i": 41743
+     }
+    },
+    {
+     "id": "sm-075",
+     "label": "The Sandman #74",
+     "title": "Exiles",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "74",
+     "cv": {
+      "v": 4207,
+      "i": 41965
+     }
+    },
+    {
+     "id": "sm-076",
+     "label": "The Sandman #75",
+     "title": "The Tempest",
+     "series": "Sandman",
+     "seriesName": "The Sandman (DC Comics, 1989)",
+     "num": "75",
+     "cv": {
+      "v": 4207,
+      "i": 42187
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "The Wake (30th Anniversary)",
+     "url": "https://www.amazon.com/s?k=Sandman+The+Wake+30th+Anniversary"
+    },
+    {
+     "label": "The Sandman Book Four",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Four"
+    },
+    {
+     "label": "Absolute Sandman Vol. 4",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Vol+4"
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "name": "Overture",
+   "years": "2013–2015",
+   "color": "#5a5f8a",
+   "tagline": "The prequel: the debt that set everything in motion, told at the end.",
+   "items": [
+    {
+     "id": "sm-077",
+     "label": "The Sandman: Overture #1",
+     "title": "Chapter One",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "1",
+     "cv": {
+      "v": 68718,
+      "i": 431432
+     }
+    },
+    {
+     "id": "sm-078",
+     "label": "The Sandman: Overture #2",
+     "title": "Chapter Two",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "2",
+     "cv": {
+      "v": 68718,
+      "i": 448956
+     }
+    },
+    {
+     "id": "sm-079",
+     "label": "The Sandman: Overture #3",
+     "title": "Chapter Three",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "3",
+     "cv": {
+      "v": 68718,
+      "i": 460956
+     }
+    },
+    {
+     "id": "sm-080",
+     "label": "The Sandman: Overture #4",
+     "title": "Chapter Four",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "4",
+     "cv": {
+      "v": 68718,
+      "i": 473628
+     }
+    },
+    {
+     "id": "sm-081",
+     "label": "The Sandman: Overture #5",
+     "title": "Chapter Five",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "5",
+     "cv": {
+      "v": 68718,
+      "i": 489892
+     }
+    },
+    {
+     "id": "sm-082",
+     "label": "The Sandman: Overture #6",
+     "title": "Chapter Six",
+     "series": "Sandman: Overture",
+     "seriesName": "The Sandman: Overture (DC Comics, 2013)",
+     "num": "6",
+     "cv": {
+      "v": 68718,
+      "i": 501601
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Sandman: Overture",
+     "url": "https://www.amazon.com/s?k=Sandman+Overture+Gaiman"
+    },
+    {
+     "label": "The Sandman Book Six",
+     "url": "https://www.amazon.com/s?k=Sandman+Book+Six"
+    },
+    {
+     "label": "Absolute Sandman: Overture",
+     "url": "https://www.amazon.com/s?k=Absolute+Sandman+Overture"
+    }
+   ]
+  }
+ ]
+}

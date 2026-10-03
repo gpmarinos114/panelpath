@@ -1,0 +1,291 @@
+{
+ "id": "berserk",
+ "title": "Berserk",
+ "subtitle": "Kentaro Miura — the complete Dark Horse Deluxe run",
+ "credit": "Deluxe reading order — Dark Horse 3-in-1 editions. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "The Black Swordsman",
+   "years": "1989–1991",
+   "color": "#8d6e63",
+   "tagline": "A branded swordsman hunts the apostles who marked him.",
+   "items": [
+    {
+     "id": "br-01",
+     "label": "Deluxe Vol. 1",
+     "title": "The Black Swordsman",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "1",
+     "cv": {
+      "v": 117309,
+      "i": 701760
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Berserk Deluxe Vol. 1",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+1"
+    },
+    {
+     "label": "Berserk Vol. 1 (paperback alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Volume+1+Kentaro+Miura+Dark+Horse"
+    },
+    {
+     "label": "Berserk Max Vol. 1 (2-in-1 alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Max+Volume+1"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "The Golden Age",
+   "years": "1991–1997",
+   "color": "#b3924f",
+   "tagline": "Guts' past with the Band of the Hawk — the rise, the betrayal, and the Eclipse.",
+   "items": [
+    {
+     "id": "br-02",
+     "label": "Deluxe Vol. 2",
+     "title": "The Golden Age, Part 1",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "2",
+     "cv": {
+      "v": 117309,
+      "i": 712255
+     }
+    },
+    {
+     "id": "br-03",
+     "label": "Deluxe Vol. 3",
+     "title": "The Golden Age, Part 2",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "3",
+     "cv": {
+      "v": 117309,
+      "i": 723612
+     }
+    },
+    {
+     "id": "br-04",
+     "label": "Deluxe Vol. 4",
+     "title": "The Golden Age, Part 3",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "4",
+     "cv": {
+      "v": 117309,
+      "i": 738938
+     }
+    },
+    {
+     "id": "br-05",
+     "label": "Deluxe Vol. 5",
+     "title": "The Golden Age, Part 4",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "5",
+     "cv": {
+      "v": 117309,
+      "i": 772631
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Berserk Deluxe Vol. 2",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+2"
+    },
+    {
+     "label": "Berserk Deluxe Vol. 5",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+5"
+    },
+    {
+     "label": "Berserk Vol. 4 (paperback alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Volume+4+Kentaro+Miura+Dark+Horse"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Conviction",
+   "years": "1997–2001",
+   "color": "#9c6156",
+   "tagline": "Lost Children, the Tower of Conviction, and the rebirth of the Hawk.",
+   "items": [
+    {
+     "id": "br-06",
+     "label": "Deluxe Vol. 6",
+     "title": "Conviction, Part 1",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "6",
+     "cv": {
+      "v": 117309,
+      "i": 819620
+     }
+    },
+    {
+     "id": "br-07",
+     "label": "Deluxe Vol. 7",
+     "title": "Conviction, Part 2",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "7",
+     "cv": {
+      "v": 117309,
+      "i": 836233
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Berserk Deluxe Vol. 6",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+6"
+    },
+    {
+     "label": "Berserk Deluxe Vol. 7",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+7"
+    },
+    {
+     "label": "Berserk Vol. 16 (paperback alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Volume+16+Kentaro+Miura+Dark+Horse"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Falcon of the Millennium Empire",
+   "years": "2001–2010",
+   "color": "#64748b",
+   "tagline": "The reborn Band of the Hawk, the war for Midland, and a world remade.",
+   "items": [
+    {
+     "id": "br-08",
+     "label": "Deluxe Vol. 8",
+     "title": "Falcon of the Millennium Empire, Part 1",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "8",
+     "cv": {
+      "v": 117309,
+      "i": 882561
+     }
+    },
+    {
+     "id": "br-09",
+     "label": "Deluxe Vol. 9",
+     "title": "Falcon of the Millennium Empire, Part 2",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "9",
+     "cv": {
+      "v": 117309,
+      "i": 1059353
+     }
+    },
+    {
+     "id": "br-10",
+     "label": "Deluxe Vol. 10",
+     "title": "Falcon of the Millennium Empire, Part 3",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "10",
+     "cv": {
+      "v": 117309,
+      "i": 1059354
+     }
+    },
+    {
+     "id": "br-11",
+     "label": "Deluxe Vol. 11",
+     "title": "Falcon of the Millennium Empire, Part 4",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "11",
+     "cv": {
+      "v": 117309,
+      "i": 1059355
+     }
+    },
+    {
+     "id": "br-12",
+     "label": "Deluxe Vol. 12",
+     "title": "Falcon of the Millennium Empire, Part 5",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "12",
+     "cv": {
+      "v": 117309,
+      "i": 1059356
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Berserk Deluxe Vol. 8",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+8"
+    },
+    {
+     "label": "Berserk Deluxe Vol. 12",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+12"
+    },
+    {
+     "label": "Berserk Vol. 22 (paperback alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Volume+22+Kentaro+Miura+Dark+Horse"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Fantasia",
+   "years": "2010–2021",
+   "color": "#7f6d94",
+   "tagline": "A remade world — the sea god, Elfhelm, and Miura's final chapters.",
+   "items": [
+    {
+     "id": "br-13",
+     "label": "Deluxe Vol. 13",
+     "title": "Fantasia, Part 1",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "13",
+     "cv": {
+      "v": 117309,
+      "i": 975681
+     }
+    },
+    {
+     "id": "br-14",
+     "label": "Deluxe Vol. 14",
+     "title": "Fantasia, Part 2",
+     "series": "Berserk",
+     "seriesName": "Berserk Deluxe Edition (Dark Horse, 2019)",
+     "num": "14",
+     "cv": {
+      "v": 117309,
+      "i": 1059357
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Berserk Deluxe Vol. 13",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+13"
+    },
+    {
+     "label": "Berserk Deluxe Vol. 14",
+     "url": "https://www.amazon.com/s?k=Berserk+Deluxe+Edition+Vol.+14"
+    },
+    {
+     "label": "Berserk Vol. 37 (paperback alt.)",
+     "url": "https://www.amazon.com/s?k=Berserk+Volume+37+Kentaro+Miura+Dark+Horse"
+    }
+   ]
+  }
+ ]
+}

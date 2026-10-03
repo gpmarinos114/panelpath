@@ -11,16 +11,20 @@
 
 Comics are published out of order: crossovers interleave, spin-offs slot between issues, and the "right" way through a run is rarely issue #1 → #N. PanelPath turns that into a simple checklist. Each **reading order** is one file; the app gives it a timeline view with cover art, section progress, and tap-to-check-off persistence that syncs across every device that opens it.
 
-It ships with ten community-compiled orders ready to go:
+It ships with fourteen community-compiled orders ready to go:
 
+- **Attack on Titan** — Hajime Isayama, the complete 34-volume run in story arcs, plus both *No Regrets* volumes (36 items)
 - **Avengers: Hickman's Saga** — the complete Hickman era across *Avengers*, *New Avengers*, *Infinity* and *Secret Wars*, interleaved as designed (94 items)
 - **Batman: Grant Morrison** — the complete run (2006–2013) with Final Crisis and *The Return of Bruce Wayne* interleaved (80 items)
+- **Berserk** — Kentaro Miura, the complete run in the Dark Horse Deluxe 3-in-1 editions (14 volumes)
 - **Dragon Ball** — Akira Toriyama, the complete 42-volume run (1984–1995; vols. 17–42 were published as *Dragon Ball Z*)
 - **Hellboy** — Mignola's core story + B.P.R.D., in the community-standard omnibus reading order
 - **Invincible** — Robert Kirkman, the complete 144-issue run with the spin-offs slotted at their recommended points
 - **One Piece** — Eiichiro Oda, VIZ volumes 1–112 in 11 arc sections (ongoing)
 - **Power Rangers** — BOOM! Studios, the complete 2016–2026 continuity (201 items, deluxe-edition sequencing)
+- **Saga** — Brian K. Vaughan and Fiona Staples, issues #1–72 in the collected arcs (ongoing)
 - **Teenage Mutant Ninja Turtles** — IDW, the 2011–2024 run (228 items: main series + spin-off mini-series)
+- **The Sandman** — Neil Gaiman, the complete 75-issue run with the Special and Overture (82 items)
 - **The Walking Dead** — Robert Kirkman, the complete 193-issue run with the Negan specials placed
 - **X-Men: The Krakoa Era** — the core Krakoan line, phase by phase: House of X / Powers of X through Fall of X, with X of Swords in full (130 items)
 

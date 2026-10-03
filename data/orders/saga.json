@@ -1,0 +1,1088 @@
+{
+ "id": "saga",
+ "title": "Saga",
+ "subtitle": "Brian K. Vaughan, Fiona Staples — the complete run",
+ "credit": "Single-issue reading order — Image Comics trades consulted for arc divisions. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "Vol. 1",
+   "years": "2012",
+   "color": "#8a7099",
+   "tagline": "Alana and Marko flee with newborn Hazel as both sides of an endless war give chase.",
+   "items": [
+    {
+     "id": "saga-001",
+     "label": "Saga #1",
+     "title": "Chapter One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "1",
+     "cv": {
+      "v": 46568,
+      "i": 321297
+     }
+    },
+    {
+     "id": "saga-002",
+     "label": "Saga #2",
+     "title": "Chapter Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "2",
+     "cv": {
+      "v": 46568,
+      "i": 329242
+     }
+    },
+    {
+     "id": "saga-003",
+     "label": "Saga #3",
+     "title": "Chapter Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "3",
+     "cv": {
+      "v": 46568,
+      "i": 335911
+     }
+    },
+    {
+     "id": "saga-004",
+     "label": "Saga #4",
+     "title": "Chapter Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "4",
+     "cv": {
+      "v": 46568,
+      "i": 341531
+     }
+    },
+    {
+     "id": "saga-005",
+     "label": "Saga #5",
+     "title": "Chapter Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "5",
+     "cv": {
+      "v": 46568,
+      "i": 346353
+     }
+    },
+    {
+     "id": "saga-006",
+     "label": "Saga #6",
+     "title": "Chapter Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "6",
+     "cv": {
+      "v": 46568,
+      "i": 350913
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 1",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+1+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Vol. 2",
+   "years": "2012–2013",
+   "color": "#5e8b80",
+   "tagline": "Marko's parents arrive, and old flames and bounty hunters tighten the net.",
+   "items": [
+    {
+     "id": "saga-007",
+     "label": "Saga #7",
+     "title": "Chapter Seven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "7",
+     "cv": {
+      "v": 46568,
+      "i": 367683
+     }
+    },
+    {
+     "id": "saga-008",
+     "label": "Saga #8",
+     "title": "Chapter Eight",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "8",
+     "cv": {
+      "v": 46568,
+      "i": 373265
+     }
+    },
+    {
+     "id": "saga-009",
+     "label": "Saga #9",
+     "title": "Chapter Nine",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "9",
+     "cv": {
+      "v": 46568,
+      "i": 380323
+     }
+    },
+    {
+     "id": "saga-010",
+     "label": "Saga #10",
+     "title": "Chapter Ten",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "10",
+     "cv": {
+      "v": 46568,
+      "i": 387225
+     }
+    },
+    {
+     "id": "saga-011",
+     "label": "Saga #11",
+     "title": "Chapter Eleven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "11",
+     "cv": {
+      "v": 46568,
+      "i": 394820
+     }
+    },
+    {
+     "id": "saga-012",
+     "label": "Saga #12",
+     "title": "Chapter Twelve",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "12",
+     "cv": {
+      "v": 46568,
+      "i": 396392
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 2",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+2+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Vol. 3",
+   "years": "2013–2014",
+   "color": "#b08e5f",
+   "tagline": "A lighthouse refuge, tabloid journalists on the trail, and a mercenary brought low.",
+   "items": [
+    {
+     "id": "saga-013",
+     "label": "Saga #13",
+     "title": "Chapter Thirteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "13",
+     "cv": {
+      "v": 46568,
+      "i": 421660
+     }
+    },
+    {
+     "id": "saga-014",
+     "label": "Saga #14",
+     "title": "Chapter Fourteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "14",
+     "cv": {
+      "v": 46568,
+      "i": 426820
+     }
+    },
+    {
+     "id": "saga-015",
+     "label": "Saga #15",
+     "title": "Chapter Fifteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "15",
+     "cv": {
+      "v": 46568,
+      "i": 431409
+     }
+    },
+    {
+     "id": "saga-016",
+     "label": "Saga #16",
+     "title": "Chapter Sixteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "16",
+     "cv": {
+      "v": 46568,
+      "i": 435005
+     }
+    },
+    {
+     "id": "saga-017",
+     "label": "Saga #17",
+     "title": "Chapter Seventeen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "17",
+     "cv": {
+      "v": 46568,
+      "i": 437433
+     }
+    },
+    {
+     "id": "saga-018",
+     "label": "Saga #18",
+     "title": "Chapter Eighteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "18",
+     "cv": {
+      "v": 46568,
+      "i": 443959
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 3",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+3+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Vol. 4",
+   "years": "2014",
+   "color": "#647fa3",
+   "tagline": "A new life on Gardenia frays as a robot prince's grief tears the family apart.",
+   "items": [
+    {
+     "id": "saga-019",
+     "label": "Saga #19",
+     "title": "Chapter Nineteen",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "19",
+     "cv": {
+      "v": 46568,
+      "i": 453370
+     }
+    },
+    {
+     "id": "saga-020",
+     "label": "Saga #20",
+     "title": "Chapter Twenty",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "20",
+     "cv": {
+      "v": 46568,
+      "i": 457593
+     }
+    },
+    {
+     "id": "saga-021",
+     "label": "Saga #21",
+     "title": "Chapter Twenty-One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "21",
+     "cv": {
+      "v": 46568,
+      "i": 460345
+     }
+    },
+    {
+     "id": "saga-022",
+     "label": "Saga #22",
+     "title": "Chapter Twenty-Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "22",
+     "cv": {
+      "v": 46568,
+      "i": 463442
+     }
+    },
+    {
+     "id": "saga-023",
+     "label": "Saga #23",
+     "title": "Chapter Twenty-Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "23",
+     "cv": {
+      "v": 46568,
+      "i": 466288
+     }
+    },
+    {
+     "id": "saga-024",
+     "label": "Saga #24",
+     "title": "Chapter Twenty-Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "24",
+     "cv": {
+      "v": 46568,
+      "i": 468872
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 4",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+4+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Vol. 5",
+   "years": "2015",
+   "color": "#a8747e",
+   "tagline": "A frozen planet, a revolution's last gasp, and a rescue's bitter price.",
+   "items": [
+    {
+     "id": "saga-025",
+     "label": "Saga #25",
+     "title": "Chapter Twenty-Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "25",
+     "cv": {
+      "v": 46568,
+      "i": 478578
+     }
+    },
+    {
+     "id": "saga-026",
+     "label": "Saga #26",
+     "title": "Chapter Twenty-Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "26",
+     "cv": {
+      "v": 46568,
+      "i": 481581
+     }
+    },
+    {
+     "id": "saga-027",
+     "label": "Saga #27",
+     "title": "Chapter Twenty-Seven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "27",
+     "cv": {
+      "v": 46568,
+      "i": 485480
+     }
+    },
+    {
+     "id": "saga-028",
+     "label": "Saga #28",
+     "title": "Chapter Twenty-Eight",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "28",
+     "cv": {
+      "v": 46568,
+      "i": 488608
+     }
+    },
+    {
+     "id": "saga-029",
+     "label": "Saga #29",
+     "title": "Chapter Twenty-Nine",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "29",
+     "cv": {
+      "v": 46568,
+      "i": 491482
+     }
+    },
+    {
+     "id": "saga-030",
+     "label": "Saga #30",
+     "title": "Chapter Thirty",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "30",
+     "cv": {
+      "v": 46568,
+      "i": 494275
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 5",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+5+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Vol. 6",
+   "years": "2015–2016",
+   "color": "#7f9160",
+   "tagline": "Hazel's imprisonment ends in reunion, and Alana shares news that changes everything.",
+   "items": [
+    {
+     "id": "saga-031",
+     "label": "Saga #31",
+     "title": "Chapter Thirty-One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "31",
+     "cv": {
+      "v": 46568,
+      "i": 506694
+     }
+    },
+    {
+     "id": "saga-032",
+     "label": "Saga #32",
+     "title": "Chapter Thirty-Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "32",
+     "cv": {
+      "v": 46568,
+      "i": 508930
+     }
+    },
+    {
+     "id": "saga-033",
+     "label": "Saga #33",
+     "title": "Chapter Thirty-Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "33",
+     "cv": {
+      "v": 46568,
+      "i": 512471
+     }
+    },
+    {
+     "id": "saga-034",
+     "label": "Saga #34",
+     "title": "Chapter Thirty-Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "34",
+     "cv": {
+      "v": 46568,
+      "i": 516988
+     }
+    },
+    {
+     "id": "saga-035",
+     "label": "Saga #35",
+     "title": "Chapter Thirty-Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "35",
+     "cv": {
+      "v": 46568,
+      "i": 522448
+     }
+    },
+    {
+     "id": "saga-036",
+     "label": "Saga #36",
+     "title": "Chapter Thirty-Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "36",
+     "cv": {
+      "v": 46568,
+      "i": 527183
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 6",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+6+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Vol. 7",
+   "years": "2016–2017",
+   "color": "#9a7a68",
+   "tagline": "The war comes to Phang, the comet where Sophie was born.",
+   "items": [
+    {
+     "id": "saga-037",
+     "label": "Saga #37",
+     "title": "The War For Phang Part One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "37",
+     "cv": {
+      "v": 46568,
+      "i": 547315
+     }
+    },
+    {
+     "id": "saga-038",
+     "label": "Saga #38",
+     "title": "The War For Phang Part Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "38",
+     "cv": {
+      "v": 46568,
+      "i": 551344
+     }
+    },
+    {
+     "id": "saga-039",
+     "label": "Saga #39",
+     "title": "The War For Phang Part Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "39",
+     "cv": {
+      "v": 46568,
+      "i": 555566
+     }
+    },
+    {
+     "id": "saga-040",
+     "label": "Saga #40",
+     "title": "The War For Phang Part Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "40",
+     "cv": {
+      "v": 46568,
+      "i": 562620
+     }
+    },
+    {
+     "id": "saga-041",
+     "label": "Saga #41",
+     "title": "The War For Phang Part Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "41",
+     "cv": {
+      "v": 46568,
+      "i": 571708
+     }
+    },
+    {
+     "id": "saga-042",
+     "label": "Saga #42",
+     "title": "The War For Phang Conclusion",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "42",
+     "cv": {
+      "v": 46568,
+      "i": 578497
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 7",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+7+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "Vol. 8",
+   "years": "2017",
+   "color": "#5f8698",
+   "tagline": "After Phang, the family reckons with loss while an old enemy claws his way back.",
+   "items": [
+    {
+     "id": "saga-043",
+     "label": "Saga #43",
+     "title": "Chapter Forty-Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "43",
+     "cv": {
+      "v": 46568,
+      "i": 598410
+     }
+    },
+    {
+     "id": "saga-044",
+     "label": "Saga #44",
+     "title": "Chapter Forty-Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "44",
+     "cv": {
+      "v": 46568,
+      "i": 605097
+     }
+    },
+    {
+     "id": "saga-045",
+     "label": "Saga #45",
+     "title": "Chapter Forty-Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "45",
+     "cv": {
+      "v": 46568,
+      "i": 610495
+     }
+    },
+    {
+     "id": "saga-046",
+     "label": "Saga #46",
+     "title": "Chapter Forty-Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "46",
+     "cv": {
+      "v": 46568,
+      "i": 617829
+     }
+    },
+    {
+     "id": "saga-047",
+     "label": "Saga #47",
+     "title": "Chapter Forty-Seven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "47",
+     "cv": {
+      "v": 46568,
+      "i": 625354
+     }
+    },
+    {
+     "id": "saga-048",
+     "label": "Saga #48",
+     "title": "Chapter Forty-Eight",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "48",
+     "cv": {
+      "v": 46568,
+      "i": 632560
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 8",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+8+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "I",
+   "name": "Vol. 9",
+   "years": "2018",
+   "color": "#92708c",
+   "tagline": "The first half closes in convergence and devastating goodbyes.",
+   "items": [
+    {
+     "id": "saga-049",
+     "label": "Saga #49",
+     "title": "Chapter Forty-Nine",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "49",
+     "cv": {
+      "v": 46568,
+      "i": 661182
+     }
+    },
+    {
+     "id": "saga-050",
+     "label": "Saga #50",
+     "title": "Chapter Fifty",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "50",
+     "cv": {
+      "v": 46568,
+      "i": 664338
+     }
+    },
+    {
+     "id": "saga-051",
+     "label": "Saga #51",
+     "title": "Chapter Fifty-One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "51",
+     "cv": {
+      "v": 46568,
+      "i": 667699
+     }
+    },
+    {
+     "id": "saga-052",
+     "label": "Saga #52",
+     "title": "Chapter Fifty-Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "52",
+     "cv": {
+      "v": 46568,
+      "i": 671362
+     }
+    },
+    {
+     "id": "saga-053",
+     "label": "Saga #53",
+     "title": "Chapter Fifty-Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "53",
+     "cv": {
+      "v": 46568,
+      "i": 675085
+     }
+    },
+    {
+     "id": "saga-054",
+     "label": "Saga #54",
+     "title": "Chapter Fifty-Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "54",
+     "cv": {
+      "v": 46568,
+      "i": 677834
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 9",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+9+Vaughan"
+    },
+    {
+     "label": "Saga Compendium One",
+     "url": "https://www.amazon.com/s?k=Saga+Compendium+One+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "Vol. 10",
+   "years": "2022",
+   "color": "#718f6b",
+   "tagline": "A time jump finds Alana alone and stretched thin while two kids grow up fast.",
+   "items": [
+    {
+     "id": "saga-055",
+     "label": "Saga #55",
+     "title": "Chapter Fifty-Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "55",
+     "cv": {
+      "v": 46568,
+      "i": 904638
+     }
+    },
+    {
+     "id": "saga-056",
+     "label": "Saga #56",
+     "title": "Chapter Fifty-Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "56",
+     "cv": {
+      "v": 46568,
+      "i": 908434
+     }
+    },
+    {
+     "id": "saga-057",
+     "label": "Saga #57",
+     "title": "Chapter Fifty-Seven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "57",
+     "cv": {
+      "v": 46568,
+      "i": 912244
+     }
+    },
+    {
+     "id": "saga-058",
+     "label": "Saga #58",
+     "title": "Chapter Fifty-Eight",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "58",
+     "cv": {
+      "v": 46568,
+      "i": 919315
+     }
+    },
+    {
+     "id": "saga-059",
+     "label": "Saga #59",
+     "title": "Chapter Fifty-Nine",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "59",
+     "cv": {
+      "v": 46568,
+      "i": 926303
+     }
+    },
+    {
+     "id": "saga-060",
+     "label": "Saga #60",
+     "title": "Chapter Sixty",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "60",
+     "cv": {
+      "v": 46568,
+      "i": 935021
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 10",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+10+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "name": "Vol. 11",
+   "years": "2023",
+   "color": "#a58f6b",
+   "tagline": "Alana bets on her family's future while Gwendolyn courts a kingdom and Gale revives an old mission.",
+   "items": [
+    {
+     "id": "saga-061",
+     "label": "Saga #61",
+     "title": "Chapter Sixty-One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "61",
+     "cv": {
+      "v": 46568,
+      "i": 965949
+     }
+    },
+    {
+     "id": "saga-062",
+     "label": "Saga #62",
+     "title": "Chapter Sixty-Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "62",
+     "cv": {
+      "v": 46568,
+      "i": 973482
+     }
+    },
+    {
+     "id": "saga-063",
+     "label": "Saga #63",
+     "title": "Chapter Sixty-Three",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "63",
+     "cv": {
+      "v": 46568,
+      "i": 981464
+     }
+    },
+    {
+     "id": "saga-064",
+     "label": "Saga #64",
+     "title": "Chapter Sixty-Four",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "64",
+     "cv": {
+      "v": 46568,
+      "i": 988667
+     }
+    },
+    {
+     "id": "saga-065",
+     "label": "Saga #65",
+     "title": "Chapter Sixty-Five",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "65",
+     "cv": {
+      "v": 46568,
+      "i": 996448
+     }
+    },
+    {
+     "id": "saga-066",
+     "label": "Saga #66",
+     "title": "Chapter Sixty-Six",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "66",
+     "cv": {
+      "v": 46568,
+      "i": 1016910
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 11",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+11+Vaughan"
+    }
+   ]
+  },
+  {
+   "id": "L",
+   "name": "Vol. 12",
+   "years": "2024–2025",
+   "color": "#7d6a75",
+   "tagline": "Alana takes a dangerous new role as Hazel forges a new friendship and the galaxy's balance shifts.",
+   "items": [
+    {
+     "id": "saga-067",
+     "label": "Saga #67",
+     "title": "Chapter Sixty-Seven",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "67",
+     "cv": {
+      "v": 46568,
+      "i": 1065539
+     }
+    },
+    {
+     "id": "saga-068",
+     "label": "Saga #68",
+     "title": "Chapter Sixty-Eight",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "68",
+     "cv": {
+      "v": 46568,
+      "i": 1068039
+     }
+    },
+    {
+     "id": "saga-069",
+     "label": "Saga #69",
+     "title": "Chapter Sixty-Nine",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "69",
+     "cv": {
+      "v": 46568,
+      "i": 1071785
+     }
+    },
+    {
+     "id": "saga-070",
+     "label": "Saga #70",
+     "title": "Chapter Seventy",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "70",
+     "cv": {
+      "v": 46568,
+      "i": 1076624
+     }
+    },
+    {
+     "id": "saga-071",
+     "label": "Saga #71",
+     "title": "Chapter Seventy-One",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "71",
+     "cv": {
+      "v": 46568,
+      "i": 1088619
+     }
+    },
+    {
+     "id": "saga-072",
+     "label": "Saga #72",
+     "title": "Chapter Seventy-Two",
+     "series": "Saga",
+     "seriesName": "Saga (Image, 2012)",
+     "num": "72",
+     "cv": {
+      "v": 46568,
+      "i": 1099517
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Saga Vol. 12",
+     "url": "https://www.amazon.com/s?k=Saga+Vol.+12+Vaughan"
+    }
+   ]
+  }
+ ]
+}

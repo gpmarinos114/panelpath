@@ -1,0 +1,693 @@
+{
+ "id": "attack-on-titan",
+ "title": "Attack on Titan",
+ "subtitle": "Hajime Isayama — the complete 34-volume run",
+ "credit": "Volume reading order — Kodansha standard editions; arcs per the collected divisions. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "Fall of Shiganshina",
+   "years": "2009–2010",
+   "color": "#6d4c41",
+   "tagline": "A hundred years of peace end in an afternoon.",
+   "items": [
+    {
+     "id": "aot-01",
+     "label": "Vol. 1",
+     "title": "To You, 2,000 Years from Now",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "1",
+     "cv": {
+      "v": 49866,
+      "i": 342215
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vol. 1",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+1+manga"
+    },
+    {
+     "label": "Colossal Edition 1 (Vols. 1–5)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+1"
+    },
+    {
+     "label": "Season 1 Part 1 Box Set (Vols. 1–4)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+1+Part+1+Manga+Box+Set"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "The Struggle for Trost",
+   "years": "2010",
+   "color": "#4f6d6d",
+   "tagline": "Fresh graduates face their first battle, and humanity needs a miracle.",
+   "items": [
+    {
+     "id": "aot-02",
+     "label": "Vol. 2",
+     "title": "A Dull Glow in the Midst of Despair",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "2",
+     "cv": {
+      "v": 49866,
+      "i": 357680
+     }
+    },
+    {
+     "id": "aot-03",
+     "label": "Vol. 3",
+     "title": "Where's the Left Arm?",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "3",
+     "cv": {
+      "v": 49866,
+      "i": 372465
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 2–3",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+2+manga"
+    },
+    {
+     "label": "Season 1 Part 1 Box Set (Vols. 1–4)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+1+Part+1+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 1 (Vols. 1–5)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+1"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "The 104th Training Corps",
+   "years": "2011",
+   "color": "#7a6f56",
+   "tagline": "Training days, and the trial that decides what Eren is worth.",
+   "items": [
+    {
+     "id": "aot-04",
+     "label": "Vol. 4",
+     "title": "Primitive Desire",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "4",
+     "cv": {
+      "v": 49866,
+      "i": 395741
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vol. 4",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+4+manga"
+    },
+    {
+     "label": "Season 1 Part 1 Box Set (Vols. 1–4)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+1+Part+1+Manga+Box+Set"
+    },
+    {
+     "label": "Omnibus Vol. 2 (Vols. 4–6)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Omnibus+2"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "The Female Titan",
+   "years": "2011–2012",
+   "color": "#8a5a5a",
+   "tagline": "An expedition into the forest, and a traitor in the ranks.",
+   "items": [
+    {
+     "id": "aot-05",
+     "label": "Vol. 5",
+     "title": "Still Can't See",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "5",
+     "cv": {
+      "v": 49866,
+      "i": 410367
+     }
+    },
+    {
+     "id": "aot-06",
+     "label": "Vol. 6",
+     "title": "The Female Titan",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "6",
+     "cv": {
+      "v": 49866,
+      "i": 424591
+     }
+    },
+    {
+     "id": "aot-07",
+     "label": "Vol. 7",
+     "title": "Erwin Smith",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "7",
+     "cv": {
+      "v": 49866,
+      "i": 427737
+     }
+    },
+    {
+     "id": "aot-08",
+     "label": "Vol. 8",
+     "title": "Grin",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "8",
+     "cv": {
+      "v": 49866,
+      "i": 432390
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 5–8",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+5+manga"
+    },
+    {
+     "label": "Season 1 Part 2 Box Set (Vols. 5–8)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+1+Part+2+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 2 (Vols. 6–10)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+2"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Clash of the Titans",
+   "years": "2012–2013",
+   "color": "#6d6184",
+   "tagline": "A night at Utgard Castle reveals who the warriors really are.",
+   "items": [
+    {
+     "id": "aot-09",
+     "label": "Vol. 9",
+     "title": "The Beast Titan",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "9",
+     "cv": {
+      "v": 49866,
+      "i": 435116
+     }
+    },
+    {
+     "id": "aot-10",
+     "label": "Vol. 10",
+     "title": "Soldier",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "10",
+     "cv": {
+      "v": 49866,
+      "i": 441467
+     }
+    },
+    {
+     "id": "aot-11",
+     "label": "Vol. 11",
+     "title": "The Armored Titan",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "11",
+     "cv": {
+      "v": 49866,
+      "i": 442969
+     }
+    },
+    {
+     "id": "aot-12",
+     "label": "Vol. 12",
+     "title": "Children",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "12",
+     "cv": {
+      "v": 49866,
+      "i": 451815
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 9–12",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+9+manga"
+    },
+    {
+     "label": "Season 2 Box Set (Vols. 9–12)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+2+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 3 (Vols. 11–15)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+3"
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "The Uprising",
+   "years": "2014–2015",
+   "color": "#6e6a46",
+   "tagline": "The crown becomes the enemy, and the fight moves inside the walls.",
+   "items": [
+    {
+     "id": "aot-13",
+     "label": "Vol. 13",
+     "title": "Squad Levi",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "13",
+     "cv": {
+      "v": 49866,
+      "i": 463534
+     }
+    },
+    {
+     "id": "aot-14",
+     "label": "Vol. 14",
+     "title": "Pain",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "14",
+     "cv": {
+      "v": 49866,
+      "i": 469567
+     }
+    },
+    {
+     "id": "aot-15",
+     "label": "Vol. 15",
+     "title": "Soul of a Heretic",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "15",
+     "cv": {
+      "v": 49866,
+      "i": 484716
+     }
+    },
+    {
+     "id": "aot-16",
+     "label": "Vol. 16",
+     "title": "Chains",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "16",
+     "cv": {
+      "v": 49866,
+      "i": 498296
+     }
+    },
+    {
+     "id": "aot-17",
+     "label": "Vol. 17",
+     "title": "Outside the Walls of Orvud District",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "17",
+     "cv": {
+      "v": 49866,
+      "i": 508250
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 13–17",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+13+manga"
+    },
+    {
+     "label": "Season 3 Part 1 Box Set (Vols. 13–17)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+3+Part+1+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 3 (Vols. 11–15)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+3"
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "name": "Return to Shiganshina",
+   "years": "2015–2017",
+   "color": "#4d6a85",
+   "tagline": "One final charge to Shiganshina, and a basement that changes everything.",
+   "items": [
+    {
+     "id": "aot-18",
+     "label": "Vol. 18",
+     "title": "Bystander",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "18",
+     "cv": {
+      "v": 49866,
+      "i": 523046
+     }
+    },
+    {
+     "id": "aot-19",
+     "label": "Vol. 19",
+     "title": "War on Two Fronts",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "19",
+     "cv": {
+      "v": 49866,
+      "i": 542477
+     }
+    },
+    {
+     "id": "aot-20",
+     "label": "Vol. 20",
+     "title": "Perfect Game",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "20",
+     "cv": {
+      "v": 49866,
+      "i": 563634
+     }
+    },
+    {
+     "id": "aot-21",
+     "label": "Vol. 21",
+     "title": "Cleaver",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "21",
+     "cv": {
+      "v": 49866,
+      "i": 593157
+     }
+    },
+    {
+     "id": "aot-22",
+     "label": "Vol. 22",
+     "title": "Borderline",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "22",
+     "cv": {
+      "v": 49866,
+      "i": 612116
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 18–22",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+18+manga"
+    },
+    {
+     "label": "Season 3 Part 2 Box Set (Vols. 18–22)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Season+3+Part+2+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 4 (Vols. 16–20)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+4"
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "name": "Marley",
+   "years": "2017–2018",
+   "color": "#74585d",
+   "tagline": "The story crosses the sea, and the other side finally speaks.",
+   "items": [
+    {
+     "id": "aot-23",
+     "label": "Vol. 23",
+     "title": "The Other Side of the Ocean",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "23",
+     "cv": {
+      "v": 49866,
+      "i": 648043
+     }
+    },
+    {
+     "id": "aot-24",
+     "label": "Vol. 24",
+     "title": "Liar",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "24",
+     "cv": {
+      "v": 49866,
+      "i": 665699
+     }
+    },
+    {
+     "id": "aot-25",
+     "label": "Vol. 25",
+     "title": "Guilty Shadow",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "25",
+     "cv": {
+      "v": 49866,
+      "i": 675800
+     }
+    },
+    {
+     "id": "aot-26",
+     "label": "Vol. 26",
+     "title": "Assault",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "26",
+     "cv": {
+      "v": 49866,
+      "i": 693787
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 23–26",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+23+manga"
+    },
+    {
+     "label": "Final Season Part 1 Box Set (Vols. 23–28)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Final+Season+Part+1+Manga+Box+Set"
+    },
+    {
+     "label": "Colossal Edition 5 (Vols. 21–25)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+5"
+    }
+   ]
+  },
+  {
+   "id": "I",
+   "name": "War for Paradis",
+   "years": "2018–2019",
+   "color": "#5a6e56",
+   "tagline": "Eren returns from Liberio to an island already turning on itself.",
+   "items": [
+    {
+     "id": "aot-27",
+     "label": "Vol. 27",
+     "title": "Visitor",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "27",
+     "cv": {
+      "v": 49866,
+      "i": 705688
+     }
+    },
+    {
+     "id": "aot-28",
+     "label": "Vol. 28",
+     "title": "Children of the Forest",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "28",
+     "cv": {
+      "v": 49866,
+      "i": 716122
+     }
+    },
+    {
+     "id": "aot-29",
+     "label": "Vol. 29",
+     "title": "Support",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "29",
+     "cv": {
+      "v": 49866,
+      "i": 729322
+     }
+    },
+    {
+     "id": "aot-30",
+     "label": "Vol. 30",
+     "title": "Two Brothers",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "30",
+     "cv": {
+      "v": 49866,
+      "i": 748125
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 27–30",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+27+manga"
+    },
+    {
+     "label": "Colossal Edition 6 (Vols. 26–30)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+6"
+    },
+    {
+     "label": "Omnibus Vol. 10 (Vols. 28–30)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Omnibus+10"
+    }
+   ]
+  },
+  {
+   "id": "J",
+   "name": "The Rumbling",
+   "years": "2020–2021",
+   "color": "#7d4a3f",
+   "tagline": "The Rumbling begins, and the last battle asks what it was all for.",
+   "items": [
+    {
+     "id": "aot-31",
+     "label": "Vol. 31",
+     "title": "Island Devils",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "31",
+     "cv": {
+      "v": 49866,
+      "i": 795996
+     }
+    },
+    {
+     "id": "aot-32",
+     "label": "Vol. 32",
+     "title": "Night of the End",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "32",
+     "cv": {
+      "v": 49866,
+      "i": 821855
+     }
+    },
+    {
+     "id": "aot-33",
+     "label": "Vol. 33",
+     "title": "The Rumbling",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "33",
+     "cv": {
+      "v": 49866,
+      "i": 846328
+     }
+    },
+    {
+     "id": "aot-34",
+     "label": "Vol. 34",
+     "title": "The Battle of Heaven and Earth",
+     "series": "AoT",
+     "seriesName": "Attack on Titan (Kodansha, 2010)",
+     "num": "34",
+     "cv": {
+      "v": 49866,
+      "i": 890048
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "Attack on Titan Vols. 31–34",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Vol.+31+manga"
+    },
+    {
+     "label": "Colossal Edition 7 (Vols. 31–34)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Colossal+Edition+7"
+    },
+    {
+     "label": "Final Season Part 2 Box Set (Vols. 29–34)",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Final+Season+Part+2+Manga+Box+Set"
+    }
+   ]
+  },
+  {
+   "id": "K",
+   "name": "Extras",
+   "years": "2013–2014",
+   "color": "#5d6472",
+   "tagline": "Levi's origin and the prequels, best read after the main run.",
+   "items": [
+    {
+     "id": "aot-35",
+     "label": "No Regrets Vol. 1",
+     "title": "The Thief and the Soldier",
+     "series": "AoT-NR",
+     "seriesName": "Attack on Titan: No Regrets (Kodansha, 2014)",
+     "num": "1",
+     "cv": {
+      "v": 75157,
+      "i": 457712
+     }
+    },
+    {
+     "id": "aot-36",
+     "label": "No Regrets Vol. 2",
+     "title": "Remember Your True Enemy",
+     "series": "AoT-NR",
+     "seriesName": "Attack on Titan: No Regrets (Kodansha, 2014)",
+     "num": "2",
+     "cv": {
+      "v": 75157,
+      "i": 468974
+     }
+    }
+   ],
+   "buy": [
+    {
+     "label": "No Regrets Vol. 1",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+No+Regrets+Vol.+1"
+    },
+    {
+     "label": "No Regrets Complete Color Edition",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+No+Regrets+Complete+Color+Edition"
+    },
+    {
+     "label": "Before the Fall Vol. 1",
+     "url": "https://www.amazon.com/s?k=Attack+on+Titan+Before+the+Fall+Vol.+1"
+    }
+   ]
+  }
+ ]
+}
