@@ -50,6 +50,18 @@ npm install
 node server.js        # http://localhost:5175
 ```
 
+## Updating
+
+New reading orders and fixes ship inside the container image. To update:
+
+```bash
+docker compose pull && docker compose up -d
+```
+
+Your progress, settings and fetched covers live in the `panelpath-data` volume — updates never touch them. Only new order files and code arrive.
+
+**Get notified when a new version ships:** on this repo, click **Watch → Custom → Releases**. Every release is built to `:latest` (and the `:1` major tag).
+
 ## Adding a reading order
 
 Reading orders live in `data/orders/<id>.json` — a list of sections, each with items:
@@ -74,6 +86,8 @@ Reading orders live in `data/orders/<id>.json` — a list of sections, each with
 ```
 
 `cv` is optional — ComicVine volume/issue ids that power the cover fetcher. Full guide (including how to find those ids): [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Orders that land in this repo get bundled into the next image build — so everyone who updates gets the new lines. (You can also keep private orders of your own in `DATA_DIR/orders`; they override bundled ones and are never overwritten.)
 
 ## Configuration
 
