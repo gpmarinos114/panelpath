@@ -606,3 +606,10 @@ button.primary { color: var(--gold); }
 .next-hint:active { border-color: var(--dim); }
 
 .item.flash { border-color: color-mix(in srgb, var(--red) 60%, var(--line)); background: color-mix(in srgb, var(--red) 6%, var(--panel)); }
+
+/* ---------- home groups ---------- */
+.lib-group-head { position: relative; display: flex; align-items: baseline; gap: 10px; border-top: 1px solid var(--line); padding: 14px 2px 0; margin-top: 24px; }
+.lib-group-head::before { content: ""; position: absolute; top: -2px; left: 0; width: 46px; height: 3px; border-radius: 2px; background: var(--tick, var(--dim)); }
+.lib-group-head h2 { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); }
+.lib-group-head .lg-count { margin-left: auto; font-size: 11.5px; color: var(--dim); letter-spacing: 0.04em; }
+.lib-group-head + .orders { margin-top: 13px; }

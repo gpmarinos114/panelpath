@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 17;
+const ASSET_V = 18;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -96,40 +96,69 @@ async function showHome() {
   search.appendChild(input);
   view.appendChild(search);
 
-  const wrap = document.createElement("div");
-  wrap.className = "orders";
-  view.appendChild(wrap);
+  const listArea = document.createElement("div");
+  view.appendChild(listArea);
+
+  const isInProgress = (o) => o.read > 0 && o.read < o.total;
+
+  const makeCard = (o) => {
+    const card = document.createElement("a");
+    card.className = "order-card";
+    const inProg = isInProgress(o);
+    card.href = "#/o/" + o.id + (inProg ? "?go=next" : "");
+    const pct = o.total ? Math.round((o.read / o.total) * 100) : 0;
+    const complete = o.total > 0 && o.read === o.total;
+    card.innerHTML =
+      `<div class="oc-top"><span class="oc-title">${esc(o.title)}</span>` +
+      (complete ? `<span class="complete">Complete</span>` : "") +
+      `</div>` +
+      `<div class="oc-sub">${esc(o.subtitle)}</div>` +
+      `<div class="oc-bar"><div style="width:${pct}%"></div></div>` +
+      `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>` +
+      (inProg && o.next
+        ? `<div class="oc-next"><span class="oc-next-l">Continue &rarr;</span><b>${esc(o.next.label)}</b>` +
+          (o.lastRead ? `<i>last read ${timeAgo(o.lastRead)}</i>` : "") + `</div>`
+        : "");
+    return card;
+  };
+
+  const cardsWrap = (list) => {
+    const w = document.createElement("div");
+    w.className = "orders";
+    for (const o of list) w.appendChild(makeCard(o));
+    return w;
+  };
+
+  const groupHead = (label, count, tick) => {
+    const h = document.createElement("div");
+    h.className = "lib-group-head";
+    h.style.setProperty("--tick", tick);
+    h.innerHTML = `<h2>${esc(label)}</h2><span class="lg-count">${count}</span>`;
+    return h;
+  };
 
   const renderCards = () => {
     const q = query.trim().toLowerCase();
-    wrap.innerHTML = "";
+    listArea.innerHTML = "";
     const list = q
       ? orders.filter((o) => (o.id + " " + o.title + " " + (o.subtitle || "")).toLowerCase().includes(q))
       : orders;
     if (!list.length) {
-      wrap.innerHTML = `<div class="empty-note">No reading orders match &ldquo;${esc(query.trim())}&rdquo;.</div>`;
+      listArea.innerHTML = `<div class="empty-note">No reading orders match &ldquo;${esc(query.trim())}&rdquo;.</div>`;
       return;
     }
-    for (const o of list) {
-      const card = document.createElement("a");
-      card.className = "order-card";
-      const inProg = o.read > 0 && o.read < o.total;
-      card.href = "#/o/" + o.id + (inProg ? "?go=next" : "");
-      const pct = o.total ? Math.round((o.read / o.total) * 100) : 0;
-      const complete = o.total > 0 && o.read === o.total;
-      card.innerHTML =
-        `<div class="oc-top"><span class="oc-title">${esc(o.title)}</span>` +
-        (complete ? `<span class="complete">Complete</span>` : "") +
-        `</div>` +
-        `<div class="oc-sub">${esc(o.subtitle)}</div>` +
-        `<div class="oc-bar"><div style="width:${pct}%"></div></div>` +
-        `<div class="oc-counts"><span>${o.read} / ${o.total} read</span><span>${o.sections.length} sections</span></div>` +
-        (inProg && o.next
-          ? `<div class="oc-next"><span class="oc-next-l">Continue &rarr;</span><b>${esc(o.next.label)}</b>` +
-            (o.lastRead ? `<i>last read ${timeAgo(o.lastRead)}</i>` : "") + `</div>`
-          : "");
-      wrap.appendChild(card);
+    const current = list.filter(isInProgress);
+    const rest = list.filter((o) => !isInProgress(o));
+    if (!q && current.length) {
+      listArea.appendChild(groupHead("Currently reading", current.length, "var(--red)"));
+      listArea.appendChild(cardsWrap(current));
+      if (rest.length) {
+        listArea.appendChild(groupHead("Library", rest.length, "var(--dim)"));
+        listArea.appendChild(cardsWrap(rest));
+      }
+      return;
     }
+    listArea.appendChild(cardsWrap(list));
   };
 
   input.addEventListener("input", () => {
