@@ -1,5 +1,5 @@
-/* Reading Orders — client v2 (multi-order) */
-const ASSET_V = 3;
+/* PanelPath — client (multi-order) */
+const ASSET_V = 4;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -46,6 +46,7 @@ async function showHome() {
   });
   $("#progressWrap").hidden = true;
   $("#chips").hidden = true;
+  $("#chips").innerHTML = "";
   $("#resetBtn").hidden = true;
 
   const view = $("#view");
@@ -119,6 +120,7 @@ function renderChips() {
   unread.classList.add("toggle");
   unread.setAttribute("aria-pressed", String(unreadOnly));
   unread.addEventListener("click", () => {
+    if (!CURRENT) return;
     unreadOnly = !unreadOnly;
     unread.setAttribute("aria-pressed", String(unreadOnly));
     renderOrder();
@@ -135,6 +137,7 @@ function renderChips() {
 }
 
 function renderOrder() {
+  if (!CURRENT) return;
   const main = $("#view");
   main.innerHTML = "";
   const frag = document.createDocumentFragment();
