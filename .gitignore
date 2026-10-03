@@ -3,6 +3,8 @@ data/progress.json
 data/progress.json.tmp
 data/settings.json
 data/covers/
+data/drafts/
+data-dev/
 .private/
 *.log
 .DS_Store

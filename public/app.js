@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 10;
+const ASSET_V = 11;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -27,10 +27,15 @@ async function boot() {
 
 function route() {
   const mb = (location.hash || "").match(/^#\/new(?:\/([\w-]+))?/);
+  const me = (location.hash || "").match(/^#\/edit\/([\w-]+)/);
   unreadOnly = false;
   closeModal();
   if (mb) {
     if (window.showBuilder) showBuilder(mb[1] || null);
+    return;
+  }
+  if (me) {
+    if (window.showBuilder) showBuilder(null, me[1]);
     return;
   }
   const m = (location.hash || "").match(/^#\/o\/([\w-]+)/);
@@ -57,6 +62,7 @@ async function showHome() {
   $("#chips").hidden = true;
   $("#chips").innerHTML = "";
   $("#resetBtn").hidden = true;
+  $("#editBtn").hidden = true;
 
   const view = $("#view");
   view.innerHTML = "";
@@ -196,6 +202,7 @@ async function showOrder(id) {
   $("#progressWrap").hidden = false;
   $("#chips").hidden = false;
   $("#resetBtn").hidden = false;
+  $("#editBtn").hidden = data.source !== "user";
   renderChips();
   renderOrder();
 }
@@ -449,6 +456,9 @@ function closeModal() {
 
 function bindSettings() {
   $("#settingsBtn").addEventListener("click", openModal);
+  $("#editBtn").addEventListener("click", () => {
+    if (CURRENT) location.hash = "#/edit/" + CURRENT.id;
+  });
   $("#closeModal").addEventListener("click", closeModal);
   $("#settingsModal").addEventListener("click", (e) => {
     if (e.target === $("#settingsModal")) closeModal();

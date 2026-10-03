@@ -56,7 +56,40 @@ function bdNextSectionId() {
   return "S" + (max + 1);
 }
 
+function bdOrderToDraft(o) {
+  return {
+    draftId: null,
+    editing: o.id,
+    title: o.title || "",
+    subtitle: o.subtitle || "",
+    credit: o.credit || "",
+    updatedAt: 0,
+    sections: (o.sections || []).map((s) => ({
+      id: s.id,
+      name: s.name || "",
+      years: s.years || "",
+      color: s.color || BD_PALETTE[0],
+      tagline: s.tagline || "",
+      buy: Array.isArray(s.buy) ? s.buy.map((b) => ({ label: b.label, url: b.url })) : [],
+      items: (s.items || []).map((i) => {
+        const it = { id: i.id, label: i.label };
+        if (i.title) it.title = i.title;
+        if (i.series) it.series = i.series;
+        if (i.seriesName) it.seriesName = i.seriesName;
+        if (i.num) it.num = i.num;
+        if (i.cv) it.cv = { v: i.cv.v, i: i.cv.i };
+        return it;
+      }),
+    })),
+  };
+}
+
 function bdTouch() {
+  if (BD && BD.editing) {
+    const st = document.getElementById("bdStatus");
+    if (st) st.textContent = "unsaved changes";
+    return;
+  }
   const st = document.getElementById("bdStatus");
   if (st) st.textContent = "saving\u2026";
   clearTimeout(bdAutoTimer);
@@ -98,14 +131,31 @@ function bdField(label, value, oninput, opts) {
   return wrap;
 }
 
-async function showBuilder(draftId) {
-  setHeader({ title: "Order builder", sub: "Draft saves automatically \u2014 nothing is final until you save.", back: true });
+async function showBuilder(draftId, editId) {
   $("#progressWrap").hidden = true;
   $("#chips").hidden = true;
   $("#chips").innerHTML = "";
   $("#resetBtn").hidden = true;
+  $("#editBtn").hidden = true;
   CURRENT = null;
 
+  if (editId) {
+    let o = null;
+    try {
+      o = await fetch("/api/orders/" + encodeURIComponent(editId) + "?raw=1").then((r) => r.json());
+    } catch {}
+    if (!o || o.error || o.source !== "user") {
+      showToast("ONLY YOUR OWN ORDERS CAN BE EDITED");
+      location.hash = "#/";
+      return;
+    }
+    BD = bdOrderToDraft(o);
+    setHeader({ title: "Edit: " + (o.title || editId), sub: "Saving updates this order in place.", back: true });
+    renderBuilder();
+    return;
+  }
+
+  setHeader({ title: "Order builder", sub: "Draft saves automatically \u2014 nothing is final until you save.", back: true });
   BD = null;
   if (draftId) {
     try {
@@ -159,16 +209,15 @@ function renderBuilder() {
   const bar = document.createElement("div");
   bar.className = "b-bar";
   bar.innerHTML =
-    '<button id="bdDiscard" class="ghost b-discard">Discard draft</button>' +
-    '<span id="bdStatus" class="status-line">' + (BD.updatedAt ? "draft saved" : "") + "</span>" +
+    (BD.editing ? "" : '<button id="bdDiscard" class="ghost b-discard">Discard draft</button>') +
+    '<span id="bdStatus" class="status-line">' + (BD.editing ? "unsaved changes" : (BD.updatedAt ? "draft saved" : "")) + "</span>" +
     '<button id="bdPreview" class="ghost">Preview</button>' +
-    '<button id="bdSave" class="ghost primary">Save order</button>';
+    '<button id="bdSave" class="ghost primary">' + (BD.editing ? "Save changes" : "Save order") + "</button>";
   wrap.appendChild(bar);
   view.appendChild(wrap);
 
-  document.getElementById("bdDiscard").addEventListener("click", () => {
-    armTwice(document.getElementById("bdDiscard"), "Tap again to discard", bdDiscard);
-  });
+  const discB = document.getElementById("bdDiscard");
+  if (discB) discB.addEventListener("click", () => armTwice(discB, "Tap again to discard", bdDiscard));
   document.getElementById("bdPreview").addEventListener("click", bdTogglePreview);
   document.getElementById("bdSave").addEventListener("click", bdSaveOrder);
 }
@@ -629,6 +678,7 @@ async function bdSaveOrder() {
   if (base.length < 3) base = "order-" + String(BD.draftId || "x").replace(/^d/, "").slice(0, 4);
   const payload = (id) => ({
     id,
+    ...(BD.editing ? { allowOverwrite: true } : {}),
     title: BD.title,
     subtitle: BD.subtitle,
     credit: BD.credit,
@@ -639,6 +689,30 @@ async function bdSaveOrder() {
       items: s.items.map((it) => ({ ...it })),
     })),
   });
+  if (BD.editing) {
+    try {
+      const r = await fetch("/api/orders/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload(BD.editing)),
+      });
+      const j = await r.json();
+      if (!r.ok) {
+        const msg = {
+          "id-taken": "This order can\u2019t be overwritten here.",
+          "no-title": "Give the order a title.",
+          "bad-items": "Every section needs 1\u2013400 items.",
+          "dupe-item-id": "Duplicate item id \u2014 remove the item and re-add it.",
+        }[j.error] || ("SAVE FAILED: " + (j.error || "?"));
+        return showToast(msg);
+      }
+      showToast("ORDER UPDATED");
+      location.hash = "#/o/" + BD.editing;
+    } catch {
+      showToast("SAVE FAILED \u2014 CHECK CONNECTION");
+    }
+    return;
+  }
   try {
     let usedId = null;
     for (let i = 0; i <= 6; i++) {

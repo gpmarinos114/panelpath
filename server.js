@@ -265,8 +265,12 @@ app.get("/api/orders", (req, res) => {
 
 app.get("/api/orders/:id", (req, res) => {
   res.set("Cache-Control", "no-store");
-  const order = orderWithTags(loadOrder(req.params.id));
-  if (!order) return res.status(404).json({ error: "order not found" });
+  const rawId = String(req.params.id);
+  const src = /^[a-z0-9-]+$/i.test(rawId) && fs.existsSync(path.join(USER_ORDERS_DIR, rawId + ".json")) ? "user" : "bundled";
+  const loaded = loadOrder(rawId);
+  if (!loaded) return res.status(404).json({ error: "order not found" });
+  if (req.query.raw === "1") return res.json({ ...loaded, source: src });
+  const order = orderWithTags(loaded);
   const out = { ...order };
   out.sections = order.sections.map((s) => ({
     ...s,
@@ -276,7 +280,7 @@ app.get("/api/orders/:id", (req, res) => {
     }),
   }));
   const meta = orderMeta(out, readProgress());
-  res.json({ ...out, total: meta.total, read: meta.read });
+  res.json({ ...out, total: meta.total, read: meta.read, source: src });
 });
 
 app.get("/api/progress", (req, res) => {
@@ -521,12 +525,12 @@ app.post("/api/orders/save", (req, res) => {
   const o = req.body;
   const err = validateOrder(o);
   if (err) return res.status(400).json({ error: err });
-  if (bundledIds().has(o.id) || fs.existsSync(path.join(USER_ORDERS_DIR, o.id + ".json"))) {
-    return res.status(400).json({ error: "id-taken" });
-  }
+  if (bundledIds().has(o.id)) return res.status(400).json({ error: "id-taken" });
+  const userExists = fs.existsSync(path.join(USER_ORDERS_DIR, o.id + ".json"));
+  if (userExists && o.allowOverwrite !== true) return res.status(400).json({ error: "id-taken" });
   if (!fs.existsSync(USER_ORDERS_DIR)) fs.mkdirSync(USER_ORDERS_DIR, { recursive: true });
   writeJsonAtomic(path.join(USER_ORDERS_DIR, o.id + ".json"), cleanOrder(o));
-  res.json({ ok: true, id: o.id });
+  res.json({ ok: true, id: o.id, updated: userExists });
 });
 
 app.get("/api/version", (req, res) => {
