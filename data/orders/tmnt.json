@@ -1855,7 +1855,7 @@
    "years": "anytime",
    "color": "#546e7a",
    "kind": "extras",
-   "tagline": "Complete mini-series from the same era \u2014 read anytime.",
+   "tagline": "Complete mini-series from the same era \u2014 read anytime (the Last Ronin saga hits best after the main run).",
    "buy": [
     {
      "label": "Micro-Series Vol. 1",
@@ -2857,6 +2857,186 @@
      "cv": {
       "v": 118647,
       "i": 721036
+     }
+    },
+    {
+     "id": "tmnt-lastronin-01",
+     "label": "The Last Ronin #1",
+     "title": "",
+     "series": "The Last Ronin",
+     "seriesName": "TMNT: The Last Ronin (2020)",
+     "num": "1",
+     "cv": {
+      "v": 131518,
+      "i": 814443
+     }
+    },
+    {
+     "id": "tmnt-lastronin-02",
+     "label": "The Last Ronin #2",
+     "title": "",
+     "series": "The Last Ronin",
+     "seriesName": "TMNT: The Last Ronin (2020)",
+     "num": "2",
+     "cv": {
+      "v": 131518,
+      "i": 828827
+     }
+    },
+    {
+     "id": "tmnt-lastronin-03",
+     "label": "The Last Ronin #3",
+     "title": "",
+     "series": "The Last Ronin",
+     "seriesName": "TMNT: The Last Ronin (2020)",
+     "num": "3",
+     "cv": {
+      "v": 131518,
+      "i": 852414
+     }
+    },
+    {
+     "id": "tmnt-lastronin-04",
+     "label": "The Last Ronin #4",
+     "title": "",
+     "series": "The Last Ronin",
+     "seriesName": "TMNT: The Last Ronin (2020)",
+     "num": "4",
+     "cv": {
+      "v": 131518,
+      "i": 885864
+     }
+    },
+    {
+     "id": "tmnt-lastronin-05",
+     "label": "The Last Ronin #5",
+     "title": "",
+     "series": "The Last Ronin",
+     "seriesName": "TMNT: The Last Ronin (2020)",
+     "num": "5",
+     "cv": {
+      "v": 131518,
+      "i": 919552
+     }
+    },
+    {
+     "id": "tmnt-lostyears-01",
+     "label": "Lost Years #1",
+     "title": "",
+     "series": "The Last Ronin: Lost Years",
+     "seriesName": "TMNT: The Last Ronin - Lost Years (2023)",
+     "num": "1",
+     "cv": {
+      "v": 147700,
+      "i": 966748
+     }
+    },
+    {
+     "id": "tmnt-lostyears-02",
+     "label": "Lost Years #2",
+     "title": "",
+     "series": "The Last Ronin: Lost Years",
+     "seriesName": "TMNT: The Last Ronin - Lost Years (2023)",
+     "num": "2",
+     "cv": {
+      "v": 147700,
+      "i": 977510
+     }
+    },
+    {
+     "id": "tmnt-lostyears-03",
+     "label": "Lost Years #3",
+     "title": "",
+     "series": "The Last Ronin: Lost Years",
+     "seriesName": "TMNT: The Last Ronin - Lost Years (2023)",
+     "num": "3",
+     "cv": {
+      "v": 147700,
+      "i": 985745
+     }
+    },
+    {
+     "id": "tmnt-lostyears-04",
+     "label": "Lost Years #4",
+     "title": "",
+     "series": "The Last Ronin: Lost Years",
+     "seriesName": "TMNT: The Last Ronin - Lost Years (2023)",
+     "num": "4",
+     "cv": {
+      "v": 147700,
+      "i": 999509
+     }
+    },
+    {
+     "id": "tmnt-lostyears-05",
+     "label": "Lost Years #5",
+     "title": "",
+     "series": "The Last Ronin: Lost Years",
+     "seriesName": "TMNT: The Last Ronin - Lost Years (2023)",
+     "num": "5",
+     "cv": {
+      "v": 147700,
+      "i": 1006158
+     }
+    },
+    {
+     "id": "tmnt-reevolution-01",
+     "label": "Re-Evolution #1",
+     "title": "",
+     "series": "The Last Ronin II: Re-Evolution",
+     "seriesName": "TMNT: The Last Ronin II - Re-Evolution (2024)",
+     "num": "1",
+     "cv": {
+      "v": 157173,
+      "i": 1047395
+     }
+    },
+    {
+     "id": "tmnt-reevolution-02",
+     "label": "Re-Evolution #2",
+     "title": "",
+     "series": "The Last Ronin II: Re-Evolution",
+     "seriesName": "TMNT: The Last Ronin II - Re-Evolution (2024)",
+     "num": "2",
+     "cv": {
+      "v": 157173,
+      "i": 1060337
+     }
+    },
+    {
+     "id": "tmnt-reevolution-03",
+     "label": "Re-Evolution #3",
+     "title": "",
+     "series": "The Last Ronin II: Re-Evolution",
+     "seriesName": "TMNT: The Last Ronin II - Re-Evolution (2024)",
+     "num": "3",
+     "cv": {
+      "v": 157173,
+      "i": 1074050
+     }
+    },
+    {
+     "id": "tmnt-reevolution-04",
+     "label": "Re-Evolution #4",
+     "title": "",
+     "series": "The Last Ronin II: Re-Evolution",
+     "seriesName": "TMNT: The Last Ronin II - Re-Evolution (2024)",
+     "num": "4",
+     "cv": {
+      "v": 157173,
+      "i": 1093020
+     }
+    },
+    {
+     "id": "tmnt-reevolution-05",
+     "label": "Re-Evolution #5",
+     "title": "",
+     "series": "The Last Ronin II: Re-Evolution",
+     "seriesName": "TMNT: The Last Ronin II - Re-Evolution (2024)",
+     "num": "5",
+     "cv": {
+      "v": 157173,
+      "i": 1107387
      }
     }
    ]
