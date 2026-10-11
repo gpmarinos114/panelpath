@@ -1,0 +1,249 @@
+{
+ "id": "batman",
+ "title": "Batman",
+ "subtitle": "Where to start: the essential collected editions, in reading order",
+ "credit": "A community-standard new-reader path in collected editions. The early-years classics first, the modern gateways second, the deep cuts after. A separate order covers the Grant Morrison run. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "Start here \u00b7 the early years",
+   "years": "1988-1999",
+   "color": "#37474f",
+   "tagline": "The classic path. A complete early-years arc that needs no prior reading.",
+   "buy": [
+    {
+     "label": "Year One",
+     "url": "https://www.amazon.com/s?k=Batman+Year+One+Frank+Miller"
+    },
+    {
+     "label": "The Man Who Laughs",
+     "url": "https://www.amazon.com/s?k=Batman+The+Man+Who+Laughs"
+    },
+    {
+     "label": "The Long Halloween (Compact)",
+     "url": "https://www.amazon.com/dp/1799502880"
+    },
+    {
+     "label": "Dark Victory",
+     "url": "https://www.amazon.com/s?k=Batman+Dark+Victory+Loeb+Sale"
+    }
+   ],
+   "items": [
+    {
+     "id": "bat-year-one",
+     "label": "Year One",
+     "title": "Batman #404-407 \u00b7 read first",
+     "series": "BAT",
+     "seriesName": "Batman: Year One (1988)",
+     "num": "1",
+     "cv": {
+      "v": 18960,
+      "i": 112492
+     }
+    },
+    {
+     "id": "bat-man-who-laughs",
+     "label": "The Man Who Laughs",
+     "title": "the Joker's first case",
+     "series": "BAT",
+     "seriesName": "Batman: The Man Who Laughs (2005)",
+     "num": "1",
+     "cv": {
+      "v": 22099,
+      "i": 132956
+     }
+    },
+    {
+     "id": "bat-long-halloween",
+     "label": "The Long Halloween",
+     "title": "year-two noir murder mystery",
+     "series": "BAT",
+     "seriesName": "Batman: The Long Halloween (1996)",
+     "num": "1",
+     "cv": {
+      "v": 6822,
+      "i": 48827
+     }
+    },
+    {
+     "id": "bat-dark-victory",
+     "label": "Dark Victory",
+     "title": "the sequel \u00b7 Robin's origin",
+     "series": "BAT",
+     "seriesName": "Batman: Dark Victory (2001)",
+     "num": "1",
+     "cv": {
+      "v": 39515,
+      "i": 267104
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "Modern gateways",
+   "years": "2002-2013",
+   "color": "#4e342e",
+   "tagline": "Jump straight into the modern era. Court of Owls opens a run that continues through Zero Year and Endgame.",
+   "buy": [
+    {
+     "label": "Hush (Compact)",
+     "url": "https://www.amazon.com/dp/1779527268"
+    },
+    {
+     "label": "Court of Owls (Compact)",
+     "url": "https://www.amazon.com/dp/1779527276"
+    },
+    {
+     "label": "City of Owls",
+     "url": "https://www.amazon.com/s?k=Batman+City+of+Owls+Snyder"
+    },
+    {
+     "label": "Death of the Family",
+     "url": "https://www.amazon.com/s?k=Batman+Death+of+the+Family+Snyder"
+    }
+   ],
+   "items": [
+    {
+     "id": "bat-hush",
+     "label": "Hush",
+     "title": "the rogues gallery tour",
+     "series": "BAT",
+     "seriesName": "Batman: Hush (2003)",
+     "num": "1",
+     "cv": {
+      "v": 35076,
+      "i": 231299
+     }
+    },
+    {
+     "id": "bat-court-of-owls",
+     "label": "Court of Owls",
+     "title": "the 2011 fresh start",
+     "series": "BAT",
+     "seriesName": "Batman (2011) #1-7",
+     "num": "1",
+     "cv": {
+      "v": 42721,
+      "i": 293259
+     }
+    },
+    {
+     "id": "bat-city-of-owls",
+     "label": "City of Owls",
+     "title": "the Court closes in",
+     "series": "BAT",
+     "seriesName": "Batman (2011) #8-12",
+     "num": "8",
+     "cv": {
+      "v": 42721,
+      "i": 331842
+     }
+    },
+    {
+     "id": "bat-death-family",
+     "label": "Death of the Family",
+     "title": "the Joker returns",
+     "series": "BAT",
+     "seriesName": "Batman (2011) #13-17",
+     "num": "13",
+     "cv": {
+      "v": 42721,
+      "i": 360790
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Save for later \u00b7 the deep cuts",
+   "years": "1986-2012",
+   "color": "#455a64",
+   "tagline": "Landmark reads that hit harder once you know the mythos. Come here after the first two sections.",
+   "buy": [
+    {
+     "label": "The Killing Joke",
+     "url": "https://www.amazon.com/s?k=Batman+The+Killing+Joke+Deluxe"
+    },
+    {
+     "label": "The Dark Knight Returns (Compact)",
+     "url": "https://www.amazon.com/s?k=9781799507864"
+    },
+    {
+     "label": "Arkham Asylum",
+     "url": "https://www.amazon.com/s?k=Batman+Arkham+Asylum+Grant+Morrison"
+    },
+    {
+     "label": "Under the Red Hood (Compact)",
+     "url": "https://www.amazon.com/dp/1799508218"
+    },
+    {
+     "label": "Knightfall Vol. 1",
+     "url": "https://www.amazon.com/s?k=Batman+Knightfall+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "bat-killing-joke",
+     "label": "The Killing Joke",
+     "title": "the Joker's worst day",
+     "series": "BAT",
+     "seriesName": "Batman: The Killing Joke (1988)",
+     "num": "1",
+     "cv": {
+      "v": 19967,
+      "i": 119383
+     }
+    },
+    {
+     "id": "bat-dkr",
+     "label": "The Dark Knight Returns",
+     "title": "the finale \u00b7 read last",
+     "series": "BAT",
+     "seriesName": "Batman: The Dark Knight Returns (1986)",
+     "num": "1",
+     "cv": {
+      "v": 38859,
+      "i": 260758
+     }
+    },
+    {
+     "id": "bat-arkham-asylum",
+     "label": "Arkham Asylum",
+     "title": "the psychological classic",
+     "series": "BAT",
+     "seriesName": "Arkham Asylum (1989)",
+     "num": "1",
+     "cv": {
+      "v": 128951,
+      "i": 1045156
+     }
+    },
+    {
+     "id": "bat-under-red-hood",
+     "label": "Under the Red Hood",
+     "title": "a Robin returns",
+     "series": "BAT",
+     "seriesName": "Batman: Under The Red Hood (2011)",
+     "num": "1",
+     "cv": {
+      "v": 42875,
+      "i": 292973
+     }
+    },
+    {
+     "id": "bat-knightfall-1",
+     "label": "Knightfall Vol. 1",
+     "title": "Bane breaks the Bat \u00b7 vol. 1 of 3",
+     "series": "BAT",
+     "seriesName": "Batman: Knightfall (2012)",
+     "num": "1",
+     "cv": {
+      "v": 50979,
+      "i": 348377
+     }
+    }
+   ]
+  }
+ ]
+}
