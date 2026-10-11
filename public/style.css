@@ -613,3 +613,37 @@ button.primary { color: var(--gold); }
 .lib-group-head h2 { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); }
 .lib-group-head .lg-count { margin-left: auto; font-size: 11.5px; color: var(--dim); letter-spacing: 0.04em; }
 .lib-group-head + .orders { margin-top: 13px; }
+
+/* ---------- my comics (collection) ---------- */
+.col-stats { position: relative; border-top: 1px solid var(--line); padding: 15px 2px 0; margin-top: 18px; display: flex; gap: 28px; flex-wrap: wrap; }
+.col-stats::before { content: ""; position: absolute; top: -2px; left: 0; width: 46px; height: 3px; border-radius: 2px; background: var(--red); }
+.col-stat .cs-lab { display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--dim); margin-bottom: 4px; }
+.col-stat .cs-val { display: block; font-size: 19px; font-weight: 600; color: var(--text); letter-spacing: 0.02em; }
+.col-stat .cs-val.cs-small { font-size: 13.5px; color: var(--label); padding-top: 4px; }
+.col-stat .cs-sub { display: block; font-size: 11px; color: var(--quiet); margin-top: 2px; }
+.col-tools { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+.col-tools .ghost { align-self: center; }
+.col-export { font-size: 12px; color: var(--dim); text-decoration: none; border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; }
+.col-export:hover { color: var(--text); }
+.col-chips { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 12px; }
+.col-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 14px; margin-top: 16px; }
+.col-card { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.col-card .cc-imgwrap { aspect-ratio: 2 / 3; border: 1px solid var(--line); border-radius: 8px; background: var(--well); overflow: hidden; transition: border-color 0.2s ease; }
+.col-card .cc-imgwrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.col-card .cc-ph { height: 100%; display: flex; align-items: center; justify-content: center; color: var(--dim); font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; text-align: center; padding: 8px; }
+.col-card .cc-label { margin-top: 8px; font-size: 12.5px; font-weight: 600; color: var(--text); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.col-card .cc-meta { margin-top: 3px; font-size: 11px; color: var(--dim); letter-spacing: 0.03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.col-card:active .cc-imgwrap { border-color: color-mix(in srgb, var(--red) 50%, var(--line)); }
+.col-grid .empty-note { grid-column: 1 / -1; }
+.col-mode { display: flex; gap: 7px; flex-wrap: wrap; }
+.col-pickrow.sel { background: color-mix(in srgb, var(--red) 8%, var(--panel2)); border-left: 1px solid color-mix(in srgb, var(--red) 55%, var(--line)); }
+.col-edit-head { display: flex; gap: 14px; }
+.col-edit-head .cc-thumb { flex: none; width: 84px; }
+.col-edit-head .cc-thumb img { width: 84px; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); display: block; }
+.col-edit-head .cc-thumb .cc-ph { width: 84px; aspect-ratio: 2 / 3; border: 1px solid var(--line); border-radius: 6px; background: var(--well); display: flex; align-items: center; justify-content: center; color: var(--dim); font-size: 9px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+.col-edit-info { flex: 1; min-width: 0; }
+@media (max-width: 560px) {
+  .col-grid { grid-template-columns: repeat(auto-fill, minmax(122px, 1fr)); gap: 10px; }
+  .col-stats { gap: 18px; }
+  .col-edit-head { flex-direction: column; }
+}

@@ -1,5 +1,5 @@
 /* PanelPath — client (multi-order) */
-const ASSET_V = 18;
+const ASSET_V = 19;
 
 const $ = (s) => document.querySelector(s);
 let PROGRESS = {};   // { orderId: { itemId: ts } }
@@ -27,8 +27,12 @@ async function boot() {
 /* ---------- routing ---------- */
 
 function route() {
-  const mb = (location.hash || "").match(/^#\/new(?:\/([\w-]+))?/);
-  const me = (location.hash || "").match(/^#\/edit\/([\w-]+)/);
+  const hash = location.hash || "";
+  const mb = hash.match(/^#\/new(?:\/([\w-]+))?/);
+  const me = hash.match(/^#\/edit\/([\w-]+)/);
+  const mc = /^#\/collection/.test(hash);
+  const link = $("#myComicsLink");
+  if (link) link.hidden = !!(mb || me || mc || /^#\/o\//.test(hash));
   unreadOnly = false;
   closeModal();
   if (mb) {
@@ -39,7 +43,11 @@ function route() {
     if (window.showBuilder) showBuilder(null, me[1]);
     return;
   }
-  const m = (location.hash || "").match(/^#\/o\/([\w-]+)/);
+  if (mc) {
+    if (window.showCollection) showCollection();
+    return;
+  }
+  const m = hash.match(/^#\/o\/([\w-]+)/);
   if (m) showOrder(m[1]);
   else showHome();
 }

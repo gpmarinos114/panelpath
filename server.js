@@ -10,6 +10,7 @@ const BUNDLED_ORDERS_DIR = path.join(__dirname, "data", "orders");
 const USER_ORDERS_DIR = path.join(DATA_DIR, "orders");
 const COVERS_DIR = path.join(DATA_DIR, "covers");
 const DRAFTS_DIR = path.join(DATA_DIR, "drafts");
+const COLLECTION_FILE = path.join(DATA_DIR, "collection.json");
 const PROGRESS_FILE = process.env.PROGRESS_FILE || path.join(DATA_DIR, "progress.json");
 const SETTINGS_FILE = path.join(DATA_DIR, "settings.json");
 
@@ -92,6 +93,97 @@ function readSettings() {
 
 function writeSettings(s) {
   writeJsonAtomic(SETTINGS_FILE, s);
+}
+
+/* ---------- collection (My comics) ---------- */
+
+function readCollection() {
+  const c = readJson(COLLECTION_FILE, null);
+  if (!c || typeof c !== "object" || !Array.isArray(c.entries)) return { entries: [] };
+  return c;
+}
+
+function writeCollection(c) {
+  writeJsonAtomic(COLLECTION_FILE, { entries: c.entries });
+}
+
+function collectionCoverPath(id) {
+  if (!/^[A-Za-z0-9_-]{1,80}$/.test(id)) return null;
+  return path.join(COVERS_DIR, "collection", id + ".jpg");
+}
+
+function cleanEntry(body, prev) {
+  const label = String(body.label || "").trim().slice(0, 160);
+  if (!label) return { error: "no-label" };
+  const format = ["physical", "digital", "both"].includes(body.format) ? body.format : "physical";
+  let price = null;
+  if (body.price !== null && body.price !== undefined && body.price !== "") {
+    const n = Number(body.price);
+    if (!isFinite(n) || n < 0 || n > 100000) return { error: "bad-price" };
+    price = Math.round(n * 100) / 100;
+  }
+  let date = "";
+  if (typeof body.date === "string" && body.date) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(body.date)) return { error: "bad-date" };
+    date = body.date;
+  }
+  const e = {
+    id: (prev && prev.id) || ("c" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6)),
+    label,
+    seriesName: String(body.seriesName || "").trim().slice(0, 140),
+    num: String(body.num || "").trim().slice(0, 12),
+    format, price, date,
+    note: String(body.note || "").trim().slice(0, 400),
+    addedAt: (prev && prev.addedAt) || Date.now(),
+  };
+  if (body.cv && /^\d+$/.test(String(body.cv.v)) && /^\d+$/.test(String(body.cv.i))) {
+    e.cv = { v: Number(body.cv.v), i: Number(body.cv.i) };
+  } else if (prev && prev.cv) {
+    e.cv = prev.cv;
+  }
+  return { entry: e };
+}
+
+async function fetchEntryCover(entry) {
+  const key = readSettings().comicvineKey;
+  if (!key || !entry.cv) return false;
+  try {
+    const j = await getJson(
+      `https://comicvine.gamespot.com/api/issue/4000-${entry.cv.i}/?api_key=${encodeURIComponent(key)}&format=json&field_list=image`
+    );
+    const url = pickImage((j.results || {}).image);
+    if (!url) return false;
+    const res = await fetch(url, {
+      headers: { "User-Agent": "reading-order-app (cover fetch; personal use)" },
+      signal: AbortSignal.timeout(20000),
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const buf = Buffer.from(await res.arrayBuffer());
+    if (buf.length < 800) throw new Error("too small");
+    const fp = collectionCoverPath(entry.id);
+    if (!fp) return false;
+    fs.mkdirSync(path.dirname(fp), { recursive: true });
+    fs.writeFileSync(fp, buf);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function entryOut(e) {
+  const fp = collectionCoverPath(e.id);
+  return { ...e, hasCover: !!(fp && fs.existsSync(fp) && fs.statSync(fp).size > 1000) };
+}
+
+function collectionTotals(entries) {
+  let spent = 0, priced = 0, physical = 0, digital = 0, both = 0;
+  for (const e of entries) {
+    if (typeof e.price === "number") { spent += e.price; priced++; }
+    if (e.format === "physical") physical++;
+    else if (e.format === "digital") digital++;
+    else both++;
+  }
+  return { count: entries.length, spent: Math.round(spent * 100) / 100, priced, physical, digital, both };
 }
 
 function readVersion() {
@@ -784,6 +876,70 @@ app.post("/api/orders/save", (req, res) => {
   if (!fs.existsSync(USER_ORDERS_DIR)) fs.mkdirSync(USER_ORDERS_DIR, { recursive: true });
   writeJsonAtomic(path.join(USER_ORDERS_DIR, o.id + ".json"), cleanOrder(o));
   res.json({ ok: true, id: o.id, updated: userExists });
+});
+
+/* ---------- collection API ---------- */
+
+app.get("/api/collection", (req, res) => {
+  res.set("Cache-Control", "no-store");
+  const c = readCollection();
+  res.json({ entries: c.entries.map(entryOut), totals: collectionTotals(c.entries) });
+});
+
+app.get("/api/collection/export.csv", (req, res) => {
+  const c = readCollection();
+  const q = (v) => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+  const lines = ["Label,Series,Number,Format,Price,Date,Note"];
+  for (const e of c.entries) {
+    lines.push([e.label, e.seriesName, e.num, e.format, e.price == null ? "" : e.price.toFixed(2), e.date, e.note].map(q).join(","));
+  }
+  res.set("Content-Type", "text/csv");
+  res.set("Content-Disposition", `attachment; filename="panelpath-comics-${new Date().toISOString().slice(0, 10)}.csv"`);
+  res.send(lines.join("\n") + "\n");
+});
+
+app.post("/api/collection", async (req, res) => {
+  const { entry, error } = cleanEntry(req.body || {});
+  if (error) return res.status(400).json({ error });
+  const c = readCollection();
+  if (c.entries.length >= 2000) return res.status(400).json({ error: "too-many" });
+  c.entries.push(entry);
+  writeCollection(c);
+  await fetchEntryCover(entry); // best effort; drawer offers a retry
+  res.json({ ok: true, entry: entryOut(entry), totals: collectionTotals(readCollection().entries) });
+});
+
+app.patch("/api/collection/:id", (req, res) => {
+  const c = readCollection();
+  const idx = c.entries.findIndex((e) => e.id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: "not-found" });
+  const merged = { ...c.entries[idx], ...(req.body || {}) };
+  const { entry, error } = cleanEntry(merged, c.entries[idx]);
+  if (error) return res.status(400).json({ error });
+  c.entries[idx] = entry;
+  writeCollection(c);
+  res.json({ ok: true, entry: entryOut(entry), totals: collectionTotals(c.entries) });
+});
+
+app.post("/api/collection/:id/cover", async (req, res) => {
+  const c = readCollection();
+  const e = c.entries.find((x) => x.id === req.params.id);
+  if (!e) return res.status(404).json({ error: "not-found" });
+  const ok = await fetchEntryCover(e);
+  res.json({ ok, hasCover: ok || entryOut(e).hasCover });
+});
+
+app.delete("/api/collection/:id", (req, res) => {
+  const c = readCollection();
+  const idx = c.entries.findIndex((e) => e.id === req.params.id);
+  if (idx === -1) return res.status(404).json({ error: "not-found" });
+  const [gone] = c.entries.splice(idx, 1);
+  writeCollection(c);
+  const fp = collectionCoverPath(gone.id);
+  if (fp) {
+    try { fs.unlinkSync(fp); } catch {}
+  }
+  res.json({ ok: true, totals: collectionTotals(c.entries) });
 });
 
 app.get("/api/version", (req, res) => {

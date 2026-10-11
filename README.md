@@ -11,10 +11,11 @@
 
 Comics are published out of order: crossovers interleave, spin-offs slot between issues, and the "right" way through a run is rarely issue #1 → #N. PanelPath turns that into a simple checklist. Each **reading order** is one file; the app gives it a timeline view with cover art, section progress, and tap-to-check-off persistence that syncs across every device that opens it.
 
-It ships with fourteen community-compiled orders ready to go:
+It ships with fifteen community-compiled orders ready to go:
 
 - **Attack on Titan** — Hajime Isayama, the complete 34-volume run in story arcs, plus both *No Regrets* volumes (36 items)
 - **Avengers: Hickman's Saga** — the complete Hickman era across *Avengers*, *New Avengers*, *Infinity* and *Secret Wars*, interleaved as designed (94 items)
+- **Batman** — where to start: the essential collected editions in reading order, from Year One through the modern gateways (13 books)
 - **Batman: Grant Morrison** — the complete run (2006–2013) with Final Crisis and *The Return of Bruce Wayne* interleaved (80 items)
 - **Berserk** — Kentaro Miura, the complete run in the Dark Horse Deluxe 3-in-1 editions (14 volumes)
 - **Dragon Ball** — Akira Toriyama, the complete 42-volume run (1984–1995; vols. 17–42 were published as *Dragon Ball Z*)
@@ -43,6 +44,7 @@ More lines are data, not code — see *Adding a reading order* below, and [CONTR
 - **Buy links** — each era links out to where it's collected in print (Amazon); optional per-instance affiliate tag, off by default.
 - **Order builder** — create your own reading orders right in the app: search ComicVine for a series, add issues (range-select or one by one), pick section colors, attach buy links, preview, save. Drafts autosave as you go — resume or delete them from the home page, or discard one entirely from the builder. Your saved orders stay editable: open one and hit Edit. No JSON needed.
 - **Submit to the project** — connect GitHub in Settings (device code or a personal access token) and send your saved orders back as pull requests; every submission gets an automated validation check.
+- **My comics** — your purchase ledger: add any issue or collected edition from ComicVine (or type it manually), record the price paid and whether you own it physically or digitally, and see it all in one cover grid with a running total. CSV export included.
 - Sticky progress bar, mobile-first, installable to your phone's home screen, no accounts, no telemetry, no external calls at runtime
 
 ![PanelPath — order view](docs/screenshot-order.png)
