@@ -1,0 +1,498 @@
+{
+ "id": "pokemon-adventures",
+ "title": "Pokémon Adventures",
+ "subtitle": "Hidenori Kusaka — the original 29-volume run (VIZ English)",
+ "credit": "Classic-run reading order, Red/Blue through Emerald. The VIZ Deluxe hardcover line is tracked in the buy links as volumes are announced. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "A",
+   "name": "Red, Green & Blue",
+   "years": "Vol. 1–3",
+   "color": "#d32f2f",
+   "tagline": "Red, Green, and Blue against Team Rocket and Mewtwo.",
+   "buy": [
+    {
+     "label": "Deluxe Edition Vol. 1 (pre-order)",
+     "url": "https://www.amazon.com/s?k=9781974769384"
+    },
+    {
+     "label": "Collector's Edition Vol. 1",
+     "url": "https://www.amazon.com/s?k=9781974709649"
+    },
+    {
+     "label": "Red & Blue Box Set (Vols. 1–7)",
+     "url": "https://www.amazon.com/s?k=Pokemon+Adventures+Red+and+Blue+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-01",
+     "label": "Vol. 1",
+     "title": "Red, Green & Blue",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "1",
+     "cv": {
+      "v": 30148,
+      "i": 185588
+     }
+    },
+    {
+     "id": "pa-02",
+     "label": "Vol. 2",
+     "title": "Red, Green & Blue",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "2",
+     "cv": {
+      "v": 30148,
+      "i": 185589
+     }
+    },
+    {
+     "id": "pa-03",
+     "label": "Vol. 3",
+     "title": "Red, Green & Blue",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "3",
+     "cv": {
+      "v": 30148,
+      "i": 185590
+     }
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Yellow",
+   "years": "Vol. 4–7",
+   "color": "#f9a825",
+   "tagline": "Yellow, Pikachu, and the search for Red.",
+   "buy": [
+    {
+     "label": "Deluxe Edition Vol. 2 (pre-order)",
+     "url": "https://www.amazon.com/s?k=9781974769971"
+    },
+    {
+     "label": "Collector's Edition Vol. 2",
+     "url": "https://www.amazon.com/s?k=9781974711222"
+    },
+    {
+     "label": "Collector's Edition Vol. 3",
+     "url": "https://www.amazon.com/s?k=9781974711239"
+    },
+    {
+     "label": "Red & Blue Box Set (Vols. 1–7)",
+     "url": "https://www.amazon.com/s?k=Pokemon+Adventures+Red+and+Blue+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-04",
+     "label": "Vol. 4",
+     "title": "Yellow",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "4",
+     "cv": {
+      "v": 30148,
+      "i": 186035
+     }
+    },
+    {
+     "id": "pa-05",
+     "label": "Vol. 5",
+     "title": "Yellow",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "5",
+     "cv": {
+      "v": 30148,
+      "i": 195528
+     }
+    },
+    {
+     "id": "pa-06",
+     "label": "Vol. 6",
+     "title": "Yellow",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "6",
+     "cv": {
+      "v": 30148,
+      "i": 261686
+     }
+    },
+    {
+     "id": "pa-07",
+     "label": "Vol. 7",
+     "title": "Yellow",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "7",
+     "cv": {
+      "v": 30148,
+      "i": 264890
+     }
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Gold, Silver & Crystal",
+   "years": "Vol. 8–14",
+   "color": "#c9a227",
+   "tagline": "Gold, Silver, and Crystal track the Masked Man across Johto.",
+   "buy": [
+    {
+     "label": "Collector's Edition Vol. 3",
+     "url": "https://www.amazon.com/s?k=9781974711239"
+    },
+    {
+     "label": "Collector's Edition Vol. 4",
+     "url": "https://www.amazon.com/s?k=9781974711246"
+    },
+    {
+     "label": "Collector's Edition Vol. 5",
+     "url": "https://www.amazon.com/s?k=9781974711253"
+    },
+    {
+     "label": "Gold & Silver Box Set (Vols. 8–14)",
+     "url": "https://www.amazon.com/s?k=Pokemon+Adventures+Gold+and+Silver+Box+Set"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-08",
+     "label": "Vol. 8",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "8",
+     "cv": {
+      "v": 30148,
+      "i": 264892
+     }
+    },
+    {
+     "id": "pa-09",
+     "label": "Vol. 9",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "9",
+     "cv": {
+      "v": 30148,
+      "i": 264894
+     }
+    },
+    {
+     "id": "pa-10",
+     "label": "Vol. 10",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "10",
+     "cv": {
+      "v": 30148,
+      "i": 285234
+     }
+    },
+    {
+     "id": "pa-11",
+     "label": "Vol. 11",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "11",
+     "cv": {
+      "v": 30148,
+      "i": 285235
+     }
+    },
+    {
+     "id": "pa-12",
+     "label": "Vol. 12",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "12",
+     "cv": {
+      "v": 30148,
+      "i": 285236
+     }
+    },
+    {
+     "id": "pa-13",
+     "label": "Vol. 13",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "13",
+     "cv": {
+      "v": 30148,
+      "i": 285237
+     }
+    },
+    {
+     "id": "pa-14",
+     "label": "Vol. 14",
+     "title": "Gold, Silver & Crystal",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "14",
+     "cv": {
+      "v": 30148,
+      "i": 283143
+     }
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Ruby & Sapphire",
+   "years": "Vol. 15–22",
+   "color": "#d81b60",
+   "tagline": "Ruby and Sapphire versus Team Aqua and Team Magma in Hoenn.",
+   "buy": [
+    {
+     "label": "Collector's Edition Vol. 5",
+     "url": "https://www.amazon.com/s?k=9781974711253"
+    },
+    {
+     "label": "Collector's Edition Vol. 6",
+     "url": "https://www.amazon.com/s?k=9781974711260"
+    },
+    {
+     "label": "Collector's Edition Vol. 7",
+     "url": "https://www.amazon.com/s?k=9781974711277"
+    },
+    {
+     "label": "Collector's Edition Vol. 8",
+     "url": "https://www.amazon.com/s?k=9781974711284"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-15",
+     "label": "Vol. 15",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "15",
+     "cv": {
+      "v": 30148,
+      "i": 390586
+     }
+    },
+    {
+     "id": "pa-16",
+     "label": "Vol. 16",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "16",
+     "cv": {
+      "v": 30148,
+      "i": 401263
+     }
+    },
+    {
+     "id": "pa-17",
+     "label": "Vol. 17",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "17",
+     "cv": {
+      "v": 30148,
+      "i": 415303
+     }
+    },
+    {
+     "id": "pa-18",
+     "label": "Vol. 18",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "18",
+     "cv": {
+      "v": 30148,
+      "i": 424604
+     }
+    },
+    {
+     "id": "pa-19",
+     "label": "Vol. 19",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "19",
+     "cv": {
+      "v": 30148,
+      "i": 432399
+     }
+    },
+    {
+     "id": "pa-20",
+     "label": "Vol. 20",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "20",
+     "cv": {
+      "v": 30148,
+      "i": 441496
+     }
+    },
+    {
+     "id": "pa-21",
+     "label": "Vol. 21",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "21",
+     "cv": {
+      "v": 30148,
+      "i": 447056
+     }
+    },
+    {
+     "id": "pa-22",
+     "label": "Vol. 22",
+     "title": "Ruby & Sapphire",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "22",
+     "cv": {
+      "v": 30148,
+      "i": 452379
+     }
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "FireRed & LeafGreen",
+   "years": "Vol. 23–25",
+   "color": "#ef6c00",
+   "tagline": "Red returns for the Sevii Islands and Team Rocket's comeback.",
+   "buy": [
+    {
+     "label": "Collector's Edition Vol. 8",
+     "url": "https://www.amazon.com/s?k=9781974711284"
+    },
+    {
+     "label": "Collector's Edition Vol. 9",
+     "url": "https://www.amazon.com/s?k=9781974711291"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-23",
+     "label": "Vol. 23",
+     "title": "FireRed & LeafGreen",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "23",
+     "cv": {
+      "v": 30148,
+      "i": 459241
+     }
+    },
+    {
+     "id": "pa-24",
+     "label": "Vol. 24",
+     "title": "FireRed & LeafGreen",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "24",
+     "cv": {
+      "v": 30148,
+      "i": 464067
+     }
+    },
+    {
+     "id": "pa-25",
+     "label": "Vol. 25",
+     "title": "FireRed & LeafGreen",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "25",
+     "cv": {
+      "v": 30148,
+      "i": 469582
+     }
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Emerald",
+   "years": "Vol. 26–29",
+   "color": "#43a047",
+   "tagline": "The Battle Frontier and the close of the classic run.",
+   "buy": [
+    {
+     "label": "Collector's Edition Vol. 9",
+     "url": "https://www.amazon.com/s?k=9781974711291"
+    },
+    {
+     "label": "Collector's Edition Vol. 10",
+     "url": "https://www.amazon.com/s?k=9781974711307"
+    }
+   ],
+   "items": [
+    {
+     "id": "pa-26",
+     "label": "Vol. 26",
+     "title": "Emerald",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "26",
+     "cv": {
+      "v": 30148,
+      "i": 475403
+     }
+    },
+    {
+     "id": "pa-27",
+     "label": "Vol. 27",
+     "title": "Emerald",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "27",
+     "cv": {
+      "v": 30148,
+      "i": 481471
+     }
+    },
+    {
+     "id": "pa-28",
+     "label": "Vol. 28",
+     "title": "Emerald",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "28",
+     "cv": {
+      "v": 30148,
+      "i": 487751
+     }
+    },
+    {
+     "id": "pa-29",
+     "label": "Vol. 29",
+     "title": "Emerald",
+     "series": "PA",
+     "seriesName": "Pokémon Adventures (Viz, 2009)",
+     "num": "29",
+     "cv": {
+      "v": 30148,
+      "i": 494231
+     }
+    }
+   ]
+  }
+ ]
+}
