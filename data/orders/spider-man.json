@@ -1,0 +1,205 @@
+{
+ "id": "spider-man",
+ "title": "Spider-Man",
+ "subtitle": "Where to start: the essential collected editions, in reading order",
+ "credit": "A new-reader path in collected editions. The 1960s origin run first, the current Ultimate universe second, the classics after. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "Start here \u00b7 the origin run",
+   "years": "1962\u20131966",
+   "color": "#b71c1c",
+   "tagline": "The Lee and Ditko foundation, in one cheap volume. Read this first.",
+   "buy": [
+    {
+     "label": "Great Power (Epic Vol. 1)",
+     "url": "https://www.amazon.com/s?k=9781302946852"
+    },
+    {
+     "label": "ASM Omnibus Vol. 1 (big-book route)",
+     "url": "https://www.amazon.com/s?k=Amazing+Spider-Man+Omnibus+Volume+1"
+    }
+   ],
+   "items": [
+    {
+     "id": "spidey-great-power",
+     "label": "Great Power (Epic Vol. 1)",
+     "title": "Amazing Fantasy #15 + #1-17 \u00b7 the origin",
+     "series": "SPIDEY",
+     "seriesName": "Amazing Spider-Man Epic Collection: Great Power (2014)",
+     "num": "1",
+     "cv": {
+      "v": 77149,
+      "i": 466509
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "The modern on-ramp",
+   "years": "2001\u20132026",
+   "color": "#1565c0",
+   "tagline": "Fresh starts with no homework. The Hickman Ultimate run is the current one, readable cold; Coming Home is the 2001 classic if you want a finished, self-contained arc.",
+   "buy": [
+    {
+     "label": "Ultimate Spider-Man Vol. 1",
+     "url": "https://www.amazon.com/s?k=Ultimate+Spider-Man+Jonathan+Hickman+Volume+1"
+    },
+    {
+     "label": "Ultimate Spider-Man Vol. 2",
+     "url": "https://www.amazon.com/s?k=Ultimate+Spider-Man+The+Paper+Volume+2"
+    },
+    {
+     "label": "Ultimate Spider-Man Vol. 3",
+     "url": "https://www.amazon.com/s?k=Ultimate+Spider-Man+Family+Business+Volume+3"
+    },
+    {
+     "label": "Coming Home",
+     "url": "https://www.amazon.com/s?k=Amazing+Spider-Man+Coming+Home+Straczynski"
+    }
+   ],
+   "items": [
+    {
+     "id": "spidey-usm-1",
+     "label": "Ultimate Spider-Man Vol. 1",
+     "title": "Married with Children \u00b7 adult Peter, start cold",
+     "series": "USM",
+     "seriesName": "Ultimate Spider-Man by Jonathan Hickman (2024)",
+     "num": "1",
+     "cv": {
+      "v": 159721,
+      "i": 1069506
+     }
+    },
+    {
+     "id": "spidey-usm-2",
+     "label": "Ultimate Spider-Man Vol. 2",
+     "title": "The Paper",
+     "series": "USM",
+     "seriesName": "Ultimate Spider-Man by Jonathan Hickman (2024)",
+     "num": "2",
+     "cv": {
+      "v": 159721,
+      "i": 1099543
+     }
+    },
+    {
+     "id": "spidey-usm-3",
+     "label": "Ultimate Spider-Man Vol. 3",
+     "title": "Family Business",
+     "series": "USM",
+     "seriesName": "Ultimate Spider-Man by Jonathan Hickman (2024)",
+     "num": "3",
+     "cv": {
+      "v": 159721,
+      "i": 1135444
+     }
+    },
+    {
+     "id": "spidey-coming-home",
+     "label": "Coming Home",
+     "title": "the 2001 jump-in \u00b7 Amazing Spider-Man #30-35",
+     "series": "ASM",
+     "seriesName": "Amazing Spider-Man (1999)",
+     "num": "30",
+     "cv": {
+      "v": 78701,
+      "i": 113461
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Save for later \u00b7 the classics",
+   "years": "1973\u20132019",
+   "color": "#455a64",
+   "tagline": "Landmark reads that hit harder once you know the character. Blue and Life Story need nothing; Goblin's Last Stand is the Gwen era; Superior needs some Amazing Spider-Man first.",
+   "buy": [
+    {
+     "label": "Spider-Man: Blue",
+     "url": "https://www.amazon.com/s?k=Spider-Man+Blue+Loeb+Sale"
+    },
+    {
+     "label": "Life Story",
+     "url": "https://www.amazon.com/s?k=Spider-Man+Life+Story+Zdarsky"
+    },
+    {
+     "label": "The Goblin's Last Stand (Epic Vol. 7)",
+     "url": "https://www.amazon.com/s?k=9781302967796"
+    },
+    {
+     "label": "Kraven's Last Hunt",
+     "url": "https://www.amazon.com/s?k=Spider-Man+Kraven%27s+Last+Hunt+Deluxe"
+    },
+    {
+     "label": "Superior Spider-Man Vol. 1",
+     "url": "https://www.amazon.com/s?k=Superior+Spider-Man+Volume+1+My+Own+Worst+Enemy"
+    }
+   ],
+   "items": [
+    {
+     "id": "spidey-blue",
+     "label": "Spider-Man: Blue",
+     "title": "Loeb and Sale's love letter to Gwen",
+     "series": "SPIDEY",
+     "seriesName": "Spider-Man: Blue (2002)",
+     "num": "1",
+     "cv": {
+      "v": 33400,
+      "i": 216547
+     }
+    },
+    {
+     "id": "spidey-life-story",
+     "label": "Life Story",
+     "title": "Peter ages in real time, 1962 to 2019",
+     "series": "SPIDEY",
+     "seriesName": "Spider-Man: Life Story (2019)",
+     "num": "1",
+     "cv": {
+      "v": 122196,
+      "i": 723759
+     }
+    },
+    {
+     "id": "spidey-goblins-last-stand",
+     "label": "The Goblin's Last Stand (Epic Vol. 7)",
+     "title": "Amazing Spider-Man #105-123 \u00b7 Gwen's last night",
+     "series": "SPIDEY",
+     "seriesName": "Amazing Spider-Man Epic Collection: The Goblin's Last Stand (2017)",
+     "num": "7",
+     "cv": {
+      "v": 101161,
+      "i": 594105
+     }
+    },
+    {
+     "id": "spidey-kravens",
+     "label": "Kraven's Last Hunt",
+     "title": "the dark one",
+     "series": "SPIDEY",
+     "seriesName": "Spider-Man: Kraven's Last Hunt (2018 Deluxe)",
+     "num": "1",
+     "cv": {
+      "v": 112703,
+      "i": 679419
+     }
+    },
+    {
+     "id": "spidey-superior",
+     "label": "Superior Spider-Man Vol. 1",
+     "title": "Doc Ock wears the suit \u00b7 read after some ASM",
+     "series": "SUP",
+     "seriesName": "Superior Spider-Man (2013)",
+     "num": "1",
+     "cv": {
+      "v": 55552,
+      "i": 378868
+     }
+    }
+   ]
+  }
+ ]
+}

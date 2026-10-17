@@ -11,7 +11,7 @@
 
 Comics are published out of order: crossovers interleave, spin-offs slot between issues, and the "right" way through a run is rarely issue #1 → #N. PanelPath turns that into a simple checklist. Each **reading order** is one file; the app gives it a timeline view with cover art, section progress, and tap-to-check-off persistence that syncs across every device that opens it.
 
-It ships with sixteen community-compiled orders ready to go:
+It ships with seventeen community-compiled orders ready to go:
 
 - **Attack on Titan** — Hajime Isayama, the complete 34-volume run in story arcs, plus both *No Regrets* volumes (36 items)
 - **Avengers: Hickman's Saga** — the complete Hickman era across *Avengers*, *New Avengers*, *Infinity* and *Secret Wars*, interleaved as designed (94 items)
@@ -25,10 +25,11 @@ It ships with sixteen community-compiled orders ready to go:
 - **Pokémon Adventures** — Hidenori Kusaka, the original 29-volume run (Red, Green & Blue through Emerald), with the VIZ Deluxe hardcovers tracked as they release (29 volumes)
 - **Power Rangers** — BOOM! Studios, the complete 2016–2026 continuity (201 items, deluxe-edition sequencing)
 - **Saga** — Brian K. Vaughan and Fiona Staples, issues #1–72 in the collected arcs (ongoing)
+- **Spider-Man** — where to start: the 1960s origin run, the current Ultimate universe, and the classics after (10 books)
 - **Teenage Mutant Ninja Turtles** — IDW, the 2011–2024 run (228 items: main series + spin-off mini-series)
 - **The Sandman** — Neil Gaiman, the complete 75-issue run with the Special and Overture (82 items)
 - **The Walking Dead** — Robert Kirkman, the complete 193-issue run with the Negan specials placed
-- **X-Men: The Krakoa Era** — the core Krakoan line, phase by phase: House of X / Powers of X through Fall of X, with X of Swords in full (130 items)
+- **X-Men: The Krakoa Era** — the core Krakoan line, phase by phase: House of X / Powers of X through Fall of X, with X of Swords in full (131 items)
 
 More lines are data, not code — see *Adding a reading order* below, and [CONTRIBUTING.md](CONTRIBUTING.md).
 
