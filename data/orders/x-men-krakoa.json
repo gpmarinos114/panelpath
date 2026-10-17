@@ -1705,6 +1705,33 @@
      }
     }
    ]
+  },
+  {
+   "id": "S7",
+   "name": "Side saga \u00b7 the Nightcrawler omnibus",
+   "years": "2021\u20132023",
+   "color": "#6d4c41",
+   "tagline": "One book instead of the individual issues. Start it after X of Swords (section 3) and run it alongside Destiny of X and Fall of X; it needs House of X / Powers of X first. Collects Way of X #1-5, The Onslaught Revelation, Legion of X #1-10, Sons of X, Uncanny Spider-Man #1-5, X-Men Blue: Origins and Nightcrawlers #1-3.",
+   "buy": [
+    {
+     "label": "Way of X Omnibus",
+     "url": "https://www.amazon.com/s?k=9781302969936"
+    },
+    {
+     "label": "DM variant (Cheap Graphic Novels)",
+     "url": "https://cheapgraphicnovels.com/way-of-x-omnibus-hc-dm-daniel-cvr"
+    }
+   ],
+   "items": [
+    {
+     "id": "wox-omni",
+     "label": "Way of X Omnibus",
+     "title": "the Nightcrawler saga in one book",
+     "series": "WOX",
+     "seriesName": "Way of X by Si Spurrier Omnibus (2026)",
+     "num": "1"
+    }
+   ]
   }
  ]
 }
