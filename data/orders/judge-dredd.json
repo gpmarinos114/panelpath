@@ -1,0 +1,201 @@
+{
+ "id": "judge-dredd",
+ "title": "Judge Dredd",
+ "subtitle": "Where to start: the essential collected editions, in reading order",
+ "credit": "A beginner path through Mega-City One in the Essential Judge Dredd volumes, with the mega-epics in story order and the completist routes last. Dredd was created by John Wagner and Carlos Ezquerra for 2000 AD. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "S1",
+   "name": "Start here \u00b7 three ways in",
+   "years": "1980-1990",
+   "color": "#b71c1c",
+   "tagline": "Self-contained entry points. Read any one first: the citizen's view, the Dark Judges, or the war epic.",
+   "buy": [
+    {
+     "label": "America \u00b7 2000 AD shop",
+     "url": "https://shop.2000ad.com/catalogue/GRN687"
+    },
+    {
+     "label": "America \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+America"
+    },
+    {
+     "label": "Dredd vs. Death \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Dredd+Vs+Death"
+    },
+    {
+     "label": "The Apocalypse War \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Apocalypse+War"
+    }
+   ],
+   "items": [
+    {
+     "id": "dredd-america",
+     "label": "America",
+     "title": "the citizens' view of the Judges",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: America (2020)",
+     "num": "1",
+     "cv": {
+      "v": 129860,
+      "i": 796151
+     }
+    },
+    {
+     "id": "dredd-vs-death",
+     "label": "Dredd vs. Death",
+     "title": "Judge Death, the Dark Judges, and Anderson",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: Dredd vs. Death (2022)",
+     "num": "1",
+     "cv": {
+      "v": 143600,
+      "i": 930318
+     }
+    },
+    {
+     "id": "dredd-apocalypse-war",
+     "label": "The Apocalypse War",
+     "title": "the East-Meg war epic",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: The Apocalypse War (2021)",
+     "num": "1",
+     "cv": {
+      "v": 133318,
+      "i": 825293
+     }
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "name": "The mega-epics \u00b7 story order",
+   "years": "1990-2012",
+   "color": "#37474f",
+   "tagline": "The big storylines in the order they happen, once you know the world.",
+   "buy": [
+    {
+     "label": "Necropolis \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Necropolis"
+    },
+    {
+     "label": "Judgement Day \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Judgement+Day"
+    },
+    {
+     "label": "Origins \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Origins"
+    },
+    {
+     "label": "Tour of Duty \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Essential+Judge+Dredd+Tour+of+Duty"
+    }
+   ],
+   "items": [
+    {
+     "id": "dredd-necropolis",
+     "label": "Necropolis",
+     "title": "the Dark Judges take Mega-City One",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: Necropolis (2022)",
+     "num": "1",
+     "cv": {
+      "v": 144275,
+      "i": 940130
+     }
+    },
+    {
+     "id": "dredd-judgement-day",
+     "label": "Judgement Day",
+     "title": "Dredd against Sabbat's army of the dead",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: Judgement Day (2023)",
+     "num": "1",
+     "cv": {
+      "v": 152641,
+      "i": 1004244
+     }
+    },
+    {
+     "id": "dredd-origins",
+     "label": "Origins",
+     "title": "Dredd's origin, told 30 years in",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: Origins (2021)",
+     "num": "1",
+     "cv": {
+      "v": 138336,
+      "i": 880865
+     }
+    },
+    {
+     "id": "dredd-tour-of-duty-1",
+     "label": "Tour of Duty: Book One",
+     "title": "the mutant crisis begins",
+     "series": "DREDD",
+     "seriesName": "Essential Judge Dredd: Tour of Duty (2023)",
+     "num": "1",
+     "cv": {
+      "v": 159731,
+      "i": 1069611
+     }
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "name": "Save for later \u00b7 the completist routes",
+   "years": "1977-1998",
+   "color": "#4e342e",
+   "tagline": "The chronological beginning for completists, plus the later fan favorite.",
+   "buy": [
+    {
+     "label": "The Complete Case Files 01 \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Judge+Dredd+Complete+Case+Files+01"
+    },
+    {
+     "label": "Compact Crimes 1 \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Judge+Dredd+Compact+Crimes+1"
+    },
+    {
+     "label": "The Pit \u00b7 Amazon",
+     "url": "https://www.amazon.com/s?k=Judge+Dredd+The+Pit"
+    }
+   ],
+   "items": [
+    {
+     "id": "dredd-case-files-01",
+     "label": "The Complete Case Files 01",
+     "title": "the 1977 beginning, rough and all",
+     "series": "DREDD",
+     "seriesName": "Judge Dredd: The Complete Case Files (2005)",
+     "num": "1",
+     "cv": {
+      "v": 19995,
+      "i": 119444
+     }
+    },
+    {
+     "id": "dredd-compact-crimes-1",
+     "label": "Compact Crimes 1",
+     "title": "the same start in the compact format",
+     "series": "DREDD",
+     "seriesName": "Judge Dredd: Compact Crimes",
+     "num": "1"
+    },
+    {
+     "id": "dredd-the-pit",
+     "label": "The Pit",
+     "title": "the 1995 sector-house epic",
+     "series": "DREDD",
+     "seriesName": "Judge Dredd: The Pit (2009)",
+     "num": "1",
+     "cv": {
+      "v": 48513,
+      "i": 334150
+     }
+    }
+   ]
+  }
+ ]
+}

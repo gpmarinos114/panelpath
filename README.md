@@ -11,7 +11,7 @@
 
 Comics are published out of order: crossovers interleave, spin-offs slot between issues, and the "right" way through a run is rarely issue #1 → #N. PanelPath turns that into a simple checklist. Each **reading order** is one file; the app gives it a timeline view with cover art, section progress, and tap-to-check-off persistence that syncs across every device that opens it.
 
-It ships with seventeen community-compiled orders ready to go:
+It ships with eighteen community-compiled orders ready to go:
 
 - **Attack on Titan** — Hajime Isayama, the complete 34-volume run in story arcs, plus both *No Regrets* volumes (36 items)
 - **Avengers: Hickman's Saga** — the complete Hickman era across *Avengers*, *New Avengers*, *Infinity* and *Secret Wars*, interleaved as designed (94 items)
@@ -21,6 +21,7 @@ It ships with seventeen community-compiled orders ready to go:
 - **Dragon Ball** — Akira Toriyama, the complete 42-volume run (1984–1995; vols. 17–42 were published as *Dragon Ball Z*)
 - **Hellboy** — Mignola's core story + B.P.R.D., in the community-standard omnibus reading order
 - **Invincible** — Robert Kirkman, the complete 144-issue run with the spin-offs slotted at their recommended points
+- **Judge Dredd** — where to start: the Essential volumes in story order, from *America* and *Dredd vs. Death* through the mega-epics, plus the completist routes (10 books)
 - **One Piece** — Eiichiro Oda, VIZ volumes 1–112 in 11 arc sections (ongoing)
 - **Pokémon Adventures** — Hidenori Kusaka, the original 29-volume run (Red, Green & Blue through Emerald), with the VIZ Deluxe hardcovers tracked as they release (29 volumes)
 - **Power Rangers** — BOOM! Studios, the complete 2016–2026 continuity (201 items, deluxe-edition sequencing)
