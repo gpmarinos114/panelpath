@@ -1,0 +1,79 @@
+{
+ "id": "batman-80s",
+ "title": "Batman: The 1980s",
+ "subtitle": "The main run plus every side book of the decade",
+ "credit": "Batman #319-442 (Jan 1980 - Dec 1989) read in order, with the Detective Comics and mini-series that run alongside it. Digital coverage: the whole Batman main run is in the library. Detective Comics is only partly digitised - #487-496, 563, 568-591, 595 and 598-603 exist; #497-562 (1982-85) has never had a digital release and #604-607 (The Mud Pack) is print-only. Unofficial fan project.",
+ "sections": [
+  {
+   "id": "b80-run",
+   "name": "The main run · 1980–1986",
+   "years": "1980–1986",
+   "color": "#1f3a5f",
+   "tagline": "Batman #319-403 - twelve years of the monthly book, straight through.",
+   "items": [
+    {"label": "Batman #319–335", "title": "1980–81 · the ongoing run", "series": "BAT", "seriesName": "Batman (1940)", "num": "319-335"},
+    {"label": "Batman #336–359", "title": "1981–83 · the ongoing run", "series": "BAT", "seriesName": "Batman (1940)", "num": "336-359"},
+    {"label": "Batman #360–400", "title": "1983–86 · through the 400th issue", "series": "BAT", "seriesName": "Batman (1940)", "num": "360-400"},
+    {"label": "Batman #401–403", "title": "1986 · the road into Year One", "series": "BAT", "seriesName": "Batman (1940)", "num": "401-403"}
+   ]
+  },
+  {
+   "id": "b80-yearone",
+   "name": "Year One and after · 1987",
+   "years": "1987",
+   "color": "#7a2f2f",
+   "tagline": "The reboot lands, and the side books start.",
+   "items": [
+    {"label": "Year One", "title": "Batman #404-407 · the reboot origin", "series": "BAT", "seriesName": "Batman (1940)", "num": "404-407"},
+    {"label": "Batman #408–411", "title": "Second Chance · Jason Todd's new origin", "series": "BAT", "seriesName": "Batman (1940)", "num": "408-411"},
+    {"label": "Batman #412–416", "title": "1987 · the monthly run continues", "series": "BAT", "seriesName": "Batman (1940)", "num": "412-416"},
+    {"label": "Year Two", "title": "Detective Comics #575-578 · the Reaper", "series": "DET", "seriesName": "Detective Comics (1937)", "num": "575-578"},
+    {"label": "The Cult", "title": "Batman: The Cult #1-4 · Deacon Blackfire takes Gotham", "series": "CULT", "seriesName": "Batman: The Cult (1988)", "num": "1-4"},
+    {"label": "Son of the Demon", "title": "Batman: Son of the Demon · Ra's al Ghul and Talia", "series": "DEMON", "seriesName": "Batman: Son of the Demon (1987)", "num": "1"}
+   ]
+  },
+  {
+   "id": "b80-1988",
+   "name": "1988 · the hard year",
+   "years": "1988",
+   "color": "#3f5d3a",
+   "tagline": "Ten Nights of the Beast, then Jason Todd.",
+   "items": [
+    {"label": "Ten Nights of the Beast", "title": "Batman #417-420 · the KGBeast", "series": "BAT", "seriesName": "Batman (1940)", "num": "417-420"},
+    {"label": "Batman #421–425", "title": "1988 · the run between the arcs", "series": "BAT", "seriesName": "Batman (1940)", "num": "421-425"},
+    {"label": "A Death in the Family", "title": "Batman #426-429 · Jason Todd's fate", "series": "BAT", "seriesName": "Batman (1940)", "num": "426-429"},
+    {"label": "Batman #430–432", "title": "1988 · after the vote", "series": "BAT", "seriesName": "Batman (1940)", "num": "430-432"},
+    {"label": "The Killing Joke", "title": "Batman: The Killing Joke · the Joker's worst day", "series": "KJ", "seriesName": "Batman: The Killing Joke (1988)", "num": "1"},
+    {"label": "Gotham by Gaslight", "title": "Batman: Gotham by Gaslight · the first Elseworlds", "series": "GBG", "seriesName": "Gotham by Gaslight: An Alternative History of the Batman (1989)", "num": "1"}
+   ]
+  },
+  {
+   "id": "b80-1989",
+   "name": "1989 · the anniversary year",
+   "years": "1989",
+   "color": "#5b3a6b",
+   "tagline": "The 50th anniversary, Tim Drake, and the first Legends of the Dark Knight.",
+   "items": [
+    {"label": "The Many Deaths of the Batman", "title": "Batman #433-435 · who is killing the Batman?", "series": "BAT", "seriesName": "Batman (1940)", "num": "433-435"},
+    {"label": "Year Three", "title": "Batman #436-439 · Dick Grayson's origin retold", "series": "BAT", "seriesName": "Batman (1940)", "num": "436-439"},
+    {"label": "A Lonely Place of Dying", "title": "Batman #440-442 · Tim Drake enters", "series": "BAT", "seriesName": "Batman (1940)", "num": "440-442"},
+    {"label": "A Lonely Place of Dying (crossover)", "title": "The New Titans #60-61 · the other half of the story", "series": "NT", "seriesName": "The New Titans (1988)", "num": "60-61"},
+    {"label": "Legends of the Dark Knight", "title": "LOTDK #1-2 · Shaman, running alongside Year One", "series": "LOTDK", "seriesName": "Legends of the Dark Knight (1989)", "num": "1-2"},
+    {"label": "Blind Justice", "title": "Detective Comics #598-600 · Bruce Wayne on trial", "series": "DET", "seriesName": "Detective Comics (1937)", "num": "598-600"},
+    {"label": "Tulpa", "title": "Detective Comics #601-603 · the 600s begin", "series": "DET", "seriesName": "Detective Comics (1937)", "num": "601-603"},
+    {"label": "The Mud Pack", "title": "Detective Comics #604-607 · print-only, no digital release", "series": "DET", "seriesName": "Detective Comics (1937)", "num": "604-607"},
+    {"label": "Arkham Asylum", "title": "Arkham Asylum: A Serious House on Serious Earth", "series": "AA", "seriesName": "Arkham Asylum (1989)", "num": "1"}
+   ]
+  },
+  {
+   "id": "b80-elseworlds",
+   "name": "Outside the run",
+   "years": "1986",
+   "color": "#2f4f4f",
+   "tagline": "The book that ended the decade's Batman before it started - read it last.",
+   "items": [
+    {"label": "The Dark Knight Returns", "title": "Batman: The Dark Knight Returns #1-4 · Miller's future", "series": "DKR", "seriesName": "Batman: The Dark Knight (1986)", "num": "1-4"}
+   ]
+  }
+ ]
+}
